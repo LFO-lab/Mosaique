@@ -1,0 +1,5 @@
+"English" "Français" "Bahasa"
+"Choose a language" "Choisissez une langue" "Pilih bahasa"
+"Update language" "Mettre la langue à jour" "Memperbarui bahasanya"
+"The number of 's' indicates the number of languages available" "Le nombre de 's' indique combien de langues sont accessibles" "Berapa 's' ada tergantung berapa bahasa ada"
+"Double-click on 'text' object to modify the comments" "Double-cliquez sur l'objet 'text' pour modifier les commentaires" "Tekan dua kali di benda 'text' untuk berubah komen-komen"
