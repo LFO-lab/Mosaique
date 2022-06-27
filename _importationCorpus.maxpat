@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 334.0, 186.0, 1088.0, 540.0 ],
+		"rect" : [ 154.0, 104.0, 943.0, 570.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 562.5, 129.200000047683716, 448.0, 48.0 ],
+					"patching_rect" : [ 562.5, 129.200000047683716, 449.0, 48.0 ],
 					"text" : "Est-ce que le fichier sonore unique a besoin de passer a travers le processus de l'importation pour avoir un numéro unique (genre numéro 1 slice 0)? est-ce que ne pas passer par la influencera le processus d'analyse a la suite?"
 				}
 
