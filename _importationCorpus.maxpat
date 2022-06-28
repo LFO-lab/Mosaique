@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 11,
+			"minor" : 2,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 154.0, 104.0, 943.0, 570.0 ],
+		"rect" : [ 218.0, 174.0, 1204.0, 737.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,12 +40,61 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 740.466669201850891, 81.200000047683716, 66.0, 22.0 ],
+					"text" : "unpack s s"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 419.0, 129.700000047683716, 31.0, 22.0 ],
+					"text" : "t b s"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"patching_rect" : [ 419.0, 95.200000047683716, 119.0, 22.0 ],
+					"text" : "opendialog soundfile"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "Import single soundfile",
+					"id" : "obj-9",
+					"index" : 2,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 419.0, 41.200000047683716, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-21",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 562.5, 129.200000047683716, 449.0, 48.0 ],
+					"patching_rect" : [ 1042.5, 82.200000047683716, 449.0, 47.0 ],
 					"text" : "Est-ce que le fichier sonore unique a besoin de passer a travers le processus de l'importation pour avoir un numéro unique (genre numéro 1 slice 0)? est-ce que ne pas passer par la influencera le processus d'analyse a la suite?"
 				}
 
@@ -57,7 +106,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 576.5, 249.5, 31.0, 22.0 ],
+					"patching_rect" : [ 849.5, 232.700000047683716, 31.0, 22.0 ],
 					"text" : "t b s"
 				}
 
@@ -69,7 +118,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 173.5, 209.0, 422.0, 22.0 ],
+					"patching_rect" : [ 787.466669201850891, 196.200000047683716, 81.0, 22.0 ],
 					"text" : "gate 2"
 				}
 
@@ -81,7 +130,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 254.466669201850891, 173.200000047683716, 29.5, 22.0 ],
+					"patching_rect" : [ 831.466669201850891, 153.400000095367432, 29.5, 22.0 ],
 					"text" : "2"
 				}
 
@@ -93,7 +142,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 210.466669201850891, 173.200000047683716, 29.5, 22.0 ],
+					"patching_rect" : [ 787.466669201850891, 153.400000095367432, 29.5, 22.0 ],
 					"text" : "1"
 				}
 
@@ -105,7 +154,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 210.466669201850891, 142.200000047683716, 63.0, 22.0 ],
+					"patching_rect" : [ 787.466669201850891, 122.400000095367432, 63.0, 22.0 ],
 					"text" : "select fold"
 				}
 
@@ -117,7 +166,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 291.5, 84.200000047683716, 404.0, 34.0 ],
+					"patching_rect" : [ 1032.5, 31.200000047683716, 404.0, 33.0 ],
 					"text" : "-Est-ce que l'espace dans le path name de MAC posera un problème? (mettre entre guillemet?)"
 				}
 
@@ -131,20 +180,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 210.466669201850891, 81.0, 30.0, 30.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"comment" : "",
-					"id" : "obj-1",
-					"index" : 2,
-					"maxclass" : "inlet",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 173.5, 81.0, 30.0, 30.0 ]
+					"patching_rect" : [ 740.466669201850891, 41.200000047683716, 30.0, 30.0 ]
 				}
 
 			}
@@ -324,7 +360,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 764.0, 567.5, 99.0, 158.0 ],
+					"patching_rect" : [ 764.0, 567.5, 99.0, 154.0 ],
 					"text" : "Dict:\n- # de son\n--- path\n--- sr\n--- numchans\n--- bounds\n--- duration\n--- slices\n----- 1 : \n---------- transpo :\n----- 2"
 				}
 
@@ -348,7 +384,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 44.0, 231.5, 85.0, 22.0 ],
+					"patching_rect" : [ 44.0, 233.5, 85.0, 22.0 ],
 					"text" : "prepend prefix"
 				}
 
@@ -358,14 +394,14 @@
 					"autopopulate" : 1,
 					"depth" : 100,
 					"id" : "obj-12",
-					"items" : "Healing Frequencies Gabrielle Caux.wav",
+					"items" : [ "01-Rehab.wav", ",", "02 - Grenaille.wav", ",", "06 - SparklyPiano.wav", ",", "alleluia01.wav", ",", "AmenBreak.wav", ",", "AmenStretch.wav", ",", "ApacheBreak.wav", ",", "FilteredPianoTexture.wav", ",", "Granule.aif", ",", "Guit.wav", ",", "keys_chaos_accord02_stretch01_bp_short.aif", ",", "Looper_0.wav", ",", "Looper_7.wav", ",", "LoopGlitch_Beat.1.wav", ",", "Piano proche.wav", ",", "test.wav", ",", "TiBeat.aif", ",", "ToutCroche_Improv32_FretlessBass.wav", ",", "WGuideBank.aif", ",", "WhatsThatNoise_.wav", ",", "WhatsThatNoise_3.wav" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 44.0, 291.0, 189.5, 22.0 ],
-					"prefix" : "~/Desktop/Testlongson/",
+					"prefix" : "~/Library/CloudStorage/OneDrive-UniversitedeMontreal/2021-2022/Automne 2021/MUS3324X/AUDIO/",
 					"types" : [ "WAVE", "AIFF" ]
 				}
 
@@ -377,21 +413,21 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 44.0, 135.0, 101.0, 22.0 ],
+					"patching_rect" : [ 44.0, 101.0, 101.0, 22.0 ],
 					"text" : "opendialog folder"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "Import folder of soundfiles",
 					"id" : "obj-259",
 					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 44.0, 81.0, 30.0, 30.0 ]
+					"patching_rect" : [ 44.0, 47.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -410,8 +446,15 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-53", 1 ],
-					"source" : [ "obj-1", 0 ]
+					"destination" : [ "obj-260", 0 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-49", 0 ],
+					"source" : [ "obj-10", 1 ]
 				}
 
 			}
@@ -426,6 +469,21 @@
 				"patchline" : 				{
 					"destination" : [ "obj-49", 0 ],
 					"source" : [ "obj-105", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-53", 1 ],
+					"midpoints" : [ 749.966669201850891, 186.200000047683716, 858.966669201850891, 186.200000047683716 ],
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-11", 1 ]
 				}
 
 			}
@@ -473,7 +531,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
+					"destination" : [ "obj-11", 0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -482,6 +540,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"source" : [ "obj-259", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
@@ -583,6 +648,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-9", 0 ]
 				}
 
 			}

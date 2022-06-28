@@ -284,10 +284,10 @@
 					"id" : "obj-221",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 537.833333333333258, 933.0, 41.5, 22.0 ],
-					"text" : "join"
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 537.833333333333258, 933.0, 144.0, 22.0 ],
+					"text" : "zl.join @zlmaxsize 32767"
 				}
 
 			}
@@ -298,7 +298,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 560.333333333333258, 906.5, 29.5, 22.0 ],
+					"patching_rect" : [ 585.083333333333258, 903.5, 29.5, 22.0 ],
 					"text" : "i"
 				}
 
@@ -466,7 +466,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "list" ],
-					"patching_rect" : [ 537.833333333333258, 842.0, 72.0, 22.0 ],
+					"patching_rect" : [ 537.833333333333258, 844.0, 72.0, 22.0 ],
 					"text" : "fluid.buf2list"
 				}
 
@@ -883,7 +883,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-218", 1 ],
-					"midpoints" : [ 863.5, 897.75, 580.333333333333258, 897.75 ],
+					"midpoints" : [ 863.5, 897.75, 605.083333333333258, 897.75 ],
 					"source" : [ "obj-14", 0 ]
 				}
 
