@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
-			"revision" : 2,
+			"minor" : 1,
+			"revision" : 11,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 107.0, 97.0, 1514.0, 835.0 ],
+		"rect" : [ 34.0, 34.0, 1323.0, 735.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,12 +40,71 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-23",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 802.400007724761963, 674.0, 291.0, 20.0 ],
+					"text" : "Voir: https://pair-code.github.io/understanding-umap/"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1057.500016152858734, 77.000002086162567, 147.0, 20.0 ],
+					"text" : "COMMENTAIRE [Gab]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-12",
+					"linecount" : 25,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 959.500016152858734, 100.800000011920929, 343.0, 351.0 ],
+					"text" : "*Je trouve la logique avec le nombre de dimension variable en output qui est comparer aux nombres de colonnes/paramètres vraiment mélangeante pour l'utilisateur, car même moi j'ai de la difficulté a comprendre intuitivement comment les manipuler. Je trouve ça moins mélangeant de faire MachineLearning ''on/off'' qui grise des parties du code. Genre j'ai 10 descripteurs d'analyse que je peux mapper en synchrèse avec le visuel. Je peux cocher et décocher jusqu'a 10 descripteurs, qui ne sont pas en dimension réduction. Puis si je fais MachineLearning ON, alors je peux modifier le numdimensions et m'attendre a un résultat abstrait. DONC, je ne mettrais pas le nombre de dimension en output paramétrable. Je mettrais le maximum de dimensions possibles, et ce serait un standard. Donc la selection se ferait en amont et donc c'est le bouton ON/OFF qui affecterait la gate. Exemple: si je veux seulement deux descripteurs; pitch, loudness, c'est seulement 2 colonnes, mais je veux faire du machine learning, donc mon machine learning est a ON, et alors je peux modifier le numdimensions. (au lieu de devoir faire moi-même la logique dans ma tête avec le nombre de dimension en output: j'ai 2 paramètres, donc deux colonnes, donc je dois manuellement mettre plus que 2 dimensions en output pour ouvrir la gate et faire du machine learning, et ensuite mettre le numdim a 5. Genre il faut réfléchir un peu trop et connaitre le code pour savoir quand ça s'enva dans le machine learning. BREF."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "Seuil de segmentation (en ms)",
+					"id" : "obj-6",
+					"index" : 2,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 569.200002193450928, 197.5, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 471.700002193450928, 697.00000786781311, 230.0, 48.0 ],
+					"text" : "*Le route fittransform sors déja un bang de la sortie de gauche, donc pourquoi mettre un trigger bang?"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-37",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 451.20000166025352, 528.00000786781311, 22.0, 22.0 ],
+					"patching_rect" : [ 448.20000166025352, 701.00000786781311, 22.0, 22.0 ],
 					"text" : "t b"
 				}
 
@@ -56,7 +115,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 518.400007724761963, 173.000002562999725, 338.0, 20.0 ],
+					"patching_rect" : [ 600.400007724761963, 242.000002562999725, 338.0, 20.0 ],
 					"text" : "<<< Rendre paramétrable le nombre de dimension en output?"
 				}
 
@@ -67,8 +126,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 479.200002193450928, 241.800000011920929, 141.0, 20.0 ],
-					"text" : "¨Réduction de dimension"
+					"patching_rect" : [ 479.200002193450928, 311.800000011920929, 362.0, 20.0 ],
+					"text" : "¨Réduction de dimension: procédé de machine learning abstrait"
 				}
 
 			}
@@ -79,8 +138,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 232.000003457069397, 228.300000011920929, 93.799998760223389, 47.0 ],
-					"text" : "¨Pas de réduction de dimension"
+					"patching_rect" : [ 148.000003457069397, 302.800000011920929, 174.799998760223389, 48.0 ],
+					"text" : "¨Pas de réduction de dimension: visualisation controllable, synchrèse ludique"
 				}
 
 			}
@@ -91,7 +150,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 479.200002193450928, 200.00000262260437, 29.5, 22.0 ],
+					"patching_rect" : [ 479.200002193450928, 270.00000262260437, 29.5, 22.0 ],
 					"text" : "+ 1"
 				}
 
@@ -103,7 +162,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 479.200002193450928, 172.000002562999725, 32.0, 22.0 ],
+					"patching_rect" : [ 479.200002193450928, 242.000002562999725, 109.0, 22.0 ],
 					"text" : "> #2"
 				}
 
@@ -115,7 +174,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 334.60000079870224, 240.800000011920929, 135.600001394748688, 22.0 ],
+					"patching_rect" : [ 334.60000079870224, 310.800000011920929, 135.600001394748688, 22.0 ],
 					"text" : "gate 2"
 				}
 
@@ -127,7 +186,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 479.200002193450928, 140.000002086162567, 61.0, 22.0 ],
+					"patching_rect" : [ 479.200002193450928, 162.000002086162567, 61.0, 22.0 ],
 					"text" : "route cols"
 				}
 
@@ -139,7 +198,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "cols" ],
-					"patching_rect" : [ 451.200002193450928, 78.800000011920929, 47.0, 22.0 ],
+					"patching_rect" : [ 451.200002193450928, 100.800000011920929, 47.0, 22.0 ],
 					"text" : "t b cols"
 				}
 
@@ -153,7 +212,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 451.200002193450928, 28.600007816356651, 30.0, 30.0 ]
+					"patching_rect" : [ 451.200002193450928, 50.600007816356651, 30.0, 30.0 ]
 				}
 
 			}
@@ -162,9 +221,9 @@
 					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 479.200002193450928, 110.999999344348907, 240.0, 22.0 ],
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "float", "" ],
+					"patching_rect" : [ 479.200002193450928, 132.999999344348907, 240.0, 22.0 ],
 					"text" : "fluid.dataset~ #1Mosaique_analysisDataset"
 				}
 
@@ -176,7 +235,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 758.000006139278412, 119.999998211860657, 150.0, 33.0 ],
+					"patching_rect" : [ 739.000006139278412, 115.999999344348907, 150.0, 34.0 ],
 					"text" : "Mécanisme vérifie combien de dimension ?"
 				}
 
@@ -186,9 +245,9 @@
 					"id" : "obj-134",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 911.400005522634501, 439.799999415874481, 254.0, 22.0 ],
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "float", "" ],
+					"patching_rect" : [ 908.400007724761963, 624.799999415874481, 254.0, 22.0 ],
 					"text" : "fluid.dataset~ #1Mosaique_dimReductDataset"
 				}
 
@@ -200,7 +259,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "clear" ],
-					"patching_rect" : [ 451.200002193450928, 277.799999237060547, 51.0, 22.0 ],
+					"patching_rect" : [ 451.200002193450928, 347.799999237060547, 51.0, 22.0 ],
 					"text" : "t b clear"
 				}
 
@@ -212,7 +271,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1257.500016152858734, 422.400000929832458, 156.0, 47.0 ],
+					"patching_rect" : [ 1120.500016152858734, 528.999999940395355, 156.0, 48.0 ],
 					"text" : "The default numbers are: \n-numneighbours: 15\n-mindist: 0.1"
 				}
 
@@ -224,7 +283,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 451.20000166025352, 488.800007283687592, 99.0, 22.0 ],
+					"patching_rect" : [ 448.20000166025352, 661.800007283687592, 99.0, 22.0 ],
 					"text" : "route fittransform"
 				}
 
@@ -236,7 +295,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 451.200002193450928, 318.799999237060547, 403.0, 22.0 ],
+					"patching_rect" : [ 451.200002193450928, 388.799999237060547, 403.0, 22.0 ],
 					"text" : "fittransform #1Mosaique_analysisDataset #1Mosaique_dimReductDataset"
 				}
 
@@ -246,9 +305,9 @@
 					"id" : "obj-181",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 451.20000166025352, 439.799999415874481, 180.0, 22.0 ],
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "float", "" ],
+					"patching_rect" : [ 448.20000166025352, 612.799999415874481, 180.0, 22.0 ],
 					"text" : "fluid.umap~ @numdimensions 2"
 				}
 
@@ -261,7 +320,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 334.600001931190491, 596.200013041496277, 30.0, 30.0 ]
+					"patching_rect" : [ 331.600001931190491, 769.200013041496277, 30.0, 30.0 ]
 				}
 
 			}
@@ -273,7 +332,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 511.700002193450928, 355.999999940395355, 174.0, 22.0 ],
+					"patching_rect" : [ 508.700002193450928, 528.999999940395355, 174.0, 22.0 ],
 					"text_width" : 114.0
 				}
 
@@ -286,7 +345,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 511.700002193450928, 390.999999940395355, 174.0, 22.0 ],
+					"patching_rect" : [ 508.700002193450928, 563.999999940395355, 174.0, 22.0 ],
 					"text_width" : 114.0
 				}
 
@@ -299,7 +358,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 710.30000251531601, 390.999999940395355, 150.0, 22.0 ]
+					"patching_rect" : [ 707.30000251531601, 563.999999940395355, 150.0, 22.0 ]
 				}
 
 			}
@@ -312,15 +371,8 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 485.700002193450928, 344.80000513792038, 393.600003957748413, 85.599999368190765 ],
-					"proportion" : 0.39,
-					"saved_attribute_attributes" : 					{
-						"bgfillcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-
+					"patching_rect" : [ 482.700002193450928, 517.80000513792038, 393.600003957748413, 85.599999368190765 ],
+					"proportion" : 0.39
 				}
 
 			}
@@ -433,7 +485,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-134", 0 ],
-					"midpoints" : [ 492.700002193450928, 306.899998396635056, 920.900005522634501, 306.899998396635056 ],
+					"midpoints" : [ 492.700002193450928, 376.899998396635056, 917.900007724761963, 376.899998396635056 ],
 					"source" : [ "obj-4", 1 ]
 				}
 
@@ -449,6 +501,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-37", 0 ],
 					"source" : [ "obj-53", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 1 ],
+					"source" : [ "obj-6", 0 ]
 				}
 
 			}
