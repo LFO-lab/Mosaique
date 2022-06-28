@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
-			"revision" : 2,
+			"minor" : 1,
+			"revision" : 11,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 142.0, 87.0, 1380.0, 860.0 ],
+		"rect" : [ 34.0, 77.0, 1468.0, 705.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,13 +40,23 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 641.0, 975.0, 150.0, 20.0 ],
+					"text" : "."
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-36",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 909.062892913818359, 525.364779233932495, 279.0, 33.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 909.062892913818359, 525.364779233932495, 279.0, 34.0 ],
 					"text" : "<<<< Garder en mémoire les analyses qui ont été cochées. "
 				}
 
@@ -58,7 +68,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1293.700008153915405, 823.0, 156.0, 47.0 ],
+					"patching_rect" : [ 1293.700008153915405, 823.0, 156.0, 48.0 ],
 					"text" : "The default numbers are: \n-numneighbours: 15\n-mindist: 0.1"
 				}
 
@@ -339,7 +349,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 716.505473673343658, 501.0437952876091, 103.0, 33.0 ],
+					"patching_rect" : [ 716.505473673343658, 501.0437952876091, 103.0, 34.0 ],
 					"text" : "... more analysis models?"
 				}
 
@@ -355,8 +365,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 2,
+							"minor" : 1,
+							"revision" : 11,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -419,8 +429,8 @@
 									"id" : "obj-125",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
+									"numoutlets" : 3,
+									"outlettype" : [ "bang", "float", "" ],
 									"patching_rect" : [ 51.0, 138.0, 162.0, 22.0 ],
 									"text" : "fluid.bufselect~ @channels 0"
 								}
@@ -430,9 +440,9 @@
 								"box" : 								{
 									"id" : "obj-126",
 									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "bang", "float", "" ],
 									"patching_rect" : [ 51.0, 176.0, 83.0, 22.0 ],
 									"text" : "fluid.bufstats~"
 								}
@@ -443,8 +453,8 @@
 									"id" : "obj-128",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
+									"numoutlets" : 3,
+									"outlettype" : [ "bang", "float", "" ],
 									"patching_rect" : [ 51.0, 100.0, 326.0, 22.0 ],
 									"text" : "fluid.bufspectralshape~ @source #1Mosaique_corpusAudio"
 								}
@@ -544,8 +554,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 2,
+							"minor" : 1,
+							"revision" : 11,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -608,8 +618,8 @@
 									"id" : "obj-116",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
+									"numoutlets" : 3,
+									"outlettype" : [ "bang", "float", "" ],
 									"patching_rect" : [ 50.0, 138.0, 162.0, 22.0 ],
 									"text" : "fluid.bufselect~ @channels 0"
 								}
@@ -619,9 +629,9 @@
 								"box" : 								{
 									"id" : "obj-113",
 									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "bang", "float", "" ],
 									"patching_rect" : [ 50.0, 176.0, 83.0, 22.0 ],
 									"text" : "fluid.bufstats~"
 								}
@@ -632,8 +642,8 @@
 									"id" : "obj-90",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
+									"numoutlets" : 3,
+									"outlettype" : [ "bang", "float", "" ],
 									"patching_rect" : [ 50.0, 100.0, 299.0, 22.0 ],
 									"text" : "fluid.bufloudness~ @source #1Mosaique_corpusAudio"
 								}
@@ -739,8 +749,8 @@
 					"id" : "obj-134",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "float", "" ],
 					"patching_rect" : [ 255.715327680110931, 878.91970694065094, 240.0, 22.0 ],
 					"text" : "fluid.dataset~ #1Mosaique_analysisDataset"
 				}
@@ -764,7 +774,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "buffer" ],
+					"outlettype" : [ "list" ],
 					"patching_rect" : [ 356.588807340010305, 589.0, 296.0, 22.0 ],
 					"text" : "fluid.list2buf @destination #1Mosaique_analysisBuffer"
 				}
@@ -975,14 +985,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 346.700729763055165, 382.0437952876091, 537.0, 244.0 ],
-					"proportion" : 0.39,
-					"saved_attribute_attributes" : 					{
-						"bgfillcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-
+					"proportion" : 0.39
 				}
 
 			}
