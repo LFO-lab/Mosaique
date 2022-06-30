@@ -40,6 +40,48 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-35",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 175.485400140285492, 612.799999415874481, 174.0, 22.0 ],
+					"text" : "prepend set dimReductDataset"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 4,
+					"outlettype" : [ "dictionary", "", "", "" ],
+					"patching_rect" : [ 175.485400140285492, 648.799999415874481, 159.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"embed" : 0,
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "dict #1Mosaique_corpusInfo"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 175.485400140285492, 578.756204128265381, 69.0, 22.0 ],
+					"text" : "route dump"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-7",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -55,10 +97,10 @@
 					"id" : "obj-32",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 138.60000079870224, 528.999999940395355, 22.0, 22.0 ],
-					"text" : "t b"
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "dump" ],
+					"patching_rect" : [ 138.60000079870224, 528.999999940395355, 55.0, 22.0 ],
+					"text" : "t b dump"
 				}
 
 			}
@@ -613,6 +655,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-32", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-35", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-65", 0 ],
 					"source" : [ "obj-37", 0 ]
 				}
@@ -654,7 +710,21 @@
 				}
 
 			}
- ]
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-35", 0 ],
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+ ],
+		"saved_attribute_attributes" : 		{
+			"default_plcolor" : 			{
+				"expression" : ""
+			}
+
+		}
+
 	}
 
 }
