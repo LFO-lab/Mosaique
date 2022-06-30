@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 1,
+			"minor" : 2,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 142.0, 87.0, 1380.0, 860.0 ],
+		"rect" : [ 98.0, 100.0, 1380.0, 860.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 785.5, 940.0, 150.0, 60.0 ],
+					"patching_rect" : [ 785.5, 940.0, 153.0, 60.0 ],
 					"text" : "Tentative de faire la même routine, mais en y allant en 2 étapes avec le sous-dictionnaire"
 				}
 
@@ -274,7 +274,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 288.143551250298742, 1237.0, 52.0, 62.0 ],
-					"presentation_linecount" : 4,
 					"text" : "0::slices::4 167936 183296"
 				}
 
@@ -376,8 +375,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1010.0, 500.0437952876091, 149.0, 22.0 ],
-					"text" : "_mfccAnalysisCorpus --- 0"
+					"patching_rect" : [ 1010.0, 500.0437952876091, 116.0, 22.0 ],
+					"text" : "_analysis_mfcc --- 0"
 				}
 
 			}
@@ -388,8 +387,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 839.0, 500.0437952876091, 149.0, 22.0 ],
-					"text" : "_pitchAnalysisCorpus --- 0"
+					"patching_rect" : [ 839.0, 500.0437952876091, 116.0, 22.0 ],
+					"text" : "_analysis_pitch --- 0"
 				}
 
 			}
@@ -694,8 +693,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 614.49513340438989, 500.0437952876091, 201.0, 22.0 ],
-					"text" : "_spectralShapeAnalysisCorpus --- 0"
+					"patching_rect" : [ 614.49513340438989, 500.0437952876091, 167.0, 22.0 ],
+					"text" : "_analysis_spectralShape --- 0"
 				}
 
 			}
@@ -706,8 +705,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 356.588807340010305, 500.0437952876091, 172.0, 22.0 ],
-					"text" : "_loudnessAnalysisCorpus --- 0"
+					"patching_rect" : [ 356.588807340010305, 500.0437952876091, 139.0, 22.0 ],
+					"text" : "_analysis_loudness --- 0"
 				}
 
 			}
