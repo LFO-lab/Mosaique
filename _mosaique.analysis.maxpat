@@ -52,19 +52,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-57",
-					"linecount" : 5,
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 468.0, 442.0, 50.0, 76.0 ],
-					"text" : "corpus dictionary u957002080"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-53",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -72,17 +59,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 537.328467071056366, 111.0, 65.0, 22.0 ],
 					"text" : "get corpus"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-34",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 557.0, 386.0, 32.0, 22.0 ],
-					"text" : "print"
 				}
 
 			}
@@ -945,15 +921,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"order" : 0,
-					"source" : [ "obj-13", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-34", 0 ],
-					"order" : 1,
 					"source" : [ "obj-13", 1 ]
 				}
 
