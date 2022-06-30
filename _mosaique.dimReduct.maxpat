@@ -45,7 +45,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "dump" ],
-					"patching_rect" : [ 273.0, 701.00000786781311, 55.0, 22.0 ],
+					"patching_rect" : [ 268.60000079870224, 781.00000786781311, 55.0, 22.0 ],
 					"text" : "t b dump"
 				}
 
@@ -69,8 +69,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 500.485400140285492, 821.200013041496277, 174.0, 22.0 ],
-					"text" : "prepend set dimReductDataset"
+					"patching_rect" : [ 500.485400140285492, 821.200013041496277, 185.0, 22.0 ],
+					"text" : "prepend set standardizedDataset"
 				}
 
 			}
@@ -123,7 +123,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 138.60000079870224, 563.999999940395355, 22.0, 22.0 ],
+					"patching_rect" : [ 138.60000079870224, 624.799999415874481, 22.0, 22.0 ],
 					"text" : "t b"
 				}
 
