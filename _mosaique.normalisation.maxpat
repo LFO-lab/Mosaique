@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 11,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 729.0, 148.0, 640.0, 480.0 ],
+		"rect" : [ 458.0, 139.0, 559.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 232.0, 90.0, 32.0, 22.0 ],
+					"text" : "print"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -57,7 +69,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 124.000000533197408, 315.599999785423279, 99.0, 22.0 ],
+					"patching_rect" : [ 50.000000533197408, 276.599999785423279, 99.0, 22.0 ],
 					"text" : "route fittransform"
 				}
 
@@ -69,8 +81,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 50.000000533197408, 193.0, 418.0, 22.0 ],
-					"text" : "fittransform #1Mosaique_dimReductDataset #1Mosaique_normalisedDataset"
+					"patching_rect" : [ 50.000000533197408, 193.0, 437.0, 22.0 ],
+					"text" : "fittransform #1Mosaique_standardizedDataset #1Mosaique_normalisedDataset"
 				}
 
 			}
@@ -79,8 +91,8 @@
 					"id" : "obj-186",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "bang", "float", "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 82.000000533197408, 129.0, 256.0, 22.0 ],
 					"text" : "fluid.dataset~ #1Mosaique_normalisedDataset"
 				}
@@ -91,8 +103,8 @@
 					"id" : "obj-181",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "bang", "float", "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 50.000000533197408, 235.999999821186066, 93.0, 22.0 ],
 					"text" : "fluid.normalize~"
 				}
@@ -119,7 +131,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 124.000000533197408, 378.600013792514801, 30.0, 30.0 ]
+					"patching_rect" : [ 50.000000533197408, 339.600013792514801, 30.0, 30.0 ]
 				}
 
 			}
@@ -141,7 +153,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-53", 0 ],
-					"source" : [ "obj-181", 2 ]
+					"source" : [ "obj-181", 0 ]
 				}
 
 			}
@@ -163,6 +175,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-62", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-186", 0 ],
+					"source" : [ "obj-8", 0 ]
 				}
 
 			}

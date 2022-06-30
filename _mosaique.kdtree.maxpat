@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 11,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -45,7 +45,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "clear" ],
-					"patching_rect" : [ 46.0, 90.0, 51.0, 22.0 ],
+					"patching_rect" : [ 46.0, 90.0, 289.392854869365692, 22.0 ],
 					"text" : "t b clear"
 				}
 
@@ -58,7 +58,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 414.0, 288.0, 30.0, 30.0 ]
+					"patching_rect" : [ 46.0, 270.142857313156128, 30.0, 30.0 ]
 				}
 
 			}
@@ -82,7 +82,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 414.0, 250.200001001358032, 49.0, 22.0 ],
+					"patching_rect" : [ 46.0, 232.34285831451416, 49.0, 22.0 ],
 					"text" : "route fit"
 				}
 
@@ -92,9 +92,9 @@
 					"id" : "obj-77",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "bang", "float", "" ],
-					"patching_rect" : [ 250.0, 208.333341510234845, 183.0, 22.0 ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 46.0, 194.940484495101941, 183.0, 22.0 ],
 					"text" : "fluid.kdtree~ #1Mosaique_kdtree"
 				}
 
@@ -106,7 +106,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 46.0, 143.0, 193.0, 22.0 ],
+					"patching_rect" : [ 46.0, 135.857142925262451, 193.0, 22.0 ],
 					"text" : "fit #1Mosaique_normalisedDataset"
 				}
 
@@ -129,7 +129,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-77", 0 ],
-					"midpoints" : [ 87.5, 126.0, 259.0, 126.0, 259.0, 177.0, 259.5, 177.0 ],
+					"midpoints" : [ 325.892854869365692, 177.077384874790198, 55.5, 177.077384874790198 ],
 					"source" : [ "obj-3", 1 ]
 				}
 
@@ -137,7 +137,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-77", 0 ],
-					"midpoints" : [ 55.5, 178.166670755117423, 259.5, 178.166670755117423 ],
 					"source" : [ "obj-76", 0 ]
 				}
 
@@ -145,7 +144,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-81", 0 ],
-					"source" : [ "obj-77", 2 ]
+					"source" : [ "obj-77", 0 ]
 				}
 
 			}
