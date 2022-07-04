@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 130.0, 100.0, 1140.0, 860.0 ],
+		"rect" : [ 130.0, 100.0, 1564.0, 860.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-24",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1520.0, 737.5, 215.0, 33.0 ],
+					"text" : "Sauvegarder dans le dict les types d'analyse effectuées"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-58",
 					"maxclass" : "newobj",
@@ -146,7 +158,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1514.0, 544.0, 150.0, 221.0 ],
+					"patching_rect" : [ 1520.0, 517.857661426067352, 150.0, 221.0 ],
 					"text" : "Autres analyses\n- Spectral Shape\n1) Centroid\n2) Spread\n3) Skewness\n4) Kurtosis\n5) Rolloff\n6) Flatness\n7) Crest\n- Chroma\n- Essaie : \n--- onsetfeatures pour détecter granulosité\n--- ampfeature pour dériver l'attaque du son\n"
 				}
 
@@ -232,18 +244,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1440.062892913818359, 472.0437952876091, 279.0, 33.0 ],
 					"text" : "<<<< Garder en mémoire les analyses qui ont été cochées. "
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-15",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1754.700008153915405, 791.080288231372833, 156.0, 47.0 ],
-					"text" : "The default numbers are: \n-numneighbours: 15\n-mindist: 0.1"
 				}
 
 			}
@@ -1200,14 +1200,7 @@
 				}
 
 			}
- ],
-		"saved_attribute_attributes" : 		{
-			"default_plcolor" : 			{
-				"expression" : ""
-			}
-
-		}
-
+ ]
 	}
 
 }

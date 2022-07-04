@@ -45,8 +45,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 203.485400140285492, 363.0, 256.0, 22.0 ],
-					"text" : "fluid.dataset~ #1Mosaique_normalisedDataset"
+					"patching_rect" : [ 203.485400140285492, 363.0, 266.0, 22.0 ],
+					"text" : "fluid.dataset~ #1Mosaique_normalizedDataset"
 				}
 
 			}
@@ -58,7 +58,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 203.485400140285492, 436.0437952876091, 175.0, 22.0 ],
-					"text" : "prepend set normalisedDataset"
+					"text" : "prepend set normalizedDataset"
 				}
 
 			}
@@ -288,14 +288,7 @@
 				}
 
 			}
- ],
-		"saved_attribute_attributes" : 		{
-			"default_plcolor" : 			{
-				"expression" : ""
-			}
-
-		}
-
+ ]
 	}
 
 }
