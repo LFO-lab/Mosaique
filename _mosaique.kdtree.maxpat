@@ -172,8 +172,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 46.0, 135.857142925262451, 193.0, 22.0 ],
-					"text" : "fit #1Mosaique_normalisedDataset"
+					"patching_rect" : [ 46.0, 135.857142925262451, 206.0, 22.0 ],
+					"text" : "fit #1Mosaique_normalizedDataset"
 				}
 
 			}

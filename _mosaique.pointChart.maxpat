@@ -42,7 +42,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -68,7 +68,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -195,8 +195,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 193.999999642372131, 143.399999787887396, 280.0, 22.0 ],
-					"text" : "fluid.dataset~ #1Mosaique_normalisedDataset"
+					"patching_rect" : [ 193.999999642372131, 143.399999787887396, 256.0, 22.0 ],
+					"text" : "fluid.dataset~ #1Mosaique_normalizedDataset"
 				}
 
 			}
@@ -204,7 +204,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-44",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -328,7 +328,20 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "fluid.libmanipulation.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.plotter.js",
+				"bootpath" : "~/Documents/Max 8/Packages/FluidCorpusManipulation/jsui",
+				"patcherrelativepath" : "../../Max 8/Packages/FluidCorpusManipulation/jsui",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
