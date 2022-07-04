@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 1,
+			"minor" : 2,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -69,7 +69,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "dictionary", "", "", "" ],
-					"patching_rect" : [ 203.485400140285492, 472.0437952876091, 159.0, 22.0 ],
+					"patching_rect" : [ 203.485400140285492, 484.0437952876091, 159.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"parameter_enable" : 0,
@@ -147,8 +147,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 50.000000533197408, 193.0, 437.0, 22.0 ],
-					"text" : "fittransform #1Mosaique_standardizedDataset #1Mosaique_normalisedDataset"
+					"patching_rect" : [ 50.000000533197408, 193.0, 482.0, 22.0 ],
+					"text" : "fittransform #1Mosaique_standardizedDataset #1Mosaique_normalizedDataset"
 				}
 
 			}
@@ -159,7 +159,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 82.000000533197408, 129.0, 256.0, 22.0 ],
+					"patching_rect" : [ 82.000000533197408, 144.0, 256.0, 22.0 ],
 					"text" : "fluid.dataset~ #1Mosaique_normalisedDataset"
 				}
 
