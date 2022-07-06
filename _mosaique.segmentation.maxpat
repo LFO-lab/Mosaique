@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 604.0, 100.0, 1088.0, 872.0 ],
+		"rect" : [ 390.0, 100.0, 1088.0, 872.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,13 +40,37 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-1",
+					"id" : "obj-17",
+					"linecount" : 6,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1225.0, 753.0, 150.0, 87.0 ],
+					"text" : "Ajuster le seuil et la durée minimale avec un seul contrôle en amont ou indépendamment avec chaque objet de segmentation ? "
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1016.0, 885.0, 150.0, 60.0 ],
+					"text" : "Laissé déconnecté en attendant d'avoir le système pour changer de type d'analyse"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 773.0, 984.0, 120.0, 22.0 ],
-					"text" : "fluid.bufnoveltyslice~"
+					"patching_rect" : [ 934.833333333333258, 846.0, 377.0, 22.0 ],
+					"text" : "fluid.bufnoveltyslice~ @source #1Mosaique_corpusAudio @threshold "
 				}
 
 			}
@@ -562,7 +586,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 848.333333333333258, 846.0, 155.0, 60.0 ],
+					"patching_rect" : [ 1389.333333333333258, 846.0, 155.0, 60.0 ],
 					"text" : "<<< ICI, segmentation à paramétrer et/ou utiliser un autre algo (bufnoveltyslice par exemple)"
 				}
 
@@ -646,8 +670,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 537.833333333333258, 846.0, 305.0, 22.0 ],
-					"text" : "fluid.bufonsetslice~ @source #1Mosaique_corpusAudio"
+					"patching_rect" : [ 537.833333333333258, 846.0, 368.0, 22.0 ],
+					"text" : "fluid.bufonsetslice~ @source #1Mosaique_corpusAudio @threshold "
 				}
 
 			}
@@ -1056,6 +1080,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-173", 0 ],
+					"order" : 1,
+					"source" : [ "obj-176", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"order" : 0,
 					"source" : [ "obj-176", 0 ]
 				}
 
@@ -1077,6 +1110,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-173", 0 ],
+					"order" : 1,
+					"source" : [ "obj-180", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"order" : 0,
 					"source" : [ "obj-180", 0 ]
 				}
 
@@ -1091,6 +1133,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-173", 0 ],
+					"order" : 1,
 					"source" : [ "obj-184", 0 ]
 				}
 
@@ -1099,6 +1142,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-174", 0 ],
 					"source" : [ "obj-184", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"order" : 0,
+					"source" : [ "obj-184", 0 ]
 				}
 
 			}

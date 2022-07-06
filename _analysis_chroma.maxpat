@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-2",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 446.0, 277.0, 150.0, 60.0 ],
+					"text" : "Bufchroma nous restitue des coefficients pour chaque classe de hauteur. Faire la moyenne ?"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-3",
 					"linecount" : 5,
 					"maxclass" : "comment",

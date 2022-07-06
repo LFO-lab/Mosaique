@@ -40,6 +40,88 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-16",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 356.0, 347.0, 32.0, 22.0 ],
+					"text" : "print"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 478.0, 224.0, 162.0, 22.0 ],
+					"text" : "fluid.bufselect~ @channels 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 351.0, 224.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"linecount" : 8,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 556.0, 282.0, 150.0, 114.0 ],
+					"text" : "Il faudrait tout d'abord déterminer la portion de la tranche sur laquelle calculer la dérivée. Est-ce que les objets de segmentation pourraient déjà nous fournir ces informations ? "
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 211.0, 400.0, 41.0, 22.0 ],
+					"text" : "set $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 205.0, 371.0, 70.0, 22.0 ],
+					"text" : "route buffer"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "float", "bang" ],
+					"patching_rect" : [ 267.0, 422.0, 46.0, 22.0 ],
+					"text" : "buffer~"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-13",
 					"maxclass" : "button",
 					"numinlets" : 1,
@@ -106,7 +188,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 51.0, 258.0, 83.0, 22.0 ],
+					"patching_rect" : [ 51.0, 263.0, 83.0, 22.0 ],
 					"text" : "fluid.bufstats~"
 				}
 
@@ -152,6 +234,15 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-129", 0 ],
+					"order" : 1,
+					"source" : [ "obj-122", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"order" : 0,
 					"source" : [ "obj-122", 0 ]
 				}
 
@@ -172,7 +263,23 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"source" : [ "obj-128", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-125", 0 ],
+					"order" : 1,
+					"source" : [ "obj-128", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"order" : 0,
 					"source" : [ "obj-128", 0 ]
 				}
 
@@ -193,6 +300,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-126", 0 ],
+					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-128", 0 ],
 					"source" : [ "obj-251", 0 ]
 				}
@@ -200,8 +314,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-128", 0 ],
 					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-6", 0 ]
 				}
 
 			}
