@@ -481,8 +481,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 459.20000166025352, 698.799999415874481, 180.0, 22.0 ],
-					"text" : "fluid.umap~ @numdimensions 2"
+					"patching_rect" : [ 459.20000166025352, 698.799999415874481, 187.0, 22.0 ],
+					"text" : "fluid.umap~ @numdimensions #2"
 				}
 
 			}
