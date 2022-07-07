@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 87.0, 100.0, 1468.0, 705.0 ],
+		"rect" : [ 87.0, 74.0, 1468.0, 731.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -69,8 +69,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 306.485400140285492, 166.0, 42.0, 22.0 ],
-					"text" : "r clear"
+					"patching_rect" : [ 306.485400140285492, 166.0, 150.0, 22.0 ],
+					"text" : "r #1Mosaique_clearAll"
 				}
 
 			}

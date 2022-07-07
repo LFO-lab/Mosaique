@@ -45,8 +45,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 350.924552381038666, 90.0, 42.0, 22.0 ],
-					"text" : "r clear"
+					"patching_rect" : [ 350.924552381038666, 90.0, 133.0, 22.0 ],
+					"text" : "r #1Mosaique_clearAll"
 				}
 
 			}

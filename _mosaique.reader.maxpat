@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 11,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1468.0, 705.0 ],
+		"rect" : [ 34.0, 100.0, 1468.0, 705.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -68,8 +68,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 148.250001549720764, 210.0, 44.0, 22.0 ],
-					"text" : "s clear"
+					"patching_rect" : [ 148.250001549720764, 210.0, 139.0, 22.0 ],
+					"text" : "s #1Mosaique_clearAll"
 				}
 
 			}
