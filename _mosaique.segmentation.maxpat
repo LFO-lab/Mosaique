@@ -40,6 +40,19 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"attr" : "minslicelength",
+					"id" : "obj-1",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 884.0, 744.0, 150.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-17",
 					"linecount" : 6,
 					"maxclass" : "comment",
@@ -352,7 +365,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 414.666666666666629, 960.0, 31.0, 22.0 ],
+					"patching_rect" : [ 416.166666666666629, 967.5, 31.0, 22.0 ],
 					"text" : "t b s"
 				}
 
@@ -430,7 +443,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 537.833333333333258, 965.0, 144.0, 22.0 ],
+					"patching_rect" : [ 537.833333333333258, 967.5, 144.0, 22.0 ],
 					"text" : "zl.join @zlmaxsize 32767"
 				}
 
@@ -442,7 +455,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 585.083333333333258, 935.5, 29.5, 22.0 ],
+					"patching_rect" : [ 585.083333333333258, 943.5, 29.5, 22.0 ],
 					"text" : "i"
 				}
 
@@ -466,7 +479,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 537.833333333333258, 907.5, 41.5, 22.0 ],
+					"patching_rect" : [ 537.833333333333258, 915.5, 41.5, 22.0 ],
 					"text" : "t l b"
 				}
 
@@ -610,7 +623,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "list" ],
-					"patching_rect" : [ 537.833333333333258, 876.0, 72.0, 22.0 ],
+					"patching_rect" : [ 537.833333333333258, 884.0, 72.0, 22.0 ],
 					"text" : "fluid.buf2list"
 				}
 
@@ -670,8 +683,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 537.833333333333258, 846.0, 368.0, 22.0 ],
-					"text" : "fluid.bufonsetslice~ @source #1Mosaique_corpusAudio @threshold "
+					"patching_rect" : [ 537.833333333333258, 846.0, 476.0, 22.0 ],
+					"text" : "fluid.bufonsetslice~ @source #1Mosaique_corpusAudio @threshold  @minslicelength 25"
 				}
 
 			}
@@ -900,6 +913,13 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-173", 0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-22", 1 ],
 					"source" : [ "obj-10", 0 ]
