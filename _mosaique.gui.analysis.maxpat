@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 125.0, 100.0, 922.0, 748.0 ],
+		"rect" : [ 125.0, 100.0, 1537.0, 748.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -830,13 +830,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-32",
-					"linecount" : 5,
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2021.5, 970.157892227172852, 168.0, 76.0 ],
-					"text" : "replace analysisParameters::chroma::onoff $1, set analysisParameters::chroma::numpitchclasses $2"
+					"patching_rect" : [ 2022.5, 917.657892227172852, 290.0, 49.0 ],
+					"text" : "replace analysisParameters::chroma::onoff $1, replace analysisParameters::chroma::numpitchclasses $2"
 				}
 
 			}
@@ -992,8 +992,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2757.716074625651345, 970.157892227172852, 217.0, 22.0 ],
-					"text" : "set analysisParameters::ampfeature $1"
+					"patching_rect" : [ 2757.716074625651345, 955.157892227172852, 241.0, 22.0 ],
+					"text" : "replace analysisParameters::ampfeature $1"
 				}
 
 			}
@@ -1004,8 +1004,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2514.049407958984375, 970.157892227172852, 223.0, 22.0 ],
-					"text" : "set analysisParameters::onsetfeature $1"
+					"patching_rect" : [ 2518.716074625651345, 931.157892227172852, 247.0, 22.0 ],
+					"text" : "replace analysisParameters::onsetfeature $1"
 				}
 
 			}
@@ -1584,7 +1584,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 3167.049407958984375, 519.157892227172852, 222.0, 22.0 ],
-					"text" : "append analysisParameters::loudness 0"
+					"text" : "append analysisParameters::loudness 1"
 				}
 
 			}
@@ -1627,13 +1627,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-56",
-					"linecount" : 5,
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1758.75, 970.157892227172852, 165.0, 76.0 ],
-					"text" : "replace analysisParameters::mfcc::onoff $1, set analysisParameters::mfcc::numcoeffs $2"
+					"patching_rect" : [ 1760.75, 908.133795619010925, 248.0, 49.0 ],
+					"text" : "replace analysisParameters::mfcc::onoff $1, replace analysisParameters::mfcc::numcoeffs $2"
 				}
 
 			}
@@ -1645,8 +1645,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1344.666666726270932, 970.157892227172852, 274.0, 49.0 ],
-					"text" : "replace analysisParameters::pitch::onoff $1, set analysisParameters::pitch::algorithm $2, set analysisParameters::pitch::confidence $3"
+					"patching_rect" : [ 1355.166666666666515, 908.133795619010925, 275.0, 49.0 ],
+					"text" : "replace analysisParameters::pitch::onoff $1, replace analysisParameters::pitch::algorithm $2, replace analysisParameters::pitch::confidence $3"
 				}
 
 			}
