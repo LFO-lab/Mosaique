@@ -106,7 +106,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1071.0, 120.0, 304.0, 22.0 ],
-					"text" : "replace segmentationSettings::silenceRemoval::onOff 1"
+					"text" : "replace segmentationSettings::silenceRemoval::onOff 0"
 				}
 
 			}
@@ -132,7 +132,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -217,7 +217,9 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [  ],
+		"autosave" : 0
 	}
 
 }
