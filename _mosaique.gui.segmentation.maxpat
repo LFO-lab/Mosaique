@@ -12,7 +12,7 @@
 		"classnamespace" : "box",
 		"rect" : [ 68.0, 281.0, 1606.0, 525.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -40,13 +40,24 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 106.0, 251.0, 71.0, 22.0 ],
+					"text" : "outputvalue"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-75",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 880.0, 710.0, 347.0, 22.0 ],
-					"presentation_linecount" : 3,
 					"text" : "replace segmentationSettings::segmentation::slicerAlgorithm $1"
 				}
 
@@ -132,7 +143,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 880.0, 486.5, 157.0, 116.0 ],
+					"patching_rect" : [ 880.0, 486.5, 161.0, 116.0 ],
 					"text" : "insert 0 Energy, insert 1 High Frequency Content, insert 2 Spectral Fluc, insert 3 Modified Kullback-Leibler, insert 4 Itakura-Saito, insert 5 Cosine, insert 6 Phase Deviation, insert 7 Weighted Phase Deviation"
 				}
 
@@ -539,7 +550,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 541.242947081725106, 72.0, 221.0, 22.0 ],
+					"patching_rect" : [ 106.242947081725106, 211.0, 221.0, 22.0 ],
 					"text" : "receive #1Mosaique_importingCorpus"
 				}
 
@@ -657,6 +668,13 @@
 					"destination" : [ "obj-60", 0 ],
 					"order" : 0,
 					"source" : [ "obj-31", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
@@ -790,6 +808,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-30", 0 ],
 					"source" : [ "obj-75", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-66", 0 ],
+					"source" : [ "obj-9", 0 ]
 				}
 
 			}
