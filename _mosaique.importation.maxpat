@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 92.0, 128.0, 1443.0, 911.0 ],
+		"rect" : [ 90.0, 201.0, 1443.0, 911.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -157,7 +157,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 100.0, 1603.0, 927.0 ],
+						"rect" : [ 34.0, 224.0, 1603.0, 927.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -252,7 +252,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 59.0, 119.0, 640.0, 480.0 ],
+										"rect" : [ 59.0, 119.0, 1162.0, 676.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -1427,7 +1427,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 68.0, 139.0, 1224.0, 892.0 ],
+										"rect" : [ 97.0, 175.0, 1224.0, 892.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -1456,6 +1456,18 @@
 										"subpatcher_template" : "",
 										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-8",
+													"linecount" : 2,
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 919.333360731601715, 805.0, 150.0, 33.0 ],
+													"text" : "Gate pour décider entre onsetSlice et NoveltySlice"
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"id" : "obj-16",
 													"maxclass" : "number",
@@ -1553,7 +1565,7 @@
 											}
 , 											{
 												"box" : 												{
-													"comment" : "bounds du son",
+													"comment" : "\"bounds du son (en samples)\"",
 													"id" : "obj-5",
 													"index" : 3,
 													"maxclass" : "inlet",
@@ -1620,7 +1632,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 871.833333333333258, 846.0, 313.0, 22.0 ],
+													"patching_rect" : [ 895.833334048588995, 846.0, 313.0, 22.0 ],
 													"text" : "fluid.bufnoveltyslice~ @source #1Mosaique_corpusAudio"
 												}
 
@@ -2076,7 +2088,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 527.749999999999886, 437.5, 163.0, 47.0 ],
+													"patching_rect" : [ 145.5, 433.5, 163.0, 47.0 ],
 													"text" : "<<<< Seuil de discrimination pour segmener ou non un son (à rendre paramétrable)"
 												}
 
@@ -2532,6 +2544,7 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-136", 1 ],
+													"midpoints" : [ 98.166666666666629, 406.5, 424.166666666666629, 406.5 ],
 													"source" : [ "obj-4", 0 ]
 												}
 
