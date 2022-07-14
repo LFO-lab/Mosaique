@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 133.0, 138.0, 1468.0, 705.0 ],
+		"rect" : [ 152.0, 100.0, 1468.0, 705.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,17 +39,6 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
-				"box" : 				{
-					"id" : "obj-5",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 321.485400000000027, 102.031259000301361, 110.0, 22.0 ],
-					"text" : "_mosaique.clearAll"
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-37",
@@ -95,18 +84,6 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 141.400001227855682, 99.0, 61.0, 22.0 ],
 					"text" : "delay 150"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-30",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 212.0, 153.0, 100.0, 22.0 ],
-					"text" : "delay"
 				}
 
 			}
@@ -666,13 +643,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
 					"source" : [ "obj-27", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
-					"source" : [ "obj-27", 3 ]
 				}
 
 			}
