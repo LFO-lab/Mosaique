@@ -105,7 +105,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1393.000020333333396, 1334.0, 161.999979666666604, 22.0 ],
+					"patching_rect" : [ 1393.000020333333396, 1334.0, 162.0, 22.0 ],
 					"text" : "fluid.bufselect~ @channels 6"
 				}
 
@@ -642,8 +642,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 107.000020333333282, 1033.0, 326.0, 22.0 ],
-					"text" : "fluid.bufspectralshape~ @source #1Mosaique_corpusAudio"
+					"patching_rect" : [ 107.000020333333282, 1033.0, 368.0, 22.0 ],
+					"text" : "fluid.bufspectralshape~ @source #1Mosaique_corpusAudioMONO"
 				}
 
 			}

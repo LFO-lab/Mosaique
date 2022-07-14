@@ -407,8 +407,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 251.666686999999911, 609.0, 336.0, 22.0 ],
-					"text" : "fluid.bufpitch~ @source #1Mosaique_corpusAudio @unit 1"
+					"patching_rect" : [ 251.666686999999911, 597.0, 363.0, 22.0 ],
+					"text" : "fluid.bufpitch~ @source #1Mosaique_corpusAudioMONO @unit 1"
 				}
 
 			}

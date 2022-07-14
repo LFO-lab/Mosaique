@@ -533,8 +533,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 77.0, 666.0, 319.0, 22.0 ],
-					"text" : "fluid.bufloudness~ @source #1Mosaique_corpusAudio "
+					"patching_rect" : [ 77.0, 686.0, 352.166666666666629, 22.0 ],
+					"text" : "fluid.bufloudness~ @source #1Mosaique_corpusAudioMONO"
 				}
 
 			}
