@@ -44,7 +44,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 279.485400000000027, 381.031259000301361, 110.0, 22.0 ],
+					"patching_rect" : [ 182.485400000000027, 390.031259000301361, 110.0, 22.0 ],
 					"text" : "_mosaique.clearAll"
 				}
 
@@ -56,7 +56,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 267.333329677581787, 342.0, 31.0, 22.0 ],
+					"patching_rect" : [ 170.333329677581787, 354.0, 31.0, 22.0 ],
 					"text" : "t s b"
 				}
 
@@ -68,7 +68,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 267.333329677581787, 304.950362205505371, 49.0, 22.0 ],
+					"patching_rect" : [ 170.333329677581787, 319.950362205505371, 49.0, 22.0 ],
 					"text" : "read $1"
 				}
 
@@ -80,7 +80,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 267.333329677581787, 199.364594697952271, 33.0, 22.0 ],
+					"patching_rect" : [ 170.333329677581787, 225.364594697952271, 33.0, 22.0 ],
 					"text" : "read"
 				}
 
@@ -93,7 +93,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 267.333329677581787, 236.0, 24.0, 24.0 ]
+					"patching_rect" : [ 170.333329677581787, 254.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -104,7 +104,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 267.333329677581787, 269.0, 154.0, 22.0 ],
+					"patching_rect" : [ 170.333329677581787, 287.0, 154.0, 22.0 ],
 					"text" : "opendialog file-types JSON"
 				}
 
@@ -1112,6 +1112,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
+					"midpoints" : [ 179.833329677581787, 395.0, 123.083334883054093, 395.0 ],
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -1453,6 +1454,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
+					"midpoints" : [ 128.750001549720764, 216.0, 179.833329677581787, 216.0 ],
 					"source" : [ "obj-85", 2 ]
 				}
 
