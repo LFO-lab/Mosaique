@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 239.0, 100.0, 603.0, 636.0 ],
+		"rect" : [ 133.0, 138.0, 1468.0, 705.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,17 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 321.485400000000027, 102.031259000301361, 110.0, 22.0 ],
+					"text" : "_mosaique.clearAll"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-37",
@@ -104,10 +115,10 @@
 					"id" : "obj-27",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "bang", "bang", "bang" ],
-					"patching_rect" : [ 288.000002205371857, 56.0, 42.0, 22.0 ],
-					"text" : "t b b b"
+					"numoutlets" : 4,
+					"outlettype" : [ "bang", "bang", "bang", "bang" ],
+					"patching_rect" : [ 288.000002205371857, 56.0, 52.0, 22.0 ],
+					"text" : "t b b b b"
 				}
 
 			}
@@ -175,7 +186,6 @@
 					"fontname" : "Arial Italic",
 					"fontsize" : 6.0,
 					"id" : "obj-31",
-					"linecount" : 4,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
@@ -183,9 +193,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 565.435485754756883, 348.613159189941427, 200.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 3,
-					"presentation_rect" : [ 21.119043707847595, 146.0, 292.0, 27.0 ],
-					"text" : "\"Macintosh HD:/Users/dthibault/Library/CloudStorage/OneDrive-UniversitedeMontreal/2021-2022/Projets/CorpusMachine/Samples/ElectronicDrums/Risers/\""
+					"presentation_rect" : [ 21.119043707847595, 146.0, 292.0, 27.0 ]
 				}
 
 			}
@@ -658,6 +666,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
 					"source" : [ "obj-27", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-27", 3 ]
 				}
 
 			}

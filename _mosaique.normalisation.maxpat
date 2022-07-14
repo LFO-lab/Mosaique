@@ -40,18 +40,6 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-5",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 114.0, 92.0, 134.485400140285492, 22.0 ],
-					"text" : "r #1Mosaique_clearAll"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-4",
 					"maxclass" : "number",
 					"numinlets" : 1,
@@ -169,10 +157,10 @@
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "clear" ],
-					"patching_rect" : [ 50.000000533197408, 92.0, 51.0, 22.0 ],
-					"text" : "t b clear"
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 50.000000533197408, 92.0, 22.0, 22.0 ],
+					"text" : "t b"
 				}
 
 			}
@@ -197,18 +185,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 50.000000533197408, 193.0, 482.0, 22.0 ],
 					"text" : "fittransform #1Mosaique_standardizedDataset #1Mosaique_normalizedDataset"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-186",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 82.000000533197408, 144.0, 276.0, 22.0 ],
-					"text" : "fluid.dataset~ #1Mosaique_normalizedDataset"
 				}
 
 			}
@@ -251,13 +227,6 @@
 			}
  ],
 		"lines" : [ 			{
-				"patchline" : 				{
-					"destination" : [ "obj-186", 0 ],
-					"source" : [ "obj-1", 1 ]
-				}
-
-			}
-, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-189", 0 ],
 					"source" : [ "obj-1", 0 ]
@@ -317,13 +286,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"source" : [ "obj-4", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-186", 0 ],
-					"source" : [ "obj-5", 0 ]
 				}
 
 			}
