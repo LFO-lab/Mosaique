@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 177.0, 143.0, 1034.0, 731.0 ],
+		"rect" : [ 34.0, 122.0, 1468.0, 705.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,42 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-98",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1065.864731947580822, 948.941465616226196, 378.0, 22.0 ],
+					"text" : "_mosaique.dictValueGetSet #1 analysisParameters::pitch::confidence"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-97",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1065.864731947580822, 924.941465616226196, 370.0, 22.0 ],
+					"text" : "_mosaique.dictValueGetSet #1 analysisParameters::pitch::algorithm"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-96",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1065.864731947580822, 893.941465616226196, 347.0, 22.0 ],
+					"text" : "_mosaique.dictValueGetSet #1 analysisParameters::pitch::onoff"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-51",
 					"maxclass" : "newobj",
@@ -188,7 +224,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"outlettype" : [ "", "int" ],
 					"patching_rect" : [ 545.46438277210359, 95.0, 116.0, 22.0 ],
 					"text" : "_analysis_mfcc --- 0"
 				}

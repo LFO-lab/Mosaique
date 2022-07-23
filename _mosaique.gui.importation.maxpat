@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 152.0, 100.0, 1468.0, 705.0 ],
+		"rect" : [ 34.0, 100.0, 1468.0, 705.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -163,6 +163,7 @@
 					"fontname" : "Arial Italic",
 					"fontsize" : 6.0,
 					"id" : "obj-31",
+					"linecount" : 3,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
@@ -170,7 +171,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 565.435485754756883, 348.613159189941427, 200.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 21.119043707847595, 146.0, 292.0, 27.0 ]
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 21.119043707847595, 146.0, 292.0, 27.0 ],
+					"text" : "\"Macintosh HD:/Users/jordantorresbussiere/Documents/LFO_prog_2022/audio/Flux_metal_wok_archet_grain_marque.wav\""
 				}
 
 			}
@@ -213,9 +216,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 269.806455761194229, 579.886846244335175, 368.322582364082336, 155.258065640926361 ],
+					"patching_rect" : [ 265.900001227855682, 590.854589402675629, 368.322582364082336, 155.258065640926361 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.619043707847595, 177.982593536376953, 293.0, 150.478238821029663 ],
+					"presentation_rect" : [ 20.619043707847595, 177.982593536376953, 474.0, 159.478238821029663 ],
 					"viewvisibility" : 1
 				}
 

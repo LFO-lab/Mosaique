@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 1068.0, 731.0 ],
+		"rect" : [ 34.0, 100.0, 1502.0, 705.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -631,7 +631,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 601.715327680110931, 331.386861145496368, 69.0, 22.0 ],
+					"patching_rect" : [ 601.82481724023819, 334.0437952876091, 69.0, 22.0 ],
 					"text" : "route slices"
 				}
 
