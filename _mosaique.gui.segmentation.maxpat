@@ -41,13 +41,14 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-6",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2296.5, 341.008088827133179, 144.0, 20.0 ],
+					"patching_rect" : [ 2296.5, 341.008088827133179, 144.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 356.103884696960449, 42.443662285804749, 198.415583610534668, 20.0 ],
-					"text" : "Slice over (ms)"
+					"text" : "Slice soundfile if over (ms)"
 				}
 
 			}
@@ -66,22 +67,23 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-3",
-					"maxclass" : "number",
+					"maxclass" : "live.numbox",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
+					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 2240.603884696960449, 341.008088827133179, 50.0, 22.0 ],
+					"patching_rect" : [ 2240.603884696960449, 341.008088827133179, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 356.103884696960449, 63.929370284080505, 50.0, 22.0 ],
+					"presentation_rect" : [ 356.103884696960449, 63.929370284080505, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 2000 ],
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
 							"parameter_longname" : "number[4]",
-							"parameter_shortname" : "number",
-							"parameter_type" : 3
+							"parameter_mmax" : 99999999.0,
+							"parameter_shortname" : "live.numbox",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 0
 						}
 
 					}
@@ -123,7 +125,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 2079.5, 341.008088827133179, 144.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 283.350652694702148, 131.338463187217712, 148.415583610534668, 20.0 ],
+					"presentation_rect" : [ 277.350652694702148, 125.097405433654785, 148.415583610534668, 20.0 ],
 					"text" : "Minimum Length"
 				}
 
@@ -131,22 +133,23 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-29",
-					"maxclass" : "number",
+					"maxclass" : "live.numbox",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
+					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 2026.0, 340.008088827133179, 50.0, 22.0 ],
+					"patching_rect" : [ 2026.0, 340.008088827133179, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 231.350652694702148, 131.338463187217712, 50.0, 22.0 ],
+					"presentation_rect" : [ 231.350652694702148, 127.597405433654785, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 125 ],
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
 							"parameter_longname" : "number[3]",
-							"parameter_shortname" : "number",
-							"parameter_type" : 3
+							"parameter_mmax" : 99999999.0,
+							"parameter_shortname" : "live.numbox",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 0
 						}
 
 					}
@@ -175,31 +178,31 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1855.5, 340.008088827133179, 144.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 283.350652694702148, 105.597405433654785, 148.415583610534668, 20.0 ],
+					"presentation_rect" : [ 277.350652694702148, 103.097405433654785, 148.415583610534668, 20.0 ],
 					"text" : "Threshold"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"format" : 6,
 					"id" : "obj-11",
-					"maxclass" : "flonum",
+					"maxclass" : "live.numbox",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
+					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1802.0, 339.008088827133179, 50.0, 22.0 ],
+					"patching_rect" : [ 1802.0, 339.008088827133179, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 231.350652694702148, 105.597405433654785, 50.0, 22.0 ],
+					"presentation_rect" : [ 231.350652694702148, 105.597405433654785, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 0.5 ],
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
 							"parameter_longname" : "number[2]",
-							"parameter_shortname" : "number[2]",
-							"parameter_type" : 3
+							"parameter_mmax" : 1.0,
+							"parameter_shortname" : "live.numbox",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 1
 						}
 
 					}
@@ -586,7 +589,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1463.603884696960449, 339.008088827133179, 246.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 58.685068607330322, 131.338463187217712, 148.415583610534668, 20.0 ],
+					"presentation_rect" : [ 54.0, 125.097405433654785, 148.415583610534668, 20.0 ],
 					"text" : "Minimum Silence Length"
 				}
 
@@ -594,22 +597,23 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-24",
-					"maxclass" : "number",
+					"maxclass" : "live.numbox",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
+					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1410.103884696960449, 338.008088827133179, 50.0, 22.0 ],
+					"patching_rect" : [ 1410.103884696960449, 338.008088827133179, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.0, 131.338463187217712, 50.0, 22.0 ],
+					"presentation_rect" : [ 11.0, 127.597405433654785, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 11025 ],
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
 							"parameter_longname" : "number[1]",
-							"parameter_shortname" : "number",
-							"parameter_type" : 3
+							"parameter_mmax" : 99999999.0,
+							"parameter_shortname" : "live.numbox",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 0
 						}
 
 					}
@@ -621,22 +625,23 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-23",
-					"maxclass" : "number",
+					"maxclass" : "live.numbox",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
+					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1076.409082412719727, 336.878218412399292, 50.0, 22.0 ],
+					"patching_rect" : [ 1076.409082412719727, 339.008088827133179, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.0, 105.597405433654785, 50.0, 22.0 ],
+					"presentation_rect" : [ 11.0, 105.597405433654785, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 22050 ],
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
 							"parameter_longname" : "number",
-							"parameter_shortname" : "number",
-							"parameter_type" : 3
+							"parameter_mmax" : 99999999.0,
+							"parameter_shortname" : "live.numbox",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 0
 						}
 
 					}
@@ -653,7 +658,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1129.201290130615234, 337.878218412399292, 246.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 58.685068607330322, 105.597405433654785, 140.62337589263916, 20.0 ],
+					"presentation_rect" : [ 54.0, 103.097405433654785, 140.62337589263916, 20.0 ],
 					"text" : "Minimum Slice Length"
 				}
 
@@ -1301,13 +1306,13 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-11" : [ "number[2]", "number[2]", 0 ],
+			"obj-11" : [ "number[2]", "live.numbox", 0 ],
 			"obj-13" : [ "live.numbox", "live.numbox", 0 ],
 			"obj-16" : [ "live.numbox[3]", "live.numbox", 0 ],
-			"obj-23" : [ "number", "number", 0 ],
-			"obj-24" : [ "number[1]", "number", 0 ],
-			"obj-29" : [ "number[3]", "number", 0 ],
-			"obj-3" : [ "number[4]", "number", 0 ],
+			"obj-23" : [ "number", "live.numbox", 0 ],
+			"obj-24" : [ "number[1]", "live.numbox", 0 ],
+			"obj-29" : [ "number[3]", "live.numbox", 0 ],
+			"obj-3" : [ "number[4]", "live.numbox", 0 ],
 			"obj-31" : [ "live.menu[4]", "live.menu", 0 ],
 			"obj-66" : [ "live.menu[5]", "live.menu", 0 ],
 			"parameterbanks" : 			{
