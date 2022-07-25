@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 128.0, 1502.0, 677.0 ],
+		"rect" : [ 34.0, 128.0, 1502.0, 729.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-37",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 95.474582691987052, 486.603167772293091, 71.0, 22.0 ],
+					"text" : "outputvalue"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-6",
 					"linecount" : 2,
@@ -276,7 +288,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 72.152605056762695, 447.603167772293091, 232.382549742857918, 49.0 ],
+					"patching_rect" : [ 72.152605056762695, 435.603167772293091, 232.382549742857918, 49.0 ],
 					"text" : "_mosaique.dictValueGetSet #1 segmentationSettings::segmentation::slicer"
 				}
 
@@ -530,7 +542,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-54",
-					"items" : [ "Spectrum", ",", "MFCC", ",", "Chroma", ",", "Pitch", ",", "Loudness", ",", "Energy", ",", "High", "Frequency", "Content", ",", "Spectral", "Fluc", ",", "Modified", "Kullback-Leibler", ",", "Itakura-Saito", ",", "Cosine", ",", "Phase", "Deviation", ",", "Weighted", "Phase", "Deviation", ",", "Spectrum", ",", "MFCC", ",", "Chroma", ",", "Pitch", ",", "Loudness", ",", "Energy", ",", "High", "Frequency", "Content", ",", "Spectral", "Fluc", ",", "Modified", "Kullback-Leibler", ",", "Itakura-Saito", ",", "Cosine", ",", "Phase", "Deviation", ",", "Weighted", "Phase", "Deviation", ",", "Spectrum", ",", "MFCC", ",", "Chroma", ",", "Pitch", ",", "Loudness", ",", "Energy", ",", "High", "Frequency", "Content", ",", "Spectral", "Fluc", ",", "Modified", "Kullback-Leibler", ",", "Itakura-Saito", ",", "Cosine", ",", "Phase", "Deviation", ",", "Weighted", "Phase", "Deviation", ",", "Spectrum", ",", "MFCC", ",", "Chroma", ",", "Pitch", ",", "Loudness" ],
+					"items" : [ "Energy", ",", "High", "Frequency", "Content", ",", "Spectral", "Fluc", ",", "Modified", "Kullback-Leibler", ",", "Itakura-Saito", ",", "Cosine", ",", "Phase", "Deviation", ",", "Weighted", "Phase", "Deviation" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -979,6 +991,13 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
+					"source" : [ "obj-37", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-31", 0 ],
 					"source" : [ "obj-38", 0 ]
 				}
 
@@ -1037,8 +1056,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-37", 0 ],
+					"order" : 8,
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
-					"order" : 9,
+					"order" : 10,
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -1074,7 +1101,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-52", 0 ],
 					"midpoints" : [ 89.555202484130859, 231.0, 89.555202484130859, 231.0 ],
-					"order" : 8,
+					"order" : 9,
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -1152,6 +1179,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-54", 0 ],
+					"order" : 1,
+					"source" : [ "obj-67", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-56", 0 ],
 					"source" : [ "obj-67", 0 ]
 				}
@@ -1160,6 +1195,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-72", 0 ],
+					"order" : 0,
 					"source" : [ "obj-67", 1 ]
 				}
 
