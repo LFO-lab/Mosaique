@@ -155,7 +155,7 @@
 					"presentation_rect" : [ 231.350652694702148, 127.597405433654785, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ 125 ],
+							"parameter_initial" : [ 50 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "number[3]",
 							"parameter_mmax" : 99999999.0,
@@ -353,7 +353,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 80.055202484130859, 245.714282989501953, 243.0, 49.0 ],
+					"patching_rect" : [ 105.055202484130859, 245.714282989501953, 243.0, 49.0 ],
 					"text" : "_mosaique.dictValueGetSet #1 segmentationSettings::silenceRemoval::onOff"
 				}
 
@@ -413,7 +413,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 72.152605056762695, 370.722373723983765, 29.5, 22.0 ],
+					"patching_rect" : [ 72.152605056762695, 372.62986946105957, 29.5, 22.0 ],
 					"text" : "i"
 				}
 
@@ -920,7 +920,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-52", 1 ],
-					"midpoints" : [ 81.652605056762695, 393.0, 60.777764797210693, 393.0, 60.777764797210693, 240.0, 313.555202484130859, 240.0 ],
+					"midpoints" : [ 81.652605056762695, 393.0, 60.777764797210693, 393.0, 60.777764797210693, 240.0, 338.555202484130859, 240.0 ],
 					"source" : [ "obj-27", 0 ]
 				}
 
@@ -1057,7 +1057,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-37", 0 ],
-					"order" : 8,
+					"order" : 9,
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -1100,8 +1100,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-52", 0 ],
-					"midpoints" : [ 89.555202484130859, 231.0, 89.555202484130859, 231.0 ],
-					"order" : 9,
+					"midpoints" : [ 89.555202484130859, 231.0, 114.555202484130859, 231.0 ],
+					"order" : 8,
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -1280,7 +1280,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-27", 0 ],
-					"midpoints" : [ 2517.76117467880249, 360.0, 783.0, 360.0, 783.0, 360.0, 441.0, 360.0, 441.0, 366.0, 81.652605056762695, 366.0 ],
+					"midpoints" : [ 2517.76117467880249, 360.0, 783.0, 360.0, 783.0, 360.0, 441.0, 360.0, 441.0, 360.0, 81.652605056762695, 360.0 ],
 					"order" : 9,
 					"source" : [ "obj-8", 0 ]
 				}

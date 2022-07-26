@@ -40,6 +40,30 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 575.0, 151.399999856948853, 58.0, 22.0 ],
+					"text" : "radius $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 464.0, 151.399999856948853, 108.0, 22.0 ],
+					"text" : "numneighbours $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"comment" : "\"Nearest point\"",
 					"id" : "obj-3",
 					"index" : 1,
@@ -120,8 +144,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 81.0, 151.399999856948853, 199.0, 22.0 ],
-					"text" : "fluid.kdtree~ #1Mosaique_kdtree"
+					"patching_rect" : [ 81.0, 151.399999856948853, 363.0, 22.0 ],
+					"text" : "fluid.kdtree~ #1Mosaique_kdtree @numneighbours #2 @radius #3"
 				}
 
 			}
