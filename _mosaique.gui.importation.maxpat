@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 1468.0, 705.0 ],
+		"rect" : [ 36.0, 87.0, 1468.0, 705.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,20 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 500.0, 100.0, 150.0, 48.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 407.0, 63.0, 454.0, 20.0 ],
+					"text" : "Analysis doesn't work on single sound file when silence removal is on***"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-37",
@@ -163,7 +177,7 @@
 					"fontname" : "Arial Italic",
 					"fontsize" : 6.0,
 					"id" : "obj-31",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
@@ -171,9 +185,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 565.435485754756883, 348.613159189941427, 200.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 3,
 					"presentation_rect" : [ 21.119043707847595, 146.0, 292.0, 27.0 ],
-					"text" : "\"Macintosh HD:/Users/jordantorresbussiere/Documents/LFO_prog_2022/audio/Flux_metal_wok_archet_grain_marque.wav\""
+					"text" : "\"C:/Users/gabri/Desktop/Testlongson/Healing Frequencies Gabrielle Caux.wav\""
 				}
 
 			}
