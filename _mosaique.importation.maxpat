@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 1468.0, 705.0 ],
+		"rect" : [ 10.0, 100.0, 1468.0, 705.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,11 +40,23 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 40.0, 90.0, 146.0, 22.0 ],
+					"text" : "routepass analyze reduce"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1292.0, 544.265631824731827, 131.0, 22.0 ],
+					"patching_rect" : [ 1368.0, 623.265631824731827, 131.0, 22.0 ],
 					"text" : "_mosaique.clearAll #1"
 				}
 
@@ -206,7 +218,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 524.333333333333371, 857.5, 143.0, 22.0 ],
+					"patching_rect" : [ 600.333333333333371, 936.5, 143.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -225,7 +237,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 764.0, 907.0, 135.0, 22.0 ],
+					"patching_rect" : [ 840.0, 986.0, 135.0, 22.0 ],
 					"text" : "replace bufferLength $1"
 				}
 
@@ -237,7 +249,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 764.0, 849.5, 81.0, 22.0 ],
+					"patching_rect" : [ 840.0, 928.5, 81.0, 22.0 ],
 					"text" : "getattr samps"
 				}
 
@@ -248,7 +260,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 530.0, 780.5, 350.0, 20.0 ],
+					"patching_rect" : [ 606.0, 859.5, 350.0, 20.0 ],
 					"text" : "<<< Gros patch pour cataloguer, enlever le silence et segmenter"
 				}
 
@@ -260,7 +272,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 514.666666666666742, 302.0, 47.0, 22.0 ],
+					"patching_rect" : [ 590.666666666666742, 381.0, 47.0, 22.0 ],
 					"text" : "pak 0 s"
 				}
 
@@ -271,9 +283,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 4,
-					"outlettype" : [ "bang", "bang", "bang", "" ],
-					"patching_rect" : [ 284.5, 820.0, 738.5, 22.0 ],
-					"text" : "t b b b l"
+					"outlettype" : [ "analyze", "bang", "bang", "" ],
+					"patching_rect" : [ 360.5, 899.0, 738.5, 22.0 ],
+					"text" : "t analyze b b l"
 				}
 
 			}
@@ -284,7 +296,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1004.0, 911.0, 135.0, 22.0 ],
+					"patching_rect" : [ 1080.0, 990.0, 135.0, 22.0 ],
 					"text" : "prepend replace corpus"
 				}
 
@@ -296,7 +308,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "dictionary", "", "", "" ],
-					"patching_rect" : [ 1004.0, 943.5, 182.0, 22.0 ],
+					"patching_rect" : [ 1080.0, 1022.5, 182.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"parameter_enable" : 0,
@@ -325,7 +337,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 107.0, 138.0, 1468.0, 677.0 ],
+						"rect" : [ 34.0, 138.0, 1468.0, 677.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -353,7 +365,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-87",
@@ -1623,7 +1634,6 @@
 										"style" : "",
 										"subpatcher_template" : "",
 										"assistshowspatchername" : 0,
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-8",
@@ -3957,7 +3967,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 284.5, 780.5, 239.99999737739563, 22.0 ],
+					"patching_rect" : [ 360.5, 859.5, 239.99999737739563, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -3976,7 +3986,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1105.957883179187775, 529.265631824731827, 159.0, 22.0 ],
+					"patching_rect" : [ 1181.957883179187775, 608.265631824731827, 159.0, 22.0 ],
 					"text" : "prepend replace analysisSR"
 				}
 
@@ -3988,7 +3998,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "dictionary", "", "", "" ],
-					"patching_rect" : [ 1105.957883179187775, 565.531261324882507, 163.0, 22.0 ],
+					"patching_rect" : [ 1181.957883179187775, 644.531261324882507, 163.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"parameter_enable" : 0,
@@ -4006,7 +4016,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "float", "int", "int" ],
-					"patching_rect" : [ 1091.957883179187775, 490.265631824731827, 61.0, 22.0 ],
+					"patching_rect" : [ 1167.957883179187775, 569.265631824731827, 61.0, 22.0 ],
 					"text" : "dspstate~"
 				}
 
@@ -4018,7 +4028,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 1075.0, 455.0, 236.0, 22.0 ],
+					"patching_rect" : [ 1151.0, 534.0, 236.0, 22.0 ],
 					"text" : "t b b"
 				}
 
@@ -4029,7 +4039,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1074.0, 605.0, 211.0, 22.0 ],
+					"patching_rect" : [ 1150.0, 684.0, 211.0, 22.0 ],
 					"text" : "send #1Mosaique_importingCorpus"
 				}
 
@@ -4041,7 +4051,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 114.0, 214.200000047683716, 29.5, 22.0 ],
+					"patching_rect" : [ 190.0, 293.200000047683716, 29.5, 22.0 ],
 					"text" : "t l b"
 				}
 
@@ -4053,7 +4063,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 66.0, 67.200000047683716, 66.0, 22.0 ],
+					"patching_rect" : [ 142.0, 146.200000047683716, 66.0, 22.0 ],
 					"text" : "unpack s s"
 				}
 
@@ -4065,7 +4075,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "done", "", "clear", "bang" ],
-					"patching_rect" : [ 490.0, 210.200000047683716, 177.0, 22.0 ],
+					"patching_rect" : [ 566.0, 289.200000047683716, 177.0, 22.0 ],
 					"text" : "t done s clear b"
 				}
 
@@ -4077,7 +4087,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1112.5, 163.200000047683716, 449.0, 47.0 ],
+					"patching_rect" : [ 1188.5, 242.200000047683716, 449.0, 47.0 ],
 					"text" : "Est-ce que le fichier sonore unique a besoin de passer a travers le processus de l'importation pour avoir un numéro unique (genre numéro 1 slice 0)? est-ce que ne pas passer par la influencera le processus d'analyse a la suite?"
 				}
 
@@ -4089,7 +4099,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 114.0, 175.700000047683716, 81.0, 22.0 ],
+					"patching_rect" : [ 190.0, 254.700000047683716, 81.0, 22.0 ],
 					"text" : "gate 2"
 				}
 
@@ -4101,7 +4111,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 158.0, 132.900000095367432, 29.5, 22.0 ],
+					"patching_rect" : [ 234.0, 211.900000095367432, 29.5, 22.0 ],
 					"text" : "2"
 				}
 
@@ -4113,7 +4123,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 114.0, 132.900000095367432, 29.5, 22.0 ],
+					"patching_rect" : [ 190.0, 211.900000095367432, 29.5, 22.0 ],
 					"text" : "1"
 				}
 
@@ -4125,7 +4135,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 114.0, 101.900000095367432, 63.0, 22.0 ],
+					"patching_rect" : [ 190.0, 180.900000095367432, 63.0, 22.0 ],
 					"text" : "select fold"
 				}
 
@@ -4139,7 +4149,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 66.0, 19.5, 30.0, 30.0 ]
+					"patching_rect" : [ 40.0, 30.5, 30.0, 30.0 ]
 				}
 
 			}
@@ -4149,7 +4159,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 190.0, 619.531261324882507, 277.0, 20.0 ],
+					"patching_rect" : [ 266.0, 698.531261324882507, 277.0, 20.0 ],
 					"text" : "Étape 2 : dump ressort chaque path avec # unique"
 				}
 
@@ -4160,7 +4170,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 190.0, 605.031261324882507, 183.0, 20.0 ],
+					"patching_rect" : [ 266.0, 684.031261324882507, 183.0, 20.0 ],
 					"text" : "Étape 1 : populate crée un dump"
 				}
 
@@ -4171,7 +4181,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 305.5, 655.0, 125.0, 20.0 ],
+					"patching_rect" : [ 381.5, 734.0, 125.0, 20.0 ],
 					"text" : "filetypes : WAVE AIFF"
 				}
 
@@ -4182,7 +4192,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 190.0, 586.531261324882507, 227.0, 20.0 ],
+					"patching_rect" : [ 266.0, 665.531261324882507, 227.0, 20.0 ],
 					"text" : "On ajoute tous les sons dans le umenu"
 				}
 
@@ -4194,7 +4204,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 795.0, 878.5, 208.0, 22.0 ],
+					"patching_rect" : [ 871.0, 957.5, 208.0, 22.0 ],
 					"text" : "buffer~ #1Mosaique_corpusAudio"
 				}
 
@@ -4206,7 +4216,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "done", "dump", "clear" ],
-					"patching_rect" : [ 334.5, 706.0, 105.0, 22.0 ],
+					"patching_rect" : [ 410.5, 785.0, 105.0, 22.0 ],
 					"text" : "t done dump clear"
 				}
 
@@ -4218,7 +4228,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 284.5, 680.0, 119.0, 22.0 ],
+					"patching_rect" : [ 360.5, 759.0, 119.0, 22.0 ],
 					"text" : "route dump populate"
 				}
 
@@ -4230,7 +4240,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 114.0, 540.5, 85.0, 22.0 ],
+					"patching_rect" : [ 190.0, 619.5, 85.0, 22.0 ],
 					"text" : "prepend prefix"
 				}
 
@@ -4240,14 +4250,14 @@
 					"autopopulate" : 1,
 					"depth" : 100,
 					"id" : "obj-12",
-					"items" : [ "101_Drums_17.wav", ",", "101_Drums_18.wav", ",", "101_Drums_19.wav", ",", "101_Drums_20.wav", ",", "101_Drums_21.wav", ",", "101_Drums_22.wav", ",", "101_Drums_23.wav", ",", "101_Drums_24.wav", ",", "101_Drums_25.wav", ",", "101_Drums_26.wav", ",", "101_Drums_27.wav", ",", "101_Drums_28.wav", ",", "101_Drums_29.wav", ",", "101_Drums_30.wav", ",", "101_Drums_31.wav", ",", "101_Drums_33.wav", ",", "101_Drums_34.wav", ",", "101_Drums_35.wav", ",", "101_Drums_51.wav", ",", "101_Drums_58.wav", ",", "101_Drums_59.wav", ",", "Bell-MO_01_F#.wav", ",", "Bell-MO_02_F#.wav", ",", "Bell-MO_03_F#.wav", ",", "Bell-MO_04_B.wav", ",", "Bell-MO_05_F#_A.wav", ",", "Bell-MO_06_C#.wav", ",", "Bell-MO_07_F#.wav", ",", "Bell-MO_08_A#.wav", ",", "Clap-707-1.wav", ",", "Clap-707-10.wav", ",", "Clap-707-11.wav", ",", "Clap-707-12.wav", ",", "Clap-707-13.wav", ",", "Clap-707-14.wav", ",", "Clap-707-15.wav", ",", "Clap-707-16.wav", ",", "Clap-707-17.wav", ",", "Clap-707-18.wav", ",", "Clap-707-19.wav", ",", "Clap-707-2.wav", ",", "Clap-707-20.wav", ",", "Clap-707-21.wav", ",", "Clap-707-22.wav", ",", "Clap-707-23.wav", ",", "Clap-707-24.wav", ",", "Clap-707-25.wav", ",", "Clap-707-26.wav", ",", "Clap-707-27.wav", ",", "Clap-707-28.wav", ",", "Clap-707-29.wav", ",", "Clap-707-3.wav", ",", "Clap-707-30.wav", ",", "Clap-707-31.wav", ",", "Clap-707-32.wav", ",", "Clap-707-33.wav", ",", "Clap-707-34.wav", ",", "Clap-707-35.wav", ",", "Clap-707-36.wav", ",", "Clap-707-37.wav", ",", "Clap-707-38.wav", ",", "Clap-707-39.wav", ",", "Clap-707-4.wav", ",", "Clap-707-40.wav", ",", "Clap-707-41.wav", ",", "Clap-707-42.wav", ",", "Clap-707-43.wav", ",", "Clap-707-44.wav", ",", "Clap-707-45.wav", ",", "Clap-707-46.wav", ",", "Clap-707-47.wav", ",", "Clap-707-48.wav", ",", "Clap-707-5.wav", ",", "Clap-707-6.wav", ",", "Clap-707-7.wav", ",", "Clap-707-8.wav", ",", "Clap-707-9.wav", ",", "Clap-Combo-707-55.wav", ",", "Clap-Combo-707-56.wav", ",", "Clap-Combo-707-57.wav", ",", "Clap-Combo-707-58.wav", ",", "Clap-Combo-707-59.wav", ",", "Clap-Combo-707-60.wav", ",", "Clap-Combo-707-61.wav", ",", "Clap-MO_01.wav", ",", "Clap-MO_02.wav", ",", "Clap-MO_03.wav", ",", "Clap-MO_04.wav", ",", "Clap-MO_05.wav", ",", "Clap-MO_06.wav", ",", "Clap-MO_07.wav", ",", "Clap-MO_08.wav", ",", "Clap-MO_09.wav", ",", "Clap-MO_10.wav", ",", "Clap-MO_11.wav", ",", "Clap-MO_12.wav", ",", "Clap-MO_13.wav", ",", "Clap-MO_14.wav", ",", "Clap-MO_15.wav", ",", "Clap-MO_16.wav", ",", "Clap-MO_17.wav", ",", "Clap-MO_18.wav", ",", "Clap-MO_19.wav", ",", "Clap-MO_20.wav", ",", "Clap-MO_21.wav", ",", "Clap-MO_22.wav", ",", "Clap-MO_23.wav", ",", "Clap-MO_24.wav", ",", "Clap-MO_25.wav", ",", "Clap-MO_26.wav", ",", "Clap-MO_27.wav", ",", "Clap-MO_28.wav", ",", "Clap-MO_29.wav", ",", "Clap-MO_30.wav", ",", "Clap-MO_31.wav", ",", "Clap-MO_32.wav", ",", "Clap-MO_33.wav", ",", "Clap-MO_34.wav", ",", "Clap-MO_35.wav", ",", "Clap-MO_36.wav", ",", "Clap-MO_37.wav", ",", "Clap-MO_38.wav", ",", "Clap-MO_39.wav", ",", "Clap-MO_40.wav", ",", "Clap-MO_41.wav", ",", "Clap-MO_42.wav", ",", "Clap-MO_43.wav", ",", "Clap-MO_44.wav", ",", "Clap-MO_45.wav", ",", "Clap-MO_46.wav", ",", "Clap-MO_47.wav", ",", "Clap-MO_48.wav", ",", "Clap-MO_49.wav", ",", "Clap-MO_50.wav", ",", "Clap-MO_51.wav", ",", "Clap-MO_52.wav", ",", "Clap-MO_53.wav", ",", "Clap-MO_54.wav", ",", "Clap-MO_55.wav", ",", "Clap-MO_56.wav", ",", "Clap-MO_57.wav", ",", "Clap-MO_58.wav", ",", "Clap-MO_59.wav", ",", "Clap-MO_60.wav", ",", "Clap-MO_61.wav", ",", "Clap-MO_62.wav", ",", "Clap-MO_63.wav", ",", "Clap-MO_64.wav", ",", "Clap-MO_65.wav", ",", "Clap-MO_66.wav", ",", "Clap-MO_67.wav", ",", "Clap-MO_68.wav", ",", "Clap-MO_69.wav", ",", "Clap-MO_70.wav", ",", "Clap-MO_71.wav", ",", "Clap-MO_72.wav", ",", "Clap-MO_73.wav", ",", "Clap-MO_74.wav", ",", "Clap-MO_75.wav", ",", "Clap-MO_76.wav", ",", "Clap-MO_77.wav", ",", "Clap-MO_78.wav", ",", "Clap-MO_79.wav", ",", "Clap-MO_80.wav", ",", "Clap-MO_81.wav", ",", "Clap-MO_82.wav", ",", "Clap-MO_83.wav", ",", "Clap-MO_84.wav", ",", "Clap-MO_85.wav", ",", "Clap-MO_86.wav", ",", "Cowb-707-1.wav", ",", "Cowb-707-10.wav", ",", "Cowb-707-11.wav", ",", "Cowb-707-12.wav", ",", "Cowb-707-13.wav", ",", "Cowb-707-14.wav", ",", "Cowb-707-15.wav", ",", "Cowb-707-16.wav", ",", "Cowb-707-17.wav", ",", "Cowb-707-18.wav", ",", "Cowb-707-19.wav", ",", "Cowb-707-2.wav", ",", "Cowb-707-20.wav", ",", "Cowb-707-21.wav", ",", "Cowb-707-22.wav", ",", "Cowb-707-23.wav", ",", "Cowb-707-24.wav", ",", "Cowb-707-25.wav", ",", "Cowb-707-26.wav", ",", "Cowb-707-27.wav", ",", "Cowb-707-28.wav", ",", "Cowb-707-29.wav", ",", "Cowb-707-3.wav", ",", "Cowb-707-30.wav", ",", "Cowb-707-31.wav", ",", "Cowb-707-32.wav", ",", "Cowb-707-33.wav", ",", "Cowb-707-34.wav", ",", "Cowb-707-35.wav", ",", "Cowb-707-36.wav", ",", "Cowb-707-37.wav", ",", "Cowb-707-38.wav", ",", "Cowb-707-39.wav", ",", "Cowb-707-4.wav", ",", "Cowb-707-40.wav", ",", "Cowb-707-41.wav", ",", "Cowb-707-42.wav", ",", "Cowb-707-43.wav", ",", "Cowb-707-44.wav", ",", "Cowb-707-45.wav", ",", "Cowb-707-46.wav", ",", "Cowb-707-47.wav", ",", "Cowb-707-48.wav", ",", "Cowb-707-49.wav", ",", "Cowb-707-5.wav", ",", "Cowb-707-6.wav", ",", "Cowb-707-7.wav", ",", "Cowb-707-8.wav", ",", "Cowb-707-9.wav", ",", "Cowb-Combo-707-100.wav", ",", "Cowb-Combo-707-101.wav", ",", "Cowb-Combo-707-102.wav", ",", "Cowb-Combo-707-103.wav", ",", "Cowb-MO_01_B.wav", ",", "Cowb-MO_02_C#.wav", ",", "Cowb-MO_03_D#.wav", ",", "Cowb-MO_04_E.wav", ",", "Cowb-MO_05_F#.wav", ",", "Cowb-MO_06_G#.wav", ",", "Cowb-MO_07_A#.wav", ",", "Cowb-MO_08_B.wav", ",", "Cowb-MO_09_C#.wav", ",", "Cowb-MO_10_D#.wav", ",", "Cowb-MO_11_B.wav", ",", "Cowb-MO_12_C#.wav", ",", "Cowb-MO_13_D#.wav", ",", "Cowb-MO_14_E.wav", ",", "Cowb-MO_15_F#.wav", ",", "Cowb-MO_16_G#.wav", ",", "Cowb-MO_17_A#.wav", ",", "Cowb-MO_18_B.wav", ",", "Cowb-MO_19_C#.wav", ",", "Cowb-MO_20_D#.wav", ",", "Cowb-MO_21_B.wav", ",", "Cowb-MO_22_C#.wav", ",", "Cowb-MO_23_D#.wav", ",", "Cowb-MO_24_E.wav", ",", "Cowb-MO_25_F#.wav", ",", "Cowb-MO_26_G#.wav", ",", "Cowb-MO_27_A#.wav", ",", "Cowb-MO_28_B.wav", ",", "Cowb-MO_29_C#.wav", ",", "Cowb-MO_30_D#.wav" ],
+					"items" : [ "Sports1100_14 -  - Track 14.wav", ",", "Sports1100_15 -  - Track 15.wav", ",", "Sports1100_16 -  - Track 16.wav", ",", "Sports1100_17 -  - Track 17.wav", ",", "Sports1100_18 -  - Track 18.wav", ",", "Sports1100_19 -  - Track 19.wav", ",", "Sports1100_2 -  - Track 2.wav", ",", "Sports1100_20 -  - Track 20.wav", ",", "Sports1100_21 -  - Track 21.wav", ",", "Sports1100_22 -  - Track 22.wav", ",", "Sports1100_23 -  - Track 23.wav", ",", "Sports1100_24 -  - Track 24.wav", ",", "Sports1100_25 -  - Track 25.wav", ",", "Sports1100_26 -  - Track 26.wav", ",", "Sports1100_27 -  - Track 27.wav", ",", "Sports1100_28 -  - Track 28.wav", ",", "Sports1100_29 -  - Track 29.wav", ",", "Sports1100_3 -  - Track 3.wav", ",", "Sports1100_30 -  - Track 30.wav", ",", "Sports1100_31 -  - Track 31.wav", ",", "Sports1100_32 -  - Track 32.wav", ",", "Sports1100_33 -  - Track 33.wav", ",", "Sports1100_34 -  - Track 34.wav", ",", "Sports1100_35 -  - Track 35.wav", ",", "Sports1100_36 -  - Track 36.wav", ",", "Sports1100_37 -  - Track 37.wav", ",", "Sports1100_38 -  - Track 38.wav", ",", "Sports1100_39 -  - Track 39.wav", ",", "Sports1100_4 -  - Track 4.wav", ",", "Sports1100_40 -  - Track 40.wav", ",", "Sports1100_41 -  - Track 41.wav", ",", "Sports1100_42 -  - Track 42.wav", ",", "Sports1100_43 -  - Track 43.wav", ",", "Sports1100_44 -  - Track 44.wav", ",", "Sports1100_45 -  - Track 45.wav", ",", "Sports1100_46 -  - Track 46.wav", ",", "Sports1100_47 -  - Track 47.wav", ",", "Sports1100_48 -  - Track 48.wav", ",", "Sports1100_49 -  - Track 49.wav", ",", "Sports1100_5 -  - Track 5.wav", ",", "Sports1100_50 -  - Track 50.wav", ",", "Sports1100_51 -  - Track 51.wav", ",", "Sports1100_52 -  - Track 52.wav", ",", "Sports1100_53 -  - Track 53.wav", ",", "Sports1100_54 -  - Track 54.wav", ",", "Sports1100_55 -  - Track 55.wav", ",", "Sports1100_56 -  - Track 56.wav", ",", "Sports1100_57 -  - Track 57.wav", ",", "Sports1100_58 -  - Track 58.wav", ",", "Sports1100_59 -  - Track 59.wav", ",", "Sports1100_6 -  - Track 6.wav", ",", "Sports1100_60 -  - Track 60.wav", ",", "Sports1100_61 -  - Track 61.wav", ",", "Sports1100_62 -  - Track 62.wav", ",", "Sports1100_63 -  - Track 63.wav", ",", "Sports1100_64 -  - Track 64.wav", ",", "Sports1100_65 -  - Track 65.wav", ",", "Sports1100_66 -  - Track 66.wav", ",", "Sports1100_67 -  - Track 67.wav", ",", "Sports1100_68 -  - Track 68.wav", ",", "Sports1100_69 -  - Track 69.wav", ",", "Sports1100_7 -  - Track 7.wav", ",", "Sports1100_70 -  - Track 70.wav", ",", "Sports1100_71 -  - Track 71.wav", ",", "Sports1100_72 -  - Track 72.wav", ",", "Sports1100_73 -  - Track 73.wav", ",", "Sports1100_74 -  - Track 74.wav", ",", "Sports1100_75 -  - Track 75.wav", ",", "Sports1100_76 -  - Track 76.wav", ",", "Sports1100_77 -  - Track 77.wav", ",", "Sports1100_78 -  - Track 78.wav", ",", "Sports1100_79 -  - Track 79.wav", ",", "Sports1100_8 -  - Track 8.wav", ",", "Sports1100_80 -  - Track 80.wav", ",", "Sports1100_81 -  - Track 81.wav", ",", "Sports1100_82 -  - Track 82.wav", ",", "Sports1100_83 -  - Track 83.wav", ",", "Sports1100_84 -  - Track 84.wav", ",", "Sports1100_85 -  - Track 85.wav", ",", "Sports1100_86 -  - Track 86.wav", ",", "Sports1100_87 -  - Track 87.wav", ",", "Sports1100_88 -  - Track 88.wav", ",", "Sports1100_89 -  - Track 89.wav", ",", "Sports1100_9 -  - Track 9.wav", ",", "Sports1100_90 -  - Track 90.wav", ",", "Sports1100_91 -  - Track 91.wav", ",", "Sports1100_92 -  - Track 92.wav", ",", "Sports1100_93 -  - Track 93.wav", ",", "Sports1100_94 -  - Track 94.wav", ",", "Sports1100_95 -  - Track 95.wav", ",", "Sports1100_96 -  - Track 96.wav", ",", "Sports1100_97 -  - Track 97.wav", ",", "Sports1100_98 -  - Track 98.wav" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 114.0, 653.0, 189.5, 22.0 ],
-					"prefix" : "~/Library/CloudStorage/OneDrive-UniversitedeMontreal/2021-2022/Projets/CorpusMachine/Samples/ElectronicDrums/Claps & Claves/",
+					"patching_rect" : [ 190.0, 732.0, 189.5, 22.0 ],
+					"prefix" : "~/Documents/LFO_prog_2022/Sports1100/",
 					"types" : [ "WAVE", "AIFF" ]
 				}
 
@@ -4260,15 +4270,38 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 284.5, 853.5, 30.0, 30.0 ]
+					"patching_rect" : [ 360.5, 949.5, 30.0, 30.0 ]
 				}
 
 			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-1", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-260", 0 ],
+					"midpoints" : [ 113.0, 927.0, 370.0, 927.0 ],
+					"source" : [ "obj-1", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-260", 0 ],
+					"midpoints" : [ 49.5, 927.0, 370.0, 927.0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
-					"midpoints" : [ 657.5, 416.100000023841858, 1084.5, 416.100000023841858 ],
+					"midpoints" : [ 733.5, 495.100000023841858, 1160.5, 495.100000023841858 ],
 					"source" : [ "obj-10", 3 ]
 				}
 
@@ -4276,7 +4309,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-30", 1 ],
-					"midpoints" : [ 604.833333333333371, 743.850000023841858, 514.99999737739563, 743.850000023841858 ],
+					"midpoints" : [ 680.833333333333371, 822.850000023841858, 590.99999737739563, 822.850000023841858 ],
 					"source" : [ "obj-10", 2 ]
 				}
 
@@ -4284,7 +4317,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-30", 1 ],
-					"midpoints" : [ 499.5, 741.850000023841858, 514.99999737739563, 741.850000023841858 ],
+					"midpoints" : [ 575.5, 820.850000023841858, 590.99999737739563, 820.850000023841858 ],
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -4299,7 +4332,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-53", 1 ],
-					"midpoints" : [ 75.5, 166.700000047683716, 185.5, 166.700000047683716 ],
+					"midpoints" : [ 151.5, 245.700000047683716, 261.5, 245.700000047683716 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -4335,7 +4368,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
-					"midpoints" : [ 134.0, 416.100000023841858, 1084.5, 416.100000023841858 ],
+					"midpoints" : [ 210.0, 495.100000023841858, 1160.5, 495.100000023841858 ],
 					"source" : [ "obj-16", 1 ]
 				}
 
@@ -4356,7 +4389,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-11", 0 ],
+					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -4450,7 +4483,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-30", 0 ],
-					"midpoints" : [ 524.166666666666742, 740.850000023841858, 294.0, 740.850000023841858 ],
+					"midpoints" : [ 600.166666666666742, 819.850000023841858, 370.0, 819.850000023841858 ],
 					"source" : [ "obj-35", 0 ]
 				}
 
@@ -4458,7 +4491,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
-					"midpoints" : [ 387.0, 734.0, 449.75, 734.0, 449.75, 642.0, 123.5, 642.0 ],
+					"midpoints" : [ 463.0, 813.0, 525.75, 813.0, 525.75, 721.0, 199.5, 721.0 ],
 					"source" : [ "obj-38", 1 ]
 				}
 
