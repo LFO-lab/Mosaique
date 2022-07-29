@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-40",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 339.0, 692.0, 35.0, 22.0 ],
+					"text" : "clear"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-37",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -529,20 +541,19 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-56",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 388.357139587402344, 661.726544618606567, 588.272723197937012, 35.0 ],
-					"text" : "insert 0 Energy, insert 1 High Frequency Content, insert 2 Spectral Fluc, insert 3 Modified Kullback-Leibler, insert 4 Itakura-Saito, insert 5 Cosine, insert 6 Phase Deviation, insert 7 Weighted Phase Deviation"
+					"patching_rect" : [ 388.357139587402344, 661.726544618606567, 1101.0, 22.0 ],
+					"text" : "insert 0 Energy, insert 1 High Frequency Content, insert 2 Spectral Flux, insert 3 Modified Kullback-Leibler, insert 4 Itakura-Saito, insert 5 Cosine, insert 6 Phase Deviation, insert 7 Weighted Phase Deviation"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-54",
-					"items" : [ "Energy", ",", "High", "Frequency", "Content", ",", "Spectral", "Fluc", ",", "Modified", "Kullback-Leibler", ",", "Itakura-Saito", ",", "Cosine", ",", "Phase", "Deviation", ",", "Weighted", "Phase", "Deviation" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1103,6 +1114,13 @@
 					"midpoints" : [ 89.555202484130859, 231.0, 114.555202484130859, 231.0 ],
 					"order" : 8,
 					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-54", 0 ],
+					"source" : [ "obj-40", 0 ]
 				}
 
 			}
