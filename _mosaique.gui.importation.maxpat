@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 1502.0, 783.0 ],
+		"rect" : [ 34.0, 100.0, 1215.0, 874.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -199,7 +199,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 480.782261584548905, 331.0, 75.200000464916229, 31.000000238418579 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 535.936502546072006, 682.999999761581421, 75.200000464916229, 31.000000238418579 ],
+					"presentation_rect" : [ 535.936502546072006, 688.999999761581421, 75.200000464916229, 31.000000238418579 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -295,7 +295,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 393.782261584548905, 331.0, 75.200000464916229, 31.000000238418579 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 535.936502546072006, 502.0, 75.200000464916229, 31.000000238418579 ],
+					"presentation_rect" : [ 535.936502546072006, 508.0, 75.200000464916229, 31.000000238418579 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -316,7 +316,7 @@
 				"box" : 				{
 					"args" : [ "---" ],
 					"bgmode" : 0,
-					"border" : 0,
+					"border" : 1,
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
@@ -331,7 +331,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 266.900001227855682, 1174.0, 340.0, 229.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.619043707847595, 518.000000238418579, 590.516130208969116, 195.999999761581421 ],
+					"presentation_rect" : [ 20.619043707847595, 566.000000238418579, 590.516130208969116, 195.999999761581421 ],
 					"viewvisibility" : 1
 				}
 
@@ -477,7 +477,7 @@
 				"box" : 				{
 					"args" : [ "---" ],
 					"bgmode" : 0,
-					"border" : 0,
+					"border" : 1,
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
@@ -492,7 +492,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 802.806455761194229, 945.854589402675629, 664.322582364082336, 196.935483813285828 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.619043707847595, 341.717875003814697, 590.516130208969116, 210.290322840213776 ],
+					"presentation_rect" : [ 20.619043707847595, 347.717875003814697, 590.516130208969116, 210.290322840213776 ],
 					"viewvisibility" : 1
 				}
 
@@ -501,7 +501,7 @@
 				"box" : 				{
 					"args" : [ "---" ],
 					"bgmode" : 0,
-					"border" : 0,
+					"border" : 1,
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
@@ -556,7 +556,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 139.400001227855682, 458.0, 75.200000464916229, 31.000000238418579 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 107.41269588470459, 735.771484732627869, 75.200000464916229, 31.000000238418579 ],
+					"presentation_rect" : [ 107.41269588470459, 783.771484732627869, 75.200000464916229, 31.000000238418579 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -584,7 +584,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 293.000002205371857, 331.0, 75.200000464916229, 31.000000238418579 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.619043707847595, 735.771484732627869, 75.200000464916229, 31.000000238418579 ],
+					"presentation_rect" : [ 20.619043707847595, 783.771484732627869, 75.200000464916229, 31.000000238418579 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],

@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 11,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1468.0, 705.0 ],
+		"rect" : [ 356.0, 176.0, 1468.0, 705.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,14 +40,13 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"comment" : "",
-					"id" : "obj-5",
-					"index" : 0,
-					"maxclass" : "inlet",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 317.499999642372131, 175.000003892711675, 30.0, 30.0 ]
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 148.0, 73.000003892711675, 1363.0, 22.0 ],
+					"text" : "route bang pointSize"
 				}
 
 			}
@@ -60,7 +59,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 544.999999642372131, 207.000003892711675, 30.0, 30.0 ],
+					"patching_rect" : [ 498.999999642372131, 247.000003892711675, 30.0, 30.0 ],
 					"varname" : "Nearest point"
 				}
 
@@ -72,7 +71,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 240.250001549720764, 44.000003892711675, 197.0, 22.0 ],
+					"patching_rect" : [ 223.499999642372131, 103.000003892711675, 197.0, 22.0 ],
 					"text" : "receive #1Mosaique_loadedCorpus"
 				}
 
@@ -85,7 +84,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 455.499999642372131, 618.0, 30.0, 30.0 ]
+					"patching_rect" : [ 409.499999642372131, 658.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -96,7 +95,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "dump", "bang" ],
-					"patching_rect" : [ 194.0, 93.0, 665.0, 22.0 ],
+					"patching_rect" : [ 148.0, 133.0, 665.0, 22.0 ],
 					"text" : "t dump b"
 				}
 
@@ -108,7 +107,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 544.999999642372131, 268.600002756198819, 101.0, 22.0 ],
+					"patching_rect" : [ 498.999999642372131, 308.600002756198819, 101.0, 22.0 ],
 					"text" : "prepend highlight"
 				}
 
@@ -120,7 +119,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 684.499999642372131, 250.600002756198819, 76.0, 22.0 ],
+					"patching_rect" : [ 638.499999642372131, 290.600002756198819, 76.0, 22.0 ],
 					"text" : "yrange -1. 1."
 				}
 
@@ -132,21 +131,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 704.200000941753387, 283.600002756198819, 76.0, 22.0 ],
+					"patching_rect" : [ 658.200000941753387, 323.600002756198819, 76.0, 22.0 ],
 					"text" : "xrange -1. 1."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"format" : 6,
-					"id" : "obj-11",
-					"maxclass" : "flonum",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 317.499999642372131, 219.600002338966306, 50.0, 22.0 ]
 				}
 
 			}
@@ -157,7 +143,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 317.499999642372131, 267.699992170413907, 101.0, 22.0 ],
+					"patching_rect" : [ 820.0, 318.600002756198819, 101.0, 22.0 ],
 					"text" : "pointsizescale $1"
 				}
 
@@ -169,7 +155,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "clear" ],
-					"patching_rect" : [ 455.499999642372131, 268.600002756198819, 47.0, 22.0 ],
+					"patching_rect" : [ 409.499999642372131, 308.600002756198819, 47.0, 22.0 ],
 					"text" : "t l clear"
 				}
 
@@ -183,7 +169,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 455.499999642372131, 320.866672892711676, 248.0, 248.0 ],
+					"patching_rect" : [ 409.499999642372131, 360.866672892711676, 248.0, 248.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 3.331683069467545, 416.500010460615158, 400.831683069467545 ]
 				}
@@ -196,7 +182,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 455.499999642372131, 226.600002756198819, 69.0, 22.0 ],
+					"patching_rect" : [ 409.499999642372131, 266.600002756198819, 69.0, 22.0 ],
 					"text" : "route dump"
 				}
 
@@ -208,7 +194,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 193.999999642372131, 143.399999787887396, 256.0, 22.0 ],
+					"patching_rect" : [ 147.999999642372131, 183.399999787887396, 256.0, 22.0 ],
 					"text" : "fluid.dataset~ #1Mosaique_normalizedDataset"
 				}
 
@@ -222,7 +208,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 193.999999642372131, 40.000003892711675, 30.0, 30.0 ]
+					"patching_rect" : [ 148.0, 8.000003892711675, 30.0, 30.0 ]
 				}
 
 			}
@@ -268,13 +254,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-107", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
-					"source" : [ "obj-11", 0 ]
 				}
 
 			}
@@ -336,29 +315,36 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
+					"destination" : [ "obj-6", 0 ],
 					"source" : [ "obj-44", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-11", 0 ],
-					"source" : [ "obj-5", 0 ]
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"source" : [ "obj-6", 1 ]
 				}
 
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "fluid.plotter.js",
-				"bootpath" : "~/Documents/Max 8/Packages/FluidCorpusManipulation/jsui",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/FluidCorpusManipulation/jsui",
-				"type" : "TEXT",
-				"implicit" : 1
+				"name" : "fluid.libmanipulation.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "fluid.libmanipulation.mxe64",
-				"type" : "mx64"
+				"name" : "fluid.plotter.js",
+				"bootpath" : "~/Documents/Max 8/Packages/FluidCorpusManipulation/jsui",
+				"patcherrelativepath" : "../../Max 8/Packages/FluidCorpusManipulation/jsui",
+				"type" : "TEXT",
+				"implicit" : 1
 			}
  ],
 		"autosave" : 0
