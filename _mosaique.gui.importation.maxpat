@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 1,
+			"minor" : 5,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -40,14 +40,25 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-6",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 540.0, 864.0, 150.0, 47.0 ],
-					"text" : "<--- Un progress bar pour voir l'évolution des processus?",
-					"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"args" : [ "#1", "#2" ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-3",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "_mosaique.gui.segmentation.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 869.0, 358.0, 345.0, 190.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 866.0, 348.0, 358.0, 189.0 ],
+					"viewvisibility" : 1
 				}
 
 			}
@@ -68,7 +79,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1093.0, 358.0, 345.0, 190.0 ],
+					"patching_rect" : [ 1355.0, 358.0, 345.0, 190.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.619043707847595, 2.0, 358.0, 189.0 ],
 					"viewvisibility" : 1
@@ -116,7 +127,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1124.0, 781.600004374980927, 202.0, 20.0 ],
+					"patching_rect" : [ 1376.0, 780.600004374980927, 202.0, 20.0 ],
 					"text" : "<--- Path is stored until OK is clicked"
 				}
 
@@ -124,80 +135,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-8",
-					"linecount" : 8,
+					"linecount" : 6,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 875.0, 544.0, 150.0, 114.0 ],
+					"patching_rect" : [ 888.0, 571.0, 223.0, 87.0 ],
 					"text" : "Toujours vrai?\n\nRapporté par Jordan :\nLe patch bloque dans l'envoi de messages à BufOnsetSlice -Phase Deviation et BufNoveltySlice-Loudness"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-68",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1216.235485289840653, 635.600004136562347, 22.0, 22.0 ],
-					"text" : "t b"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-67",
-					"maxclass" : "live.text",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 1216.235485289840653, 597.600004136562347, 75.200000464916229, 31.000000238418579 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 535.936502546072006, 306.460832118988037, 75.200000464916229, 31.000000238418579 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[9]",
-							"parameter_mmax" : 1,
-							"parameter_shortname" : "live.text[2]",
-							"parameter_type" : 2
-						}
-
-					}
-,
-					"text" : "Re-slice",
-					"varname" : "live.text[7]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-66",
-					"maxclass" : "live.text",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 1216.235485289840653, 670.600004136562347, 75.200000464916229, 31.000000238418579 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 440.782261584548905, 306.460832118988037, 75.200000464916229, 31.000000238418579 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[8]",
-							"parameter_mmax" : 1,
-							"parameter_shortname" : "live.text[2]",
-							"parameter_type" : 2
-						}
-
-					}
-,
-					"text" : "Preview",
-					"varname" : "live.text[4]"
 				}
 
 			}
@@ -265,7 +208,7 @@
 				"box" : 				{
 					"comment" : "Path of corpus to be loaded",
 					"id" : "obj-33",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -348,7 +291,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 491.000002205371857, 780.600004374980927, 620.999997794628143, 22.0 ],
+					"patching_rect" : [ 491.000002205371857, 780.600004374980927, 882.999997794628143, 22.0 ],
 					"text" : "zl.reg"
 				}
 
@@ -370,11 +313,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 35.0, 16.0, 30.0, 30.0 ]
 				}
 
@@ -434,6 +377,7 @@
 				"patchline" : 				{
 					"color" : [ 0.0, 0.7422034740448, 0.0, 1.0 ],
 					"destination" : [ "obj-11", 0 ],
+					"order" : 1,
 					"source" : [ "obj-27", 3 ]
 				}
 
@@ -449,6 +393,15 @@
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
 					"source" : [ "obj-27", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.0, 0.7422034740448, 0.0, 1.0 ],
+					"destination" : [ "obj-3", 0 ],
+					"order" : 0,
+					"source" : [ "obj-27", 3 ]
 				}
 
 			}
@@ -470,7 +423,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 1 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-47", 1 ]
 				}
 
@@ -485,7 +438,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
-					"order" : 1,
+					"order" : 2,
+					"source" : [ "obj-47", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 1 ],
+					"order" : 0,
 					"source" : [ "obj-47", 1 ]
 				}
 
@@ -507,13 +468,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-68", 0 ],
-					"source" : [ "obj-67", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"source" : [ "obj-9", 1 ]
 				}
@@ -526,54 +480,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-11::obj-13" : [ "live.numbox", "live.numbox", 0 ],
-			"obj-11::obj-16" : [ "live.numbox[3]", "live.numbox", 0 ],
-			"obj-11::obj-23" : [ "number", "live.numbox", 0 ],
-			"obj-11::obj-24" : [ "number[1]", "live.numbox", 0 ],
-			"obj-11::obj-66" : [ "live.menu[5]", "live.menu", 0 ],
-			"obj-19" : [ "live.text[2]", "live.text[2]", 0 ],
-			"obj-20" : [ "live.text[3]", "live.text[2]", 0 ],
-			"obj-21::obj-10" : [ "live.text[1]", "live.text", 0 ],
-			"obj-21::obj-7" : [ "live.text", "live.text", 0 ],
-			"obj-66" : [ "live.text[8]", "live.text[2]", 0 ],
-			"obj-67" : [ "live.text[9]", "live.text[2]", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "_mosaique.dictValueGetSet.maxpat",
-				"bootpath" : "~/Documents/GitHub/Corpus",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "_mosaique.gui.importPath.maxpat",
-				"bootpath" : "~/Documents/GitHub/Corpus",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "_mosaique.gui.silenceRemoval.maxpat",
-				"bootpath" : "~/Documents/GitHub/Corpus",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
