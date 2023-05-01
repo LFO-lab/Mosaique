@@ -90,7 +90,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-4",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -197,11 +197,11 @@
 				"box" : 				{
 					"comment" : "Bang to initialize GUI",
 					"id" : "obj-15",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 264.474582691987052, 42.857143402099609, 30.0, 30.0 ]
 				}
 
@@ -428,8 +428,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 506.357139587402344, 440.474023818969727, 194.0, 49.0 ],
-					"text" : "insert 0 Spectrum, insert 1 MFCC, insert 2 Chroma, insert 3 Pitch, insert 4 Loudness, 0"
+					"patching_rect" : [ 506.357139587402344, 440.474023818969727, 185.415580749511719, 49.0 ],
+					"text" : "insert 0 Spectrum, insert 1 MFCC, insert 2 Chroma, insert 3 Pitch, insert 4 Loudness"
 				}
 
 			}
@@ -453,8 +453,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 331.357139587402344, 508.83765983581543, 389.0, 49.0 ],
-					"text" : "insert 0 Energy, insert 1 High Frequency Content, insert 2 Spectral Flux, insert 3 Modified Kullback-Leibler, insert 4 Itakura-Saito, insert 5 Cosine, insert 6 Phase Deviation, insert 7 Weighted Phase Deviation, 0"
+					"patching_rect" : [ 331.357139587402344, 508.83765983581543, 395.0, 49.0 ],
+					"text" : "insert 0 Energy, insert 1 High Frequency Content, insert 2 Spectral Flux, insert 3 Modified Kullback-Leibler, insert 4 Itakura-Saito, insert 5 Cosine, insert 6 Phase Deviation, insert 7 Weighted Phase Deviation"
 				}
 
 			}
@@ -462,7 +462,7 @@
 				"box" : 				{
 					"id" : "obj-54",
 					"ignoreclick" : 1,
-					"items" : [ "Energy", ",", "High", "Frequency", "Content", ",", "Spectral", "Flux", ",", "Modified", "Kullback-Leibler", ",", "Itakura-Saito", ",", "Cosine", ",", "Phase", "Deviation", ",", "Weighted", "Phase", "Deviation", ",", "Spectrum", ",", "MFCC", ",", "Chroma", ",", "Pitch", ",", "Loudness" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -517,11 +517,11 @@
 				"box" : 				{
 					"comment" : "Bang to store value",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 35.474582691987052, 271.857143402099609, 30.0, 30.0 ]
 				}
 
@@ -1017,33 +1017,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-11" : [ "number[2]", "live.numbox", 0 ],
-			"obj-29" : [ "number[3]", "live.numbox", 0 ],
-			"obj-3" : [ "number[4]", "live.numbox", 0 ],
-			"obj-31" : [ "live.menu[4]", "live.menu", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "_mosaique.dictValueGetSet.maxpat",
-				"bootpath" : "~/Documents/GitHub/Corpus",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

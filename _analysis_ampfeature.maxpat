@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 1468.0, 705.0 ],
+		"rect" : [ 157.0, 382.0, 1468.0, 705.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -281,8 +281,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 154.5, 487.0, 311.0, 22.0 ],
-					"text" : "fluid.bufampfeature~ @source ---Mosaique_corpusAudio"
+					"patching_rect" : [ 154.5, 487.0, 377.0, 22.0 ],
+					"text" : "fluid.bufampfeature~ @source ---Mosaique_corpusAudio @floor -144"
 				}
 
 			}
