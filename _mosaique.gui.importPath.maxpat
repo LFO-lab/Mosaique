@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 1,
+			"minor" : 5,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 125.0, 1048.0, 760.0 ],
+		"rect" : [ 740.0, 106.0, 1048.0, 760.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,19 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"comment" : "",
+					"id" : "obj-2",
+					"index" : 0,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 889.0, 413.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "newobj",
@@ -79,7 +92,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 491.0, 531.0, 151.0, 20.0 ],
+					"patching_rect" : [ 594.0, 533.0, 151.0, 20.0 ],
 					"text" : "<--- Just for display of path"
 				}
 
@@ -91,40 +104,24 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 50.0, 125.769237875938416, 302.0, 22.0 ],
-					"text" : "_mosaique.dictValueGetSet #1 #2Corpus::audioSource"
+					"patching_rect" : [ 50.0, 125.769237875938416, 327.0, 22.0 ],
+					"text" : "_mosaique.dictValueGetSet #1 #2Corpus::audioSourcePath"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 1.0 ],
-					"fontname" : "Arial Italic",
-					"fontsize" : 6.0,
-					"id" : "obj-31",
-					"ignoreclick" : 1,
-					"maxclass" : "textedit",
-					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "int", "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 286.500000715255737, 524.5, 200.0, 33.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 21.119043707847595, 146.0, 292.0, 27.0 ],
-					"rounded" : 3.0
-				}
-
-			}
-, 			{
-				"box" : 				{
+					"fontface" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 16.0,
 					"id" : "obj-25",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 479.055050313472748, 189.575179755687714, 150.0, 20.0 ],
+					"patching_rect" : [ 479.055050313472748, 189.575179755687714, 212.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 125.119043707847595, -2.0, 85.0, 20.0 ],
-					"text" : "Import Corpus"
+					"presentation_rect" : [ 58.119043707847595, 6.0, 119.0, 24.0 ],
+					"text" : "Corpus Import"
 				}
 
 			}
@@ -163,7 +160,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 286.500000715255737, 314.0, 79.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 186.119043707847595, 119.0, 128.0, 25.0 ],
+					"presentation_rect" : [ 450.119043707847595, 6.0, 128.0, 25.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -215,7 +212,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 151.5, 314.0, 66.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 21.119043707847595, 119.0, 128.0, 25.0 ],
+					"presentation_rect" : [ 313.119043707847595, 6.0, 128.0, 25.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -229,31 +226,6 @@
 ,
 					"text" : "Load Folder",
 					"varname" : "live.text"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-22",
-					"maxclass" : "dropfile",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 88.0, 206.0, 289.532260481862977, 97.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 21.119043707847595, 20.0, 293.0, 97.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-13",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 88.0, 317.0, 53.0, 22.0 ],
-					"text" : "pack s s"
 				}
 
 			}
@@ -294,6 +266,28 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 1.0 ],
+					"fontname" : "Arial Italic",
+					"fontsize" : 8.0,
+					"id" : "obj-31",
+					"ignoreclick" : 1,
+					"linecount" : 3,
+					"maxclass" : "textedit",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 286.500000715255737, 524.5, 293.0, 37.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 4.119043707847595, 35.0, 582.0, 24.0 ],
+					"rounded" : 3.0,
+					"text" : "\"Macintosh HD:/Users/dthibault/Library/CloudStorage/OneDrive-UniversitedeMontreal/2022-2023/Automne 2022/MUS3324X/AUDIO/\"",
+					"textjustification" : 1
+				}
+
+			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -314,23 +308,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-10", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
-					"order" : 1,
-					"source" : [ "obj-13", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"color" : [ 0.652462959289551, 0.670088410377502, 0.041276294738054, 1.0 ],
-					"destination" : [ "obj-32", 0 ],
-					"order" : 0,
-					"source" : [ "obj-13", 0 ]
 				}
 
 			}
@@ -377,15 +354,17 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-13", 1 ],
-					"source" : [ "obj-22", 1 ]
+					"destination" : [ "obj-17", 0 ],
+					"order" : 1,
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-13", 0 ],
-					"source" : [ "obj-22", 0 ]
+					"destination" : [ "obj-32", 0 ],
+					"order" : 0,
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}

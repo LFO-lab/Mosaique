@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 163.0, 106.0, 1893.0, 1005.0 ],
+		"rect" : [ 768.0, 106.0, 1288.0, 802.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,9 +40,33 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 744.0, 537.0, 29.5, 22.0 ],
+					"text" : "t b l"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1815.0, 273.0, 53.0, 22.0 ],
+					"text" : "pack s s"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"args" : [ "#1", "#2" ],
 					"bgmode" : 0,
-					"border" : 0,
+					"border" : 1,
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
@@ -54,10 +78,10 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 869.0, 358.0, 345.0, 190.0 ],
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 744.0, 358.0, 285.0, 160.258065640926361 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 866.0, 348.0, 358.0, 189.0 ],
+					"presentation_rect" : [ 286.0, 238.0, 285.0, 159.478238821029663 ],
 					"viewvisibility" : 1
 				}
 
@@ -75,13 +99,13 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "_mosaique.gui.importPath.maxpat",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1355.0, 358.0, 345.0, 190.0 ],
+					"patching_rect" : [ 1733.0, 358.0, 609.0, 194.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.619043707847595, 2.0, 358.0, 189.0 ],
+					"presentation_rect" : [ 5.619043707847595, 2.0, 593.0, 66.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -112,11 +136,12 @@
 					"maxclass" : "bpatcher",
 					"name" : "_mosaique.gui.silenceRemoval.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 0,
+					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 526.344084302584292, 358.0, 199.322582364082336, 160.258065640926361 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 635.112903390674546, 177.982593536376953, 590.516130208969116, 159.478238821029663 ],
+					"presentation_rect" : [ 37.619043707847595, 238.0, 205.516130208969116, 159.478238821029663 ],
 					"viewvisibility" : 1
 				}
 
@@ -127,7 +152,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1376.0, 780.600004374980927, 202.0, 20.0 ],
+					"patching_rect" : [ 1773.0, 780.600004374980927, 202.0, 20.0 ],
 					"text" : "<--- Path is stored until OK is clicked"
 				}
 
@@ -139,7 +164,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 888.0, 571.0, 223.0, 87.0 ],
+					"patching_rect" : [ 1345.0, 57.0, 223.0, 87.0 ],
 					"text" : "Toujours vrai?\n\nRapporté par Jordan :\nLe patch bloque dans l'envoi de messages à BufOnsetSlice -Phase Deviation et BufNoveltySlice-Loudness"
 				}
 
@@ -239,7 +264,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 247.400001227855682, 200.0, 75.200000464916229, 31.000000238418579 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 107.41269588470459, 783.771484732627869, 75.200000464916229, 31.000000238418579 ],
+					"presentation_rect" : [ 349.41269588470459, 405.771484732627869, 126.200000464916229, 31.000000238418579 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -267,7 +292,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 406.344084302584292, 200.0, 75.200000464916229, 31.000000238418579 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.619043707847595, 783.771484732627869, 75.200000464916229, 31.000000238418579 ],
+					"presentation_rect" : [ 85.935173451900482, 405.771484732627869, 126.200000464916229, 31.000000238418579 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -291,7 +316,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 491.000002205371857, 780.600004374980927, 882.999997794628143, 22.0 ],
+					"patching_rect" : [ 491.000002205371857, 780.600004374980927, 1260.999997794628143, 22.0 ],
 					"text" : "zl.reg"
 				}
 
@@ -322,6 +347,19 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"id" : "obj-22",
+					"maxclass" : "dropfile",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1815.0, 166.0, 289.532260481862977, 97.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 5.619043707847595, 2.0, 593.0, 448.0 ]
+				}
+
+			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -334,6 +372,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
 					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 1 ],
+					"source" : [ "obj-14", 0 ]
 				}
 
 			}
@@ -362,6 +407,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-18", 1 ],
 					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 1 ],
+					"source" : [ "obj-22", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"source" : [ "obj-22", 0 ]
 				}
 
 			}
@@ -410,6 +469,13 @@
 					"destination" : [ "obj-34", 0 ],
 					"midpoints" : [ 415.844084302584292, 532.0, 256.900001227855682, 532.0 ],
 					"source" : [ "obj-27", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
