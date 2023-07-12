@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 585.0, 87.0, 485.0, 819.0 ],
+		"rect" : [ 585.0, 87.0, 1172.0, 819.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,14 +40,14 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"comment" : "server_call_reset",
-					"id" : "obj-25",
+					"comment" : "server_reset_call",
+					"id" : "obj-23",
 					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 576.0, 265.0, 30.0, 30.0 ]
+					"patching_rect" : [ 603.500000000000114, 290.396304965019226, 30.0, 30.0 ]
 				}
 
 			}
@@ -171,7 +171,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 40.500000000000114, 30.0, 30.0, 30.0 ]
 				}
 
@@ -284,7 +284,7 @@
 						"count" : 1,
 						"data" : [ 							{
 								"key" : "---",
-								"value" : [ 4, "4Corpus", 1, "0.8268 0.6693 0.7323 1.0000", 3, "3Corpus", 1, "0.4724 0.8583 0.9055 1.0000", 2, "2Corpus", 1, "0.0079 0.6142 0.1654 1.0000", 1, "1Corpus", 1, "0.9606 0.0000 0.5354 1.0000" ]
+								"value" : [ 4, "4Corpus", 1, "0.6299 0.5512 0.1181 1.0000", 3, "3Corpus", 1, "0.0866 0.0945 0.5984 1.0000", 2, "2Corpus", 1, "0.6772 0.7953 0.7717 1.0000", 1, "1Corpus", 1, "0.2126 0.6063 0.9291 1.0000" ]
 							}
  ]
 					}
@@ -1153,7 +1153,7 @@
 										"count" : 1,
 										"data" : [ 											{
 												"key" : "---",
-												"value" : [ 4, "4Corpus", 1, "0.8268 0.6693 0.7323 1.0000", 3, "3Corpus", 1, "0.4724 0.8583 0.9055 1.0000", 2, "2Corpus", 1, "0.0079 0.6142 0.1654 1.0000", 1, "1Corpus", 1, "0.9606 0.0000 0.5354 1.0000" ]
+												"value" : [ 4, "4Corpus", 1, "0.6299 0.5512 0.1181 1.0000", 3, "3Corpus", 1, "0.0866 0.0945 0.5984 1.0000", 2, "2Corpus", 1, "0.6772 0.7953 0.7717 1.0000", 1, "1Corpus", 1, "0.2126 0.6063 0.9291 1.0000" ]
 											}
  ]
 									}
@@ -3075,7 +3075,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-27",
-					"items" : "<empty>",
+					"items" : [ "ALL", "CORPORAE", ",", "1Corpus", ",", "2Corpus", ",", "3Corpus", ",", "4Corpus", ",", "xxx" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3277,7 +3277,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"source" : [ "obj-25", 0 ]
+					"source" : [ "obj-23", 0 ]
 				}
 
 			}
