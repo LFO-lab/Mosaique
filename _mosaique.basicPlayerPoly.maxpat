@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 106.0, 167.0, 1852.0, 884.0 ],
+		"rect" : [ 428.0, 106.0, 1852.0, 884.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 604.0, 407.594935297966003, 72.0, 22.0 ],
+					"text" : "prepend set"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-122",
 					"maxclass" : "newobj",
@@ -536,7 +548,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "" ],
-					"patching_rect" : [ 167.0, 453.594935297966003, 40.0, 22.0 ],
+					"patching_rect" : [ 167.0, 407.594935297966003, 40.0, 22.0 ],
 					"text" : "t b b l"
 				}
 
@@ -561,7 +573,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "float", "float", "float", "" ],
-					"patching_rect" : [ 167.0, 307.645569205284119, 137.0, 22.0 ],
+					"patching_rect" : [ 167.0, 307.645569205284119, 456.0, 22.0 ],
 					"text" : "_mosaique.sliceInfos #1"
 				}
 
@@ -636,7 +648,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 158.578955272833525, 293.702530711889267, 735.784807205200195, 53.392404586076736 ],
-					"proportion" : 0.5
+					"proportion" : 0.5,
+					"saved_attribute_attributes" : 					{
+						"bgfillcolor" : 						{
+							"expression" : ""
+						}
+
+					}
+
 				}
 
 			}
@@ -810,6 +829,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"midpoints" : [ 613.5, 628.572672992944717, 176.487340867519379, 628.572672992944717 ],
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-77", 1 ],
 					"source" : [ "obj-4", 0 ]
 				}
@@ -877,6 +904,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-58", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-62", 0 ],
 					"source" : [ "obj-58", 0 ]
 				}
@@ -922,7 +956,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-87", 0 ],
-					"midpoints" : [ 187.0, 481.27607524394989, 649.272144794464111, 481.27607524394989 ],
+					"midpoints" : [ 187.0, 452.27607524394989, 649.272144794464111, 452.27607524394989 ],
 					"source" : [ "obj-62", 1 ]
 				}
 
@@ -1106,24 +1140,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "_mosaique.sliceInfos.maxpat",
-				"bootpath" : "~/Documents/GitHub/Corpus",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fluid.buf2list.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.dataset~.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
