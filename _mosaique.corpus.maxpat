@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 104.0, 106.0, 1739.0, 958.0 ],
+		"rect" : [ 158.0, 106.0, 1739.0, 958.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -224,7 +224,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.992125984251969, 0.669291338582677, 0.291338582677165, 1.0 ],
+					"bgcolor" : [ 0.299212598425197, 0.590551181102362, 0.078740157480315, 1.0 ],
 					"id" : "obj-4",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -490,7 +490,7 @@
 					"parameter_mappable" : 0,
 					"patching_rect" : [ 1206.0, 248.0, 48.0, 15.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 256.5, 41.0, 48.0, 15.5 ],
+					"presentation_rect" : [ 209.5, 39.0, 48.0, 15.5 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "0", "1" ],
@@ -522,7 +522,7 @@
 					"parameter_mappable" : 0,
 					"patching_rect" : [ 1206.0, 226.5, 48.0, 19.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 256.5, 19.5, 48.0, 19.5 ],
+					"presentation_rect" : [ 209.5, 17.5, 48.0, 19.5 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "0", "1" ],
@@ -615,7 +615,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 994.0, 226.5, 208.0, 35.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 42.0, 19.5, 214.0, 35.0 ],
+					"presentation_rect" : [ 42.0, 19.5, 168.0, 35.0 ],
 					"text" : "#2Corpus",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
