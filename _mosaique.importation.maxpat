@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 4,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 209.0, 208.0, 896.0, 593.0 ],
+		"rect" : [ 444.0, 217.0, 1398.0, 923.0 ],
 		"openrect" : [ 0.0, 0.0, 600.0, 133.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -40,6 +40,89 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 711.0, 890.236343741416931, 35.0, 22.0 ],
+					"text" : "clear"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-62",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 854.0, 543.0, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-61",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 854.0, 571.467741906642914, 35.0, 22.0 ],
+					"text" : "clear"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-51",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "int", "int" ],
+					"patching_rect" : [ 792.0, 1016.0, 379.0, 22.0 ],
+					"text" : "t b i i"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-50",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 930.119772043493072, 1462.398143827915192, 144.0, 20.0 ],
+					"text" : "number of sounds loaded"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "Number of sounds loaded",
+					"id" : "obj-39",
+					"index" : 2,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 887.619772043493072, 1457.398143827915192, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-37",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 887.619772043493072, 1409.381033539772034, 29.5, 22.0 ],
+					"text" : "int"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-72",
 					"maxclass" : "newobj",
@@ -182,7 +265,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 619.0, 407.5, 101.0, 22.0 ],
+					"patching_rect" : [ 596.0, 464.5, 101.0, 22.0 ],
 					"text" : "opendialog folder"
 				}
 
@@ -196,7 +279,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 619.0, 378.0, 66.0, 25.0 ],
+					"patching_rect" : [ 596.0, 435.0, 66.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 450.119043707847595, 7.0, 128.0, 25.0 ],
 					"saved_attribute_attributes" : 					{
@@ -234,7 +317,6 @@
 					"fontsize" : 8.0,
 					"id" : "obj-52",
 					"ignoreclick" : 1,
-					"linecount" : 3,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
@@ -242,10 +324,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 793.000000715255737, 608.5, 293.0, 37.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
 					"presentation_rect" : [ 11.119043707847595, 42.0, 582.0, 32.0 ],
 					"rounded" : 3.0,
-					"text" : "\"Macintosh HD:/Users/dthibault/Library/CloudStorage/OneDrive-UniversitedeMontreal/2021-2022/Projets/CorpusMachine/Samples/ElectronicDrums/Claps & Claves/\"",
 					"textjustification" : 1
 				}
 
@@ -280,9 +360,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 4,
-					"outlettype" : [ "bang", "bang", "dump", "bang" ],
-					"patching_rect" : [ 792.175327599048615, 1349.398143827915192, 162.0, 22.0 ],
-					"text" : "t b b dump b"
+					"outlettype" : [ "bang", "bang", "bang", "bang" ],
+					"patching_rect" : [ 792.175327599048615, 1349.398143827915192, 162.166666666666629, 22.0 ],
+					"text" : "t b b b b"
 				}
 
 			}
@@ -298,7 +378,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -845,7 +925,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1216,7 +1296,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1616,7 +1696,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-59",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1667,7 +1747,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1649.675327599048615, 1454.034487664699554, 97.0, 20.0 ],
+					"patching_rect" : [ 1257.675327599048615, 1490.034487664699554, 97.0, 20.0 ],
 					"text" : "Reset procedure"
 				}
 
@@ -1679,7 +1759,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1674.675327599048615, 1538.600119441747665, 295.0, 22.0 ],
+					"patching_rect" : [ 1282.675327599048615, 1574.600119441747665, 295.0, 22.0 ],
 					"text" : "_mosaique.dictValueGetSet #1 #2Corpus::analysisSR"
 				}
 
@@ -1690,7 +1770,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2108.175327599048615, 1511.300119489431381, 143.0, 22.0 ],
+					"patching_rect" : [ 1716.175327599048615, 1547.300119489431381, 143.0, 22.0 ],
 					"text" : "_mosaique.clearAll #1 #2"
 				}
 
@@ -1702,7 +1782,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "float", "int", "int" ],
-					"patching_rect" : [ 1873.675327599048615, 1507.300119489431381, 61.0, 22.0 ],
+					"patching_rect" : [ 1481.675327599048615, 1543.300119489431381, 61.0, 22.0 ],
 					"text" : "dspstate~"
 				}
 
@@ -1714,7 +1794,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "bang" ],
-					"patching_rect" : [ 1639.175327599048615, 1476.034487664699554, 488.0, 22.0 ],
+					"patching_rect" : [ 1247.175327599048615, 1512.034487664699554, 488.0, 22.0 ],
 					"text" : "t b b b"
 				}
 
@@ -1726,7 +1806,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1639.175327599048615, 1569.300119489431381, 211.0, 22.0 ],
+					"patching_rect" : [ 1247.175327599048615, 1605.300119489431381, 211.0, 22.0 ],
 					"text" : "send #1Mosaique_importingCorpus"
 				}
 
@@ -1735,7 +1815,7 @@
 				"box" : 				{
 					"comment" : "Importation done!",
 					"id" : "obj-260",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1754,7 +1834,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1918,7 +1998,7 @@
 					"autopopulate" : 1,
 					"depth" : 100,
 					"id" : "obj-95",
-					"items" : [ "101_Drums_17.wav", ",", "101_Drums_18.wav", ",", "101_Drums_19.wav", ",", "101_Drums_20.wav", ",", "101_Drums_21.wav", ",", "101_Drums_22.wav", ",", "101_Drums_23.wav", ",", "101_Drums_24.wav", ",", "101_Drums_25.wav", ",", "101_Drums_26.wav", ",", "101_Drums_27.wav", ",", "101_Drums_28.wav", ",", "101_Drums_29.wav", ",", "101_Drums_30.wav", ",", "101_Drums_31.wav", ",", "101_Drums_33.wav", ",", "101_Drums_34.wav", ",", "101_Drums_35.wav", ",", "101_Drums_51.wav", ",", "101_Drums_58.wav", ",", "101_Drums_59.wav", ",", "Bell-MO_01_F#.wav", ",", "Bell-MO_02_F#.wav", ",", "Bell-MO_03_F#.wav", ",", "Bell-MO_04_B.wav", ",", "Bell-MO_05_F#_A.wav", ",", "Bell-MO_06_C#.wav", ",", "Bell-MO_07_F#.wav", ",", "Bell-MO_08_A#.wav", ",", "Clap-707-1.wav", ",", "Clap-707-10.wav", ",", "Clap-707-11.wav", ",", "Clap-707-12.wav", ",", "Clap-707-13.wav", ",", "Clap-707-14.wav", ",", "Clap-707-15.wav", ",", "Clap-707-16.wav", ",", "Clap-707-17.wav", ",", "Clap-707-18.wav", ",", "Clap-707-19.wav", ",", "Clap-707-2.wav", ",", "Clap-707-20.wav", ",", "Clap-707-21.wav", ",", "Clap-707-22.wav", ",", "Clap-707-23.wav", ",", "Clap-707-24.wav", ",", "Clap-707-25.wav", ",", "Clap-707-26.wav", ",", "Clap-707-27.wav", ",", "Clap-707-28.wav", ",", "Clap-707-29.wav", ",", "Clap-707-3.wav", ",", "Clap-707-30.wav", ",", "Clap-707-31.wav", ",", "Clap-707-32.wav", ",", "Clap-707-33.wav", ",", "Clap-707-34.wav", ",", "Clap-707-35.wav", ",", "Clap-707-36.wav", ",", "Clap-707-37.wav", ",", "Clap-707-38.wav", ",", "Clap-707-39.wav", ",", "Clap-707-4.wav", ",", "Clap-707-40.wav", ",", "Clap-707-41.wav", ",", "Clap-707-42.wav", ",", "Clap-707-43.wav", ",", "Clap-707-44.wav", ",", "Clap-707-45.wav", ",", "Clap-707-46.wav", ",", "Clap-707-47.wav", ",", "Clap-707-48.wav", ",", "Clap-707-5.wav", ",", "Clap-707-6.wav", ",", "Clap-707-7.wav", ",", "Clap-707-8.wav", ",", "Clap-707-9.wav", ",", "Clap-Combo-707-55.wav", ",", "Clap-Combo-707-56.wav", ",", "Clap-Combo-707-57.wav", ",", "Clap-Combo-707-58.wav", ",", "Clap-Combo-707-59.wav", ",", "Clap-Combo-707-60.wav", ",", "Clap-Combo-707-61.wav", ",", "Clap-MO_01.wav", ",", "Clap-MO_02.wav", ",", "Clap-MO_03.wav", ",", "Clap-MO_04.wav", ",", "Clap-MO_05.wav", ",", "Clap-MO_06.wav", ",", "Clap-MO_07.wav", ",", "Clap-MO_08.wav", ",", "Clap-MO_09.wav", ",", "Clap-MO_10.wav", ",", "Clap-MO_11.wav", ",", "Clap-MO_12.wav", ",", "Clap-MO_13.wav", ",", "Clap-MO_14.wav", ",", "Clap-MO_15.wav", ",", "Clap-MO_16.wav", ",", "Clap-MO_17.wav", ",", "Clap-MO_18.wav", ",", "Clap-MO_19.wav", ",", "Clap-MO_20.wav", ",", "Clap-MO_21.wav", ",", "Clap-MO_22.wav", ",", "Clap-MO_23.wav", ",", "Clap-MO_24.wav", ",", "Clap-MO_25.wav", ",", "Clap-MO_26.wav", ",", "Clap-MO_27.wav", ",", "Clap-MO_28.wav", ",", "Clap-MO_29.wav", ",", "Clap-MO_30.wav", ",", "Clap-MO_31.wav", ",", "Clap-MO_32.wav", ",", "Clap-MO_33.wav", ",", "Clap-MO_34.wav", ",", "Clap-MO_35.wav", ",", "Clap-MO_36.wav", ",", "Clap-MO_37.wav", ",", "Clap-MO_38.wav", ",", "Clap-MO_39.wav", ",", "Clap-MO_40.wav", ",", "Clap-MO_41.wav", ",", "Clap-MO_42.wav", ",", "Clap-MO_43.wav", ",", "Clap-MO_44.wav", ",", "Clap-MO_45.wav", ",", "Clap-MO_46.wav", ",", "Clap-MO_47.wav", ",", "Clap-MO_48.wav", ",", "Clap-MO_49.wav", ",", "Clap-MO_50.wav", ",", "Clap-MO_51.wav", ",", "Clap-MO_52.wav", ",", "Clap-MO_53.wav", ",", "Clap-MO_54.wav", ",", "Clap-MO_55.wav", ",", "Clap-MO_56.wav", ",", "Clap-MO_57.wav", ",", "Clap-MO_58.wav", ",", "Clap-MO_59.wav", ",", "Clap-MO_60.wav", ",", "Clap-MO_61.wav", ",", "Clap-MO_62.wav", ",", "Clap-MO_63.wav", ",", "Clap-MO_64.wav", ",", "Clap-MO_65.wav", ",", "Clap-MO_66.wav", ",", "Clap-MO_67.wav", ",", "Clap-MO_68.wav", ",", "Clap-MO_69.wav", ",", "Clap-MO_70.wav", ",", "Clap-MO_71.wav", ",", "Clap-MO_72.wav", ",", "Clap-MO_73.wav", ",", "Clap-MO_74.wav", ",", "Clap-MO_75.wav", ",", "Clap-MO_76.wav", ",", "Clap-MO_77.wav", ",", "Clap-MO_78.wav", ",", "Clap-MO_79.wav", ",", "Clap-MO_80.wav", ",", "Clap-MO_81.wav", ",", "Clap-MO_82.wav", ",", "Clap-MO_83.wav", ",", "Clap-MO_84.wav", ",", "Clap-MO_85.wav", ",", "Clap-MO_86.wav", ",", "Cowb-707-1.wav", ",", "Cowb-707-10.wav", ",", "Cowb-707-11.wav", ",", "Cowb-707-12.wav", ",", "Cowb-707-13.wav", ",", "Cowb-707-14.wav", ",", "Cowb-707-15.wav", ",", "Cowb-707-16.wav", ",", "Cowb-707-17.wav", ",", "Cowb-707-18.wav", ",", "Cowb-707-19.wav", ",", "Cowb-707-2.wav", ",", "Cowb-707-20.wav", ",", "Cowb-707-21.wav", ",", "Cowb-707-22.wav", ",", "Cowb-707-23.wav", ",", "Cowb-707-24.wav", ",", "Cowb-707-25.wav", ",", "Cowb-707-26.wav", ",", "Cowb-707-27.wav", ",", "Cowb-707-28.wav", ",", "Cowb-707-29.wav", ",", "Cowb-707-3.wav", ",", "Cowb-707-30.wav", ",", "Cowb-707-31.wav", ",", "Cowb-707-32.wav", ",", "Cowb-707-33.wav", ",", "Cowb-707-34.wav", ",", "Cowb-707-35.wav", ",", "Cowb-707-36.wav", ",", "Cowb-707-37.wav", ",", "Cowb-707-38.wav", ",", "Cowb-707-39.wav", ",", "Cowb-707-4.wav", ",", "Cowb-707-40.wav", ",", "Cowb-707-41.wav", ",", "Cowb-707-42.wav", ",", "Cowb-707-43.wav", ",", "Cowb-707-44.wav", ",", "Cowb-707-45.wav", ",", "Cowb-707-46.wav", ",", "Cowb-707-47.wav", ",", "Cowb-707-48.wav", ",", "Cowb-707-49.wav", ",", "Cowb-707-5.wav", ",", "Cowb-707-6.wav", ",", "Cowb-707-7.wav", ",", "Cowb-707-8.wav", ",", "Cowb-707-9.wav", ",", "Cowb-Combo-707-100.wav", ",", "Cowb-Combo-707-101.wav", ",", "Cowb-Combo-707-102.wav", ",", "Cowb-Combo-707-103.wav", ",", "Cowb-MO_01_B.wav", ",", "Cowb-MO_02_C#.wav", ",", "Cowb-MO_03_D#.wav", ",", "Cowb-MO_04_E.wav", ",", "Cowb-MO_05_F#.wav", ",", "Cowb-MO_06_G#.wav", ",", "Cowb-MO_07_A#.wav", ",", "Cowb-MO_08_B.wav", ",", "Cowb-MO_09_C#.wav", ",", "Cowb-MO_10_D#.wav", ",", "Cowb-MO_11_B.wav", ",", "Cowb-MO_12_C#.wav", ",", "Cowb-MO_13_D#.wav", ",", "Cowb-MO_14_E.wav", ",", "Cowb-MO_15_F#.wav", ",", "Cowb-MO_16_G#.wav", ",", "Cowb-MO_17_A#.wav", ",", "Cowb-MO_18_B.wav", ",", "Cowb-MO_19_C#.wav", ",", "Cowb-MO_20_D#.wav", ",", "Cowb-MO_21_B.wav", ",", "Cowb-MO_22_C#.wav", ",", "Cowb-MO_23_D#.wav", ",", "Cowb-MO_24_E.wav", ",", "Cowb-MO_25_F#.wav", ",", "Cowb-MO_26_G#.wav", ",", "Cowb-MO_27_A#.wav", ",", "Cowb-MO_28_B.wav", ",", "Cowb-MO_29_C#.wav", ",", "Cowb-MO_30_D#.wav" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1962,7 +2042,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "done", "dump", "clear", "bang" ],
-					"patching_rect" : [ 792.175327599048615, 1305.572850529226343, 296.0, 22.0 ],
+					"patching_rect" : [ 792.175327599048615, 1305.572850529226343, 474.0, 22.0 ],
 					"text" : "t done dump clear b"
 				}
 
@@ -1974,7 +2054,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 792.175327599048615, 1027.265615824731867, 1086.0, 22.0 ],
+					"patching_rect" : [ 792.175327599048615, 979.265615824731867, 1086.0, 22.0 ],
 					"text" : "route populate dump"
 				}
 
@@ -2016,17 +2096,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-24", 0 ],
-					"order" : 1,
-					"source" : [ "obj-18", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-68", 1 ],
-					"midpoints" : [ 801.675327599048615, 1060.35697898845774, 1756.5, 1060.35697898845774 ],
-					"order" : 0,
+					"destination" : [ "obj-51", 0 ],
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -2089,6 +2159,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-39", 0 ],
+					"source" : [ "obj-37", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
 					"source" : [ "obj-38", 3 ]
 				}
@@ -2105,6 +2182,7 @@
 				"patchline" : 				{
 					"color" : [ 0.900999069213867, 0.0, 0.0, 1.0 ],
 					"destination" : [ "obj-80", 0 ],
+					"midpoints" : [ 1105.008660932381872, 1685.597185613648435, 849.341994265715243, 1685.597185613648435 ],
 					"source" : [ "obj-38", 2 ]
 				}
 
@@ -2113,8 +2191,15 @@
 				"patchline" : 				{
 					"color" : [ 0.0, 0.886012554168701, 0.0, 1.0 ],
 					"destination" : [ "obj-95", 0 ],
-					"midpoints" : [ 894.008660932381986, 1338.174706701311152, 602.432149723172188, 1338.174706701311152, 602.432149723172188, 922.201975613832474, 627.857149839401245, 922.201975613832474 ],
+					"midpoints" : [ 953.341994265715243, 1338.174706701311152, 602.432149723172188, 1338.174706701311152, 602.432149723172188, 922.201975613832474, 627.857149839401245, 922.201975613832474 ],
 					"source" : [ "obj-38", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-95", 0 ],
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
@@ -2196,6 +2281,30 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"source" : [ "obj-51", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.82061755657196, 0.74940812587738, 0.0, 1.0 ],
+					"destination" : [ "obj-37", 1 ],
+					"midpoints" : [ 981.5, 1393.190516769886017, 907.619772043493072, 1393.190516769886017 ],
+					"source" : [ "obj-51", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-68", 1 ],
+					"midpoints" : [ 1161.5, 1060.35697898845774, 1756.5, 1060.35697898845774 ],
+					"source" : [ "obj-51", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-58", 0 ],
 					"midpoints" : [ 193.665581047534943, 1695.384618937969208, 38.5, 1695.384618937969208 ],
 					"source" : [ "obj-54", 0 ]
@@ -2256,6 +2365,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-52", 0 ],
+					"source" : [ "obj-61", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-61", 0 ],
+					"source" : [ "obj-62", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-260", 0 ],
 					"source" : [ "obj-63", 0 ]
 				}
@@ -2279,6 +2402,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"source" : [ "obj-7", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-37", 0 ],
+					"source" : [ "obj-7", 2 ]
 				}
 
 			}
@@ -2349,47 +2479,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-46" : [ "live.text[7]", "live.text", 0 ],
-			"obj-55" : [ "live.text[5]", "live.text[2]", 0 ],
-			"obj-56" : [ "live.text[6]", "live.text[2]", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "_mosaique.clearAll.maxpat",
-				"bootpath" : "~/Documents/GitHub/Mosaique",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "_mosaique.dictValueGetSet.maxpat",
-				"bootpath" : "~/Documents/GitHub/Mosaique",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fluid.bufcompose~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.list2buf.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
