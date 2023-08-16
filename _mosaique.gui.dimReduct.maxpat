@@ -184,7 +184,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 6.0, 95.957446336746216, 119.925530910491943, 33.0 ],
-					"text" : "Number of neighbours"
+					"text" : "Number of neighbours (%)"
 				}
 
 			}
@@ -228,7 +228,7 @@
 					"presentation_rect" : [ 122.0, 151.401108622550964, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ 0.1 ],
+							"parameter_initial" : [ 0.3 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "number[17]",
 							"parameter_mmax" : 5.0,
@@ -282,13 +282,13 @@
 					"presentation_rect" : [ 122.0, 104.957446336746216, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ 5 ],
+							"parameter_initial" : [ 25 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "number[16]",
-							"parameter_mmax" : 200.0,
+							"parameter_mmax" : 100.0,
 							"parameter_shortname" : "live.numbox",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 0
+							"parameter_type" : 1,
+							"parameter_unitstyle" : 5
 						}
 
 					}
