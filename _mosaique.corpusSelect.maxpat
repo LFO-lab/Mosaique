@@ -40,13 +40,12 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-41",
+					"id" : "obj-55",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 106.500000000000114, 38.0, 167.0, 22.0 ],
-					"text" : "r Mosaique_updateServerColl"
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 283.000000000000114, 141.0, 169.0, 22.0 ],
+					"text" : "s Mosaique_updateServerColl"
 				}
 
 			}
@@ -233,7 +232,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "clear" ],
-					"patching_rect" : [ 73.500000000000114, 109.20588231086731, 403.0, 22.0 ],
+					"patching_rect" : [ 73.500000000000114, 109.20588231086731, 438.0, 22.0 ],
 					"text" : "t b b clear"
 				}
 
@@ -3585,6 +3584,21 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-48", 0 ],
+					"midpoints" : [ 502.000000000000114, 225.46215957403183, 116.000000000000114, 225.46215957403183 ],
+					"source" : [ "obj-10", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-55", 0 ],
+					"source" : [ "obj-10", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-11", 0 ]
 				}
@@ -3853,13 +3867,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
 					"source" : [ "obj-40", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-43", 0 ],
-					"source" : [ "obj-41", 0 ]
 				}
 
 			}
