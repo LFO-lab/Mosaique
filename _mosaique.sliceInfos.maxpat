@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 294.0, 341.0, 1057.0, 736.0 ],
+		"rect" : [ 912.0, 305.0, 1057.0, 736.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -279,7 +279,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 92.400000000000006, 341.0, 99.0, 22.0 ],
+					"patching_rect" : [ 92.400000000000006, 298.0, 99.0, 22.0 ],
 					"text" : "prepend getpoint"
 				}
 
