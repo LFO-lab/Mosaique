@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 570.0, 72.0, 1079.0, 732.0 ],
+		"rect" : [ 570.0, 72.0, 1452.0, 1038.0 ],
 		"openrect" : [ 0.0, 0.0, 600.0, 133.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -243,7 +243,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 145.0, 182.0, 1725.0, 1002.0 ],
+						"rect" : [ 145.0, 266.0, 1725.0, 1002.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -543,8 +543,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 313.0, 464.406780004501343, 340.0, 35.0 ],
-									"text" : "fluid.bufcompose~ @source #1Mosaique_temp @destination #1Mosaique_corpusAudio @numchans 2 @deststartchan 0"
+									"patching_rect" : [ 313.0, 464.406780004501343, 329.0, 35.0 ],
+									"text" : "fluid.bufcompose~ @source #1Mosaique_temp @destination #1Mosaique_corpusAudio @deststartchan 0"
 								}
 
 							}
@@ -1801,14 +1801,14 @@
 					"autopopulate" : 1,
 					"depth" : 100,
 					"id" : "obj-95",
-					"items" : [ "101_Drums_17.wav", ",", "101_Drums_18.wav", ",", "101_Drums_19.wav", ",", "101_Drums_20.wav", ",", "101_Drums_21.wav", ",", "101_Drums_22.wav", ",", "101_Drums_23.wav", ",", "101_Drums_24.wav", ",", "101_Drums_25.wav", ",", "101_Drums_26.wav", ",", "101_Drums_27.wav", ",", "101_Drums_28.wav", ",", "101_Drums_29.wav", ",", "101_Drums_30.wav", ",", "101_Drums_31.wav", ",", "101_Drums_33.wav", ",", "101_Drums_34.wav", ",", "101_Drums_35.wav", ",", "101_Drums_51.wav", ",", "101_Drums_58.wav", ",", "101_Drums_59.wav", ",", "Bell-MO_01_F#.wav", ",", "Bell-MO_02_F#.wav", ",", "Bell-MO_03_F#.wav", ",", "Bell-MO_04_B.wav", ",", "Bell-MO_05_F#_A.wav", ",", "Bell-MO_06_C#.wav", ",", "Bell-MO_07_F#.wav", ",", "Bell-MO_08_A#.wav", ",", "Clap-707-1.wav", ",", "Clap-707-10.wav", ",", "Clap-707-11.wav", ",", "Clap-707-12.wav", ",", "Clap-707-13.wav", ",", "Clap-707-14.wav", ",", "Clap-707-15.wav", ",", "Clap-707-16.wav", ",", "Clap-707-17.wav", ",", "Clap-707-18.wav", ",", "Clap-707-19.wav", ",", "Clap-707-2.wav", ",", "Clap-707-20.wav", ",", "Clap-707-21.wav", ",", "Clap-707-22.wav", ",", "Clap-707-23.wav", ",", "Clap-707-24.wav", ",", "Clap-707-25.wav", ",", "Clap-707-26.wav", ",", "Clap-707-27.wav", ",", "Clap-707-28.wav", ",", "Clap-707-29.wav", ",", "Clap-707-3.wav", ",", "Clap-707-30.wav", ",", "Clap-707-31.wav", ",", "Clap-707-32.wav", ",", "Clap-707-33.wav", ",", "Clap-707-34.wav", ",", "Clap-707-35.wav", ",", "Clap-707-36.wav", ",", "Clap-707-37.wav", ",", "Clap-707-38.wav", ",", "Clap-707-39.wav", ",", "Clap-707-4.wav", ",", "Clap-707-40.wav", ",", "Clap-707-41.wav", ",", "Clap-707-42.wav", ",", "Clap-707-43.wav", ",", "Clap-707-44.wav", ",", "Clap-707-45.wav", ",", "Clap-707-46.wav", ",", "Clap-707-47.wav", ",", "Clap-707-48.wav", ",", "Clap-707-5.wav", ",", "Clap-707-6.wav", ",", "Clap-707-7.wav", ",", "Clap-707-8.wav", ",", "Clap-707-9.wav", ",", "Clap-Combo-707-55.wav", ",", "Clap-Combo-707-56.wav", ",", "Clap-Combo-707-57.wav", ",", "Clap-Combo-707-58.wav", ",", "Clap-Combo-707-59.wav", ",", "Clap-Combo-707-60.wav", ",", "Clap-Combo-707-61.wav", ",", "Clap-MO_01.wav", ",", "Clap-MO_02.wav", ",", "Clap-MO_03.wav", ",", "Clap-MO_04.wav", ",", "Clap-MO_05.wav", ",", "Clap-MO_06.wav", ",", "Clap-MO_07.wav", ",", "Clap-MO_08.wav", ",", "Clap-MO_09.wav", ",", "Clap-MO_10.wav", ",", "Clap-MO_11.wav", ",", "Clap-MO_12.wav", ",", "Clap-MO_13.wav", ",", "Clap-MO_14.wav", ",", "Clap-MO_15.wav", ",", "Clap-MO_16.wav", ",", "Clap-MO_17.wav", ",", "Clap-MO_18.wav", ",", "Clap-MO_19.wav", ",", "Clap-MO_20.wav", ",", "Clap-MO_21.wav", ",", "Clap-MO_22.wav", ",", "Clap-MO_23.wav", ",", "Clap-MO_24.wav", ",", "Clap-MO_25.wav", ",", "Clap-MO_26.wav", ",", "Clap-MO_27.wav", ",", "Clap-MO_28.wav", ",", "Clap-MO_29.wav", ",", "Clap-MO_30.wav", ",", "Clap-MO_31.wav", ",", "Clap-MO_32.wav", ",", "Clap-MO_33.wav", ",", "Clap-MO_34.wav", ",", "Clap-MO_35.wav", ",", "Clap-MO_36.wav", ",", "Clap-MO_37.wav", ",", "Clap-MO_38.wav", ",", "Clap-MO_39.wav", ",", "Clap-MO_40.wav", ",", "Clap-MO_41.wav", ",", "Clap-MO_42.wav", ",", "Clap-MO_43.wav", ",", "Clap-MO_44.wav", ",", "Clap-MO_45.wav", ",", "Clap-MO_46.wav", ",", "Clap-MO_47.wav", ",", "Clap-MO_48.wav", ",", "Clap-MO_49.wav", ",", "Clap-MO_50.wav", ",", "Clap-MO_51.wav", ",", "Clap-MO_52.wav", ",", "Clap-MO_53.wav", ",", "Clap-MO_54.wav", ",", "Clap-MO_55.wav", ",", "Clap-MO_56.wav", ",", "Clap-MO_57.wav", ",", "Clap-MO_58.wav", ",", "Clap-MO_59.wav", ",", "Clap-MO_60.wav", ",", "Clap-MO_61.wav", ",", "Clap-MO_62.wav", ",", "Clap-MO_63.wav", ",", "Clap-MO_64.wav", ",", "Clap-MO_65.wav", ",", "Clap-MO_66.wav", ",", "Clap-MO_67.wav", ",", "Clap-MO_68.wav", ",", "Clap-MO_69.wav", ",", "Clap-MO_70.wav", ",", "Clap-MO_71.wav", ",", "Clap-MO_72.wav", ",", "Clap-MO_73.wav", ",", "Clap-MO_74.wav", ",", "Clap-MO_75.wav", ",", "Clap-MO_76.wav", ",", "Clap-MO_77.wav", ",", "Clap-MO_78.wav", ",", "Clap-MO_79.wav", ",", "Clap-MO_80.wav", ",", "Clap-MO_81.wav", ",", "Clap-MO_82.wav", ",", "Clap-MO_83.wav", ",", "Clap-MO_84.wav", ",", "Clap-MO_85.wav", ",", "Clap-MO_86.wav", ",", "Cowb-707-1.wav", ",", "Cowb-707-10.wav", ",", "Cowb-707-11.wav", ",", "Cowb-707-12.wav", ",", "Cowb-707-13.wav", ",", "Cowb-707-14.wav", ",", "Cowb-707-15.wav", ",", "Cowb-707-16.wav", ",", "Cowb-707-17.wav", ",", "Cowb-707-18.wav", ",", "Cowb-707-19.wav", ",", "Cowb-707-2.wav", ",", "Cowb-707-20.wav", ",", "Cowb-707-21.wav", ",", "Cowb-707-22.wav", ",", "Cowb-707-23.wav", ",", "Cowb-707-24.wav", ",", "Cowb-707-25.wav", ",", "Cowb-707-26.wav", ",", "Cowb-707-27.wav", ",", "Cowb-707-28.wav", ",", "Cowb-707-29.wav", ",", "Cowb-707-3.wav", ",", "Cowb-707-30.wav", ",", "Cowb-707-31.wav", ",", "Cowb-707-32.wav", ",", "Cowb-707-33.wav", ",", "Cowb-707-34.wav", ",", "Cowb-707-35.wav", ",", "Cowb-707-36.wav", ",", "Cowb-707-37.wav", ",", "Cowb-707-38.wav", ",", "Cowb-707-39.wav", ",", "Cowb-707-4.wav", ",", "Cowb-707-40.wav", ",", "Cowb-707-41.wav", ",", "Cowb-707-42.wav", ",", "Cowb-707-43.wav", ",", "Cowb-707-44.wav", ",", "Cowb-707-45.wav", ",", "Cowb-707-46.wav", ",", "Cowb-707-47.wav", ",", "Cowb-707-48.wav", ",", "Cowb-707-49.wav", ",", "Cowb-707-5.wav", ",", "Cowb-707-6.wav", ",", "Cowb-707-7.wav", ",", "Cowb-707-8.wav", ",", "Cowb-707-9.wav", ",", "Cowb-Combo-707-100.wav", ",", "Cowb-Combo-707-101.wav", ",", "Cowb-Combo-707-102.wav", ",", "Cowb-Combo-707-103.wav", ",", "Cowb-MO_01_B.wav", ",", "Cowb-MO_02_C#.wav", ",", "Cowb-MO_03_D#.wav", ",", "Cowb-MO_04_E.wav", ",", "Cowb-MO_05_F#.wav", ",", "Cowb-MO_06_G#.wav", ",", "Cowb-MO_07_A#.wav", ",", "Cowb-MO_08_B.wav", ",", "Cowb-MO_09_C#.wav", ",", "Cowb-MO_10_D#.wav", ",", "Cowb-MO_11_B.wav", ",", "Cowb-MO_12_C#.wav", ",", "Cowb-MO_13_D#.wav", ",", "Cowb-MO_14_E.wav", ",", "Cowb-MO_15_F#.wav", ",", "Cowb-MO_16_G#.wav", ",", "Cowb-MO_17_A#.wav", ",", "Cowb-MO_18_B.wav", ",", "Cowb-MO_19_C#.wav", ",", "Cowb-MO_20_D#.wav", ",", "Cowb-MO_21_B.wav", ",", "Cowb-MO_22_C#.wav", ",", "Cowb-MO_23_D#.wav", ",", "Cowb-MO_24_E.wav", ",", "Cowb-MO_25_F#.wav", ",", "Cowb-MO_26_G#.wav", ",", "Cowb-MO_27_A#.wav", ",", "Cowb-MO_28_B.wav", ",", "Cowb-MO_29_C#.wav", ",", "Cowb-MO_30_D#.wav" ],
+					"items" : [ "01-Rehab.wav", ",", "02 - Grenaille.wav", ",", "06 - SparklyPiano.wav", ",", "alleluia01.wav", ",", "AmenBreak.wav", ",", "AmenStretch.wav", ",", "ApacheBreak.wav", ",", "FilteredPianoTexture.wav", ",", "Granule.aif", ",", "Guit.wav", ",", "keys_chaos_accord02_stretch01_bp_short.aif", ",", "Looper_0.wav", ",", "Looper_7.wav", ",", "LoopGlitch_Beat.1.wav", ",", "Piano proche.wav", ",", "TiBeat.aif", ",", "ToutCroche_Improv32_FretlessBass.wav", ",", "WGuideBank.aif", ",", "WhatsThatNoise_.wav", ",", "WhatsThatNoise_3.wav" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 309.857149839401245, 292.363775819540024, 192.818177759647369, 22.0 ],
-					"prefix" : "~/Library/CloudStorage/OneDrive-UniversitedeMontreal/2021-2022/Projets/CorpusMachine/Samples/ElectronicDrums/Claps & Claves/",
+					"prefix" : "~/Library/CloudStorage/OneDrive-UniversitedeMontreal/2022-2023/Automne 2022/MUS3324X/AUDIO/",
 					"types" : [ "WAVE", "AIFF" ]
 				}
 
