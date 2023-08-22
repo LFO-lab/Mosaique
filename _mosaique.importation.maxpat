@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 182.0, 94.0, 1131.0, 671.0 ],
+		"rect" : [ 570.0, 72.0, 1079.0, 732.0 ],
 		"openrect" : [ 0.0, 0.0, 600.0, 133.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -243,7 +243,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 297.0, 109.0, 1057.0, 1002.0 ],
+						"rect" : [ 145.0, 182.0, 1725.0, 1002.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -273,6 +273,102 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-11",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 1399.296627283096313, 357.0, 29.5, 22.0 ],
+									"text" : "2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-9",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 1436.296627283096313, 357.0, 29.5, 22.0 ],
+									"text" : "-1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-8",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1399.296627283096313, 388.0, 111.0, 22.0 ],
+									"text" : "prepend numchans"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-24",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "float" ],
+									"patching_rect" : [ 1339.296627283096313, 357.0, 29.5, 22.0 ],
+									"text" : "1."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-23",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "float" ],
+									"patching_rect" : [ 1295.296627283096313, 357.0, 39.0, 22.0 ],
+									"text" : "0.707"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-18",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1295.296627283096313, 388.0, 79.0, 22.0 ],
+									"text" : "prepend gain"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-17",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 3,
+									"outlettype" : [ "bang", "bang", "" ],
+									"patching_rect" : [ 1295.296627283096313, 313.389830589294434, 107.0, 22.0 ],
+									"text" : "sel 1 2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-16",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 9,
+									"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "", "int" ],
+									"patching_rect" : [ 1177.296627283096313, 277.389830589294434, 137.0, 22.0 ],
+									"text" : "info~ #1Mosaique_temp"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-100",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
@@ -297,48 +393,12 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-21",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 817.0, 667.0, 72.0, 22.0 ],
-									"text" : "prepend set"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-20",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 817.0, 638.0, 70.0, 22.0 ],
-									"text" : "route buffer"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-12",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "buffer" ],
-									"patching_rect" : [ 816.9322190284729, 604.0, 72.0, 22.0 ],
-									"text" : "fluid.list2buf"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-40",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1281.474599123001099, 318.389830589294434, 114.0, 22.0 ],
+									"patching_rect" : [ 1569.573474884033203, 314.389830589294434, 114.0, 22.0 ],
 									"text" : "prepend destination"
 								}
 
@@ -350,7 +410,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1177.296627283096313, 318.389830589294434, 86.0, 22.0 ],
+									"patching_rect" : [ 1465.395503044128418, 314.389830589294434, 86.0, 22.0 ],
 									"text" : "prepend name"
 								}
 
@@ -362,7 +422,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 1177.296627283096313, 281.389830589294434, 215.0, 22.0 ],
+									"patching_rect" : [ 1465.395503044128418, 277.389830589294434, 215.0, 22.0 ],
 									"text" : "combine #1Mosaique_ #2CorpusAudio"
 								}
 
@@ -432,10 +492,10 @@
 									"id" : "obj-34",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 4,
-									"outlettype" : [ "bang", "bang", "bang", "bang" ],
-									"patching_rect" : [ 313.0, 227.0, 883.296627283096313, 22.0 ],
-									"text" : "t b b b b"
+									"numoutlets" : 5,
+									"outlettype" : [ "bang", "bang", "bang", "bang", "bang" ],
+									"patching_rect" : [ 313.0, 227.0, 1171.395503044128418, 22.0 ],
+									"text" : "t b b b b b"
 								}
 
 							}
@@ -483,8 +543,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 313.0, 464.406780004501343, 264.0, 35.0 ],
-									"text" : "fluid.bufcompose~ @source #1Mosaique_temp @destination #1Mosaique_corpusAudio"
+									"patching_rect" : [ 313.0, 464.406780004501343, 340.0, 35.0 ],
+									"text" : "fluid.bufcompose~ @source #1Mosaique_temp @destination #1Mosaique_corpusAudio @numchans 2 @deststartchan 0"
 								}
 
 							}
@@ -559,8 +619,54 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-20", 0 ],
-									"source" : [ "obj-12", 0 ]
+									"destination" : [ "obj-8", 0 ],
+									"source" : [ "obj-11", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-17", 0 ],
+									"source" : [ "obj-16", 8 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
+									"order" : 0,
+									"source" : [ "obj-17", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-23", 0 ],
+									"order" : 1,
+									"source" : [ "obj-17", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-24", 0 ],
+									"order" : 1,
+									"source" : [ "obj-17", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 0 ],
+									"order" : 0,
+									"source" : [ "obj-17", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-39", 0 ],
+									"source" : [ "obj-18", 0 ]
 								}
 
 							}
@@ -580,23 +686,21 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-21", 0 ],
-									"source" : [ "obj-20", 0 ]
+									"destination" : [ "obj-18", 0 ],
+									"source" : [ "obj-23", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-18", 0 ],
+									"source" : [ "obj-24", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-100", 1 ],
-									"order" : 1,
-									"source" : [ "obj-29", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-12", 0 ],
-									"order" : 0,
 									"source" : [ "obj-29", 0 ]
 								}
 
@@ -638,6 +742,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-16", 0 ],
+									"source" : [ "obj-34", 3 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-33", 0 ],
 									"source" : [ "obj-34", 2 ]
 								}
@@ -660,7 +771,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-43", 0 ],
-									"source" : [ "obj-34", 3 ]
+									"source" : [ "obj-34", 4 ]
 								}
 
 							}
@@ -699,7 +810,7 @@
 								"patchline" : 								{
 									"color" : [ 0.0, 0.742157340049744, 0.0, 1.0 ],
 									"destination" : [ "obj-39", 0 ],
-									"midpoints" : [ 1290.974599123001099, 450.898305296897888, 322.5, 450.898305296897888 ],
+									"midpoints" : [ 1579.073474884033203, 450.898305296897888, 322.5, 450.898305296897888 ],
 									"source" : [ "obj-40", 0 ]
 								}
 
@@ -708,7 +819,7 @@
 								"patchline" : 								{
 									"color" : [ 0.0, 0.742157340049744, 0.0, 1.0 ],
 									"destination" : [ "obj-38", 0 ],
-									"midpoints" : [ 1186.796627283096313, 350.449155926704407, 673.598875761032104, 350.449155926704407 ],
+									"midpoints" : [ 1474.895503044128418, 350.449155926704407, 673.598875761032104, 350.449155926704407 ],
 									"source" : [ "obj-41", 0 ]
 								}
 
@@ -752,6 +863,20 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-39", 0 ],
+									"source" : [ "obj-8", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"source" : [ "obj-9", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-100", 0 ],
 									"source" : [ "obj-99", 0 ]
 								}
@@ -790,7 +915,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 59.0, 125.0, 1298.0, 873.0 ],
+						"rect" : [ 59.0, 124.0, 1298.0, 873.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1676,14 +1801,14 @@
 					"autopopulate" : 1,
 					"depth" : 100,
 					"id" : "obj-95",
-					"items" : [ "01_Conga_Clean_Low_A_808_F.wav", ",", "01_Conga_Low_B_808_F.wav", ",", "01_Conga_RP_C#.wav", ",", "01_Tom_Low_B_808_F.wav", ",", "01_Tom_Low_C_808_F.wav", ",", "01_Tom_Low_Clean_808_F.wav", ",", "02_Conga_Clean_Low_A_808_F#.wav", ",", "02_Conga_Low_B_808_F#.wav", ",", "02_Conga_RP_D.wav", ",", "02_Tom_Low_B_808_F#.wav", ",", "02_Tom_Low_C_808_F#.wav", ",", "02_Tom_Low_Clean_808_F#.wav", ",", "04_Conga_Clean_Low_A_808_G#.wav", ",", "04_Conga_Low_B_808_G#.wav", ",", "04_Conga_RP_E.wav", ",", "04_Tom_Low_B_808_G#.wav", ",", "04_Tom_Low_C_808_G#.wav", ",", "04_Tom_Low_Clean_808_G#.wav", ",", "06_Conga_Clean_Mid_A_808_C.wav", ",", "06_Conga_Mid_B_808_C.wav", ",", "06_Conga_RP_A.wav", ",", "06_Tom_Mid_B_808_C#.wav", ",", "06_Tom_Mid_C_808_C#.wav", ",", "06_Tom_Mid_Clean_808_C#1.wav", ",", "08_Conga_Clean_Mid_A_808_D.wav", ",", "08_Conga_Mid_B_808_D.wav", ",", "08_Conga_RP_B.wav", ",", "08_Tom_Mid_B_808_D#.wav", ",", "08_Tom_Mid_C_808_D#.wav", ",", "08_Tom_Mid_Clean_808_D#1.wav", ",", "101_Drums_40.wav", ",", "101_Drums_43.wav", ",", "101_Drums_44.wav", ",", "101_Drums_48.wav", ",", "101_Drums_53.wav", ",", "101_Drums_55.wav", ",", "10_Conga_Clean_Mid_A_808_E.wav", ",", "10_Conga_Mid_B_808_E.wav", ",", "10_Tom_High_B_808_F#.wav", ",", "10_Tom_High_C_808_F#.wav", ",", "10_Tom_High_Clean_808_F#.wav", ",", "Laser-MO_01.wav", ",", "Laser-MO_02.wav", ",", "Laser-MO_03.wav", ",", "Laser-MO_04.wav", ",", "Laser-MO_05.wav", ",", "Laser-MO_06.wav", ",", "sim76Tom1.wav", ",", "sim76Tom10.wav", ",", "sim76Tom10s.wav", ",", "sim76Tom11.wav", ",", "sim76Tom11s.wav", ",", "sim76Tom12.wav", ",", "sim76Tom12s.wav", ",", "sim76Tom13.wav", ",", "sim76Tom13s.wav", ",", "sim76Tom14.wav", ",", "sim76Tom14s.wav", ",", "sim76Tom15.wav", ",", "sim76Tom15s.wav", ",", "sim76Tom16.wav", ",", "sim76Tom16s.wav", ",", "sim76Tom17.wav", ",", "sim76Tom17s.wav", ",", "sim76Tom18.wav", ",", "sim76Tom18s.wav", ",", "sim76Tom19.wav", ",", "sim76Tom19s.wav", ",", "sim76Tom1s.wav", ",", "sim76Tom2.wav", ",", "sim76Tom20.wav", ",", "sim76Tom20s.wav", ",", "sim76Tom21.wav", ",", "sim76Tom21s.wav", ",", "sim76Tom22.wav", ",", "sim76Tom22s.wav", ",", "sim76Tom23.wav", ",", "sim76Tom23s.wav", ",", "sim76Tom24.wav", ",", "sim76Tom24s.wav", ",", "sim76Tom2s.wav", ",", "sim76Tom3.wav", ",", "sim76Tom3s.wav", ",", "sim76Tom4.wav", ",", "sim76Tom4s.wav", ",", "sim76Tom5.wav", ",", "sim76Tom5s.wav", ",", "sim76Tom6.wav", ",", "sim76Tom6s.wav", ",", "sim76Tom7.wav", ",", "sim76Tom7s.wav", ",", "sim76Tom8.wav", ",", "sim76Tom8s.wav", ",", "sim76Tom9.wav", ",", "sim76Tom9s.wav", ",", "Tom-707-1.wav", ",", "Tom-707-10.wav", ",", "Tom-707-11.wav", ",", "Tom-707-12.wav", ",", "Tom-707-13.wav", ",", "Tom-707-14.wav", ",", "Tom-707-15.wav", ",", "Tom-707-16.wav", ",", "Tom-707-17.wav", ",", "Tom-707-18.wav", ",", "Tom-707-19.wav", ",", "Tom-707-2.wav", ",", "Tom-707-20.wav", ",", "Tom-707-21.wav", ",", "Tom-707-22.wav", ",", "Tom-707-23.wav", ",", "Tom-707-24.wav", ",", "Tom-707-25.wav", ",", "Tom-707-26.wav", ",", "Tom-707-27.wav", ",", "Tom-707-28.wav", ",", "Tom-707-29.wav", ",", "Tom-707-3.wav", ",", "Tom-707-30.wav", ",", "Tom-707-31.wav", ",", "Tom-707-32.wav", ",", "Tom-707-33.wav", ",", "Tom-707-34.wav", ",", "Tom-707-35.wav", ",", "Tom-707-36.wav", ",", "Tom-707-37.wav", ",", "Tom-707-38.wav", ",", "Tom-707-39.wav", ",", "Tom-707-4.wav", ",", "Tom-707-40.wav", ",", "Tom-707-41.wav", ",", "Tom-707-42.wav", ",", "Tom-707-43.wav", ",", "Tom-707-5.wav", ",", "Tom-707-6.wav", ",", "Tom-707-7.wav", ",", "Tom-707-8.wav", ",", "Tom-707-9.wav", ",", "Tom-MO_01.wav", ",", "Tom-MO_02.wav", ",", "Tom-MO_03.wav", ",", "Tom-MO_04.wav", ",", "Tom-MO_05.wav", ",", "Tom-MO_06.wav", ",", "Tom-MO_07.wav", ",", "Tom-MO_08.wav", ",", "Tom-MO_09.wav", ",", "Tom-MO_10.wav", ",", "Tom-MO_11.wav", ",", "Tom-MO_12.wav", ",", "Tom-MO_13.wav", ",", "Tom-MO_14.wav", ",", "Tom-MO_15.wav", ",", "Tom-MO_16.wav", ",", "Tom-MO_17.wav", ",", "Tom-MO_18.wav", ",", "TomHiPB-606_A_01.wav", ",", "TomHiPB-606_A_02.wav", ",", "TomHiPB-606_A_03.wav", ",", "TomHiPB-606_A_04.wav", ",", "TomHiPB-606_A_05.wav", ",", "TomHiPB-606_A_06.wav", ",", "TomHiPB-606_B_01.wav", ",", "TomHiPB-606_B_02.wav", ",", "TomHiPB-606_B_03.wav", ",", "TomHiPB-606_B_04.wav", ",", "TomHiPB-606_B_05.wav", ",", "TomHiPB-606_B_06.wav", ",", "TomHiPB-606_B_07.wav", ",", "TomHiPB-606_B_08.wav", ",", "TomHiPB-606_B_09.wav", ",", "TomHiPB-606_B_10.wav", ",", "TomHiPB-606_C_01.wav", ",", "TomHiPB-606_C_02.wav", ",", "TomHiPB-606_C_03.wav", ",", "TomHiPB-606_C_04.wav", ",", "TomHiPB-606_C_05.wav", ",", "TomHiPB-606_C_06.wav", ",", "TomHiPB-606_C_07.wav", ",", "TomHiPB-606_C_08.wav", ",", "TomHiPB-606_C_09.wav", ",", "TomHiPB-606_C_10.wav", ",", "TomHiTnd-606_A_01.wav", ",", "TomHiTnd-606_A_02.wav", ",", "TomHiTnd-606_A_03.wav", ",", "TomHiTnd-606_A_04.wav", ",", "TomHiTnd-606_A_05.wav", ",", "TomHiTnd-606_A_06.wav", ",", "TomHiTnd-606_A_07.wav", ",", "TomHiTnd-606_A_08.wav", ",", "TomHiTnd-606_A_09.wav", ",", "TomHiTnd-606_A_10.wav", ",", "TomHiTnd-606_A_11.wav", ",", "TomHiTnd-606_A_12.wav", ",", "TomHiTnd-606_A_13.wav", ",", "TomHiTnd-606_B_01.wav", ",", "TomHiTnd-606_B_02.wav", ",", "TomHiTnd-606_B_03.wav", ",", "TomHiTnd-606_B_04.wav", ",", "TomHiTnd-606_B_05.wav", ",", "TomHiTnd-606_B_06.wav", ",", "TomHiTnd-606_B_07.wav", ",", "TomHiTnd-606_B_08.wav", ",", "TomHiTnd-606_B_09.wav", ",", "TomHiTnd-606_B_10.wav", ",", "TomHiTnd-606_B_11.wav", ",", "TomHiTnd-606_B_12.wav", ",", "TomHiTnd-606_B_13.wav", ",", "TomHiTnd-606_B_14.wav", ",", "TomHiTnd-606_B_15.wav", ",", "TomHiTnd-606_B_16.wav", ",", "TomHiTnd-606_B_17.wav", ",", "TomHiTnd-606_B_18.wav", ",", "TomHiTnd-606_C_01.wav", ",", "TomHiTnd-606_C_02.wav", ",", "TomHiTnd-606_C_03.wav", ",", "TomHiTnd-606_C_04.wav", ",", "TomHiTnd-606_C_05.wav", ",", "TomHiTnd-606_C_06.wav", ",", "TomHiTnd-606_C_07.wav", ",", "TomHiTnd-606_C_08.wav", ",", "TomHiTnd-606_C_09.wav", ",", "TomHiTnd-606_C_10.wav", ",", "TomHiTnd-606_C_11.wav", ",", "TomHiTnd-606_C_12.wav", ",", "TomHiTnd-606_C_13.wav", ",", "TomHiTnd-606_C_14.wav", ",", "TomHiTnd-606_C_15.wav", ",", "TomHiTnd-606_D_01.wav", ",", "TomHiTnd-606_D_02.wav", ",", "TomHiTnd-606_D_03.wav", ",", "TomHiTnd-606_D_04.wav", ",", "TomHiTnd-606_D_05.wav", ",", "TomHiTnd-606_D_06.wav", ",", "TomHiTnd-606_D_07.wav", ",", "TomHiTnd-606_D_08.wav", ",", "TomHiTnd-606_D_09.wav", ",", "TomHiTnd-606_D_10.wav", ",", "TomHiTnd-606_D_11.wav", ",", "TomHiTnd-606_D_12.wav", ",", "TomHiTnd-606_E_01.wav", ",", "TomHiTnd-606_E_02.wav", ",", "TomHiTnd-606_E_03.wav", ",", "TomHiTnd-606_E_04.wav", ",", "TomHiTnd-606_E_05.wav", ",", "TomHiTnd-606_E_06.wav", ",", "TomHiTnd-606_E_07.wav", ",", "TomHiTnd-606_E_08.wav", ",", "TomHiTnd-606_E_09.wav", ",", "TomHiTnd-606_E_10.wav", ",", "TomHiTnd-606_E_11.wav", ",", "TomHiTnd-606_E_12.wav", ",", "TomHiTnd-606_E_13.wav", ",", "TomHiTnd-606_E_14.wav", ",", "TomHiTnd-606_E_15.wav", ",", "TomHiTnd-606_E_16.wav", ",", "TomHiTnd-606_E_17.wav", ",", "TomHiTnd-606_F_01.wav", ",", "TomHiTnd-606_F_02.wav", ",", "TomHiTnd-606_F_03.wav", ",", "TomHiTnd-606_F_04.wav", ",", "TomHiTnd-606_F_05.wav", ",", "TomHiTnd-606_F_06.wav", ",", "TomHiTnd-606_F_07.wav", ",", "TomHiTnd-606_F_08.wav", ",", "TomHiTnd-606_F_09.wav", ",", "TomHiTnd-606_F_10.wav", ",", "TomHiTnd-606_F_11.wav", ",", "TomHiTnd-606_F_12.wav", ",", "TomHiTnd-606_F_13.wav", ",", "TomHiTnd-606_F_14.wav", ",", "TomHiTnd-606_F_15.wav", ",", "TomLoKick-606_A_01.wav", ",", "TomLoKick-606_A_02.wav", ",", "TomLoKick-606_A_03.wav", ",", "TomLoKick-606_A_04.wav", ",", "TomLoKick-606_A_05.wav", ",", "TomLoKick-606_A_06.wav", ",", "TomLoKick-606_A_07.wav", ",", "TomLoKick-606_A_08.wav", ",", "TomLoKick-606_A_09.wav", ",", "TomLoKick-606_A_10.wav", ",", "TomLoKick-606_A_11.wav", ",", "TomLoKick-606_A_12.wav", ",", "TomLoKick-606_A_13.wav", ",", "TomLoKick-606_A_14.wav", ",", "TomLoKick-606_A_15.wav", ",", "TomLoKick-606_B_01.wav", ",", "TomLoKick-606_B_02.wav", ",", "TomLoKick-606_B_03.wav", ",", "TomLoKick-606_B_04.wav", ",", "TomLoKick-606_B_05.wav", ",", "TomLoKick-606_B_06.wav", ",", "TomLoKick-606_B_07.wav", ",", "TomLoKick-606_B_08.wav", ",", "TomLoKick-606_B_09.wav", ",", "TomLoKick-606_B_10.wav", ",", "TomLoKick-606_B_11.wav", ",", "TomLoKick-606_B_12.wav", ",", "TomLoKick-606_B_13.wav", ",", "TomLoKick-606_B_14.wav", ",", "TomLoKick-606_B_15.wav", ",", "TomLoKick-606_C_01.wav", ",", "TomLoKick-606_C_02.wav", ",", "TomLoKick-606_C_03.wav", ",", "TomLoKick-606_C_04.wav", ",", "TomLoKick-606_C_05.wav", ",", "TomLoKick-606_C_06.wav", ",", "TomLoKick-606_C_07.wav", ",", "TomLoKick-606_C_08.wav", ",", "TomLoKick-606_C_09.wav", ",", "TomLoKick-606_C_10.wav", ",", "TomLoKick-606_C_11.wav", ",", "TomLoKick-606_C_12.wav", ",", "TomLoKick-606_C_13.wav", ",", "TomLoKick-606_C_14.wav", ",", "TomLoKick-606_C_15.wav", ",", "TomLoKick-606_D_01.wav", ",", "TomLoKick-606_D_02.wav", ",", "TomLoKick-606_D_03.wav", ",", "TomLoKick-606_D_04.wav", ",", "TomLoKick-606_D_05.wav", ",", "TomLoKick-606_D_06.wav", ",", "TomLoKick-606_D_07.wav", ",", "TomLoKick-606_D_08.wav", ",", "TomLoKick-606_D_09.wav", ",", "TomLoKick-606_D_10.wav", ",", "TomLoKick-606_D_11.wav", ",", "TomLoKick-606_D_12.wav", ",", "TomLoKick-606_D_13.wav", ",", "TomLoKick-606_D_14.wav", ",", "TomLoKick-606_D_15.wav", ",", "TomLoKick-606_E_01.wav", ",", "TomLoKick-606_E_02.wav", ",", "TomLoKick-606_E_03.wav", ",", "TomLoKick-606_E_04.wav", ",", "TomLoKick-606_E_05.wav", ",", "TomLoKick-606_E_06.wav", ",", "TomLoKick-606_E_07.wav", ",", "TomLoKick-606_E_08.wav", ",", "TomLoKick-606_E_09.wav", ",", "TomLoKick-606_E_10.wav", ",", "TomLoKick-606_E_11.wav", ",", "TomLoKick-606_E_12.wav", ",", "TomLoKick-606_E_13.wav", ",", "TomLoKick-606_E_14.wav", ",", "TomLoKick-606_E_15.wav", ",", "TomLoKick-606_F_01.wav", ",", "TomLoKick-606_F_02.wav", ",", "TomLoKick-606_F_03.wav", ",", "TomLoKick-606_F_04.wav", ",", "TomLoKick-606_F_05.wav", ",", "TomLoKick-606_F_06.wav", ",", "TomLoKick-606_F_07.wav", ",", "TomLoKick-606_F_08.wav", ",", "TomLoKick-606_F_09.wav", ",", "TomLoKick-606_F_10.wav", ",", "TomLoKick-606_F_11.wav", ",", "TomLoKick-606_F_12.wav", ",", "TomLoKick-606_F_13.wav", ",", "TomLoKick-606_F_14.wav", ",", "TomLoKick-606_F_15.wav", ",", "TomLoKick-606_G_01.wav", ",", "TomLoKick-606_G_02.wav", ",", "TomLoKick-606_G_03.wav", ",", "TomLoKick-606_G_04.wav", ",", "TomLoKick-606_G_05.wav", ",", "TomLoKick-606_G_06.wav", ",", "TomLoKick-606_G_07.wav", ",", "TomLoKick-606_G_08.wav", ",", "TomLoKick-606_G_09.wav", ",", "TomLoKick-606_G_10.wav", ",", "TomLoKick-606_G_11.wav", ",", "TomLoKick-606_G_12.wav", ",", "TomLoKick-606_G_13.wav", ",", "TomLoKick-606_H_01.wav", ",", "TomLoKick-606_H_02.wav", ",", "TomLoKick-606_H_03.wav", ",", "TomLoKick-606_H_04.wav", ",", "TomLoKick-606_H_05.wav", ",", "TomLoKick-606_H_06.wav", ",", "TomLoKick-606_H_07.wav", ",", "TomLoKick-606_H_08.wav", ",", "TomLoKick-606_H_09.wav", ",", "TomLoKick-606_H_10.wav", ",", "TomLoKick-606_H_11.wav", ",", "TomLoKick-606_H_12.wav", ",", "TomLoKick-606_H_13.wav", ",", "TomLoKick-606_H_14.wav", ",", "TomLoKick-606_H_15.wav", ",", "TomLoKick-606_H_16.wav", ",", "TomLoKick-606_H_17.wav", ",", "TomLoKickEQ-606_A_01.wav", ",", "TomLoKickEQ-606_A_02.wav", ",", "TomLoKickEQ-606_A_03.wav", ",", "TomLoKickEQ-606_A_04.wav", ",", "TomLoKickEQ-606_A_05.wav", ",", "TomLoKickEQ-606_A_06.wav", ",", "TomLoKickEQ-606_A_07.wav", ",", "TomLoKickEQ-606_A_08.wav", ",", "TomLoKickEQ-606_A_09.wav", ",", "TomLoKickEQ-606_A_10.wav", ",", "TomLoKickEQ-606_A_11.wav", ",", "TomLoKickEQ-606_A_12.wav", ",", "TomLoKickEQ-606_A_13.wav", ",", "TomLoKickEQ-606_A_14.wav", ",", "TomLoKickEQ-606_A_15.wav", ",", "TomLoKickEQ-606_B_01.wav", ",", "TomLoKickEQ-606_B_02.wav", ",", "TomLoKickEQ-606_B_03.wav", ",", "TomLoKickEQ-606_B_04.wav", ",", "TomLoKickEQ-606_B_05.wav", ",", "TomLoKickEQ-606_B_06.wav", ",", "TomLoKickEQ-606_B_07.wav", ",", "TomLoKickEQ-606_B_08.wav", ",", "TomLoKickEQ-606_B_09.wav", ",", "TomLoKickEQ-606_B_10.wav", ",", "TomLoKickEQ-606_B_11.wav", ",", "TomLoKickEQ-606_B_12.wav", ",", "TomLoKickEQ-606_B_13.wav", ",", "TomLoKickEQ-606_B_14.wav", ",", "TomLoKickEQ-606_B_15.wav", ",", "TomLoKickEQ-606_C_01.wav", ",", "TomLoKickEQ-606_C_02.wav", ",", "TomLoKickEQ-606_C_03.wav", ",", "TomLoKickEQ-606_C_04.wav", ",", "TomLoKickEQ-606_C_05.wav", ",", "TomLoKickEQ-606_C_06.wav", ",", "TomLoKickEQ-606_C_07.wav", ",", "TomLoKickEQ-606_C_08.wav", ",", "TomLoKickEQ-606_C_09.wav", ",", "TomLoKickEQ-606_C_10.wav", ",", "TomLoKickEQ-606_C_11.wav", ",", "TomLoKickEQ-606_C_12.wav", ",", "TomLoKickEQ-606_C_13.wav", ",", "TomLoKickEQ-606_C_14.wav", ",", "TomLoKickEQ-606_C_15.wav", ",", "TomLoKickEQ-606_D_01.wav", ",", "TomLoKickEQ-606_D_02.wav", ",", "TomLoKickEQ-606_D_03.wav", ",", "TomLoKickEQ-606_D_04.wav", ",", "TomLoKickEQ-606_D_05.wav", ",", "TomLoKickEQ-606_D_06.wav", ",", "TomLoKickEQ-606_D_07.wav", ",", "TomLoKickEQ-606_D_08.wav", ",", "TomLoKickEQ-606_D_09.wav", ",", "TomLoKickEQ-606_D_10.wav", ",", "TomLoKickEQ-606_D_11.wav", ",", "TomLoKickEQ-606_D_12.wav", ",", "TomLoKickEQ-606_D_13.wav", ",", "TomLoKickEQ-606_D_14.wav", ",", "TomLoKickEQ-606_D_15.wav", ",", "TomLoKickEQ-606_E_01.wav", ",", "TomLoKickEQ-606_E_02.wav", ",", "TomLoKickEQ-606_E_03.wav", ",", "TomLoKickEQ-606_E_04.wav", ",", "TomLoKickEQ-606_E_05.wav", ",", "TomLoKickEQ-606_E_06.wav", ",", "TomLoKickEQ-606_E_07.wav", ",", "TomLoKickEQ-606_E_08.wav", ",", "TomLoKickEQ-606_E_09.wav", ",", "TomLoKickEQ-606_E_10.wav", ",", "TomLoKickEQ-606_E_11.wav", ",", "TomLoKickEQ-606_E_12.wav", ",", "TomLoKickEQ-606_E_13.wav", ",", "TomLoKickEQ-606_E_14.wav", ",", "TomLoKickEQ-606_E_15.wav", ",", "TomLoKickEQ-606_F_01.wav", ",", "TomLoKickEQ-606_F_02.wav", ",", "TomLoKickEQ-606_F_03.wav", ",", "TomLoKickEQ-606_F_04.wav", ",", "TomLoKickEQ-606_F_05.wav", ",", "TomLoKickEQ-606_F_06.wav", ",", "TomLoKickEQ-606_F_07.wav", ",", "TomLoKickEQ-606_F_08.wav", ",", "TomLoKickEQ-606_F_09.wav", ",", "TomLoKickEQ-606_F_10.wav", ",", "TomLoKickEQ-606_F_11.wav", ",", "TomLoKickEQ-606_F_12.wav", ",", "TomLoKickEQ-606_F_13.wav", ",", "TomLoKickEQ-606_F_14.wav", ",", "TomLoKickEQ-606_F_15.wav", ",", "TomLoKickEQ-606_G_01.wav", ",", "TomLoKickEQ-606_G_02.wav", ",", "TomLoKickEQ-606_G_03.wav", ",", "TomLoKickEQ-606_G_04.wav", ",", "TomLoKickEQ-606_G_05.wav", ",", "TomLoKickEQ-606_G_06.wav", ",", "TomLoKickEQ-606_G_07.wav", ",", "TomLoKickEQ-606_G_08.wav", ",", "TomLoKickEQ-606_G_09.wav", ",", "TomLoKickEQ-606_G_10.wav", ",", "TomLoKickEQ-606_G_11.wav", ",", "TomLoKickEQ-606_G_12.wav", ",", "TomLoKickEQ-606_G_13.wav", ",", "TomLoKickEQ-606_G_14.wav", ",", "TomLoKickEQ-606_H_01.wav", ",", "TomLoKickEQ-606_H_02.wav", ",", "TomLoKickEQ-606_H_03.wav", ",", "TomLoKickEQ-606_H_04.wav", ",", "TomLoKickEQ-606_H_05.wav", ",", "TomLoKickEQ-606_H_06.wav", ",", "TomLoKickEQ-606_H_07.wav", ",", "TomLoKickEQ-606_H_08.wav", ",", "TomLoKickEQ-606_H_09.wav", ",", "TomLoKickEQ-606_H_10.wav", ",", "TomLoKickEQ-606_H_11.wav", ",", "TomLoKickEQ-606_H_12.wav", ",", "TomLoKickEQ-606_H_13.wav", ",", "TomLoKickEQ-606_H_14.wav", ",", "TomLoKickEQ-606_H_15.wav", ",", "TomLoKickEQ-606_H_16.wav", ",", "TomLoKickEQ-606_H_17.wav", ",", "TomLoKickEQ-606_H_18.wav", ",", "TomLoPB-606_A_01.wav", ",", "TomLoPB-606_A_02.wav", ",", "TomLoPB-606_A_03.wav", ",", "TomLoPB-606_A_04.wav", ",", "TomLoPB-606_A_05.wav", ",", "TomLoPB-606_A_06.wav", ",", "TomLoPB-606_A_07.wav", ",", "TomLoPB-606_A_08.wav", ",", "TomLoPB-606_A_09.wav", ",", "TomLoPB-606_A_10.wav", ",", "TomLoPB-606_A_11.wav", ",", "TomLoPB-606_A_12.wav", ",", "TomLoPB-606_A_13.wav", ",", "TomLoPB-606_A_14.wav", ",", "TomLoPB-606_A_15.wav", ",", "TomLoPB-606_B_01.wav", ",", "TomLoPB-606_B_02.wav", ",", "TomLoPB-606_B_03.wav", ",", "TomLoPB-606_B_04.wav", ",", "TomLoPB-606_B_05.wav", ",", "TomLoPB-606_C_01.wav", ",", "TomLoPB-606_C_02.wav", ",", "TomLoPB-606_C_03.wav", ",", "TomLoPB-606_C_04.wav", ",", "TomLoPB-606_C_05.wav", ",", "TomLoPB-606_C_06.wav", ",", "TomLoPB-606_C_07.wav", ",", "TomLoPB-606_C_08.wav", ",", "TomLoPB-606_C_09.wav", ",", "TomLoPB-606_C_10.wav", ",", "TomLoPB-606_D_01.wav", ",", "TomLoPB-606_D_02.wav", ",", "TomLoPB-606_D_03.wav", ",", "TomLoPB-606_D_04.wav", ",", "TomLoPB-606_D_05.wav", ",", "TomLoPB-606_D_06.wav", ",", "TomLoPB-606_D_07.wav", ",", "TomLoPB-606_D_08.wav", ",", "TomLoPB-606_D_09.wav", ",", "TomLoTnd-606_A_01.wav", ",", "TomLoTnd-606_A_02.wav", ",", "TomLoTnd-606_A_03.wav", ",", "TomLoTnd-606_A_04.wav", ",", "TomLoTnd-606_A_05.wav", ",", "TomLoTnd-606_A_06.wav", ",", "TomLoTnd-606_A_07.wav", ",", "TomLoTnd-606_A_08.wav", ",", "TomLoTnd-606_B_01.wav", ",", "TomLoTnd-606_B_02.wav", ",", "TomLoTnd-606_B_03.wav", ",", "TomLoTnd-606_B_04.wav", ",", "TomLoTnd-606_B_05.wav", ",", "TomLoTnd-606_B_06.wav", ",", "TomLoTnd-606_B_07.wav", ",", "TomLoTnd-606_C_01.wav", ",", "TomLoTnd-606_C_02.wav", ",", "TomLoTnd-606_C_03.wav", ",", "TomLoTnd-606_C_04.wav", ",", "TomLoTnd-606_C_05.wav", ",", "TomLoTnd-606_C_06.wav", ",", "TomLoTnd-606_C_07.wav", ",", "TomLoTnd-606_C_08.wav", ",", "TomLoTnd-606_C_09.wav", ",", "TomLoTnd-606_C_10.wav", ",", "TomLoTnd-606_C_11.wav" ],
+					"items" : [ "101_Drums_17.wav", ",", "101_Drums_18.wav", ",", "101_Drums_19.wav", ",", "101_Drums_20.wav", ",", "101_Drums_21.wav", ",", "101_Drums_22.wav", ",", "101_Drums_23.wav", ",", "101_Drums_24.wav", ",", "101_Drums_25.wav", ",", "101_Drums_26.wav", ",", "101_Drums_27.wav", ",", "101_Drums_28.wav", ",", "101_Drums_29.wav", ",", "101_Drums_30.wav", ",", "101_Drums_31.wav", ",", "101_Drums_33.wav", ",", "101_Drums_34.wav", ",", "101_Drums_35.wav", ",", "101_Drums_51.wav", ",", "101_Drums_58.wav", ",", "101_Drums_59.wav", ",", "Bell-MO_01_F#.wav", ",", "Bell-MO_02_F#.wav", ",", "Bell-MO_03_F#.wav", ",", "Bell-MO_04_B.wav", ",", "Bell-MO_05_F#_A.wav", ",", "Bell-MO_06_C#.wav", ",", "Bell-MO_07_F#.wav", ",", "Bell-MO_08_A#.wav", ",", "Clap-707-1.wav", ",", "Clap-707-10.wav", ",", "Clap-707-11.wav", ",", "Clap-707-12.wav", ",", "Clap-707-13.wav", ",", "Clap-707-14.wav", ",", "Clap-707-15.wav", ",", "Clap-707-16.wav", ",", "Clap-707-17.wav", ",", "Clap-707-18.wav", ",", "Clap-707-19.wav", ",", "Clap-707-2.wav", ",", "Clap-707-20.wav", ",", "Clap-707-21.wav", ",", "Clap-707-22.wav", ",", "Clap-707-23.wav", ",", "Clap-707-24.wav", ",", "Clap-707-25.wav", ",", "Clap-707-26.wav", ",", "Clap-707-27.wav", ",", "Clap-707-28.wav", ",", "Clap-707-29.wav", ",", "Clap-707-3.wav", ",", "Clap-707-30.wav", ",", "Clap-707-31.wav", ",", "Clap-707-32.wav", ",", "Clap-707-33.wav", ",", "Clap-707-34.wav", ",", "Clap-707-35.wav", ",", "Clap-707-36.wav", ",", "Clap-707-37.wav", ",", "Clap-707-38.wav", ",", "Clap-707-39.wav", ",", "Clap-707-4.wav", ",", "Clap-707-40.wav", ",", "Clap-707-41.wav", ",", "Clap-707-42.wav", ",", "Clap-707-43.wav", ",", "Clap-707-44.wav", ",", "Clap-707-45.wav", ",", "Clap-707-46.wav", ",", "Clap-707-47.wav", ",", "Clap-707-48.wav", ",", "Clap-707-5.wav", ",", "Clap-707-6.wav", ",", "Clap-707-7.wav", ",", "Clap-707-8.wav", ",", "Clap-707-9.wav", ",", "Clap-Combo-707-55.wav", ",", "Clap-Combo-707-56.wav", ",", "Clap-Combo-707-57.wav", ",", "Clap-Combo-707-58.wav", ",", "Clap-Combo-707-59.wav", ",", "Clap-Combo-707-60.wav", ",", "Clap-Combo-707-61.wav", ",", "Clap-MO_01.wav", ",", "Clap-MO_02.wav", ",", "Clap-MO_03.wav", ",", "Clap-MO_04.wav", ",", "Clap-MO_05.wav", ",", "Clap-MO_06.wav", ",", "Clap-MO_07.wav", ",", "Clap-MO_08.wav", ",", "Clap-MO_09.wav", ",", "Clap-MO_10.wav", ",", "Clap-MO_11.wav", ",", "Clap-MO_12.wav", ",", "Clap-MO_13.wav", ",", "Clap-MO_14.wav", ",", "Clap-MO_15.wav", ",", "Clap-MO_16.wav", ",", "Clap-MO_17.wav", ",", "Clap-MO_18.wav", ",", "Clap-MO_19.wav", ",", "Clap-MO_20.wav", ",", "Clap-MO_21.wav", ",", "Clap-MO_22.wav", ",", "Clap-MO_23.wav", ",", "Clap-MO_24.wav", ",", "Clap-MO_25.wav", ",", "Clap-MO_26.wav", ",", "Clap-MO_27.wav", ",", "Clap-MO_28.wav", ",", "Clap-MO_29.wav", ",", "Clap-MO_30.wav", ",", "Clap-MO_31.wav", ",", "Clap-MO_32.wav", ",", "Clap-MO_33.wav", ",", "Clap-MO_34.wav", ",", "Clap-MO_35.wav", ",", "Clap-MO_36.wav", ",", "Clap-MO_37.wav", ",", "Clap-MO_38.wav", ",", "Clap-MO_39.wav", ",", "Clap-MO_40.wav", ",", "Clap-MO_41.wav", ",", "Clap-MO_42.wav", ",", "Clap-MO_43.wav", ",", "Clap-MO_44.wav", ",", "Clap-MO_45.wav", ",", "Clap-MO_46.wav", ",", "Clap-MO_47.wav", ",", "Clap-MO_48.wav", ",", "Clap-MO_49.wav", ",", "Clap-MO_50.wav", ",", "Clap-MO_51.wav", ",", "Clap-MO_52.wav", ",", "Clap-MO_53.wav", ",", "Clap-MO_54.wav", ",", "Clap-MO_55.wav", ",", "Clap-MO_56.wav", ",", "Clap-MO_57.wav", ",", "Clap-MO_58.wav", ",", "Clap-MO_59.wav", ",", "Clap-MO_60.wav", ",", "Clap-MO_61.wav", ",", "Clap-MO_62.wav", ",", "Clap-MO_63.wav", ",", "Clap-MO_64.wav", ",", "Clap-MO_65.wav", ",", "Clap-MO_66.wav", ",", "Clap-MO_67.wav", ",", "Clap-MO_68.wav", ",", "Clap-MO_69.wav", ",", "Clap-MO_70.wav", ",", "Clap-MO_71.wav", ",", "Clap-MO_72.wav", ",", "Clap-MO_73.wav", ",", "Clap-MO_74.wav", ",", "Clap-MO_75.wav", ",", "Clap-MO_76.wav", ",", "Clap-MO_77.wav", ",", "Clap-MO_78.wav", ",", "Clap-MO_79.wav", ",", "Clap-MO_80.wav", ",", "Clap-MO_81.wav", ",", "Clap-MO_82.wav", ",", "Clap-MO_83.wav", ",", "Clap-MO_84.wav", ",", "Clap-MO_85.wav", ",", "Clap-MO_86.wav", ",", "Cowb-707-1.wav", ",", "Cowb-707-10.wav", ",", "Cowb-707-11.wav", ",", "Cowb-707-12.wav", ",", "Cowb-707-13.wav", ",", "Cowb-707-14.wav", ",", "Cowb-707-15.wav", ",", "Cowb-707-16.wav", ",", "Cowb-707-17.wav", ",", "Cowb-707-18.wav", ",", "Cowb-707-19.wav", ",", "Cowb-707-2.wav", ",", "Cowb-707-20.wav", ",", "Cowb-707-21.wav", ",", "Cowb-707-22.wav", ",", "Cowb-707-23.wav", ",", "Cowb-707-24.wav", ",", "Cowb-707-25.wav", ",", "Cowb-707-26.wav", ",", "Cowb-707-27.wav", ",", "Cowb-707-28.wav", ",", "Cowb-707-29.wav", ",", "Cowb-707-3.wav", ",", "Cowb-707-30.wav", ",", "Cowb-707-31.wav", ",", "Cowb-707-32.wav", ",", "Cowb-707-33.wav", ",", "Cowb-707-34.wav", ",", "Cowb-707-35.wav", ",", "Cowb-707-36.wav", ",", "Cowb-707-37.wav", ",", "Cowb-707-38.wav", ",", "Cowb-707-39.wav", ",", "Cowb-707-4.wav", ",", "Cowb-707-40.wav", ",", "Cowb-707-41.wav", ",", "Cowb-707-42.wav", ",", "Cowb-707-43.wav", ",", "Cowb-707-44.wav", ",", "Cowb-707-45.wav", ",", "Cowb-707-46.wav", ",", "Cowb-707-47.wav", ",", "Cowb-707-48.wav", ",", "Cowb-707-49.wav", ",", "Cowb-707-5.wav", ",", "Cowb-707-6.wav", ",", "Cowb-707-7.wav", ",", "Cowb-707-8.wav", ",", "Cowb-707-9.wav", ",", "Cowb-Combo-707-100.wav", ",", "Cowb-Combo-707-101.wav", ",", "Cowb-Combo-707-102.wav", ",", "Cowb-Combo-707-103.wav", ",", "Cowb-MO_01_B.wav", ",", "Cowb-MO_02_C#.wav", ",", "Cowb-MO_03_D#.wav", ",", "Cowb-MO_04_E.wav", ",", "Cowb-MO_05_F#.wav", ",", "Cowb-MO_06_G#.wav", ",", "Cowb-MO_07_A#.wav", ",", "Cowb-MO_08_B.wav", ",", "Cowb-MO_09_C#.wav", ",", "Cowb-MO_10_D#.wav", ",", "Cowb-MO_11_B.wav", ",", "Cowb-MO_12_C#.wav", ",", "Cowb-MO_13_D#.wav", ",", "Cowb-MO_14_E.wav", ",", "Cowb-MO_15_F#.wav", ",", "Cowb-MO_16_G#.wav", ",", "Cowb-MO_17_A#.wav", ",", "Cowb-MO_18_B.wav", ",", "Cowb-MO_19_C#.wav", ",", "Cowb-MO_20_D#.wav", ",", "Cowb-MO_21_B.wav", ",", "Cowb-MO_22_C#.wav", ",", "Cowb-MO_23_D#.wav", ",", "Cowb-MO_24_E.wav", ",", "Cowb-MO_25_F#.wav", ",", "Cowb-MO_26_G#.wav", ",", "Cowb-MO_27_A#.wav", ",", "Cowb-MO_28_B.wav", ",", "Cowb-MO_29_C#.wav", ",", "Cowb-MO_30_D#.wav" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 309.857149839401245, 292.363775819540024, 192.818177759647369, 22.0 ],
-					"prefix" : "~/Library/CloudStorage/OneDrive-UniversitedeMontreal/2021-2022/Projets/CorpusMachine/Samples/ElectronicDrums/Toms/",
+					"prefix" : "~/Library/CloudStorage/OneDrive-UniversitedeMontreal/2021-2022/Projets/CorpusMachine/Samples/ElectronicDrums/Claps & Claves/",
 					"types" : [ "WAVE", "AIFF" ]
 				}
 

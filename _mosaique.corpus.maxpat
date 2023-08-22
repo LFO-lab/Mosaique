@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 721.0, 345.0, 1039.0, 656.0 ],
+		"rect" : [ 416.0, 200.0, 1039.0, 656.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -263,7 +263,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 830.0, 240.0, 320.0, 510.0 ],
+										"rect" : [ 826.0, 240.0, 320.0, 510.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -2116,7 +2116,7 @@
 					"patching_rect" : [ 205.0, 224.765676736831665, 41.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 52.0, 50.166666209697723, 41.0, 17.0 ],
-					"text" : "sound",
+					"text" : "sounds",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -2160,23 +2160,11 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-35",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 61.0, 292.265676736831665, 24.0, 24.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-7",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 61.0, 338.765676736831665, 151.0, 22.0 ],
+					"patching_rect" : [ 61.0, 289.5, 151.0, 22.0 ],
 					"text" : "s #1Mosaique_newCorpus"
 				}
 
@@ -2396,13 +2384,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"source" : [ "obj-35", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
 					"source" : [ "obj-36", 0 ]
 				}
@@ -2424,7 +2405,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-35", 0 ],
+					"destination" : [ "obj-7", 0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -2518,10 +2499,6 @@
 			}
 , 			{
 				"name" : "fluid.bufstats~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.list2buf.mxo",
 				"type" : "iLaX"
 			}
  ],
