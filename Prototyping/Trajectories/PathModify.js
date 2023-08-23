@@ -1,41 +1,39 @@
-var mouseXY;
+
 var deviceID;
-var dictID;
-var MAX_SLICES;
-var buff_units;
+
 var buff_positions;
 var buff_pathPositions;
 var pathCount;
 var dict_pathPositions;
 var unitValuesArray = [];
 
-var xIndex, yIndex;
+function setup(deviceID){
 
-
-function setup(dictID, deviceID, maxSlices){
 	deviceID = deviceID;
-	dictID = dictID;
-	MAX_SLICES = maxSlices;
-	pathCount = 0;
 
 	buff_positions = Buffer(deviceID+"corpusPositions");
 	buff_pathPositions = Buffer(deviceID+'pathPositions');
-	dict_pathPositions = new Dict(deviceID+'pathPositions');
+	dict_pathPositions = Dict(deviceID+'pathPositions');
 
-	dict_pathPositions.set("cols", 4);
+	init();
 
-	outlet(0, "pathCount", pathCount);
-	//outlet(0, "pathUpdate", 1);
 }
 
 
-function clear() {
+function init() {
+
 	pathCount = 0;
-	//dict_pathPositions = new Dict('pathPositions'+deviceID);
-	dict_pathPositions.clear();
+	unitValuesArray = [];
+
+	if(dict_pathPositions){
+		dict_pathPositions.clear();
+	}
+
 	dict_pathPositions.set("cols", 4);
-	var test = "1 0";
-	dict_pathPositions.replace("data::"+test);
+	dict_pathPositions.set("data");
+	dict_pathPositions.replace("data::1 0");
+	//dict_pathPositions.replace("data::1 0", [0, 0, 0, 0]);
+
 	outlet(0, "pathUpdate", 1);
 	outlet(0, "pathCount", pathCount);
 }
@@ -58,60 +56,6 @@ function isIndexInPath(currentIndex) {
 	return false;
 }
 
-// function unitUnderCoord(xy) {
-// 	var index = -1;
-// 	for (var i = 0; i < MAX_SLICES; i++) {
-
-// 		var unitVals3D = [
-// 			buff_positions.peek(1, i, 1),
-// 			buff_positions.peek(2, i, 1),
-// 			buff_positions.peek(3, i, 1)
-// 	];
-// 		//var unitVals = get2DCoordsFromRotation(unitVals3D);
-
-
-// 		var dist = Math.sqrt( Math.pow(xy[0]-unitVals3D[0],2) + Math.pow(xy[1]-unitVals3D[1],2) );
-// 		//index = unitZ;
-// 		if (dist < .025) {
-// 			post("unitVals3D", unitVals3D);
-
-// 			addPositionToPath(i, unitVals3D);
-// 			index = i;
-// 			break;
-// 		}
-
-// 	}
-// 	return index;
-// }
-
-// function pathUnderCoord(xy) {
-// 	var index = -1;
-
-// 	//iterate through path points
-// 	for (var i = 0; i < pathCount; i++) {
-
-// 		var unitVals3D = [
-// 			buff_pathPositions.peek(1, i, 1),
-// 			buff_pathPositions.peek(2, i, 1),
-// 			buff_pathPositions.peek(3, i, 1)
-// 	]	;
-
-
-// 		var dist = Math.sqrt( Math.pow(xy[0]-unitVals3D[0],2) + Math.pow(xy[1]-unitVals3D[1],2) );
-// 		//index = unitZ;
-
-// 		// if the distance is small, this iteration number used as index
-// 		if (dist < .025) {
-
-// 			removePositionFromPath(i);
-
-// 			index = i;
-// 			break;
-// 		}
-
-// 	}
-// 	return index;
-// }
 
 
 function addToPath(unitIndex) {
@@ -138,7 +82,6 @@ function addToPath(unitIndex) {
 		}
 
 	}
-
 }
 
 function removeFromPath(pathIndex) {

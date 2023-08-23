@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 287.0, 110.0, 1124.0, 973.0 ],
+		"rect" : [ 1916.0, 1497.0, 1519.0, 1065.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 11.0,
@@ -118,7 +118,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-83",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -183,7 +183,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 84.0, 106.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -218,7 +218,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "bang" ],
-									"patching_rect" : [ 90.5, 100.0, 100.0, 21.0 ],
+									"patching_rect" : [ 90.5, 100.0, 100.0, 22.0 ],
 									"text" : "t b b"
 								}
 
@@ -231,8 +231,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 165.34020984172821, 127.277778012557974, 78.0, 131.0 ],
-									"text" : "createbang forward, createbang backward, createbang sideleft, createbang sideright, createbang stopmove"
+									"patching_rect" : [ 165.34020984172821, 127.277778012557974, 78.0, 143.0 ],
+									"text" : "createbang forward, createbang backward, createbang spinleft, createbang spinright, createbang stopmove"
 								}
 
 							}
@@ -244,7 +244,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 154.277778012557974, 78.0, 107.0 ],
+									"patching_rect" : [ 50.0, 154.277778012557974, 78.0, 116.0 ],
 									"text" : "createbang left, createbang right, createbang up, createbang down"
 								}
 
@@ -384,7 +384,7 @@
 									"numoutlets" : 6,
 									"outlettype" : [ "", "", "", "", "", "" ],
 									"patching_rect" : [ 359.0, 254.455556965646906, 244.000000000000455, 35.0 ],
-									"text" : "route forward backward sideleft sideright stopmove"
+									"text" : "route forward backward spinleft spinright stopmove"
 								}
 
 							}
@@ -608,8 +608,8 @@
 									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 59.84020984172821, 245.277778000000012, 100.0, 35.0 ],
 									"saved_object_attributes" : 									{
 										"filename" : "rotate-camera3D",
@@ -866,7 +866,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-35",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -878,7 +878,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-4",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -4168,7 +4168,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 16.5, 92.0, 98.0, 38.0 ],
+					"patching_rect" : [ 16.5, 92.0, 100.0, 38.0 ],
 					"text" : "- Bang to load corpus"
 				}
 
@@ -4267,7 +4267,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-6",
@@ -7089,7 +7088,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
 					"patching_rect" : [ 373.0, 676.777778506278992, 315.0, 21.0 ],
-					"text" : "jit.gl.camera #1corpusWorld @enable 1 @tripod 0 @locklook 0"
+					"text" : "jit.gl.camera #1corpusWorld @enable 1 @tripod 0 @locklook 1"
 				}
 
 			}
@@ -7200,7 +7199,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 279.0, 100.0, 1314.0, 931.0 ],
+						"rect" : [ 255.0, 1219.0, 1258.0, 860.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -7228,7 +7227,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-64",
@@ -8871,7 +8869,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 1072.0, 249.0, 836.0, 618.0 ],
+										"rect" : [ 364.0, 1373.0, 836.0, 618.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -9621,7 +9619,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "jit_matrix", "" ],
-													"patching_rect" : [ 16.0, 254.0, 179.0, 22.0 ],
+													"patching_rect" : [ 10.0, 263.0, 179.0, 22.0 ],
 													"text" : "jit.matrix positionC 3 float32 100"
 												}
 
@@ -10774,7 +10772,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 274.5, 423.0, 80.0, 22.0 ],
+													"patching_rect" : [ 274.5, 435.0, 80.0, 22.0 ],
 													"text" : "jit.fill colorC 0"
 												}
 
@@ -13107,7 +13105,14 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 569.5, 232.722221987442026, 290.5, 126.22222099999999 ],
 					"proportion" : 0.5,
-					"rounded" : 0
+					"rounded" : 0,
+					"saved_attribute_attributes" : 					{
+						"bgfillcolor" : 						{
+							"expression" : ""
+						}
+
+					}
+
 				}
 
 			}
@@ -13853,58 +13858,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-55" : [ "live.text[19]", "live.text", 0 ],
-			"obj-79" : [ "live.text[23]", "live.text[1]", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "fluid.buf2list.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.dataset~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.kdtree~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.list2buf.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "gui.js",
-				"bootpath" : "~/Documents/Max 8/Packages/jit_gl_gui_external/jsextensions",
-				"patcherrelativepath" : "../../Max 8/Packages/jit_gl_gui_external/jsextensions",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jit.gl.gui.maxpat",
-				"bootpath" : "~/Documents/GitHub/Mosaique",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "xray.jit.quicksort.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
