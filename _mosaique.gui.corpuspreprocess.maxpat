@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 992.875003500000162, 431.0, 99.0, 22.0 ],
+					"text" : "prepend animate"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-22",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -318,7 +330,7 @@
 					"patching_rect" : [ 1104.00000399999999, 463.0, 166.916665666666859, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 280.0, 0.743875801563263, 546.422072694702365, 20.0 ],
-					"text" : "Exporting slice nº100/100",
+					"text" : "0/100",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -504,7 +516,7 @@
 					"patching_rect" : [ 548.375001500000053, 463.0, 82.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 280.0, 119.148038344305064, 62.0, 20.0 ],
-					"text" : "00:00:35",
+					"text" : "00:00:00",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -1170,7 +1182,7 @@
 					"maxclass" : "progress",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 992.875003500000162, 431.0, 32.0, 32.0 ],
+					"patching_rect" : [ 992.875003500000162, 457.0, 32.0, 32.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 501.758491287842162, 18.493412013425214, 102.905090119017899, 102.905090119017899 ]
 				}
@@ -1396,7 +1408,7 @@
 					"bgfillcolor_type" : "color",
 					"fontsize" : 10.0,
 					"id" : "obj-12",
-					"items" : [ "FULL", "VIEW", ",", "[KICK]_1_G#_52.9Hz.wav", ",", "[KICK]_2_C#_70Hz.wav", ",", "[KICK]_3_G_47.6Hz.wav", ",", "[KICK]_4_A_55.4Hz.wav", ",", "[KICK]_5_F_43.9Hz.wav" ],
+					"items" : [ "FULL", "VIEW" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2161,7 +2173,7 @@
 					"name" : "_mosaique.corpuspreprocess.maxpat",
 					"numinlets" : 4,
 					"numoutlets" : 1,
-					"offset" : [ -469.0, 0.0 ],
+					"offset" : [ -313.0, 0.0 ],
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 215.0, 212.715454000000022, 627.0, 172.0 ],
 					"presentation" : 1,
@@ -2793,7 +2805,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
+					"destination" : [ "obj-7", 0 ],
 					"source" : [ "obj-46", 7 ]
 				}
 
@@ -2898,6 +2910,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
 					"source" : [ "obj-84", 0 ]
 				}
@@ -2915,7 +2934,6 @@
 			"obj-124" : [ "live.text[14]", "live.text[8]", 0 ],
 			"obj-155" : [ "rslider[1]", "rslider", 0 ],
 			"obj-45::obj-104" : [ "live.gain~", "Listen", 0 ],
-			"obj-45::obj-119" : [ "live.drop", "live.drop", 0 ],
 			"obj-45::obj-125" : [ "live.menu[6]", "live.text[8]", 0 ],
 			"obj-45::obj-13" : [ "live.numbox", "live.numbox", 0 ],
 			"obj-45::obj-130" : [ "live.text[4]", "live.text[4]", 0 ],
@@ -2966,75 +2984,75 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "_mosaique.corpuspreprocess.maxpat",
-				"bootpath" : "~/Library/CloudStorage/OneDrive-UniversitedeMontreal/Musique/PROJETS 2022/21 - Mosaique (UdeM)/Patches/04_CorpusFormat",
+				"bootpath" : "~/OneDrive - Universite de Montreal/Musique/PROJETS 2022/21 - Mosaique (UdeM)/Patches/04_CorpusFormat",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "autoThresh.js",
-				"bootpath" : "~/Library/CloudStorage/OneDrive-UniversitedeMontreal/Musique/PROJETS 2022/21 - Mosaique (UdeM)/Patches/04_CorpusFormat",
+				"bootpath" : "~/OneDrive - Universite de Montreal/Musique/PROJETS 2022/21 - Mosaique (UdeM)/Patches/04_CorpusFormat",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fav-max.js",
-				"bootpath" : "~/Library/CloudStorage/OneDrive-UniversitedeMontreal/Documents/Max 8/Packages/FluidCorpusManipulation/jsui",
+				"bootpath" : "~/OneDrive - Universite de Montreal/Documents/Max 8/Packages/FluidCorpusManipulation/jsui",
 				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/FluidCorpusManipulation/jsui",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fileSystem.js",
-				"bootpath" : "~/Library/CloudStorage/OneDrive-UniversitedeMontreal/Musique/PROJETS 2022/21 - Mosaique (UdeM)/Patches/04_CorpusFormat",
+				"bootpath" : "~/OneDrive - Universite de Montreal/Musique/PROJETS 2022/21 - Mosaique (UdeM)/Patches/04_CorpusFormat",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "fluid.buf2list.mxo",
-				"type" : "iLaX"
+				"name" : "fluid.buf2list.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "fluid.bufampgate~.mxo",
-				"type" : "iLaX"
+				"name" : "fluid.bufampgate~.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "fluid.bufcompose~.mxo",
-				"type" : "iLaX"
+				"name" : "fluid.bufcompose~.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "fluid.bufflatten~.mxo",
-				"type" : "iLaX"
+				"name" : "fluid.bufflatten~.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "fluid.bufhpss~.mxo",
-				"type" : "iLaX"
+				"name" : "fluid.bufhpss~.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "fluid.bufnmf~.mxo",
-				"type" : "iLaX"
+				"name" : "fluid.bufnmf~.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "fluid.bufnoveltyslice~.mxo",
-				"type" : "iLaX"
+				"name" : "fluid.bufnoveltyslice~.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "fluid.bufonsetslice~.mxo",
-				"type" : "iLaX"
+				"name" : "fluid.bufonsetslice~.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "fluid.bufsines~.mxo",
-				"type" : "iLaX"
+				"name" : "fluid.bufsines~.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "fluid.buftransients~.mxo",
-				"type" : "iLaX"
+				"name" : "fluid.buftransients~.mxe64",
+				"type" : "mx64"
 			}
 , 			{
 				"name" : "fluid.waveform~.js",
-				"bootpath" : "~/Library/CloudStorage/OneDrive-UniversitedeMontreal/Documents/Max 8/Packages/FluidCorpusManipulation/jsui",
+				"bootpath" : "~/OneDrive - Universite de Montreal/Documents/Max 8/Packages/FluidCorpusManipulation/jsui",
 				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/FluidCorpusManipulation/jsui",
 				"type" : "TEXT",
 				"implicit" : 1
