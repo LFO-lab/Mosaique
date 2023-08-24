@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 375.0, 216.0, 1382.0, 1115.0 ],
+		"rect" : [ 1567.0, 484.0, 1376.0, 1115.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -42,7 +42,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-17",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -66,7 +66,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-14",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -101,7 +101,7 @@
 					"presentation_rect" : [ 19.303899935770062, 19.598063613266248, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[4]",
+							"parameter_longname" : "live.numbox[5]",
 							"parameter_shortname" : "live.numbox[2]",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -164,6 +164,10 @@
 					"presentation_rect" : [ 150.541044073104501, 5.043126816749577, 38.467654552459976, 20.0 ],
 					"rounded" : 10.0,
 					"saved_attribute_attributes" : 					{
+						"bgcolor" : 						{
+							"expression" : ""
+						}
+,
 						"textcolor" : 						{
 							"expression" : "themecolor.maxwindow_posttext"
 						}
@@ -337,7 +341,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 475.475162659475245, 548.786392632433376, 50.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"text" : "3 $1 0, bang"
 				}
 
@@ -351,7 +354,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 540.758690461678498, 548.786392632433376, 51.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"text" : "setdomain $1"
 				}
 
@@ -393,7 +395,7 @@
 					"presentation_rect" : [ 187.242525901794465, 27.043126816749577, 27.0, 39.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "slope[2]",
+							"parameter_longname" : "slope[3]",
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : -1.0,
 							"parameter_shortname" : "slope",
@@ -421,7 +423,7 @@
 					"presentation_rect" : [ 117.774871349334489, 27.043126816749577, 27.0, 39.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "shape[2]",
+							"parameter_longname" : "shape[3]",
 							"parameter_mmax" : 0.999,
 							"parameter_shortname" : "shape",
 							"parameter_type" : 0,
@@ -537,11 +539,11 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 7268.314960629921188, 1.0, 0, 0.354330708661418, 16500.0, 0.0, 0, -0.354330708661418 ],
+					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 1856.409448818898227, 1.0, 0, 0.74015748031496, 4000.0, 0.0, 0, -0.74015748031496 ],
 					"bgcolor" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
 					"clickadd" : 0,
 					"clickmove" : 0,
-					"domain" : 16500.0,
+					"domain" : 4000.0,
 					"gridcolor" : [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 1.0 ],
 					"id" : "obj-46",
 					"linecolor" : [ 1.0, 0.694117647058824, 0.0, 1.0 ],
@@ -808,7 +810,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "pathbeats",
+							"parameter_longname" : "pathbeats[1]",
 							"parameter_shortname" : "pathbeats",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -835,7 +837,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "pathbars",
+							"parameter_longname" : "pathbars[1]",
 							"parameter_shortname" : "pathbars",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -1125,15 +1127,31 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 113.541044073104501, 5.043126816749577, 35.467654552459976, 20.0 ],
 					"saved_attribute_attributes" : 					{
+						"bgcolor" : 						{
+							"expression" : ""
+						}
+,
+						"bgoncolor" : 						{
+							"expression" : ""
+						}
+,
 						"textcolor" : 						{
 							"expression" : "themecolor.maxwindow_posttext"
+						}
+,
+						"textoncolor" : 						{
+							"expression" : ""
+						}
+,
+						"textovercolor" : 						{
+							"expression" : ""
 						}
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "textbutton[2]",
+							"parameter_longname" : "textbutton[3]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "textbutton[2]",
 							"parameter_type" : 2
@@ -1229,8 +1247,24 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 191.554409546398972, 5.043126816749577, 30.467654552459976, 20.0 ],
 					"saved_attribute_attributes" : 					{
+						"bgcolor" : 						{
+							"expression" : ""
+						}
+,
+						"bgoncolor" : 						{
+							"expression" : ""
+						}
+,
 						"textcolor" : 						{
 							"expression" : "themecolor.maxwindow_posttext"
+						}
+,
+						"textoncolor" : 						{
+							"expression" : ""
+						}
+,
+						"textovercolor" : 						{
+							"expression" : ""
 						}
 
 					}
@@ -1798,34 +1832,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-106" : [ "pathbars", "pathbars", 0 ],
-			"obj-107" : [ "pathbeats", "pathbeats", 0 ],
-			"obj-48" : [ "textbutton[2]", "textbutton[2]", 0 ],
-			"obj-5" : [ "slope[2]", "slope", 0 ],
-			"obj-6" : [ "shape[2]", "shape", 0 ],
-			"obj-85" : [ "live.numbox[4]", "live.numbox[2]", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "thru.maxpat",
-				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
