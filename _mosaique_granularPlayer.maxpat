@@ -40,6 +40,70 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-32",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 392.854235410690308, 622.882969292701318, 22.0, 22.0 ],
+					"text" : "t b"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-26",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 392.854235410690308, 658.882969292701318, 184.0, 22.0 ],
+					"text" : "s #1Mosaique_ServerID_request"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-72",
+					"maxclass" : "live.dial",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 546.854235410690308, 543.0, 52.0, 48.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 226.045780658721924, 6.947604243746952, 52.0, 48.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_initial" : [ 1.0 ],
+							"parameter_initial_enable" : 1,
+							"parameter_longname" : "live.dial[6]",
+							"parameter_mmax" : 20.0,
+							"parameter_mmin" : 1.0,
+							"parameter_shortname" : "Neighbours",
+							"parameter_type" : 1,
+							"parameter_unitstyle" : 0
+						}
+
+					}
+,
+					"varname" : "live.dial[4]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "",
+					"id" : "obj-23",
+					"index" : 3,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 546.854235410690308, 622.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-27",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -582,7 +646,7 @@
 					"presentation_rect" : [ 105.5, 6.947604243746952, 27.0, 39.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ 1.0 ],
+							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "slope[1]",
 							"parameter_mmax" : 1.0,
@@ -612,10 +676,10 @@
 					"presentation_rect" : [ 50.0, 6.947604243746952, 27.0, 39.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ 500.0 ],
+							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "shape[1]",
-							"parameter_mmax" : 1000.0,
+							"parameter_mmax" : 999.0,
 							"parameter_shortname" : "shape",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -1028,7 +1092,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints_with_curve" : [ 0.0, 0.0, 1, 0.0, 251.968503937007767, 1.0, 0, 0.488188976377952, 641.153465450545696, 0.0, 0, -0.488188976377952, 1000.0, 0.0, 0, 0.0, 1000.0, 0.0, 0, 0.409448818897637 ],
+					"addpoints_with_curve" : [ 0.0, 0.0, 1, 0.0, 133.724409448819046, 1.0, 0, -0.110236220472441, 641.153465450545696, 0.0, 0, 0.110236220472441, 1000.0, 0.0, 0, 0.0, 1000.0, 0.0, 0, 0.409448818897637 ],
 					"bgcolor" : [ 0.352941176470588, 0.352941176470588, 0.352941176470588, 1.0 ],
 					"gridcolor" : [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 1.0 ],
 					"id" : "obj-46",
@@ -1228,6 +1292,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"source" : [ "obj-32", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
 					"source" : [ "obj-34", 0 ]
 				}
@@ -1340,6 +1411,22 @@
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
 					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-23", 0 ],
+					"order" : 0,
+					"source" : [ "obj-72", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-32", 0 ],
+					"order" : 1,
+					"source" : [ "obj-72", 0 ]
 				}
 
 			}
