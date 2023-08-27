@@ -203,7 +203,10 @@ var HandleElement = function(x,y,bgMargin,width,height,use) {
     this.width = width;
     this.height = height;
     this.point1 = new Vector(this.position.x, this.position.y+this.height, 0);
-    this.point2 = new Vector(this.position.x+this.width, this.position.y, 0);
+    this.point2 = new Vector(this.position.x + this.width, this.position.y, 0);
+
+    this.clickpoint1 = new Vector(this.position.x, this.position.y+this.height, 0);
+    this.clickpoint2 = new Vector(this.position.x+this.width, this.position.y, 0);
 
     this.drawHandleDeco = function() {
         sketch.glcolor(1,1,1,1);
@@ -245,7 +248,8 @@ var HandleElement = function(x,y,bgMargin,width,height,use) {
     }
 }
 
-var SlideElement = function(x, y, yOff, width, height, testo, low, high, slideVal) {
+
+var HeaderElement = function (x, y, yOff, width, height, testo) {
     this.elemYOffset = yOff;
     this.position = new Vector(x, y-this.elemYOffset, 0);
     this.type = "SLIDE";
@@ -253,18 +257,13 @@ var SlideElement = function(x, y, yOff, width, height, testo, low, high, slideVa
     this.isClicked = 0;
     this.width = width;
     this.height = height;
-    this.slideAmp = this.position.x;
-    this.mappedVal = this.slideAmp;
-    this.mapLow = low;
-    this.mapHigh = high;
-    this.bgColor = [0.8,0.9,0.99,1];
-    this.slideColor = [0.2, 0.8, 0.5, 1];
-    this.point1 = new Vector(this.position.x, this.position.y+this.height, 0);
-    this.point2 = new Vector(this.position.x+this.width, this.position.y-this.height, 0);
 
-    if (slideVal != "undefined") {
-        this.slideAmp = map(slideVal, this.mapLow, this.mapHigh, this.point1.x, this.point2.x);
-    }
+    this.bgColor = [0.8,0.9,0.99,1];
+    // this.slideColor = [0.2, 0.8, 0.5, 1];
+    this.point1 = new Vector(this.position.x, this.position.y+this.height, 0);
+    this.point2 = new Vector(this.position.x + this.width, this.position.y - this.height, 0);
+    this.clickpoint1 = new Vector(this.position.x, this.position.y+this.height, 0);
+    this.clickpoint2 = new Vector(this.position.x+this.toggleWidth, this.position.y-this.height, 0);
 
 
     this.testo = testo;
@@ -274,7 +273,7 @@ var SlideElement = function(x, y, yOff, width, height, testo, low, high, slideVa
     this.label.fontsize = 39;
     this.label.font("Orator Std");
     this.label.scale = 0.05;
-    this.label.color = [0,0,0,1];
+    this.label.color = [1,1,1,1];
     this.label.position = [this.point1.x+0.005, this.position.y-0.0175, 0.1];
     this.label.floatchomp = 1;
     this.label.floatplaces = 3;
@@ -283,23 +282,15 @@ var SlideElement = function(x, y, yOff, width, height, testo, low, high, slideVa
     this.drawElement = function() {
         sketch.glcolor(this.bgColor);
         var margin = 0.000;
-        sketch.quad(this.point1.x-margin, this.point1.y-margin, 0, this.point1.x-margin, this.point2.y+margin, 0, this.point2.x+margin, this.point2.y+margin, 0, this.point2.x+margin, this.point1.y-margin, 0);
+        // sketch.quad(this.point1.x-margin, this.point1.y-margin, 0, this.point1.x-margin, this.point2.y+margin, 0, this.point2.x+margin, this.point2.y+margin, 0, this.point2.x+margin, this.point1.y-margin, 0);
     }
 
-    this.setSlideAmp = function(x) {
-        this.slideAmp = Math.min(Math.max(x, this.point1.x), this.point2.x);
+
+    this.sendValue = function () {
+        // outlet(0, "camera", this.testo);
+        // messnamed(this.testo, "bang");
     }
 
-    this.drawSlide = function() {
-        sketch.glcolor(this.slideColor);
-        sketch.shapeslice(3);
-        this.mappedVal = map(this.slideAmp, this.point1.x, this.point2.x, this.mapLow, this.mapHigh);
-        var text = this.testo + ": ";
-        this.label.text((text));
-        this.label.append(this.mappedVal);
-
-        sketch.quad(this.point1.x, this.point1.y, 0.01, this.point1.x, this.point2.y, 0.01, this.slideAmp, this.point2.y, 0.01, this.slideAmp, this.point1.y, 0.01);
-    }
 
     this.recalculatePos = function(x, y) {
         this.position.x = x;
@@ -307,7 +298,7 @@ var SlideElement = function(x, y, yOff, width, height, testo, low, high, slideVa
         this.point1 = new Vector(this.position.x, this.position.y+this.height, 0);
         this.point2 = new Vector(this.position.x+this.width, this.position.y-this.height, 0);
 
-        this.slideAmp = map(this.mappedVal, this.mapLow, this.mapHigh, this.point1.x, this.point2.x);
+        // this.slideAmp = map(this.mappedVal, this.mapLow, this.mapHigh, this.point1.x, this.point2.x);
 
         this.recalculateLabelPos();
     }
@@ -320,11 +311,10 @@ var SlideElement = function(x, y, yOff, width, height, testo, low, high, slideVa
         this.elemYOffset = yOff;
         // this.recalculatePos(this.position.x, this.position.y+yOff);
     }
+ }
 
-    this.sendValue = function() {
-        messnamed(this.testo, this.mappedVal);
-    }
-};
+
+
 
 var ToggleElement = function(x, y, yOff, width, height, testo, initVal, initColors) {
     this.elemYOffset = yOff;
@@ -346,7 +336,10 @@ var ToggleElement = function(x, y, yOff, width, height, testo, initVal, initColo
     }
 
     this.point1 = new Vector(this.position.x, this.position.y+this.height, 0);
-    this.point2 = new Vector(this.position.x+this.toggleWidth, this.position.y-this.height, 0);
+    this.point2 = new Vector(this.position.x + this.toggleWidth, this.position.y - this.height, 0);
+
+    this.clickpoint1 = new Vector(this.position.x, this.position.y+this.height, 0);
+    this.clickpoint2 = new Vector(this.position.x+this.toggleWidth, this.position.y-this.height, 0);
 
     this.testo = testo;
     this.label = new JitterObject("jit.gl.text", context);
@@ -407,85 +400,543 @@ var ToggleElement = function(x, y, yOff, width, height, testo, initVal, initColo
     }
 };
 
-var BangElement = function(x, y, yOff, width, height, testo) {
+// var BangElement = function (x, y, yOff, width, height, testo, dir) {
+
+//     function createVector(x, y, z) {
+//         return new Vector(x, y, z);
+//     }
+
+//     function calculatePoints() {
+//         var baseX = this.position.x;
+//         var baseY = this.position.y;
+//         var offsetX = 0;
+//         var offsetY = 0;
+
+//         if (dir === "top") {
+//             offsetX = 0.05;
+//         } else if (dir === "right") {
+//             offsetX = 0.1;
+//             offsetY = 0.07;
+//         } else if (dir === "bottom" || dir === "middle") {
+//             offsetX = 0.05;
+//             offsetY = 0.07;
+//         }
+
+//         return {
+//             point1: createVector(baseX + offsetX, baseY + this.height, 0),
+//             point2: createVector(baseX + offsetX + this.toggleWidth, baseY - this.height + offsetY, 0)
+//         };
+//     }
+
+
+//     this.position = createVector(x, y - this.elemYOffset, 0);
+//     this.elemYOffset = yOff;
+
+//     this.type = "BANG";
+//     this.isInside = 0;
+//     this.isClicked = 0;
+//     this.width = width + 0.0305*testo.length;
+//     this.toggleWidth = width;
+//     this.height = height/2;
+//     this.bgColor = [0.8,0.9,0.99,1];
+//     this.circleColor0 = [0.1, 0.1, 0.1, 1];
+//     this.circleColor1 = [0.2, 0.8, 0.5, 1];
+//     this.bangColor = [0.2, 0.8, 0.5, 1];
+//     this.isBanged = 0;
+//     this.frameCounter = 0;
+//     this.numFramesBang = 10;
+
+//     var points = calculatePoints.call(this);
+//     this.point1 = points.point1;
+//     this.point2 = points.point2;
+
+//     this.xMove = 0;
+//     this.yMove = 0;
+
+//     if (dir == "top") {
+//         this.clickpoint1 = new Vector(this.position.x+0.05, this.position.y+this.height, 0);
+//         this.clickpoint2 = new Vector(this.position.x+0.05 + this.toggleWidth, this.position.y - this.height, 0);
+//     } else if (dir=="left") {
+//         this.clickpoint1 = new Vector(this.position.x, this.position.y+this.height, 0);
+//         this.clickpoint2 = new Vector(this.position.x + this.toggleWidth, this.position.y - this.height, 0);
+//     } else if (dir == "right") {
+//         // this.clickpoint1 = new Vector(this.position.x, this.position.y+this.height, 0);
+//         // this.clickpoint2 = new Vector(this.position.x + this.toggleWidth, this.position.y - this.height, 0);
+//         this.clickpoint1 = new Vector(this.position.x+.1, this.position.y+this.height+.07, 0);
+//         this.clickpoint2 = new Vector(this.position.x+.1 + this.toggleWidth, this.position.y - this.height+.07, 0);
+//     } else if (dir == "bottom") {
+//         this.clickpoint1 = new Vector(this.position.x+0.05, this.position.y+this.height+0.07, 0);
+//         this.clickpoint2 = new Vector(this.position.x+0.05 + this.toggleWidth, this.position.y - this.height+0.07, 0);
+//     } else if (dir == "middle") {
+//         this.clickpoint1 = new Vector(this.position.x+0.05, this.position.y+this.height+0.07, 0);
+//         this.clickpoint2 = new Vector(this.position.x+0.05 + this.toggleWidth, this.position.y - this.height+0.07, 0);
+//     }
+
+//     this.tripoint1 = new Vector(this.position.x+this.height, this.position.y + this.height, 0);
+//     this.tripoint2 = new Vector(this.position.x, this.position.y + this.height, 0);
+//     this.tripoint3 = new Vector(this.position.x, this.position.y+this.height, 0);
+
+//     this.testo = testo;
+
+
+//     this.drawElement = function() {
+//         sketch.glcolor(this.bgColor);
+//         var margin = 0.000;
+//         // sketch.quad(
+//         //     this.point1.x - margin, this.point1.y - margin, 0,
+//         //     this.point1.x - margin, this.point2.y + margin, 0,
+//         //     this.point2.x + margin, this.point2.y + margin, 0,
+//         //     this.point2.x + margin, this.point1.y - margin, 0
+//         // );
+
+//         if (dir == "top") {
+//             sketch.quad(
+//                 this.point1.x - margin+0.05, this.point1.y - margin, 0,
+//                 this.point1.x - margin+0.05, this.point2.y + margin, 0,
+//                 this.point2.x + margin+0.05, this.point2.y + margin, 0,
+//                 this.point2.x + margin+0.05, this.point1.y - margin, 0
+//             );
+//         } else if (dir=="left") {
+//             sketch.quad(
+//                 this.point1.x - margin, this.point1.y - margin, 0,
+//                 this.point1.x - margin, this.point2.y + margin, 0,
+//                 this.point2.x + margin, this.point2.y + margin, 0,
+//                 this.point2.x + margin, this.point1.y - margin, 0
+//             );
+//         } else if (dir == "right") {
+//             sketch.quad(
+//                 this.point1.x - margin+.1, this.point1.y - margin+.07, 0,
+//                 this.point1.x - margin+.1, this.point2.y + margin+.07, 0,
+//                 this.point2.x + margin+.1, this.point2.y + margin+.07, 0,
+//                 this.point2.x + margin+.1, this.point1.y - margin+.07, 0
+//             );
+
+
+//         } else if (dir == "bottom") {
+//             sketch.quad(
+//                 this.point1.x - margin+0.05, this.point1.y - margin+0.07, 0,
+//                 this.point1.x - margin+0.05, this.point2.y + margin+0.07, 0,
+//                 this.point2.x + margin+0.05, this.point2.y + margin+0.07, 0,
+//                 this.point2.x + margin+0.05, this.point1.y - margin+0.07, 0
+//             );
+//         } else if (dir == "middle") {
+//             sketch.quad(
+//                 this.point1.x - margin+0.05, this.point1.y - margin+0.07, 0,
+//                 this.point1.x - margin+0.05, this.point2.y + margin+0.07, 0,
+//                 this.point2.x + margin+0.05, this.point2.y + margin+0.07, 0,
+//                 this.point2.x + margin+0.05, this.point1.y - margin+0.07, 0
+//             );
+//         }
+
+//         this.drawCircle();
+//        // this.drawTriangle();
+//     }
+
+//     // this.drawTriangle = function () {
+//     //     if (this.isBanged) {
+//     //         sketch.glcolor(this.circleColor1);
+//     //         this.frameCounter++;
+//     //     }
+//     //     else
+//     //         sketch.glcolor(this.circleColor0);
+//     //     if(this.frameCounter >= this.numFramesBang) {
+//     //         sketch.glcolor(this.circleColor0);
+//     //         this.frameCounter = 0;
+//     //         this.isBanged = 0;
+//     //     }
+
+//     //     sketch.moveto(this.point1.x+this.toggleWidth/2, this.point1.y-this.height, 0.1);
+//     //     sketch.shapeslice(20);
+//     //     // sketch.quad(
+//     //     //     this.point1.x - margin, this.point1.y - margin, 0,
+//     //     //     this.point1.x - margin, this.point2.y + margin, 0,
+//     //     //     this.point2.x + margin, this.point2.y + margin, 0,
+//     //     //     this.point2.x + margin, this.point2.y + margin, 0,
+//     //     // );
+//     //     sketch.shapeslice(4);
+//     // }
+
+//     this.drawCircle = function() {
+//         if (this.isBanged) {
+//             sketch.glcolor(this.circleColor1);
+//             this.frameCounter++;
+//         }
+//         else
+//             sketch.glcolor(this.circleColor0);
+//         if(this.frameCounter >= this.numFramesBang) {
+//             sketch.glcolor(this.circleColor0);
+//             this.frameCounter = 0;
+//             this.isBanged = 0;
+//         }
+
+
+//        // sketch.moveto(this.point1.x + this.toggleWidth / 2, this.point1.y - this.height, 0.1);
+
+//         if (dir == "right") {
+//             sketch.moveto(this.point1.x + this.toggleWidth / 2 + 0.1, this.point1.y - this.height + .07, 0.1);
+//         } else if (dir == "top") {
+//             sketch.moveto(this.point1.x + this.toggleWidth / 2 + 0.05, this.point1.y - this.height, 0.1);
+//         }   else if (dir == "left") {
+//             sketch.moveto(this.point1.x + this.toggleWidth / 2, this.point1.y - this.height, 0.1);
+//         } else if (dir == "bottom") {
+//             sketch.moveto(this.point1.x + this.toggleWidth / 2 + 0.05, this.point1.y - this.height + 0.07, 0.1);
+//         } else if (dir == "middle") {
+//             sketch.moveto(this.point1.x + this.toggleWidth / 2 + 0.05, this.point1.y - this.height, 0.1);
+//         }
+
+//         sketch.shapeslice(20);
+//         sketch.circle(this.toggleWidth/2-0.005);
+//         sketch.shapeslice(4);
+//     }
+
+//     this.setBangState = function() {
+//         this.isBanged = 1;
+//     }
+
+//     this.recalculatePos = function(x, y) {
+//         this.position.x = x;
+//         this.position.y = y-this.elemYOffset;
+//         this.point1 = new Vector(this.position.x, this.position.y+this.height, 0);
+//         this.point2 = new Vector(this.position.x+this.toggleWidth, this.position.y-this.height, 0);
+//         if (dir == "top") {
+//             this.clickpoint1 = new Vector(this.position.x+0.05, this.position.y+this.height, 0);
+//             this.clickpoint2 = new Vector(this.position.x+0.05 + this.toggleWidth, this.position.y - this.height, 0);
+//         } else if (dir=="left") {
+//             this.clickpoint1 = new Vector(this.position.x, this.position.y+this.height, 0);
+//             this.clickpoint2 = new Vector(this.position.x + this.toggleWidth, this.position.y - this.height, 0);
+//         } else if (dir == "right") {
+//             // this.clickpoint1 = new Vector(this.position.x, this.position.y+this.height, 0);
+//             // this.clickpoint2 = new Vector(this.position.x + this.toggleWidth, this.position.y - this.height, 0);
+//             this.clickpoint1 = new Vector(this.position.x+.1, this.position.y+this.height+.07, 0);
+//             this.clickpoint2 = new Vector(this.position.x+.1 + this.toggleWidth, this.position.y - this.height+.07, 0);
+//         } else if (dir == "bottom") {
+//             this.clickpoint1 = new Vector(this.position.x+0.05, this.position.y+this.height+0.07, 0);
+//             this.clickpoint2 = new Vector(this.position.x+0.05 + this.toggleWidth, this.position.y - this.height+0.07, 0);
+//         } else if (dir == "middle") {
+//             this.clickpoint1 = new Vector(this.position.x+0.05, this.position.y+this.height+0.07, 0);
+//             this.clickpoint2 = new Vector(this.position.x+0.05 + this.toggleWidth, this.position.y - this.height+0.07, 0);
+//         }
+//         this.recalculateLabelPos();
+//     }
+
+//     this.recalculateLabelPos = function() {
+//         // this.label.position = [this.point1.x+this.toggleWidth+0.005, this.position.y-0.0175, 0.1];
+//     }
+
+//     this.recalculateYOffset = function(yOff) {
+//         this.elemYOffset = yOff;
+//         // this.recalculatePos(this.position.x, this.position.y+yOff);
+//     }
+
+//     this.sendValue = function () {
+//         outlet(0, "camera", this.testo);
+//         messnamed(this.testo, "bang");
+//     }
+// };
+
+
+// var BangElement = function(x, y, yOff, width, height, testo, dir) {
+//     this.elemYOffset = yOff;
+//     this.position = new Vector(x, y-this.elemYOffset, 0);
+//     this.type = "BANG";
+//     this.isInside = 0;
+//     this.isClicked = 0;
+//     this.width = width + 0.0305*testo.length;
+//     this.toggleWidth = width;
+//     this.height = height/2;
+//     this.bgColor = [0.8,0.9,0.99,1];
+//     this.circleColor0 = [0.1, 0.1, 0.1, 1];
+//     this.circleColor1 = [0.2, 0.8, 0.5, 1];
+//     this.bangColor = [0.2, 0.8, 0.5, 1];
+//     this.isBanged = 0;
+//     this.frameCounter = 0;
+//     this.numFramesBang = 10;
+
+//     this.point1 = new Vector(this.position.x, this.position.y+this.height, 0);
+//     this.point2 = new Vector(this.position.x + this.toggleWidth, this.position.y - this.height, 0);
+
+//     this.xMove = 0;
+//     this.yMove = 0;
+
+//     if (dir == "top") {
+//         this.clickpoint1 = new Vector(this.position.x+0.05, this.position.y+this.height, 0);
+//         this.clickpoint2 = new Vector(this.position.x+0.05 + this.toggleWidth, this.position.y - this.height, 0);
+//     } else if (dir=="left") {
+//         this.clickpoint1 = new Vector(this.position.x, this.position.y+this.height, 0);
+//         this.clickpoint2 = new Vector(this.position.x + this.toggleWidth, this.position.y - this.height, 0);
+//     } else if (dir == "right") {
+//         // this.clickpoint1 = new Vector(this.position.x, this.position.y+this.height, 0);
+//         // this.clickpoint2 = new Vector(this.position.x + this.toggleWidth, this.position.y - this.height, 0);
+//         this.clickpoint1 = new Vector(this.position.x+.1, this.position.y+this.height+.07, 0);
+//         this.clickpoint2 = new Vector(this.position.x+.1 + this.toggleWidth, this.position.y - this.height+.07, 0);
+//     } else if (dir == "bottom") {
+//         this.clickpoint1 = new Vector(this.position.x+0.05, this.position.y+this.height+0.07, 0);
+//         this.clickpoint2 = new Vector(this.position.x+0.05 + this.toggleWidth, this.position.y - this.height+0.07, 0);
+//     } else if (dir == "middle") {
+//         this.clickpoint1 = new Vector(this.position.x+0.05, this.position.y+this.height+0.07, 0);
+//         this.clickpoint2 = new Vector(this.position.x+0.05 + this.toggleWidth, this.position.y - this.height+0.07, 0);
+//     }
+
+//     this.tripoint1 = new Vector(this.position.x+this.height, this.position.y + this.height, 0);
+//     this.tripoint2 = new Vector(this.position.x, this.position.y + this.height, 0);
+//     this.tripoint3 = new Vector(this.position.x, this.position.y+this.height, 0);
+
+//     this.testo = testo;
+
+
+//     this.drawElement = function() {
+//         sketch.glcolor(this.bgColor);
+//         var margin = 0.000;
+//         // sketch.quad(
+//         //     this.point1.x - margin, this.point1.y - margin, 0,
+//         //     this.point1.x - margin, this.point2.y + margin, 0,
+//         //     this.point2.x + margin, this.point2.y + margin, 0,
+//         //     this.point2.x + margin, this.point1.y - margin, 0
+//         // );
+
+//         if (dir == "top") {
+//             sketch.quad(
+//                 this.point1.x - margin+0.05, this.point1.y - margin, 0,
+//                 this.point1.x - margin+0.05, this.point2.y + margin, 0,
+//                 this.point2.x + margin+0.05, this.point2.y + margin, 0,
+//                 this.point2.x + margin+0.05, this.point1.y - margin, 0
+//             );
+//         } else if (dir=="left") {
+//             sketch.quad(
+//                 this.point1.x - margin, this.point1.y - margin, 0,
+//                 this.point1.x - margin, this.point2.y + margin, 0,
+//                 this.point2.x + margin, this.point2.y + margin, 0,
+//                 this.point2.x + margin, this.point1.y - margin, 0
+//             );
+//         } else if (dir == "right") {
+//             sketch.quad(
+//                 this.point1.x - margin+.1, this.point1.y - margin+.07, 0,
+//                 this.point1.x - margin+.1, this.point2.y + margin+.07, 0,
+//                 this.point2.x + margin+.1, this.point2.y + margin+.07, 0,
+//                 this.point2.x + margin+.1, this.point1.y - margin+.07, 0
+//             );
+
+
+//         } else if (dir == "bottom") {
+//             sketch.quad(
+//                 this.point1.x - margin+0.05, this.point1.y - margin+0.07, 0,
+//                 this.point1.x - margin+0.05, this.point2.y + margin+0.07, 0,
+//                 this.point2.x + margin+0.05, this.point2.y + margin+0.07, 0,
+//                 this.point2.x + margin+0.05, this.point1.y - margin+0.07, 0
+//             );
+//         } else if (dir == "middle") {
+//             sketch.quad(
+//                 this.point1.x - margin+0.05, this.point1.y - margin+0.07, 0,
+//                 this.point1.x - margin+0.05, this.point2.y + margin+0.07, 0,
+//                 this.point2.x + margin+0.05, this.point2.y + margin+0.07, 0,
+//                 this.point2.x + margin+0.05, this.point1.y - margin+0.07, 0
+//             );
+//         }
+
+//         this.drawCircle();
+//        // this.drawTriangle();
+//     }
+
+//     // this.drawTriangle = function () {
+//     //     if (this.isBanged) {
+//     //         sketch.glcolor(this.circleColor1);
+//     //         this.frameCounter++;
+//     //     }
+//     //     else
+//     //         sketch.glcolor(this.circleColor0);
+//     //     if(this.frameCounter >= this.numFramesBang) {
+//     //         sketch.glcolor(this.circleColor0);
+//     //         this.frameCounter = 0;
+//     //         this.isBanged = 0;
+//     //     }
+
+//     //     sketch.moveto(this.point1.x+this.toggleWidth/2, this.point1.y-this.height, 0.1);
+//     //     sketch.shapeslice(20);
+//     //     // sketch.quad(
+//     //     //     this.point1.x - margin, this.point1.y - margin, 0,
+//     //     //     this.point1.x - margin, this.point2.y + margin, 0,
+//     //     //     this.point2.x + margin, this.point2.y + margin, 0,
+//     //     //     this.point2.x + margin, this.point2.y + margin, 0,
+//     //     // );
+//     //     sketch.shapeslice(4);
+//     // }
+
+//     this.drawCircle = function() {
+//         if (this.isBanged) {
+//             sketch.glcolor(this.circleColor1);
+//             this.frameCounter++;
+//         }
+//         else
+//             sketch.glcolor(this.circleColor0);
+//         if(this.frameCounter >= this.numFramesBang) {
+//             sketch.glcolor(this.circleColor0);
+//             this.frameCounter = 0;
+//             this.isBanged = 0;
+//         }
+
+
+//        // sketch.moveto(this.point1.x + this.toggleWidth / 2, this.point1.y - this.height, 0.1);
+
+//         if (dir == "right") {
+//             sketch.moveto(this.point1.x + this.toggleWidth / 2 + 0.1, this.point1.y - this.height + .07, 0.1);
+//         } else if (dir == "top") {
+//             sketch.moveto(this.point1.x + this.toggleWidth / 2 + 0.05, this.point1.y - this.height, 0.1);
+//         }   else if (dir == "left") {
+//             sketch.moveto(this.point1.x + this.toggleWidth / 2, this.point1.y - this.height, 0.1);
+//         } else if (dir == "bottom") {
+//             sketch.moveto(this.point1.x + this.toggleWidth / 2 + 0.05, this.point1.y - this.height + 0.07, 0.1);
+//         } else if (dir == "middle") {
+//             sketch.moveto(this.point1.x + this.toggleWidth / 2 + 0.05, this.point1.y - this.height, 0.1);
+//         }
+
+//         sketch.shapeslice(20);
+//         sketch.circle(this.toggleWidth/2-0.005);
+//         sketch.shapeslice(4);
+//     }
+
+//     this.setBangState = function() {
+//         this.isBanged = 1;
+//     }
+
+//     this.recalculatePos = function(x, y) {
+//         this.position.x = x;
+//         this.position.y = y-this.elemYOffset;
+//         this.point1 = new Vector(this.position.x, this.position.y+this.height, 0);
+//         this.point2 = new Vector(this.position.x+this.toggleWidth, this.position.y-this.height, 0);
+//         if (dir == "top") {
+//             this.clickpoint1 = new Vector(this.position.x+0.05, this.position.y+this.height, 0);
+//             this.clickpoint2 = new Vector(this.position.x+0.05 + this.toggleWidth, this.position.y - this.height, 0);
+//         } else if (dir=="left") {
+//             this.clickpoint1 = new Vector(this.position.x, this.position.y+this.height, 0);
+//             this.clickpoint2 = new Vector(this.position.x + this.toggleWidth, this.position.y - this.height, 0);
+//         } else if (dir == "right") {
+//             // this.clickpoint1 = new Vector(this.position.x, this.position.y+this.height, 0);
+//             // this.clickpoint2 = new Vector(this.position.x + this.toggleWidth, this.position.y - this.height, 0);
+//             this.clickpoint1 = new Vector(this.position.x+.1, this.position.y+this.height+.07, 0);
+//             this.clickpoint2 = new Vector(this.position.x+.1 + this.toggleWidth, this.position.y - this.height+.07, 0);
+//         } else if (dir == "bottom") {
+//             this.clickpoint1 = new Vector(this.position.x+0.05, this.position.y+this.height+0.07, 0);
+//             this.clickpoint2 = new Vector(this.position.x+0.05 + this.toggleWidth, this.position.y - this.height+0.07, 0);
+//         } else if (dir == "middle") {
+//             this.clickpoint1 = new Vector(this.position.x+0.05, this.position.y+this.height+0.07, 0);
+//             this.clickpoint2 = new Vector(this.position.x+0.05 + this.toggleWidth, this.position.y - this.height+0.07, 0);
+//         }
+//         this.recalculateLabelPos();
+//     }
+
+//     this.recalculateLabelPos = function() {
+//         // this.label.position = [this.point1.x+this.toggleWidth+0.005, this.position.y-0.0175, 0.1];
+//     }
+
+//     this.recalculateYOffset = function(yOff) {
+//         this.elemYOffset = yOff;
+//         // this.recalculatePos(this.position.x, this.position.y+yOff);
+//     }
+
+//     this.sendValue = function () {
+//         outlet(0, "camera", this.testo);
+//         messnamed(this.testo, "bang");
+//     }
+// };
+
+function calculateClickPoints(position, height, toggleWidth, dir) {
+    const offsets = {
+      "top": [0.05, 0],
+      "left": [0, 0],
+      "right": [0.1, 0.07],
+      "bottom": [0.05, 0.07],
+      "middle": [0.05, 0.07],
+    };
+
+    var [xOff, yOff] = offsets[dir] || [0, 0];
+    return {
+      clickpoint1: new Vector(position.x + xOff, position.y + height + yOff, 0),
+      clickpoint2: new Vector(position.x + xOff + toggleWidth, position.y - height + yOff, 0),
+    };
+  }
+
+
+
+var BangElement = function (x, y, yOff, width, height, testo, dir) {
+    const margin = 0.000; // Move this to the top, to be a constant
+    const additionalWidth = 0.0305 * testo.length;
     this.elemYOffset = yOff;
     this.position = new Vector(x, y-this.elemYOffset, 0);
     this.type = "BANG";
-    this.isInside = 0;
-    this.isClicked = 0;
-    this.width = width + 0.0305*testo.length;
+
+    this.width = width + additionalWidth;
     this.toggleWidth = width;
     this.height = height/2;
-    this.bgColor = [0.8,0.9,0.99,1];
-    this.circleColor0 = [0.1, 0.1, 0.1, 1];
-    this.circleColor1 = [0.2, 0.8, 0.5, 1];
-    this.bangColor = [0.2, 0.8, 0.5, 1];
-    this.isBanged = 0;
-    this.frameCounter = 0;
+    this.testo = testo;
+    this.isInside = this.isClicked = this.isBanged = this.frameCounter = 0;
     this.numFramesBang = 10;
 
     this.point1 = new Vector(this.position.x, this.position.y+this.height, 0);
     this.point2 = new Vector(this.position.x + this.toggleWidth, this.position.y - this.height, 0);
+
+    this.bgColor = [0.8,0.9,0.99,1];
+    this.circleColor0 = [0.1, 0.1, 0.1, 1];
+    this.circleColor1 = [0.2, 0.8, 0.5, 1];
+    this.bangColor = [0.2, 0.8, 0.5, 1];
+
+    this.colors = {
+        bgColor: [0.8, 0.9, 0.99, 1],
+        circleColors: [[0.1, 0.1, 0.1, 1], [0.2, 0.8, 0.5, 1]]
+      };
+
+
+    var {clickpoint1, clickpoint2} = calculateClickPoints(this.position, this.height, this.toggleWidth, dir);
+    this.clickpoint1 = clickpoint1;
+    this.clickpoint2 = clickpoint2;
+
+    var xOffset = (dir === "right") ? 0.1 : (dir === "top" || dir === "bottom" || dir === "middle") ? 0.05 : 0;
+    var yOffset = (dir === "right" || dir === "bottom" || dir === "middle") ? 0.07 : 0;
 
 
     this.tripoint1 = new Vector(this.position.x+this.height, this.position.y + this.height, 0);
     this.tripoint2 = new Vector(this.position.x, this.position.y + this.height, 0);
     this.tripoint3 = new Vector(this.position.x, this.position.y+this.height, 0);
 
-    this.testo = testo;
-    this.label = new JitterObject("jit.gl.text", context);
-    this.label.text(this.testo);
-    this.label.mode = "3d";
-    this.label.fontsize = 39;
-    this.label.font("Orator Std");
-    this.label.scale = 0.05;
-    this.label.color = [1,1,1,1];
-    this.label.position = [this.point1.x+this.toggleWidth+0.005, this.position.y-0.0175, 0.1];
+    this.drawQuad = function() {
+        sketch.glcolor(this.colors.bgColor);
+
+        sketch.quad(
+          this.point1.x - margin + xOffset, this.point1.y - margin + yOffset, 0,
+          this.point1.x - margin + xOffset, this.point2.y + margin + yOffset, 0,
+          this.point2.x + margin + xOffset, this.point2.y + margin + yOffset, 0,
+          this.point2.x + margin + xOffset, this.point1.y - margin + yOffset, 0
+        );
+      };
 
     this.drawElement = function() {
-        sketch.glcolor(this.bgColor);
-        var margin = 0.000;
-        sketch.quad(
-            this.point1.x - margin, this.point1.y - margin, 0,
-            this.point1.x - margin, this.point2.y + margin, 0,
-            this.point2.x + margin, this.point2.y + margin, 0,
-            this.point2.x + margin, this.point1.y - margin, 0
-        );
-
-        // sketch.quad(
-        //     this.point1.x - margin, this.point1.y - margin, 0,
-        //     this.point1.x - margin, this.point2.y + margin, 0,
-        //     this.point2.x + margin, this.point2.y + margin, 0,
-        //     this.point2.x + margin, this.point2.y + margin, 0,
-        // );
-
+        this.drawQuad();
         this.drawCircle();
        // this.drawTriangle();
     }
 
-    this.drawTriangle = function () {
-        if (this.isBanged) {
-            sketch.glcolor(this.circleColor1);
-            this.frameCounter++;
-        }
-        else
-            sketch.glcolor(this.circleColor0);
-        if(this.frameCounter >= this.numFramesBang) {
-            sketch.glcolor(this.circleColor0);
-            this.frameCounter = 0;
-            this.isBanged = 0;
-        }
+    // this.drawTriangle = function () {
+    //     if (this.isBanged) {
+    //         sketch.glcolor(this.circleColor1);
+    //         this.frameCounter++;
+    //     }
+    //     else
+    //         sketch.glcolor(this.circleColor0);
+    //     if(this.frameCounter >= this.numFramesBang) {
+    //         sketch.glcolor(this.circleColor0);
+    //         this.frameCounter = 0;
+    //         this.isBanged = 0;
+    //     }
 
-        sketch.moveto(this.point1.x+this.toggleWidth/2, this.point1.y-this.height, 0.1);
-        sketch.shapeslice(20);
-        // sketch.quad(
-        //     this.point1.x - margin, this.point1.y - margin, 0,
-        //     this.point1.x - margin, this.point2.y + margin, 0,
-        //     this.point2.x + margin, this.point2.y + margin, 0,
-        //     this.point2.x + margin, this.point2.y + margin, 0,
-        // );
-        sketch.shapeslice(4);
-    }
+    //     sketch.moveto(this.point1.x+this.toggleWidth/2, this.point1.y-this.height, 0.1);
+    //     sketch.shapeslice(20);
+    //     // sketch.quad(
+    //     //     this.point1.x - margin, this.point1.y - margin, 0,
+    //     //     this.point1.x - margin, this.point2.y + margin, 0,
+    //     //     this.point2.x + margin, this.point2.y + margin, 0,
+    //     //     this.point2.x + margin, this.point2.y + margin, 0,
+    //     // );
+    //     sketch.shapeslice(4);
+    // }
 
     this.drawCircle = function() {
         if (this.isBanged) {
@@ -500,7 +951,9 @@ var BangElement = function(x, y, yOff, width, height, testo) {
             this.isBanged = 0;
         }
 
-        sketch.moveto(this.point1.x+this.toggleWidth/2, this.point1.y-this.height, 0.1);
+        sketch.moveto(this.point1.x + this.toggleWidth / 2 + xOffset, this.point1.y - this.height + yOffset, 0.1);
+
+
         sketch.shapeslice(20);
         sketch.circle(this.toggleWidth/2-0.005);
         sketch.shapeslice(4);
@@ -514,16 +967,20 @@ var BangElement = function(x, y, yOff, width, height, testo) {
         this.position.x = x;
         this.position.y = y-this.elemYOffset;
         this.point1 = new Vector(this.position.x, this.position.y+this.height, 0);
-        this.point2 = new Vector(this.position.x+this.toggleWidth, this.position.y-this.height, 0);
+        this.point2 = new Vector(this.position.x + this.toggleWidth, this.position.y - this.height, 0);
+
+        var {clickpoint1, clickpoint2} = calculateClickPoints(this.position, this.height, this.toggleWidth, dir);
+        this.clickpoint1 = clickpoint1;
+        this.clickpoint2 = clickpoint2;
 
         this.recalculateLabelPos();
     }
 
     this.recalculateLabelPos = function() {
-        this.label.position = [this.point1.x+this.toggleWidth+0.005, this.position.y-0.0175, 0.1];
+        // this.label.position = [this.point1.x+this.toggleWidth+0.005, this.position.y-0.0175, 0.1];
     }
 
-        this.recalculateYOffset = function(yOff) {
+    this.recalculateYOffset = function(yOff) {
         this.elemYOffset = yOff;
         // this.recalculatePos(this.position.x, this.position.y+yOff);
     }
@@ -533,7 +990,6 @@ var BangElement = function(x, y, yOff, width, height, testo) {
         messnamed(this.testo, "bang");
     }
 };
-
 
 var GLgui = function(context, x, y) {
     this.context = context;
@@ -546,7 +1002,7 @@ var GLgui = function(context, x, y) {
 
     this.bgMargin = 0.01;
     this.elemSpace = 0.07;
-    this.slideWidth = 0.6;
+    this.slideWidth = 0.3;
     this.slideHeight = 0.03;
     this.toggleSize = 0.06;
     this.yOffset = 0.0;
@@ -618,11 +1074,8 @@ var GLgui = function(context, x, y) {
                     isSomeClicked = 1;
 
                     if (elemTemp.isInside && elemTemp.isClicked) {
-                        if (elemTemp.type == "SLIDE") {
-                            elemTemp.setSlideAmp(this.mouseWorldPos.x);
-                            elemTemp.sendValue();
-                        }
-                        else if (elemTemp.type == "HANDLE" && elemTemp.use == "REPOS") {
+
+                        if (elemTemp.type == "HANDLE" && elemTemp.use == "REPOS") {
                             this.moveGui(this.mouseWorldPos.x-0.01, this.mouseWorldPos.y-0.07);
                         }
                         else if (elemTemp.type == "HANDLE" && elemTemp.use == "HIDE" && this.wasClicked != this.isClicked) {
@@ -646,8 +1099,7 @@ var GLgui = function(context, x, y) {
                     elemTemp.isClicked = 0;
                     this.wasClicked = 0;
                 }
-                if (elemTemp["drawSlide"])
-                elemTemp.drawSlide();
+
             }
        }
        this.drawBg(maxWidth);
@@ -686,22 +1138,12 @@ var GLgui = function(context, x, y) {
     }
 
     this.isInsideGuiElement = function(guiElement) {
-        if(this.mouseWorldPos.x >= guiElement.point1.x && this.mouseWorldPos.x <= guiElement.point2.x &&
-            this.mouseWorldPos.y <= guiElement.point1.y && this.mouseWorldPos.y >= guiElement.point2.y) {
+        if(this.mouseWorldPos.x >= guiElement.clickpoint1.x && this.mouseWorldPos.x <= guiElement.clickpoint2.x &&
+            this.mouseWorldPos.y <= guiElement.clickpoint1.y && this.mouseWorldPos.y >= guiElement.clickpoint2.y) {
             guiElement.isInside = 1;
          }
     }
 
-    this.createSlideElement = function(testo, low, high, initVal) {
-        this.yOffset = this.elemSpace * (this.guiElements.length-2);
-        this.guiElements.push(new SlideElement(this.startPos.x, this.startPos.y, this.yOffset, this.slideWidth, this.slideHeight, testo, low, high, initVal));
-        if (this.isHidden) {
-            this.guiElements[this.guiElements.length-1].label.enable = 0;
-        } else {
-            this.guiElements[this.guiElements.length-1].drawSlide();
-        }
-        this.guiElements[this.guiElements.length-1].sendValue();
-    }
 
     this.createToggleElement = function (testo, initVal, initColors) {
 
@@ -714,18 +1156,33 @@ var GLgui = function(context, x, y) {
         this.guiElements[this.guiElements.length-1].sendValue();
     }
 
-    this.createBangElement = function(testo) {
+    this.createHeaderElement = function (testo) {
+
         var tempX = this.startPos.x;
-        this.yOffset = this.elemSpace * (this.guiElements.length - 2);
-
-
-
-        this.guiElements.push(new BangElement(tempX, this.startPos.y, this.yOffset, this.toggleSize, this.toggleSize, testo));
+        this.yOffset = this.elemSpace * (this.guiElements.length-2);
+        this.guiElements.push(new HeaderElement(tempX, this.startPos.y, this.yOffset, this.toggleSize, this.toggleSize, testo));
         if (this.isHidden) {
             this.guiElements[this.guiElements.length-1].label.enable = 0;
         }
         this.guiElements[this.guiElements.length-1].sendValue();
     }
+
+
+    this.createBangElement = function(testo, dir) {
+        var tempX = this.startPos.x;
+        this.yOffset = this.elemSpace * (this.guiElements.length - 2);
+
+
+
+        this.guiElements.push(new BangElement(tempX, this.startPos.y, this.yOffset, this.toggleSize, this.toggleSize, testo, dir));
+        if (this.isHidden) {
+            this.guiElements[this.guiElements.length-1].label.enable = 0;
+        }
+        this.guiElements[this.guiElements.length-1].sendValue();
+    }
+
+
+
 
     this.deleteElement = function(elemLabel) {
         if (this.guiElements.length > 3) {
@@ -769,14 +1226,7 @@ function update() {
     gui.update();
 }
 
-function createslide(testo, low, high, initVal) {
-    if (typeof(initVal) != "undefined") {
-        gui.createSlideElement(testo, low, high, initVal);
-    } else {
-        gui.createSlideElement(testo, low, high, "undefined");
-    }
-    gui.drawGui();
-}
+
 
 function createtoggle(testo, initVal, r, g, b) {
     // maybe unneeded
@@ -789,9 +1239,13 @@ function createtoggle(testo, initVal, r, g, b) {
     }
 }
 
-function createbang(testo) {
+function createbang(testo, dir) {
 
-    gui.createBangElement(testo);
+    gui.createBangElement(testo, dir);
+}
+
+function createheader(testo) {
+    gui.createHeaderElement(testo);
 }
 
 function mouseToWorld(x, y, isClicked) {

@@ -78,7 +78,9 @@ function addToPath(unitIndex) {
 			dict_pathPositions.replace("data::" + dictIndex, newUnitValue);
 			pathCount += 1;
 			outlet(0, "pathCount", pathCount);
+			outlet(0, "pathOutput", pathCount);
 			outlet(0, "pathUpdate", 1);
+
 		}
 
 	}
@@ -94,6 +96,7 @@ function removeFromPath(pathIndex) {
 	//now renumber dict
 	renumberDictIndices(pathCount);
 	outlet(0, "pathCount", pathCount);
+	outlet(0, "pathOutput", pathCount);
 	outlet(0, "pathUpdate", 1);
 }
 
