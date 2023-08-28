@@ -44,7 +44,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 254.104456999999911, 714.506028652191162, 100.0, 22.0 ],
+					"patching_rect" : [ 224.104456999999911, 642.936107754707336, 100.0, 22.0 ],
 					"text" : "s oscServer"
 				}
 
@@ -104,7 +104,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 268.373192211883634, 613.0, 100.0, 22.0 ],
+					"patching_rect" : [ 238.373192211883634, 541.430079102516174, 100.0, 22.0 ],
 					"text" : "prepend"
 				}
 
@@ -116,7 +116,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 439.0, 388.0, 61.0, 22.0 ],
+					"patching_rect" : [ 443.0, 351.0, 61.0, 22.0 ],
 					"text" : "zl.nth 2"
 				}
 
@@ -128,7 +128,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 520.0, 388.0, 70.0, 22.0 ],
+					"patching_rect" : [ 524.0, 351.0, 70.0, 22.0 ],
 					"text" : "zl.nth 1"
 				}
 
@@ -140,7 +140,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 439.0, 347.0, 100.0, 22.0 ],
+					"patching_rect" : [ 443.0, 310.0, 100.0, 22.0 ],
 					"text" : "t l l"
 				}
 
@@ -152,7 +152,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 454.0, 305.0, 50.0, 22.0 ],
+					"patching_rect" : [ 458.0, 268.0, 50.0, 22.0 ],
 					"text" : "--- 1"
 				}
 
@@ -164,7 +164,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 439.0, 423.0, 51.0, 22.0 ],
+					"patching_rect" : [ 443.0, 386.0, 51.0, 22.0 ],
 					"text" : "== 1"
 				}
 
@@ -176,7 +176,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 489.0, 457.0, 50.0, 22.0 ],
+					"patching_rect" : [ 493.0, 420.0, 50.0, 22.0 ],
 					"text" : "---"
 				}
 
@@ -202,7 +202,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 341.0, 543.569920897483826, 100.0, 35.0 ],
+					"patching_rect" : [ 311.0, 472.0, 100.0, 35.0 ],
 					"text" : "sprintf set /%s/removePoint"
 				}
 
@@ -214,7 +214,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 131.373192211883634, 594.569920897483826, 100.0, 22.0 ],
+					"patching_rect" : [ 101.373192211883634, 523.0, 100.0, 22.0 ],
 					"text" : "prepend"
 				}
 
@@ -227,7 +227,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 168.0, 543.569920897483826, 100.0, 35.0 ],
+					"patching_rect" : [ 138.0, 472.0, 100.0, 35.0 ],
 					"text" : "sprintf set /%s/addPoint"
 				}
 
@@ -239,7 +239,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 138.0, 675.0, 100.0, 35.0 ],
+					"patching_rect" : [ 108.0, 603.430079102516174, 100.0, 35.0 ],
 					"text" : "udpsend 127.0.0.1 4445"
 				}
 
@@ -251,7 +251,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 361.0, 613.0, 150.0, 33.0 ],
+					"patching_rect" : [ 331.0, 541.430079102516174, 150.0, 33.0 ],
 					"text" : "if id , 1 == 1\nsend to /"
 				}
 

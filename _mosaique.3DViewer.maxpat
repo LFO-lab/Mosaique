@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 288.0, 1018.0, 1680.0, 907.0 ],
+		"rect" : [ 104.0, 94.0, 1278.0, 961.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 11.0,
@@ -220,7 +220,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 2120.0, 1142.0, 640.0, 463.0 ],
+						"rect" : [ 34.0, 99.0, 640.0, 463.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -248,6 +248,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-2",
@@ -281,7 +282,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 315.34020984172821, 149.277778012557974, 119.0, 129.0 ],
+									"patching_rect" : [ 315.34020984172821, 149.277778012557974, 121.0, 129.0 ],
 									"text" : "createheader move, createbang forward top, createbang spinleft left, createbang spinright right, createbang backward bottom, createbang stopmove middle"
 								}
 
@@ -1035,13 +1036,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-10",
-									"linecount" : 2,
+									"linecount" : 3,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 47.0, 513.5, 52.0, 35.0 ],
-									"text" : "players --- 1"
+									"text" : "camera stopmove"
 								}
 
 							}
