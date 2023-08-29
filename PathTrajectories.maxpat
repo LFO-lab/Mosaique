@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 839.0, 114.0, 1656.0, 916.0 ],
+		"rect" : [ 446.0, 245.0, 1239.0, 649.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -281,7 +281,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 2856.0, 1408.0, 1257.0, 840.0 ],
+						"rect" : [ 725.0, 94.0, 1257.0, 840.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -309,14 +309,27 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "output" ],
+									"patching_rect" : [ 100.0, 95.0, 121.957872294972276, 22.0 ],
+									"text" : "t output"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-104",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "output", "" ],
-									"patching_rect" : [ 141.042127705027724, 139.068238027096413, 55.0, 22.0 ],
+									"patching_rect" : [ 233.042127705027724, 139.068238027096413, 55.0, 22.0 ],
 									"text" : "t output l"
 								}
 
@@ -328,7 +341,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 145.220930814743042, 109.0, 77.0, 22.0 ],
+									"patching_rect" : [ 237.220930814743042, 109.0, 77.0, 22.0 ],
 									"text" : "outputlast $1"
 								}
 
@@ -538,7 +551,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.003921568627451, 0.643137254901961, 0.137254901960784, 1.0 ],
+					"bgcolor" : [ 0.003921568627451, 0.23921568627451, 0.180392156862745, 1.0 ],
 					"border" : 1,
 					"id" : "obj-81",
 					"maxclass" : "panel",
@@ -1268,10 +1281,7 @@
 						"dict" : [ 							{
 								"cols" : 4,
 								"data" : 								{
-									"1 0" : [ 0.054127067327499, -0.677542507648468, 0.295621812343597, 6 ],
-									"1 1" : [ 0.038865316659212, -0.017716268077493, 0.522411048412323, 159 ],
-									"1 2" : [ -0.465893298387527, -0.506093084812164, 0.474823296070099, 86 ],
-									"1 3" : [ -0.100003533065319, 0.560167014598846, 0.438395798206329, 83 ]
+									"1 0" : ""
 								}
 
 							}
