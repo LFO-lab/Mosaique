@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 490.0, 150.0, 1300.0, 600.0 ],
+		"rect" : [ 490.0, 150.0, 830.0, 170.0 ],
 		"openrect" : [ 0.0, 0.0, 830.0, 170.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -41,6 +41,43 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 82.892859999999928, 60.0, 66.0, 22.0 ],
+					"text" : "route bang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 558.0, 60.0, 134.0, 22.0 ],
+					"text" : "front, window flags float"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 558.0, 92.0, 67.0, 22.0 ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+					"text" : "thispatcher"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-22",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -51,7 +88,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -356,7 +393,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -565,7 +602,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1203,7 +1240,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.0, 0.854901960784314, 0.282352941176471, 1.0 ],
+					"activebgoncolor" : [ 0.101960784313725, 0.901960784313726, 0.537254901960784, 1.0 ],
 					"id" : "obj-54",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -1249,7 +1286,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.0, 0.854901960784314, 0.282352941176471, 1.0 ],
+					"activebgoncolor" : [ 0.101960784313725, 0.901960784313726, 0.537254901960784, 1.0 ],
 					"id" : "obj-52",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -1295,7 +1332,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.0, 0.854901960784314, 0.282352941176471, 1.0 ],
+					"activebgoncolor" : [ 0.101960784313725, 0.901960784313726, 0.537254901960784, 1.0 ],
 					"id" : "obj-50",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -1353,7 +1390,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.0, 0.854901960784314, 0.282352941176471, 1.0 ],
+					"activebgoncolor" : [ 0.101960784313725, 0.901960784313726, 0.537254901960784, 1.0 ],
 					"id" : "obj-124",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -1387,10 +1424,10 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
+					"bgcolor" : [ 0.862745098039216, 0.862745098039216, 0.862745098039216, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
+					"bgfillcolor_color" : [ 0.862745098039216, 0.862745098039216, 0.862745098039216, 1.0 ],
 					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"bgfillcolor_proportion" : 0.5,
@@ -1502,7 +1539,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1841,6 +1878,7 @@
 					"allowdrag" : 0,
 					"bgcolor" : [ 0.254902, 0.254902, 0.254902, 1.0 ],
 					"buffername" : "---#0-decompose",
+					"chanoffset" : 0,
 					"gridcolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 0.0 ],
 					"id" : "obj-156",
 					"labels" : 0,
@@ -1872,7 +1910,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2232,7 +2270,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2468,7 +2506,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 129.892860000000042, 92.0, 76.0, 22.0 ],
+					"patching_rect" : [ 129.892859999999928, 117.0, 76.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -2512,7 +2550,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 28.892859999999928, 27.0, 99.0, 20.0 ],
+					"patching_rect" : [ -18.107140000000072, 27.0, 99.0, 20.0 ],
 					"text" : "Path to file/folder"
 				}
 
@@ -2526,14 +2564,14 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 129.892859999999928, 22.0, 30.0, 30.0 ]
+					"patching_rect" : [ 82.892859999999928, 22.0, 30.0, 30.0 ]
 				}
 
 			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-44", 0 ],
+					"destination" : [ "obj-14", 0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -2577,6 +2615,27 @@
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
 					"source" : [ "obj-128", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-44", 0 ],
+					"source" : [ "obj-14", 1 ]
 				}
 
 			}
@@ -2916,7 +2975,6 @@
 			"obj-124" : [ "live.text[14]", "live.text[8]", 0 ],
 			"obj-155" : [ "rslider[1]", "rslider", 0 ],
 			"obj-45::obj-104" : [ "live.gain~", "Listen", 0 ],
-			"obj-45::obj-119" : [ "live.drop", "live.drop", 0 ],
 			"obj-45::obj-125" : [ "live.menu[6]", "live.text[8]", 0 ],
 			"obj-45::obj-13" : [ "live.numbox", "live.numbox", 0 ],
 			"obj-45::obj-130" : [ "live.text[4]", "live.text[4]", 0 ],
@@ -2967,29 +3025,22 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "_mosaique.corpuspreprocess.maxpat",
-				"bootpath" : "~/Documents/GitHub/Corpus",
-				"patcherrelativepath" : "../../../../Documents/GitHub/Corpus",
+				"bootpath" : "~/Documents/GitHub/Mosaique",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "autoThresh.js",
-				"bootpath" : "~/Documents/GitHub/Corpus",
-				"patcherrelativepath" : "../../../../Documents/GitHub/Corpus",
+				"bootpath" : "~/Documents/GitHub/Mosaique",
+				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fav-max.js",
 				"bootpath" : "~/Documents/Max 8/Packages/FluidCorpusManipulation/jsui",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/FluidCorpusManipulation/jsui",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fileSystem.js",
-				"bootpath" : "~/Documents/GitHub/Corpus",
-				"patcherrelativepath" : "../../../../Documents/GitHub/Corpus",
+				"patcherrelativepath" : "../../Max 8/Packages/FluidCorpusManipulation/jsui",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -3036,13 +3087,14 @@
 , 			{
 				"name" : "fluid.waveform~.js",
 				"bootpath" : "~/Documents/Max 8/Packages/FluidCorpusManipulation/jsui",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/FluidCorpusManipulation/jsui",
+				"patcherrelativepath" : "../../Max 8/Packages/FluidCorpusManipulation/jsui",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "thru.maxpat",
-				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
+				"bootpath" : "~/Documents/GitHub/Mosaique",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
