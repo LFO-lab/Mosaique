@@ -58,8 +58,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 558.0, 60.0, 134.0, 22.0 ],
-					"text" : "front, window flags float"
+					"patching_rect" : [ 558.0, 60.0, 209.0, 22.0 ],
+					"text" : "front, window flags float, window exec"
 				}
 
 			}
@@ -3041,6 +3041,13 @@
 				"name" : "fav-max.js",
 				"bootpath" : "~/Documents/Max 8/Packages/FluidCorpusManipulation/jsui",
 				"patcherrelativepath" : "../../Max 8/Packages/FluidCorpusManipulation/jsui",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fileSystem.js",
+				"bootpath" : "~/Downloads/Mosaique-Structure-update",
+				"patcherrelativepath" : "../../../Downloads/Mosaique-Structure-update",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
