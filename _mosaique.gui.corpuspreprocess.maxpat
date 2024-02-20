@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 173.0, 108.0, 974.0, 882.0 ],
+		"rect" : [ 173.0, 108.0, 847.0, 183.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -62,7 +62,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -367,7 +367,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -576,7 +576,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1513,7 +1513,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1883,7 +1883,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2177,7 +2177,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 215.0, 212.715454000000022, 627.0, 172.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 121.785719999999856, 0.743875801563263, 158.214280000000144, 165.42005862466624 ],
+					"presentation_rect" : [ 121.785719999999856, 0.743875801563263, 156.214280000000144, 165.42005862466624 ],
 					"viewvisibility" : 1
 				}
 
@@ -2243,7 +2243,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3048,6 +3048,10 @@
 			}
 , 			{
 				"name" : "fluid.buftransients~.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "fluid.mlpregressor~.mxe64",
 				"type" : "mx64"
 			}
 , 			{
