@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 204.0, 189.0, 1233.0, 1106.0 ],
+		"rect" : [ 89.0, 106.0, 1233.0, 1106.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -178,7 +178,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.717647058823529, 0.717647058823529, 0.717647058823529, 1.0 ],
 					"fontname" : "Avenir Heavy",
 					"fontsize" : 9.5,
 					"id" : "obj-10",
@@ -190,16 +189,8 @@
 					"patching_rect" : [ 633.5, 43.5, 46.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 235.833335000000005, 3.0, 14.0, 14.0 ],
-					"saved_attribute_attributes" : 					{
-						"bgcolor" : 						{
-							"expression" : "themecolor.live_control_bg"
-						}
-
-					}
-,
 					"text" : "X",
 					"texton" : "X",
-					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "live.text[1]"
 				}
 
@@ -222,7 +213,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 81.0, 146.0, 919.0, 814.0 ],
+						"rect" : [ 187.0, 146.0, 919.0, 814.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -252,6 +243,30 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 50.0, 419.0, 71.0, 22.0 ],
+									"text" : "fromsymbol"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 50.0, 309.5, 192.0, 22.0 ],
+									"text" : "r #1Mosaique_updateServerColl"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"comment" : "Reset name",
 									"id" : "obj-2",
 									"index" : 2,
@@ -265,37 +280,13 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-1",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 50.0, 345.0, 22.0, 22.0 ],
-									"text" : "t b"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-12",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 413.5, 72.0, 22.0 ],
+									"patching_rect" : [ 50.0, 452.5, 72.0, 22.0 ],
 									"text" : "prepend set"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-49",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 309.5, 143.0, 22.0 ],
-									"text" : "r #1Mosaique_loadedFile"
 								}
 
 							}
@@ -305,8 +296,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 110.271428571428601, 354.0, 169.0, 22.0 ],
-									"text" : "s Mosaique_updateServerColl"
+									"patching_rect" : [ 101.271428571428601, 354.0, 191.0, 22.0 ],
+									"text" : "s #1Mosaique_updateServerColl"
 								}
 
 							}
@@ -398,7 +389,7 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-30", 0 ],
+									"destination" : [ "obj-12", 0 ],
 									"source" : [ "obj-1", 0 ]
 								}
 
@@ -447,7 +438,14 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-12", 0 ],
+									"destination" : [ "obj-30", 0 ],
+									"source" : [ "obj-3", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
 									"source" : [ "obj-30", 0 ]
 								}
 
@@ -475,21 +473,18 @@
 								}
 
 							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-1", 0 ],
-									"source" : [ "obj-49", 0 ]
-								}
-
-							}
- ]
+ ],
+						"bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
+						"editing_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ]
 					}
 ,
 					"patching_rect" : [ 850.0, 182.765676736831665, 89.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
+						"editing_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
 						"globalpatchername" : "",
+						"locked_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
 						"tags" : ""
 					}
 ,
@@ -1258,14 +1253,18 @@
 								}
 
 							}
- ]
+ ],
+						"bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
+						"editing_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ]
 					}
 ,
 					"patching_rect" : [ 245.0, 145.0, 121.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
+						"editing_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
 						"globalpatchername" : "",
+						"locked_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
 						"tags" : ""
 					}
 ,
@@ -1372,7 +1371,7 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 67.0, 115.0, 67.0, 18.0 ],
+					"patching_rect" : [ 67.0, 48.75, 67.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 106.25, 1.25, 64.333335145767222, 17.333333373069763 ],
 					"saved_attribute_attributes" : 					{
@@ -1380,7 +1379,7 @@
 							"parameter_enum" : [ "Load corpus", "val2" ],
 							"parameter_info" : "Clicking this button will open a window to load a folder of sounds",
 							"parameter_invisible" : 2,
-							"parameter_longname" : "live.text[11]",
+							"parameter_longname" : "live.text[19]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -1492,8 +1491,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 67.0, 303.0, 147.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 72.0, 500.734323263168335, 153.0, 22.0 ],
 					"text" : "_mosaique.analysis #1 #2"
 				}
 
@@ -1531,7 +1528,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[5]",
+							"parameter_longname" : "live.numbox[10]",
 							"parameter_mmax" : 100000.0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
@@ -1565,7 +1562,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.261561, 0.694339, 0.381796, 1.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"bordercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"id" : "obj-4",
 					"maxclass" : "panel",
@@ -1576,7 +1573,14 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 253.0, 19.5 ],
 					"proportion" : 0.39,
-					"rounded" : 4
+					"rounded" : 4,
+					"saved_attribute_attributes" : 					{
+						"bgfillcolor" : 						{
+							"expression" : "themecolor.none"
+						}
+
+					}
+
 				}
 
 			}
@@ -1764,8 +1768,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-3" : [ "live.numbox[5]", "live.numbox", 0 ],
-			"obj-47" : [ "live.text[11]", "live.text", 0 ],
+			"obj-3" : [ "live.numbox[10]", "live.numbox", 0 ],
+			"obj-47" : [ "live.text[19]", "live.text", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -1780,28 +1784,28 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "_mosaique.analysis.maxpat",
-				"bootpath" : "~/Desktop/Mosaique Server v0.05/Mosaique TEMP",
+				"bootpath" : "~/Documents/GitHub/Mosaique",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "_mosaique.clearAll.maxpat",
-				"bootpath" : "~/Desktop/Mosaique Server v0.05/Mosaique TEMP",
+				"bootpath" : "~/Documents/GitHub/Mosaique",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "_mosaique.dictValueGetSet.maxpat",
-				"bootpath" : "~/Desktop/Mosaique Server v0.05/Mosaique TEMP",
+				"bootpath" : "~/Documents/GitHub/Mosaique",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "_mosaique.importation.maxpat",
-				"bootpath" : "~/Desktop/Mosaique Server v0.05/Mosaique TEMP",
+				"bootpath" : "~/Documents/GitHub/Mosaique",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
