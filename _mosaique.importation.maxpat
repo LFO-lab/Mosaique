@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 474.0, 191.0, 1242.0, 911.0 ],
+		"rect" : [ 474.0, 191.0, 1245.0, 764.0 ],
 		"openrect" : [ 0.0, 0.0, 600.0, 133.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -40,6 +40,29 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 361.0, 153.0, 22.0, 22.0 ],
+					"text" : "t 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 361.0, 179.0, 167.0, 22.0 ],
+					"text" : "s #1Mosaique_importProcess"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-17",
 					"maxclass" : "newobj",
@@ -359,7 +382,7 @@
 				"box" : 				{
 					"comment" : "Number of sounds loaded",
 					"id" : "obj-39",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -477,7 +500,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 186.857149839401245, 179.0, 101.0, 22.0 ],
+					"patching_rect" : [ 186.857149839401245, 153.0, 101.0, 22.0 ],
 					"text" : "opendialog folder"
 				}
 
@@ -1821,11 +1844,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-59",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 186.857149839401245, 30.269237875938416, 30.0, 30.0 ]
 				}
 
@@ -1915,7 +1938,7 @@
 				"box" : 				{
 					"comment" : "Importation done!",
 					"id" : "obj-260",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2188,6 +2211,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"source" : [ "obj-20", 0 ]
 				}
@@ -2264,6 +2294,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-95", 0 ],
 					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-43", 1 ]
 				}
 
 			}
@@ -2463,27 +2500,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "_mosaique.clearAll.maxpat",
-				"bootpath" : "~/Documents/GitHub/Mosaique",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "_mosaique.dictValueGetSet.maxpat",
-				"bootpath" : "~/Documents/GitHub/Mosaique",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fluid.bufcompose~.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
