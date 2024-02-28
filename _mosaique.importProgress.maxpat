@@ -57,14 +57,13 @@
 				"box" : 				{
 					"fontname" : "Avenir Heavy",
 					"id" : "obj-158",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 749.918825954198837, 315.729606062173843, 26.0, 39.0 ],
+					"patching_rect" : [ 749.918825954198837, 315.729606062173843, 26.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 120.077537358709264, 108.895753000000013, 30.0, 23.0 ],
-					"text" : "100",
+					"text" : "20",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 2
 				}
@@ -96,11 +95,12 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 548.558283656835556, 401.688503921031952, 84.0, 23.0 ],
+					"patching_rect" : [ 548.558283656835556, 401.688503921031952, 115.441716343164444, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 75.077537358709264, 67.895753000000013, 134.0, 23.0 ],
-					"text" : "have fun!",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"text" : "importing audio",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 1
 				}
 
 			}

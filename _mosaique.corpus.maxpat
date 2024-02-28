@@ -89,11 +89,11 @@
 				"box" : 				{
 					"id" : "obj-25",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 64.0, 159.0, 54.0, 22.0 ],
-					"text" : "deferlow"
+					"text" : "delay 50"
 				}
 
 			}
@@ -104,7 +104,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "int" ],
-					"patching_rect" : [ 64.0, 92.0, 54.0, 22.0 ],
+					"patching_rect" : [ 64.0, 77.0, 54.0, 22.0 ],
 					"text" : "t b 1"
 				}
 
@@ -115,7 +115,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 99.0, 130.0, 167.0, 22.0 ],
+					"patching_rect" : [ 99.0, 114.0, 167.0, 22.0 ],
 					"text" : "s #1Mosaique_importProcess"
 				}
 
@@ -1476,7 +1476,7 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 64.0, 51.75, 67.0, 18.0 ],
+					"patching_rect" : [ 64.0, 33.75, 67.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 106.25, 1.25, 64.333335145767222, 17.333333373069763 ],
 					"saved_attribute_attributes" : 					{
