@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 337.0, 100.0, 823.0, 933.0 ],
+		"rect" : [ 917.0, 106.0, 823.0, 933.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -50,7 +50,7 @@
 					"patching_rect" : [ 190.355323255062103, 203.553292334079742, 100.0, 26.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 120.898137249052525, 191.961752526462078, 22.0, 26.0 ],
+					"presentation_rect" : [ 125.587892349809408, 189.861752472817898, 22.0, 26.0 ],
 					"text" : "stop\nall",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 2
@@ -788,7 +788,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1877.206232011318207, 936.361518181074189, 42.0, 51.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 71.0, 266.5, 41.0, 51.0 ],
+					"presentation_rect" : [ 71.0, 267.438675157725811, 41.0, 51.0 ],
 					"saved_attribute_attributes" : 					{
 						"activedialcolor" : 						{
 							"expression" : ""
@@ -829,7 +829,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1822.706232011318207, 936.361518181074189, 42.0, 51.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 71.0, 214.5, 41.0, 51.0 ],
+					"presentation_rect" : [ 71.0, 216.861752472817898, 41.0, 51.0 ],
 					"saved_attribute_attributes" : 					{
 						"activedialcolor" : 						{
 							"expression" : ""
@@ -882,7 +882,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1683.706232011318207, 896.946119964122772, 58.0, 51.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 122.898137249052525, 217.041239462792873, 42.864101810380816, 51.0 ],
+					"presentation_rect" : [ 121.898137249052525, 217.041239462792873, 37.932050905190408, 51.0 ],
 					"saved_attribute_attributes" : 					{
 						"activedialcolor" : 						{
 							"expression" : ""
@@ -922,7 +922,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1548.68085253238678, 960.967115816122032, 15.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 138.830188154242933, 197.461752526462078, 15.0, 15.0 ],
+					"presentation_rect" : [ 144.519943254999816, 195.361752472817898, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
 							"expression" : ""
@@ -1475,8 +1475,7 @@
 						"precision" : 6
 					}
 ,
-					"text" : "coll Mosaique_PlayerParams",
-					"textjustification" : 0
+					"text" : "coll Mosaique_PlayerParams"
 				}
 
 			}
@@ -2814,7 +2813,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.2 ],
+					"bgcolor" : [ 0.248229891061783, 0.532202780246735, 0.476728141307831, 1.0 ],
 					"id" : "obj-3",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -2822,7 +2821,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1648.41261519988393, 773.963398708582645, 281.456848204135895, 267.314342517012619 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 68.74045580253005, 214.46431677788496, 52.847436547279358, 104.153845369815826 ],
+					"presentation_rect" : [ 68.74045580253005, 214.46431677788496, 52.847436547279358, 107.03568322211504 ],
 					"proportion" : 0.5
 				}
 
@@ -2830,7 +2829,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.2 ],
+					"bgcolor" : [ 0.248229891061783, 0.532202780246735, 0.476728141307831, 1.0 ],
 					"id" : "obj-4",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -2839,6 +2838,22 @@
 					"patching_rect" : [ 1305.792528569698334, 773.963398708582645, 336.827410399913788, 277.806731838340056 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 7.5, 196.5, 59.0, 125.0 ],
+					"proportion" : 0.5
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.248229891061783, 0.532202780246735, 0.476728141307831, 1.0 ],
+					"id" : "obj-6",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 190.7743462882936, 271.752448700368404, 281.456848204135895, 267.314342517012619 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 116.584435938857496, 214.46431677788496, 47.313701310195029, 53.306391000747681 ],
 					"proportion" : 0.5
 				}
 
