@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 1131.0, 885.0 ],
+		"rect" : [ 34.0, 100.0, 1131.0, 983.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -69,7 +69,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1134.59117603302002, 399.999993324279785, 67.0, 22.0 ],
+					"patching_rect" : [ 1134.59117603302002, 414.0, 67.0, 22.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
@@ -85,7 +85,8 @@
 					"outlettype" : [ "float", "int" ],
 					"patching_rect" : [ 301.833333333333371, 1867.943367004394531, 94.0, 8.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.012576580047607, 158.704401969909668, 158.0, 5.0 ]
+					"presentation_rect" : [ 6.012576580047607, 158.704401969909668, 158.0, 5.0 ],
+					"slidercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 1.0 ]
 				}
 
 			}
@@ -99,18 +100,8 @@
 					"outlettype" : [ "float", "int" ],
 					"patching_rect" : [ 154.440247058868408, 1864.169782161712646, 94.0, 8.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.012576580047607, 152.704401969909668, 158.0, 5.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-84",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 398.0, 1707.0, 100.0, 22.0 ]
+					"presentation_rect" : [ 6.012576580047607, 152.704401969909668, 158.0, 5.0 ],
+					"slidercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 1.0 ]
 				}
 
 			}
@@ -542,10 +533,10 @@
 					"presentation_rect" : [ 74.0, 4.48, 45.660377264022827, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "basic", "loop" ],
+							"parameter_enum" : [ "basic", "loop", "morph" ],
 							"parameter_linknames" : 1,
 							"parameter_longname" : "Active player",
-							"parameter_mmax" : 1,
+							"parameter_mmax" : 2,
 							"parameter_shortname" : "Active player",
 							"parameter_type" : 2
 						}
@@ -647,7 +638,7 @@
 
 					}
 ,
-					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ],
+					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"varname" : "Output Gain"
 				}
 
@@ -776,8 +767,8 @@
 					"name" : "_mosaique.players.gui.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ 0.0, -171.0 ],
-					"patching_rect" : [ 935.0, 342.135103023756074, 187.943398714065552, 346.566036224365234 ],
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 935.0, 342.135103023756074, 169.0, 508.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 170.908048748970032, 168.931035935878754 ],
 					"varname" : "playersGUI",
@@ -1228,20 +1219,22 @@
 		"parameters" : 		{
 			"obj-21" : [ "Output Gain", "Gain", 0 ],
 			"obj-30" : [ "Active player", "Active player", 0 ],
-			"obj-82::obj-11" : [ "LoopPlayer_Release[1]", "Release", 0 ],
-			"obj-82::obj-125" : [ "LoopPlayer_TranspoMode[1]", "Transpose", 0 ],
-			"obj-82::obj-134" : [ "LoopPlayer_FineTune[1]", "Fine Tune", 0 ],
-			"obj-82::obj-135" : [ "LoopPlayer_Pitch[1]", "Pitch", 0 ],
-			"obj-82::obj-136" : [ "LoopPlayer_StopAll[1]", "Stop All", 0 ],
-			"obj-82::obj-137" : [ "LoopPlayer_Crossfade[1]", "Xfade", 0 ],
-			"obj-82::obj-14" : [ "LoopPlayer_Attack[1]", "Attack", 0 ],
-			"obj-82::obj-15" : [ "BasicPlayer_Release[1]", "Release", 0 ],
-			"obj-82::obj-19" : [ "BasicPlayer_Attack[1]", "Attack", 0 ],
-			"obj-82::obj-38" : [ "LoopPlayer_VoiceNum[1]", "Voices", 0 ],
-			"obj-82::obj-45" : [ "BasicPlayer_VoiceNum[1]", "Voices", 0 ],
-			"obj-82::obj-62" : [ "BasicPlayer_TranspoMode[1]", "Transpose", 0 ],
-			"obj-82::obj-65" : [ "BasicPlayer_Pitch[1]", "Pitch", 0 ],
-			"obj-82::obj-66" : [ "BasicPlayer_FineTune[1]", "Fine Tune", 0 ],
+			"obj-82::obj-10" : [ "MorphPlayer_VoiceNum", "Voices", 0 ],
+			"obj-82::obj-11" : [ "LoopPlayer_Release", "Release", 0 ],
+			"obj-82::obj-125" : [ "LoopPlayer_TranspoMode", "Transpose", 0 ],
+			"obj-82::obj-134" : [ "LoopPlayer_FineTune", "Fine Tune", 0 ],
+			"obj-82::obj-135" : [ "LoopPlayer_Pitch", "Pitch", 0 ],
+			"obj-82::obj-136" : [ "LoopPlayer_StopAll", "Stop All", 0 ],
+			"obj-82::obj-137" : [ "LoopPlayer_Crossfade", "Xfade", 0 ],
+			"obj-82::obj-14" : [ "LoopPlayer_Attack", "Attack", 0 ],
+			"obj-82::obj-15" : [ "BasicPlayer_Release", "Release", 0 ],
+			"obj-82::obj-19" : [ "BasicPlayer_Attack", "Attack", 0 ],
+			"obj-82::obj-38" : [ "LoopPlayer_VoiceNum", "Voices", 0 ],
+			"obj-82::obj-45" : [ "BasicPlayer_VoiceNum", "Voices", 0 ],
+			"obj-82::obj-62" : [ "BasicPlayer_TranspoMode", "Transpose", 0 ],
+			"obj-82::obj-65" : [ "BasicPlayer_Pitch", "Pitch", 0 ],
+			"obj-82::obj-66" : [ "BasicPlayer_FineTune", "Fine Tune", 0 ],
+			"obj-82::obj-93" : [ "MorphPlayer_Speed", "Speed", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -1251,70 +1244,11 @@
 
 			}
 ,
-			"parameter_overrides" : 			{
-				"obj-82::obj-11" : 				{
-					"parameter_longname" : "LoopPlayer_Release[1]"
-				}
-,
-				"obj-82::obj-125" : 				{
-					"parameter_longname" : "LoopPlayer_TranspoMode[1]"
-				}
-,
-				"obj-82::obj-134" : 				{
-					"parameter_longname" : "LoopPlayer_FineTune[1]"
-				}
-,
-				"obj-82::obj-135" : 				{
-					"parameter_longname" : "LoopPlayer_Pitch[1]"
-				}
-,
-				"obj-82::obj-136" : 				{
-					"parameter_longname" : "LoopPlayer_StopAll[1]"
-				}
-,
-				"obj-82::obj-137" : 				{
-					"parameter_longname" : "LoopPlayer_Crossfade[1]"
-				}
-,
-				"obj-82::obj-14" : 				{
-					"parameter_longname" : "LoopPlayer_Attack[1]"
-				}
-,
-				"obj-82::obj-15" : 				{
-					"parameter_longname" : "BasicPlayer_Release[1]"
-				}
-,
-				"obj-82::obj-19" : 				{
-					"parameter_longname" : "BasicPlayer_Attack[1]"
-				}
-,
-				"obj-82::obj-38" : 				{
-					"parameter_longname" : "LoopPlayer_VoiceNum[1]"
-				}
-,
-				"obj-82::obj-45" : 				{
-					"parameter_longname" : "BasicPlayer_VoiceNum[1]"
-				}
-,
-				"obj-82::obj-62" : 				{
-					"parameter_longname" : "BasicPlayer_TranspoMode[1]"
-				}
-,
-				"obj-82::obj-65" : 				{
-					"parameter_longname" : "BasicPlayer_Pitch[1]"
-				}
-,
-				"obj-82::obj-66" : 				{
-					"parameter_longname" : "BasicPlayer_FineTune[1]"
-				}
-
-			}
-,
 			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "_mosaique.player.loop.maxpat",
+				"name" : "_mosaique.player.basic.maxpat",
 				"bootpath" : "~/Documents/GitHub/Mosaique",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
