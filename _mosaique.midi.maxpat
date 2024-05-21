@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 360.0, 106.0, 1200.0, 1189.0 ],
+		"rect" : [ 729.0, 100.0, 965.0, 813.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -178,7 +178,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1128.333304047584534, 1399.806482553482056, 81.0, 22.0 ],
+					"patching_rect" : [ 1131.0, 1376.0, 81.0, 22.0 ],
 					"text" : "shape square"
 				}
 
@@ -203,7 +203,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 809.0, 1353.806482553482056, 58.0, 22.0 ],
+					"patching_rect" : [ 812.0, 1330.0, 58.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -216,7 +216,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 909.75, 1399.806482553482056, 96.0, 23.0 ],
+					"patching_rect" : [ 913.0, 1376.0, 96.0, 23.0 ],
 					"text" : "yrange -0.1 1.1"
 				}
 
@@ -229,7 +229,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 809.0, 1399.806482553482056, 96.0, 23.0 ],
+					"patching_rect" : [ 812.0, 1376.0, 96.0, 23.0 ],
 					"text" : "xrange -0.1 1.1"
 				}
 
@@ -241,7 +241,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1011.333304047584534, 1399.806482553482056, 104.0, 22.0 ],
+					"patching_rect" : [ 1014.0, 1376.0, 104.0, 22.0 ],
 					"text" : "pointsizescale 0.5"
 				}
 
@@ -257,9 +257,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 768.824297030766957, 1448.129059553146362, 99.0, 99.0 ],
+					"patching_rect" : [ 768.824297030766957, 1422.2222900390625, 99.0, 99.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 94.191181555390358, 1.0, 120.0, 151.0 ]
+					"presentation_rect" : [ 101.0, 4.0, 120.0, 114.0 ]
 				}
 
 			}
@@ -272,7 +272,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 479.824297030766957, 116.0, 89.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.191181555390358, 1.0, 89.0, 23.0 ],
+					"presentation_rect" : [ 2.0, 9.0, 89.0, 23.0 ],
 					"text" : "MIDI mapping",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -309,7 +309,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 204.0, 1374.806482553482056, 30.0, 30.0 ]
+					"patching_rect" : [ 204.0, 1422.2222900390625, 30.0, 30.0 ]
 				}
 
 			}
@@ -345,7 +345,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 91.203730066617481, 54.860207080841064, 30.0, 30.0 ]
 				}
 
@@ -717,8 +717,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 458.824297030766957, 696.483550131320953, 214.0, 22.0 ],
-					"text" : "fluid.kdtree~ ---Mosaique_MIDI_kdtree",
+					"patching_rect" : [ 458.824297030766957, 696.483550131320953, 274.0, 22.0 ],
+					"text" : "fluid.kdtree~ ---Mosaique_Corpus2D_MIDI_kdtree",
 					"textcolor" : [ 0.0, 0.945098039215686, 1.0, 1.0 ]
 				}
 
@@ -764,11 +764,12 @@
 					"id" : "obj-77",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 4,
-					"outlettype" : [ "dictionary", "", "", "" ],
+					"numoutlets" : 5,
+					"outlettype" : [ "dictionary", "", "", "", "" ],
 					"patching_rect" : [ 802.824297030766957, 714.775529086589813, 157.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
+						"legacy" : 1,
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
@@ -893,7 +894,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 91.203730066617481, 191.538890600204468, 208.0, 22.0 ],
+					"patching_rect" : [ 91.0, 190.0, 208.0, 22.0 ],
 					"text" : "fluid.dataset~ ---Mosaique_Corpus2D",
 					"textcolor" : [ 0.070588235294118, 0.917647058823529, 1.0, 1.0 ]
 				}
@@ -918,8 +919,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 204.0, 1293.363428115844727, 214.0, 22.0 ],
-					"text" : "fluid.kdtree~ ---Mosaique_MIDI_kdtree",
+					"patching_rect" : [ 204.0, 1293.363428115844727, 274.0, 22.0 ],
+					"text" : "fluid.kdtree~ ---Mosaique_Corpus2D_MIDI_kdtree",
 					"textcolor" : [ 0.0, 0.945098039215686, 1.0, 1.0 ]
 				}
 
@@ -1005,7 +1006,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 786.074297030766957, 168.480837166309357, 91.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -0.184709986050621, 86.980837166309357, 45.0, 23.0 ],
+					"presentation_rect" : [ 1.0, 81.0, 45.0, 23.0 ],
 					"text" : "Layers"
 				}
 
@@ -1020,13 +1021,13 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 740.074297030766957, 170.980837166309357, 45.0, 16.0 ],
+					"patching_rect" : [ 739.578800539175745, 171.980837166309357, 45.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 47.191181555390358, 90.480837166309357, 44.0, 16.0 ],
+					"presentation_rect" : [ 48.0, 84.0, 44.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "---MIDI_velo_layers",
+							"parameter_longname" : "---MIDI_velo_layers[1]",
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -1049,11 +1050,11 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 598.315290013949379, 173.480837166309357, 46.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 46.191181555390358, 70.980837166309357, 46.0, 16.0 ],
+					"presentation_rect" : [ 47.0, 60.0, 46.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "---MIDI_note_max",
+							"parameter_longname" : "---MIDI_note_max[1]",
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 8
@@ -1074,7 +1075,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 565.315290013949379, 170.980837166309357, 33.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -0.184709986050621, 67.480837166309357, 33.0, 23.0 ],
+					"presentation_rect" : [ 1.0, 56.0, 33.0, 23.0 ],
 					"text" : "Max"
 				}
 
@@ -1088,7 +1089,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 428.815290013949379, 173.480837166309357, 30.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.191181555390358, 47.980837166309357, 30.0, 23.0 ],
+					"presentation_rect" : [ 2.0, 31.0, 30.0, 23.0 ],
 					"text" : "Min"
 				}
 
@@ -1104,13 +1105,13 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 458.815290013949379, 173.480837166309357, 45.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 46.191181555390358, 51.480837166309357, 44.0, 16.0 ],
+					"presentation_rect" : [ 47.0, 34.0, 44.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 60 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "---MIDI_note_min",
+							"parameter_longname" : "---MIDI_note_min[1]",
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 8
@@ -1737,7 +1738,14 @@
 				}
 
 			}
- ]
+ ],
+		"saved_attribute_attributes" : 		{
+			"default_plcolor" : 			{
+				"expression" : ""
+			}
+
+		}
+
 	}
 
 }
