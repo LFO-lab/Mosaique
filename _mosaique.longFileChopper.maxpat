@@ -134,7 +134,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1572.0, 1066.0, 67.0, 21.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 1002, 636, 2019, 1416, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 500, 500, 1922, 1293, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
 
@@ -417,7 +417,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 439.0, 555.0, 238.524583339691162, 22.0 ],
+					"patching_rect" : [ 439.0, 592.0, 238.524583339691162, 22.0 ],
 					"text" : "buffer~ #1MosaiqueSlicer_longFile_mono"
 				}
 
@@ -498,7 +498,7 @@
 
 					}
 ,
-					"text" : "Macintosh HD:/Users/davidpiazza/Desktop/RPP_projects_May2024/23May2024/mediaFiles/04-240524_1325.wav",
+					"text" : "Macintosh HD:/Users/davidpiazza/Sounds/techno_samples/Beats/Beat01_130BPM(Drums).wav",
 					"varname" : "---Mosaique_Slicer_filePath"
 				}
 
@@ -548,7 +548,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 439.0, 523.0, 225.0, 22.0 ],
+					"patching_rect" : [ 469.0, 559.0, 225.0, 22.0 ],
 					"text" : "buffer~ #1MosaiqueSlicer_novelty "
 				}
 
@@ -1235,7 +1235,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 439.0, 491.0, 181.0, 22.0 ],
+					"patching_rect" : [ 469.0, 527.0, 181.0, 22.0 ],
 					"text" : "buffer~ #1MosaiqueSlicer_slices"
 				}
 
@@ -1319,7 +1319,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.627450980392157, 0.627450980392157, 0.627450980392157, 1.0 ],
+					"bgcolor" : [ 0.438625166187593, 0.438625058064006, 0.438625086318427, 1.0 ],
 					"id" : "obj-15",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -1928,6 +1928,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"order" : 1,
+					"source" : [ "obj-55", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"order" : 0,
+					"source" : [ "obj-55", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
 					"source" : [ "obj-55", 1 ]
 				}
@@ -1935,8 +1951,17 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-79", 0 ],
+					"order" : 2,
+					"source" : [ "obj-55", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"midpoints" : [ 371.833333333333314, 579.0, 261.833333333333314, 579.0 ],
+					"order" : 3,
 					"source" : [ "obj-55", 2 ]
 				}
 
