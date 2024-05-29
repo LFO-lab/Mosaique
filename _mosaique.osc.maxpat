@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1060.0, 100.0, 602.0, 983.0 ],
+		"rect" : [ 1060.0, 100.0, 117.0, 983.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -117,7 +117,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 55.0, 180.0, 23.0 ],
+					"patching_rect" : [ 80.0, 57.0, 180.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -4.0, 54.0, 174.0, 23.0 ],
 					"text" : "/mosaique/server/state [0, 1]"
@@ -537,8 +537,6 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "0", "1" ],
-							"parameter_initial" : [ 15048.0 ],
-							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "---MosaiqueServer_OSC_Port[1]",
