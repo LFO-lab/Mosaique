@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 456.0, 183.0, 1253.0, 1189.0 ],
+		"rect" : [ 769.0, 141.0, 1253.0, 1189.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -5768,7 +5768,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 59.0, 125.0, 1184.0, 764.0 ],
+						"rect" : [ 59.0, 124.0, 1184.0, 764.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -5803,8 +5803,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 546.39321935507985, 510.0, 63.0, 22.0 ],
-									"text" : "prepend 2"
+									"patching_rect" : [ 546.39321935507985, 510.0, 86.0, 22.0 ],
+									"text" : "prepend folder"
 								}
 
 							}
@@ -5815,8 +5815,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 80.39321935507985, 510.0, 63.0, 22.0 ],
-									"text" : "prepend 1"
+									"patching_rect" : [ 80.39321935507985, 510.0, 71.0, 22.0 ],
+									"text" : "prepend file"
 								}
 
 							}
@@ -6084,34 +6084,10 @@
 			}
 , 			{
 				"box" : 				{
-					"decodemode" : 1,
-					"id" : "obj-68",
-					"maxclass" : "live.drop",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 176.521733343601227, 62.028983473777771, 140.0, 60.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_invisible" : 1,
-							"parameter_longname" : "live.drop[8]",
-							"parameter_shortname" : "live.drop[8]",
-							"parameter_type" : 4
-						}
-
-					}
-,
-					"varname" : "live.drop"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"color" : [ 0.145098039215686, 1.0, 0.92156862745098, 1.0 ],
 					"id" : "obj-67",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "analyze", "int" ],
 					"patcher" : 					{
@@ -6125,7 +6101,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 347.0, 180.0, 1487.0, 884.0 ],
+						"rect" : [ 312.0, 377.0, 1487.0, 884.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -6154,6 +6130,43 @@
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-23",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 780.0, 374.0, 202.0, 33.0 ],
+									"text" : "<<< When a file of a folder gets droped directly on the corpus GUI"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-14",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 683.291221439838409, 390.080097019672394, 88.0, 22.0 ],
+									"text" : "route file folder"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-11",
+									"index" : 2,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 683.291221439838409, 348.345356583595276, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-63",
 									"maxclass" : "newobj",
@@ -6358,49 +6371,13 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-26",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "close" ],
-									"patching_rect" : [ 671.648371279239655, 441.406595528125763, 43.0, 22.0 ],
-									"text" : "t close"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-10",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
+									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 232.561141461133957, 441.406595528125763, 175.0, 22.0 ],
 									"text" : "_mosaique.longFileChopper #1"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-21",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "open" ],
-									"patching_rect" : [ 232.561141461133957, 350.802207469940186, 42.0, 22.0 ],
-									"text" : "t open"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-13",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 232.561141461133957, 400.758243799209595, 51.0, 22.0 ],
-									"text" : "pcontrol"
 								}
 
 							}
@@ -6482,7 +6459,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 722.791221439838409, 504.846156477928162, 22.0, 22.0 ],
+									"patching_rect" : [ 914.791221439838409, 552.846156477928162, 22.0, 22.0 ],
 									"text" : "t 0"
 								}
 
@@ -6493,7 +6470,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 722.791221439838409, 530.846156477928162, 167.0, 22.0 ],
+									"patching_rect" : [ 914.791221439838409, 578.846156477928162, 167.0, 22.0 ],
 									"text" : "s #1Mosaique_importProcess"
 								}
 
@@ -6759,7 +6736,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
-									"patching_rect" : [ 548.648371279239655, 504.846156477928162, 101.0, 22.0 ],
+									"patching_rect" : [ 548.648371279239655, 441.406595528125763, 101.0, 22.0 ],
 									"text" : "opendialog folder"
 								}
 
@@ -7872,7 +7849,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 232.576927870512009, 143.345356583595276, 30.0, 30.0 ]
+									"patching_rect" : [ 232.576927870512009, 124.345356583595276, 30.0, 30.0 ]
 								}
 
 							}
@@ -8087,14 +8064,14 @@
 									"autopopulate" : 1,
 									"depth" : 100,
 									"id" : "obj-95",
-									"items" : [ "01_BD_BL_SP1200_808_C.wav", ",", "01_BD_BS_SP1200_808_C.wav", ",", "01_BD_Tuned_1_808_E.wav", ",", "01_BD_Tuned_2_808_E.wav", ",", "01_BD_Tuned_3_808_E.wav", ",", "01_BD_Tuned_4_808_E.wav", ",", "01_BD_Tuned_Filt1_808_E.wav", ",", "01_BD_Tuned_Filt2_808_E.wav", ",", "02_BD_BL_SP1200_808_C#.wav", ",", "02_BD_BS_SP1200_808_C#.wav", ",", "02_BD_Tuned_1_808_F.wav", ",", "02_BD_Tuned_2_808_F.wav", ",", "02_BD_Tuned_3_808_F.wav", ",", "02_BD_Tuned_4_808_F.wav", ",", "02_BD_Tuned_Filt1_808_F.wav", ",", "02_BD_Tuned_Filt2_808_F.wav", ",", "04_BD_BL_SP1200_808_D#.wav", ",", "04_BD_BS_SP1200_808_D#.wav", ",", "04_BD_Tuned_1_808_G.wav", ",", "04_BD_Tuned_2_808_G.wav", ",", "04_BD_Tuned_3_808_G.wav", ",", "04_BD_Tuned_4_808_G.wav", ",", "04_BD_Tuned_Filt1_808_G.wav", ",", "04_BD_Tuned_Filt2_808_G.wav", ",", "06_BD_BL_SP1200_808_F.wav", ",", "06_BD_BS_SP1200_808_F.wav", ",", "06_BD_Tuned_1_808_A.wav", ",", "06_BD_Tuned_2_808_A.wav", ",", "06_BD_Tuned_3_808_A.wav", ",", "06_BD_Tuned_4_808_A.wav", ",", "06_BD_Tuned_Filt1_808_A.wav", ",", "06_BD_Tuned_Filt2_808_A.wav", ",", "08_BD_BL_SP1200_808_G.wav", ",", "08_BD_BS_SP1200_808_G.wav", ",", "08_BD_Tuned_1_808_F.wav", ",", "08_BD_Tuned_2_808_F.wav", ",", "08_BD_Tuned_3_808_F.wav", ",", "08_BD_Tuned_4_808_F.wav", ",", "08_BD_Tuned_Filt1_808_B.wav", ",", "08_BD_Tuned_Filt2_808_B.wav", ",", "101_Drums_01.wav", ",", "101_Drums_02.wav", ",", "101_Drums_03.wav", ",", "101_Drums_04.wav", ",", "101_Drums_05.wav", ",", "101_Drums_06.wav", ",", "101_Drums_37.wav", ",", "10_BD_BL_SP1200_808_A.wav", ",", "10_BD_BS_SP1200_808_A.wav", ",", "10_BD_Tuned_1_808_G.wav", ",", "10_BD_Tuned_2_808_G.wav", ",", "10_BD_Tuned_3_808_G.wav", ",", "10_BD_Tuned_4_808_G.wav", ",", "10_BD_Tuned_Filt1_808_F1.wav", ",", "10_BD_Tuned_Filt2_808_F1.wav", ",", "10kkicksimC#.wav", ",", "10wkicksimC#.wav", ",", "11kkicksimD.wav", ",", "11wkicksimD.wav", ",", "12kkicksimD#.wav", ",", "12wkicksimD#.wav", ",", "13kkicksimE..wav", ",", "13wkicksimE..wav", ",", "1kkicksimE.wav", ",", "1kwkicksimE.wav", ",", "2kkicksimF.wav", ",", "2wkicksimF.wav", ",", "3kkicksimF#.wav", ",", "3wkicksimF#.wav", ",", "4kkicksimG.wav", ",", "4wkicksimG.wav", ",", "5kkicksimG#.wav", ",", "5wkicksimG#.wav", ",", "6kkicksimA.wav", ",", "6wkicksimA.wav", ",", "7kkicksimA#.wav", ",", "7wkicksimA#.wav", ",", "8kkicksimB.wav", ",", "8wkicksimB.wav", ",", "9kkicksimC.wav", ",", "9wkicksimC.wav", ",", "BD-Combo-707-33.wav", ",", "BD-Combo-707-62.wav", ",", "BD-Combo-707-63.wav", ",", "BD-Combo-707-64.wav", ",", "BD-Combo-707-65.wav", ",", "BD-Combo-707-66.wav", ",", "BD-Combo-707-67.wav", ",", "BD-Combo-707-68.wav", ",", "BD-Combo-707-69.wav", ",", "BD-Combo-707-70.wav", ",", "BD-Combo-707-71.wav", ",", "BD-Combo-707-72.wav", ",", "BD-Combo-707-73.wav", ",", "BD-Combo-707-74.wav", ",", "BD-Combo-707-75.wav", ",", "BD-Combo-707-76.wav", ",", "BD-Combo-707-77.wav", ",", "BD-Combo-707-78.wav", ",", "BD-Combo-707-79.wav", ",", "BD-Combo-707-80.wav", ",", "BD-Combo-707-81.wav", ",", "BD-Combo-707-82.wav", ",", "BD-Combo-707-98.wav", ",", "BD-Combo-707-99.wav", ",", "BD1-707-1.wav", ",", "BD1-707-10.wav", ",", "BD1-707-11.wav", ",", "BD1-707-12.wav", ",", "BD1-707-13.wav", ",", "BD1-707-14.wav", ",", "BD1-707-15.wav", ",", "BD1-707-16.wav", ",", "BD1-707-17.wav", ",", "BD1-707-18.wav", ",", "BD1-707-19.wav", ",", "BD1-707-2.wav", ",", "BD1-707-20.wav", ",", "BD1-707-21.wav", ",", "BD1-707-22.wav", ",", "BD1-707-23.wav", ",", "BD1-707-24.wav", ",", "BD1-707-25.wav", ",", "BD1-707-26.wav", ",", "BD1-707-27.wav", ",", "BD1-707-28.wav", ",", "BD1-707-29.wav", ",", "BD1-707-3.wav", ",", "BD1-707-30.wav", ",", "BD1-707-31.wav", ",", "BD1-707-32.wav", ",", "BD1-707-33.wav", ",", "BD1-707-34.wav", ",", "BD1-707-4.wav", ",", "BD1-707-5.wav", ",", "BD1-707-6.wav", ",", "BD1-707-7.wav", ",", "BD1-707-8.wav", ",", "BD1-707-9.wav", ",", "BD2-707-1.wav", ",", "BD2-707-10.wav", ",", "BD2-707-11.wav", ",", "BD2-707-12.wav", ",", "BD2-707-13.wav", ",", "BD2-707-14.wav", ",", "BD2-707-15.wav", ",", "BD2-707-16.wav", ",", "BD2-707-17.wav", ",", "BD2-707-18.wav", ",", "BD2-707-19.wav", ",", "BD2-707-2.wav", ",", "BD2-707-20.wav", ",", "BD2-707-21.wav", ",", "BD2-707-22.wav", ",", "BD2-707-23.wav", ",", "BD2-707-24.wav", ",", "BD2-707-25.wav", ",", "BD2-707-26.wav", ",", "BD2-707-27.wav", ",", "BD2-707-28.wav", ",", "BD2-707-29.wav", ",", "BD2-707-3.wav", ",", "BD2-707-30.wav", ",", "BD2-707-31.wav", ",", "BD2-707-32.wav", ",", "BD2-707-4.wav", ",", "BD2-707-5.wav", ",", "BD2-707-6.wav", ",", "BD2-707-7.wav", ",", "BD2-707-8.wav", ",", "BD2-707-9.wav", ",", "Kick-606_A_01.wav", ",", "Kick-606_A_02.wav", ",", "Kick-606_A_03.wav", ",", "Kick-606_A_04.wav", ",", "Kick-606_A_05.wav", ",", "Kick-606_A_06.wav", ",", "Kick-606_A_07.wav", ",", "Kick-606_A_08.wav", ",", "Kick-606_A_09.wav", ",", "Kick-606_B_01.wav", ",", "Kick-606_B_02.wav", ",", "Kick-606_B_03.wav", ",", "Kick-606_B_04.wav", ",", "Kick-606_B_05.wav", ",", "Kick-606_B_06.wav", ",", "Kick-606_B_07.wav", ",", "Kick-606_B_08.wav", ",", "Kick-606_B_09.wav", ",", "Kick-606_B_10.wav", ",", "Kick-606_C_01.wav", ",", "Kick-606_C_02.wav", ",", "Kick-606_C_03.wav", ",", "Kick-606_C_04.wav", ",", "Kick-606_C_05.wav", ",", "Kick-606_C_06.wav", ",", "Kick-606_C_07.wav", ",", "Kick-606_C_08.wav", ",", "Kick-606_C_09.wav", ",", "Kick-606_C_10.wav", ",", "Kick-606_C_11.wav", ",", "Kick-606_C_12.wav", ",", "Kick-606_C_13.wav", ",", "Kick-606_C_14.wav", ",", "Kick-606_C_15.wav", ",", "Kick-606_C_16.wav", ",", "Kick-606_C_17.wav", ",", "Kick-606_C_18.wav", ",", "Kick-606_C_19.wav", ",", "Kick-606_C_20.wav", ",", "Kick-606_C_21.wav", ",", "Kick-606_C_22.wav", ",", "Kick-606_D_01.wav", ",", "Kick-606_D_02.wav", ",", "Kick-606_D_03.wav", ",", "Kick-606_D_04.wav", ",", "Kick-606_D_05.wav", ",", "Kick-606_D_06.wav", ",", "Kick-606_D_07.wav", ",", "Kick-606_D_08.wav", ",", "Kick-606_D_09.wav", ",", "Kick-606_D_10.wav", ",", "Kick-606_D_11.wav", ",", "Kick-606_D_12.wav", ",", "Kick-606_D_13.wav", ",", "Kick-606_D_14.wav", ",", "Kick-606_D_15.wav", ",", "Kick-606_D_16.wav", ",", "KickAirD-MO_01.wav", ",", "KickAirD-MO_02.wav", ",", "KickAirD-MO_03.wav", ",", "KickAirD-MO_04.wav", ",", "KickAirD-MO_05.wav", ",", "KickAirD-MO_06.wav", ",", "KickAirD-MO_07.wav", ",", "KickAirD-MO_08.wav", ",", "KickCleanD-MO_01_C#.wav", ",", "KickCleanD-MO_02_D.wav", ",", "KickCleanD-MO_03_D#.wav", ",", "KickCleanD-MO_04_E.wav", ",", "KickCleanD-MO_05_F.wav", ",", "KickCleanD-MO_06_F#.wav", ",", "KickCleanD-MO_07_G.wav", ",", "KickCleanD-MO_08_G#.wav", ",", "KickCleanD-MO_09_A.wav", ",", "KickCleanD-MO_10_A#.wav", ",", "KickCleanD-MO_11_B.wav", ",", "KickCleanD-MO_12_C.wav", ",", "KickCleanD-MO_13_C#.wav", ",", "KickCleanD-MO_14_D.wav", ",", "KickCleanD-MO_15_D#.wav", ",", "KickCleanD-MO_16_E.wav", ",", "KickCleanT-MO_01_C#.wav", ",", "KickCleanT-MO_02_D.wav", ",", "KickCleanT-MO_03_D#.wav", ",", "KickCleanT-MO_04_E.wav", ",", "KickCleanT-MO_05_F.wav", ",", "KickCleanT-MO_06_F#.wav", ",", "KickCleanT-MO_07_G.wav", ",", "KickCleanT-MO_08_G#.wav", ",", "KickCleanT-MO_09_A.wav", ",", "KickCleanT-MO_10_A#.wav", ",", "KickCleanT-MO_11_B.wav", ",", "KickCleanT-MO_12_C.wav", ",", "KickCleanT-MO_13_C#.wav", ",", "KickCleanT-MO_14_D.wav", ",", "KickCleanT-MO_15_D#.wav", ",", "KickCleanT-MO_16_E.wav", ",", "KickEQ-606_A_01.wav", ",", "KickEQ-606_A_02.wav", ",", "KickEQ-606_A_03.wav", ",", "KickEQ-606_A_04.wav", ",", "KickEQ-606_A_05.wav", ",", "KickEQ-606_A_06.wav", ",", "KickEQ-606_A_07.wav", ",", "KickEQ-606_A_08.wav", ",", "KickEQ-606_A_09.wav", ",", "KickEQ-606_B_01.wav", ",", "KickEQ-606_B_02.wav", ",", "KickEQ-606_B_03.wav", ",", "KickEQ-606_B_04.wav", ",", "KickEQ-606_B_05.wav", ",", "KickEQ-606_B_06.wav", ",", "KickEQ-606_B_07.wav", ",", "KickEQ-606_B_08.wav", ",", "KickEQ-606_B_09.wav", ",", "KickEQ-606_C_01.wav", ",", "KickEQ-606_C_02.wav", ",", "KickEQ-606_C_03.wav", ",", "KickEQ-606_C_04.wav", ",", "KickEQ-606_C_05.wav", ",", "KickEQ-606_C_06.wav", ",", "KickEQ-606_C_07.wav", ",", "KickEQ-606_C_08.wav", ",", "KickEQ-606_C_09.wav", ",", "KickEQ-606_C_10.wav", ",", "KickEQ-606_C_11.wav", ",", "KickEQ-606_C_12.wav", ",", "KickEQ-606_C_13.wav", ",", "KickEQ-606_C_14.wav", ",", "KickEQ-606_C_15.wav", ",", "KickEQ-606_C_16.wav", ",", "KickEQ-606_C_17.wav", ",", "KickEQ-606_C_18.wav", ",", "KickEQ-606_C_19.wav", ",", "KickEQ-606_C_20.wav", ",", "KickEQ-606_C_21.wav", ",", "KickEQ-606_C_22.wav", ",", "KickEQ-606_D_01.wav", ",", "KickEQ-606_D_02.wav", ",", "KickEQ-606_D_03.wav", ",", "KickEQ-606_D_04.wav", ",", "KickEQ-606_D_05.wav", ",", "KickEQ-606_D_06.wav", ",", "KickEQ-606_D_07.wav", ",", "KickEQ-606_D_08.wav", ",", "KickEQ-606_D_09.wav", ",", "KickEQ-606_D_10.wav", ",", "KickEQ-606_D_11.wav", ",", "KickEQ-606_D_12.wav", ",", "KickEQ-606_D_13.wav", ",", "KickEQ-606_D_14.wav", ",", "KickEQ-606_D_15.wav", ",", "KickHardD-MO_01_C#.wav", ",", "KickHardD-MO_02_D.wav", ",", "KickHardD-MO_03_D#.wav", ",", "KickHardD-MO_04_E.wav", ",", "KickHardD-MO_05_F.wav", ",", "KickHardD-MO_06_F#.wav", ",", "KickHardD-MO_07_G.wav", ",", "KickHardD-MO_08_G#.wav", ",", "KickHardD-MO_09_A.wav", ",", "KickHardD-MO_10_A#.wav", ",", "KickHardD-MO_11_B.wav", ",", "KickHardD-MO_12_C.wav", ",", "KickHardD-MO_13_C#.wav", ",", "KickHardD-MO_14_D.wav", ",", "KickHardD-MO_15_D#.wav", ",", "KickHardD-MO_16_E.wav", ",", "KickHardT-MO_01_C#.wav", ",", "KickHardT-MO_02_D.wav", ",", "KickHardT-MO_03_D#.wav", ",", "KickHardT-MO_04_E.wav", ",", "KickHardT-MO_05_F.wav", ",", "KickHardT-MO_06_F#.wav", ",", "KickHardT-MO_07_G.wav", ",", "KickHardT-MO_08_G#.wav", ",", "KickHardT-MO_09_A.wav", ",", "KickHardT-MO_10_A#.wav", ",", "KickHardT-MO_11_B.wav", ",", "KickHardT-MO_12_C.wav", ",", "KickHardT-MO_13_C#.wav", ",", "KickHardT-MO_14_D.wav", ",", "KickHardT-MO_15_D#.wav", ",", "KickHardT-MO_16_E.wav", ",", "KicksimB1.wav", ",", "KicksimB1s.wav", ",", "KicksimB2.wav", ",", "KicksimB2s.wav", ",", "KicksimB3.wav", ",", "KicksimB3s.wav", ",", "KicksimB4.wav", ",", "KicksimB4s.wav", ",", "KicksimB5.wav", ",", "KicksimB5s.wav", ",", "KicksimB6.wav", ",", "KicksimB6s.wav", ",", "KicksimB7.wav", ",", "KicksimB7s.wav", ",", "KicksimB8.wav", ",", "kicksimbo1.wav", ",", "kicksimbo10.wav", ",", "kicksimbo11.wav", ",", "kicksimbo12.wav", ",", "kicksimbo13.wav", ",", "kicksimbo2.wav", ",", "kicksimbo3.wav", ",", "kicksimbo4.wav", ",", "kicksimbo5.wav", ",", "kicksimbo6.wav", ",", "kicksimbo7.wav", ",", "kicksimbo8.wav", ",", "kicksimbo9.wav", ",", "KickTwists-606_01.wav", ",", "KickTwists-606_02.wav", ",", "KickTwists-606_03.wav", ",", "KickTwists-606_04.wav", ",", "KickTwists-606_05.wav", ",", "KickTwists-606_06.wav", ",", "KickTwists-606_07.wav", ",", "KickTwists-606_08.wav", ",", "KickTwists-606_09.wav", ",", "KickTwists-606_10.wav", ",", "KickTwists-606_11.wav", ",", "KickTwists-606_12.wav", ",", "KickTwists-606_13.wav", ",", "KickTwists-606_14.wav", ",", "KickTwistsEQ-606_01.wav", ",", "KickTwistsEQ-606_02.wav", ",", "KickTwistsEQ-606_03.wav", ",", "KickTwistsEQ-606_04.wav", ",", "KickTwistsEQ-606_05.wav", ",", "KickTwistsEQ-606_06.wav", ",", "KickTwistsEQ-606_07.wav", ",", "KickTwistsEQ-606_08.wav", ",", "KickTwistsEQ-606_09.wav", ",", "KickTwistsEQ-606_10.wav", ",", "KickTwistsEQ-606_11.wav", ",", "KickTwistsEQ-606_12.wav", ",", "KickTwistsEQ-606_13.wav" ],
+									"items" : "<empty>",
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 671.648371279239655, 644.209932297468185, 192.818177759647369, 22.0 ],
-									"prefix" : "~/Library/CloudStorage/OneDrive-UniversitedeMontreal/Projets/MOSAÏQUE/Corpora/ElectronicDrums/Kicks/",
+									"prefix" : "~/Desktop/TEST/Patate/",
 									"types" : [ "WAVE", "AIFF", "FLAC" ]
 								}
 
@@ -8150,24 +8127,29 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-26", 0 ],
-									"order" : 0,
+									"destination" : [ "obj-6", 0 ],
 									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-14", 0 ],
+									"source" : [ "obj-11", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-10", 1 ],
+									"source" : [ "obj-14", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-6", 0 ],
-									"order" : 1,
-									"source" : [ "obj-10", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-10", 0 ],
-									"source" : [ "obj-13", 0 ]
+									"source" : [ "obj-14", 1 ]
 								}
 
 							}
@@ -8215,13 +8197,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-13", 0 ],
-									"source" : [ "obj-21", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-95", 0 ],
 									"source" : [ "obj-22", 0 ]
 								}
@@ -8231,13 +8206,6 @@
 								"patchline" : 								{
 									"destination" : [ "obj-9", 1 ],
 									"source" : [ "obj-25", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-13", 0 ],
-									"source" : [ "obj-26", 0 ]
 								}
 
 							}
@@ -8415,7 +8383,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-21", 0 ],
+									"destination" : [ "obj-10", 0 ],
 									"source" : [ "obj-8", 0 ]
 								}
 
@@ -10458,6 +10426,33 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"decodemode" : 1,
+					"id" : "obj-68",
+					"legend" : " ",
+					"maxclass" : "live.drop",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 176.521733343601227, 62.028983473777771, 140.0, 60.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 0.0, 253.0, 20.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "live.drop[8]",
+							"parameter_shortname" : "live.drop[8]",
+							"parameter_type" : 4
+						}
+
+					}
+,
+					"varname" : "live.drop"
+				}
+
+			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -10630,6 +10625,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-69", 0 ],
 					"source" : [ "obj-68", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-67", 1 ],
+					"source" : [ "obj-69", 0 ]
 				}
 
 			}
