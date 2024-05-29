@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 6,
-			"revision" : 0,
+			"minor" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 66.0, 1189.0, 832.0 ],
+		"rect" : [ 34.0, 87.0, 1391.0, 857.0 ],
 		"openrect" : [ 0.0, 0.0, 600.0, 131.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -40,6 +40,30 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1493.0, 126.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "",
+					"id" : "obj-8",
+					"index" : 3,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1544.0, 186.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-26",
 					"maxclass" : "newobj",
@@ -133,8 +157,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 0,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -511,8 +535,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 0,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -635,8 +659,8 @@
 									"id" : "obj-16",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 10,
-									"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "", "int", "" ],
+									"numoutlets" : 9,
+									"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "", "int" ],
 									"patching_rect" : [ 1177.296627283096313, 277.389830589294434, 137.0, 22.0 ],
 									"text" : "info~ #1Mosaique_temp"
 								}
@@ -1183,8 +1207,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 0,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1542,8 +1566,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 0,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1678,12 +1702,11 @@
 									"id" : "obj-28",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
-									"numoutlets" : 5,
-									"outlettype" : [ "dictionary", "", "", "", "" ],
+									"numoutlets" : 4,
+									"outlettype" : [ "dictionary", "", "", "" ],
 									"patching_rect" : [ 966.5, 391.5, 182.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0,
-										"legacy" : 1,
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
 									}
@@ -1940,8 +1963,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 0,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2058,12 +2081,11 @@
 					"id" : "obj-80",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 5,
-					"outlettype" : [ "dictionary", "", "", "", "" ],
+					"numoutlets" : 4,
+					"outlettype" : [ "dictionary", "", "", "" ],
 					"patching_rect" : [ 926.0, 1140.0, 168.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
-						"legacy" : 1,
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
@@ -2078,14 +2100,14 @@
 					"autopopulate" : 1,
 					"depth" : 100,
 					"id" : "obj-95",
-					"items" : "<empty>",
+					"items" : [ "Ride-707-1.wav", ",", "Ride-707-10.wav", ",", "Ride-707-11.wav", ",", "Ride-707-12.wav", ",", "Ride-707-13.wav", ",", "Ride-707-14.wav", ",", "Ride-707-15.wav", ",", "Ride-707-16.wav", ",", "Ride-707-17.wav", ",", "Ride-707-18.wav", ",", "Ride-707-19.wav", ",", "Ride-707-2.wav", ",", "Ride-707-20.wav", ",", "Ride-707-21.wav", ",", "Ride-707-22.wav", ",", "Ride-707-23.wav", ",", "Ride-707-24.wav", ",", "Ride-707-25.wav", ",", "Ride-707-26.wav", ",", "Ride-707-27.wav", ",", "Ride-707-28.wav", ",", "Ride-707-29.wav", ",", "Ride-707-3.wav", ",", "Ride-707-30.wav", ",", "Ride-707-31.wav", ",", "Ride-707-32.wav", ",", "Ride-707-33.wav", ",", "Ride-707-34.wav", ",", "Ride-707-35.wav", ",", "Ride-707-36.wav", ",", "Ride-707-4.wav", ",", "Ride-707-5.wav", ",", "Ride-707-6.wav", ",", "Ride-707-7.wav", ",", "Ride-707-8.wav", ",", "Ride-707-9.wav" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 561.0, 283.0, 192.818177759647369, 22.0 ],
-					"prefix" : "~/Library/Application Support/Cycling '74/Max 8/Examples/jitter-examples/audio/",
+					"prefix" : "~/Library/CloudStorage/OneDrive-UniversitedeMontreal/Projets/MOSAÏQUE/Corpora/ElectronicDrums/Rides/",
 					"types" : [ "WAVE", "AIFF", "FLAC" ]
 				}
 
@@ -2153,6 +2175,13 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
 					"source" : [ "obj-13", 0 ]
@@ -2303,6 +2332,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"order" : 0,
+					"source" : [ "obj-43", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-43", 1 ]
 				}
@@ -2311,6 +2348,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
+					"order" : 1,
 					"source" : [ "obj-43", 0 ]
 				}
 

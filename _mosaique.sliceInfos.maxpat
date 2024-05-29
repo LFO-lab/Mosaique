@@ -40,6 +40,29 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 600.0, 725.0, 150.0, 20.0 ],
+					"text" : "Corpus #"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 92.912658476829506, 595.0, 133.0, 22.0 ],
+					"text" : "zl.indexmap 3 4 2 1 0 5"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-15",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -206,7 +229,7 @@
 				"box" : 				{
 					"comment" : "Buffer name",
 					"id" : "obj-44",
-					"index" : 5,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -221,7 +244,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 92.400000000000006, 208.0, 1281.0, 22.0 ],
+					"patching_rect" : [ 92.400000000000006, 208.0, 1277.599999999999909, 22.0 ],
 					"text" : "t s s s"
 				}
 
@@ -232,7 +255,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 496.912658476829506, 669.0, 66.0, 20.0 ],
+					"patching_rect" : [ 496.912658476829506, 725.0, 66.0, 20.0 ],
 					"text" : "Numchans"
 				}
 
@@ -241,11 +264,11 @@
 				"box" : 				{
 					"comment" : "Number of channels",
 					"id" : "obj-41",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 485.399999999999977, 690.803797543048859, 30.0, 30.0 ]
+					"patching_rect" : [ 485.399999999999977, 746.803797543048859, 30.0, 30.0 ]
 				}
 
 			}
@@ -255,7 +278,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 400.412658476829506, 669.0, 73.0, 20.0 ],
+					"patching_rect" : [ 400.412658476829506, 725.0, 73.0, 20.0 ],
 					"text" : "Sample rate"
 				}
 
@@ -264,11 +287,11 @@
 				"box" : 				{
 					"comment" : "Sampling rate",
 					"id" : "obj-39",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 388.899999999999977, 690.803797543048859, 30.0, 30.0 ]
+					"patching_rect" : [ 388.899999999999977, 746.803797543048859, 30.0, 30.0 ]
 				}
 
 			}
@@ -278,7 +301,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 303.912658476829506, 669.0, 54.0, 20.0 ],
+					"patching_rect" : [ 303.912658476829506, 725.0, 54.0, 20.0 ],
 					"text" : "Duration"
 				}
 
@@ -287,11 +310,11 @@
 				"box" : 				{
 					"comment" : "Duration",
 					"id" : "obj-36",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 292.399999999999977, 690.803797543048859, 30.0, 30.0 ]
+					"patching_rect" : [ 292.399999999999977, 746.803797543048859, 30.0, 30.0 ]
 				}
 
 			}
@@ -300,10 +323,10 @@
 					"id" : "obj-35",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "float", "float", "float" ],
-					"patching_rect" : [ 292.399999999999977, 629.0, 212.0, 22.0 ],
-					"text" : "unpack f f f"
+					"numoutlets" : 4,
+					"outlettype" : [ "float", "float", "float", "int" ],
+					"patching_rect" : [ 292.399999999999977, 685.0, 308.500000000000114, 22.0 ],
+					"text" : "unpack f f f i"
 				}
 
 			}
@@ -313,7 +336,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 106.912658476829534, 669.0, 49.0, 20.0 ],
+					"patching_rect" : [ 106.912658476829534, 725.0, 49.0, 20.0 ],
 					"text" : "Bounds"
 				}
 
@@ -322,11 +345,11 @@
 				"box" : 				{
 					"comment" : "Bounds",
 					"id" : "obj-27",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 91.912658476829534, 685.0, 30.0, 30.0 ]
+					"patching_rect" : [ 91.912658476829534, 741.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -337,7 +360,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 92.400000000000006, 595.0, 219.0, 22.0 ],
+					"patching_rect" : [ 92.400000000000006, 651.0, 219.0, 22.0 ],
 					"text" : "zl.slice 2"
 				}
 
@@ -418,7 +441,7 @@
 				"box" : 				{
 					"comment" : "Name of slice \"# #\"",
 					"id" : "obj-53",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -454,6 +477,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-13", 0 ]
 				}
@@ -475,7 +505,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-26", 0 ],
+					"destination" : [ "obj-11", 0 ],
 					"source" : [ "obj-22", 0 ]
 				}
 
@@ -624,7 +654,17 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "fluid.buf2list.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.dataset~.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
