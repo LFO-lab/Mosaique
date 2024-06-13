@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 702.0, 199.0, 1300.0, 1204.0 ],
+		"rect" : [ 486.0, 106.0, 1379.0, 1189.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 11.0,
@@ -435,7 +435,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "jit_gl_texture", "", "" ],
-					"patching_rect" : [ 190.0, 530.0, 254.0, 21.0 ],
+					"patching_rect" : [ 279.0, 525.0, 254.0, 21.0 ],
 					"text" : "jit.gl.node #1corpusWorld @name #1nodeToWolrd"
 				}
 
@@ -3009,12 +3009,13 @@
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-2",
+													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 406.0, 132.0, 127.0, 35.0 ],
-													"text" : "cell 0 val 1. 0. 0."
+													"text" : "cell 88 val 13.304084 -0.154257 0.170761"
 												}
 
 											}
@@ -3945,12 +3946,13 @@
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-2",
+													"linecount" : 4,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 372.0, 103.0, 101.0, 62.0 ],
-													"text" : "cell 0 val 0. 0. 0."
+													"text" : "cell 88 val -0.634861 -0.411446 -0.342718"
 												}
 
 											}
@@ -5776,6 +5778,24 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-11",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 4,
+									"outlettype" : [ "dictionary", "", "", "" ],
+									"patching_rect" : [ 508.0, 39.0, 50.5, 22.0 ],
+									"saved_object_attributes" : 									{
+										"embed" : 0,
+										"parameter_enable" : 0,
+										"parameter_mappable" : 0
+									}
+,
+									"text" : "dict"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"comment" : "",
 									"id" : "obj-5",
 									"index" : 1,
@@ -6323,6 +6343,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-11",
@@ -13725,7 +13746,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 119.0, 401.0, 128.0, 128.0 ],
+					"patching_rect" : [ 146.0, 412.0, 128.0, 128.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 296.0, 169.0 ],
 					"proportion" : 0.39,

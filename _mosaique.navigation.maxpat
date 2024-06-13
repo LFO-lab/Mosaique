@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 6,
-			"revision" : 0,
+			"minor" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 740.0, 165.0, 408.0, 736.0 ],
+		"rect" : [ 740.0, 165.0, 868.0, 881.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,30 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-5",
+					"linecount" : 7,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 87.0, 595.0, 150.0, 100.0 ],
+					"text" : "<<< Navigation requests are sent out to the players\n\nFormat :\n3D x y z\n2D x y\n2D xy"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "",
+					"id" : "obj-1",
+					"index" : 0,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 42.0, 595.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -53,11 +77,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-8",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 240.0, 45.557260036468506, 30.0, 30.0 ]
 				}
 
@@ -66,7 +90,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-7",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -265,7 +289,80 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-3" : [ "---Mosaique_Navigation_Select", "Navigation_Select", 0 ],
+			"obj-6::obj-4::obj-16" : [ "---MIDI_note_min", "live.numbox", 0 ],
+			"obj-6::obj-4::obj-21" : [ "---MIDI_note_max", "live.numbox", 0 ],
+			"obj-6::obj-4::obj-25" : [ "---MIDI_velo_layers", "live.numbox", 0 ],
+			"obj-6::obj-7::obj-13" : [ "---Mosaique_OSC_y", "Y", 0 ],
+			"obj-6::obj-7::obj-14" : [ "---MosaiqueServer_OSC_Port", "OSC Port", 0 ],
+			"obj-6::obj-7::obj-15" : [ "---Mosaique_OSC_z", "Z", 0 ],
+			"obj-6::obj-7::obj-2" : [ "---Mosaique_OSC_x", "X", 0 ],
+			"obj-6::obj-7::obj-27" : [ "---Mosaisque_OSC_type", "OSC Type", 0 ],
+			"obj-6::obj-7::obj-9" : [ "---Mosaique_OSC_state", "OSC_state", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "_mosaique.midi.maxpat",
+				"bootpath" : "~/Documents/GitHub/Mosaique",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "_mosaique.navigation.gui.maxpat",
+				"bootpath" : "~/Documents/GitHub/Mosaique",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "_mosaique.osc.maxpat",
+				"bootpath" : "~/Documents/GitHub/Mosaique",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fluid.dataset~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.grid~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.kdtree~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.list2buf.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.normalize~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.plotter.js",
+				"bootpath" : "~/Documents/Max 8/Packages/FluidCorpusManipulation/jsui",
+				"patcherrelativepath" : "../../Max 8/Packages/FluidCorpusManipulation/jsui",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
