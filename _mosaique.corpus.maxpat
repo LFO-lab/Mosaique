@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1018.0, 142.0, 994.0, 1189.0 ],
+		"rect" : [ 448.0, 106.0, 1272.0, 993.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -6274,7 +6274,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 780.0, 374.0, 202.0, 33.0 ],
-									"text" : "<<< When a file of a folder gets droped directly on the corpus GUI"
+									"text" : "<<< When a file of a folder gets dropped directly on the corpus GUI"
 								}
 
 							}
@@ -8577,7 +8577,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 66.830188810825348, 93.593657255172729, 54.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 104.916667572883625, -0.583333313465118, 67.0, 21.0 ],
+					"presentation_rect" : [ 81.144875764846802, -1.0, 56.045936167240143, 21.0 ],
 					"textcolor" : [ 0.27843137254902, 0.27843137254902, 0.27843137254902, 0.0 ]
 				}
 
@@ -8690,9 +8690,16 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 605.330188810825348, 37.018871784210205, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 235.833335000000005, 3.0, 14.0, 14.0 ],
+					"presentation_rect" : [ 205.993402908195492, 2.25, 14.0, 14.0 ],
 					"proportion" : 0.5,
-					"rounded" : 0
+					"rounded" : 0,
+					"saved_attribute_attributes" : 					{
+						"bgfillcolor" : 						{
+							"expression" : ""
+						}
+
+					}
+
 				}
 
 			}
@@ -8700,7 +8707,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-16",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -8755,7 +8762,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 633.330188810825348, 233.518871784210205, 46.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 235.833335000000005, 3.0, 14.0, 14.0 ],
+					"presentation_rect" : [ 205.993402908195492, 2.25, 14.0, 14.0 ],
 					"text" : "X",
 					"texton" : "X",
 					"varname" : "live.text[1]"
@@ -9173,7 +9180,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 766.0, 185.0, 54.0, 22.0 ],
-									"text" : "absolute"
+									"text" : "none"
 								}
 
 							}
@@ -10552,7 +10559,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 849.830188810825348, 320.018871784210205, 88.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.25, 106.0, 18.833333790302277 ],
+					"presentation_rect" : [ 0.0, 0.25, 79.144875764846802, 18.833333790302277 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.theme_textcolor_inverse"
@@ -10560,7 +10567,7 @@
 
 					}
 ,
-					"text" : "Corpus #2"
+					"text" : "Corpus 1"
 				}
 
 			}
@@ -10580,7 +10587,7 @@
 					"parameter_mappable" : 0,
 					"patching_rect" : [ 66.949951112270355, 95.093657255172729, 53.880237698554993, 19.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 106.25, 1.25, 64.333335145767222, 17.333333373069763 ],
+					"presentation_rect" : [ 82.478208191963176, 0.833333313465118, 53.379271313007365, 17.333333373069763 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Load corpus", "val2" ],
@@ -10609,7 +10616,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 301.830188810825348, 465.78454852104187, 45.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 197.815534651279478, 1.559061527252197, 42.0, 19.0 ],
+					"presentation_rect" : [ 167.975602559474964, 1.809061527252197, 42.0, 19.0 ],
 					"text" : "sound",
 					"textcolor" : [ 0.905882352941176, 0.905882352941176, 0.905882352941176, 1.0 ]
 				}
@@ -10682,7 +10689,7 @@
 					"parameter_mappable" : 0,
 					"patching_rect" : [ 301.830188810825348, 382.78454852104187, 57.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 167.697411596775055, 2.75, 35.0, 16.0 ],
+					"presentation_rect" : [ 137.857479504970541, 3.0, 35.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -10725,8 +10732,15 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 439.830188810825348, 37.018871784210205, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 171.828309997375499, 2.248743712902069, 62.000000000000028, 15.5 ],
-					"proportion" : 0.5
+					"presentation_rect" : [ 141.988377905570985, 1.498743712902069, 62.000000000000028, 15.5 ],
+					"proportion" : 0.5,
+					"saved_attribute_attributes" : 					{
+						"bgfillcolor" : 						{
+							"expression" : ""
+						}
+
+					}
+
 				}
 
 			}
@@ -10744,7 +10758,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 176.521733343601227, 62.028983473777771, 140.0, 60.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 253.0, 20.0 ],
+					"presentation_rect" : [ 0.0, 27.561838030815125, 253.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"bordercolor" : 						{
 							"expression" : ""
@@ -10775,7 +10789,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"bgcolor" : [ 0.093101, 0.698422, 0.539801, 1.0 ],
 					"bordercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"id" : "obj-4",
 					"maxclass" : "panel",
@@ -10789,7 +10803,7 @@
 					"rounded" : 4,
 					"saved_attribute_attributes" : 					{
 						"bgfillcolor" : 						{
-							"expression" : "themecolor.none"
+							"expression" : ""
 						}
 
 					}
@@ -11001,127 +11015,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-3" : [ "live.numbox[10]", "live.numbox", 0 ],
-			"obj-47" : [ "live.text[19]", "live.text", 0 ],
-			"obj-67::obj-10::obj-17" : [ "live.drop[14]", "live.drop", 0 ],
-			"obj-67::obj-10::obj-2" : [ "---MosaiqueSlicer_Select", "Select", 0 ],
-			"obj-67::obj-10::obj-21" : [ "---MosaiqueSlicer_Thresh", "Threshold", 0 ],
-			"obj-67::obj-10::obj-26" : [ "live.menu[19]", "live.menu[9]", 0 ],
-			"obj-67::obj-10::obj-28" : [ "---MosaiqueSlicer_Length", "Length", 0 ],
-			"obj-67::obj-10::obj-42" : [ "---Mosaique_Slicer_filePath", "File_Path", 0 ],
-			"obj-67::obj-10::obj-49" : [ "---MosaiqueSlicer_SliceButton", "Slice", 0 ],
-			"obj-67::obj-10::obj-61" : [ "---MosaiqueSlicer_SaveButton", "Save", 0 ],
-			"obj-68" : [ "live.drop[8]", "live.drop[8]", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "_mosaique.clearAll.maxpat",
-				"bootpath" : "~/Documents/GitHub/Mosaique",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "_mosaique.dictValueGetSet.maxpat",
-				"bootpath" : "~/Documents/GitHub/Mosaique",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "_mosaique.longFileChopper.maxpat",
-				"bootpath" : "~/Documents/GitHub/Mosaique",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fav-max.js",
-				"bootpath" : "~/Documents/Max 8/Packages/FluidCorpusManipulation/jsui",
-				"patcherrelativepath" : "../../Max 8/Packages/FluidCorpusManipulation/jsui",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fluid.buf2list.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.bufcompose~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.bufloudness~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.bufmfcc~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.bufnoveltyfeature~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.bufnoveltyslice~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.bufonsetslice~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.bufpitch~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.bufselect~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.bufspectralshape~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.bufstats~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.datasetquery~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.dataset~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.labelset~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.list2buf.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.waveform~.js",
-				"bootpath" : "~/Documents/Max 8/Packages/FluidCorpusManipulation/jsui",
-				"patcherrelativepath" : "../../Max 8/Packages/FluidCorpusManipulation/jsui",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "Audiomix",
 				"default" : 				{
