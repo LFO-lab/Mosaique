@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 6,
-			"revision" : 0,
+			"minor" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1060.0, 100.0, 117.0, 983.0 ],
+		"rect" : [ 1060.0, 106.0, 542.0, 983.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -410,7 +410,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-15",
-					"ignoreclick" : 1,
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -444,7 +443,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-13",
-					"ignoreclick" : 1,
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -478,7 +476,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-2",
-					"ignoreclick" : 1,
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
 					"numoutlets" : 2,
