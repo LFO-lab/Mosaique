@@ -45,8 +45,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ -8.0, 1188.293199896812439, 204.0, 22.0 ],
-					"text" : "prepend #1Mosaique_MIDI_noteOn"
+					"patching_rect" : [ -8.0, 1188.293199896812439, 82.0, 22.0 ],
+					"text" : "prepend state"
 				}
 
 			}
@@ -69,8 +69,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 14.0, 1262.0, 182.0, 22.0 ],
-					"text" : "prepend #1Mosaique_MIDI_2D"
+					"patching_rect" : [ 64.0, 1254.0, 98.0, 22.0 ],
+					"text" : "prepend 2D_grid"
 				}
 
 			}
@@ -189,7 +189,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 204.0, 815.0, 30.0, 30.0 ]
 				}
 
@@ -1038,7 +1038,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "---MIDI_velo_layers[1]",
+							"parameter_longname" : "---MIDI_velo_layers",
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -1065,7 +1065,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "---MIDI_note_max[1]",
+							"parameter_longname" : "---MIDI_note_max",
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 8
@@ -1122,7 +1122,7 @@
 							"parameter_initial" : [ 60 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "---MIDI_note_min[1]",
+							"parameter_longname" : "---MIDI_note_min",
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 8
@@ -1763,14 +1763,7 @@
 				}
 
 			}
- ],
-		"saved_attribute_attributes" : 		{
-			"default_plcolor" : 			{
-				"expression" : ""
-			}
-
-		}
-
+ ]
 	}
 
 }
