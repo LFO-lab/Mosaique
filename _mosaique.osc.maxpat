@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1060.0, 106.0, 542.0, 983.0 ],
+		"rect" : [ 368.0, 100.0, 1234.0, 983.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,13 +40,24 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-21",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 386.0, 341.0, 150.0, 20.0 ],
+					"text" : "Ajouter 2D grid"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-5",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 941.304329872131348, 691.0, 198.0, 22.0 ],
-					"text" : "prepend #1Mosaique_OSC_state"
+					"patching_rect" : [ 941.304329872131348, 691.0, 82.0, 22.0 ],
+					"text" : "prepend state"
 				}
 
 			}
@@ -271,8 +282,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 691.0, 190.0, 22.0 ],
-					"text" : "prepend #1Mosaique_OSC_3D"
+					"patching_rect" : [ 11.0, 691.0, 71.0, 22.0 ],
+					"text" : "prepend 3D"
 				}
 
 			}
@@ -283,8 +294,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 241.666640162467957, 691.0, 190.0, 22.0 ],
-					"text" : "prepend #1Mosaique_OSC_2D"
+					"patching_rect" : [ 241.666640162467957, 691.0, 71.0, 22.0 ],
+					"text" : "prepend 2D"
 				}
 
 			}
@@ -536,7 +547,7 @@
 							"parameter_enum" : [ "0", "1" ],
 							"parameter_invisible" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "---MosaiqueServer_OSC_Port[1]",
+							"parameter_longname" : "---MosaiqueServer_OSC_Port",
 							"parameter_mmax" : 32000.0,
 							"parameter_shortname" : "OSC Port",
 							"parameter_type" : 0,
@@ -875,14 +886,7 @@
 				}
 
 			}
- ],
-		"saved_attribute_attributes" : 		{
-			"default_plcolor" : 			{
-				"expression" : ""
-			}
-
-		}
-
+ ]
 	}
 
 }
