@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -72,6 +72,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
+					"parameter_mappable" : 0,
 					"patching_rect" : [ 1465.127653837203979, 419.158527016639709, 44.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 122.0, 245.0, 44.0, 15.0 ],
@@ -79,7 +80,8 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 0.2 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "number[23]",
+							"parameter_invisible" : 1,
+							"parameter_longname" : "number[5]",
 							"parameter_mmax" : 5.0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
@@ -100,6 +102,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
+					"parameter_mappable" : 0,
 					"patching_rect" : [ 1143.141185998916626, 404.158527016639709, 44.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 122.0, 196.0, 44.0, 15.0 ],
@@ -107,7 +110,8 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 200 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "number[21]",
+							"parameter_invisible" : 1,
+							"parameter_longname" : "number[6]",
 							"parameter_mmax" : 10000.0,
 							"parameter_mmin" : 100.0,
 							"parameter_shortname" : "live.numbox",
@@ -151,7 +155,7 @@
 				"box" : 				{
 					"comment" : "Bang to store values",
 					"id" : "obj-11",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -223,6 +227,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
+					"parameter_mappable" : 0,
 					"patching_rect" : [ 790.127653837203979, 404.158527016639709, 44.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 122.0, 151.401108622550964, 44.0, 15.0 ],
@@ -230,7 +235,8 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 0.3 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "number[20]",
+							"parameter_invisible" : 1,
+							"parameter_longname" : "number[17]",
 							"parameter_mmax" : 5.0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
@@ -277,6 +283,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
+					"parameter_mappable" : 0,
 					"patching_rect" : [ 468.06382691860199, 404.158527016639709, 44.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 122.0, 104.957446336746216, 44.0, 15.0 ],
@@ -284,7 +291,8 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 25 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "number[19]",
+							"parameter_invisible" : 1,
+							"parameter_longname" : "number[16]",
 							"parameter_mmax" : 100.0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 1,
@@ -305,6 +313,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
+					"parameter_mappable" : 0,
 					"patching_rect" : [ 136.0, 404.158527016639709, 44.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 122.0, 62.404255151748657, 44.0, 15.0 ],
@@ -312,7 +321,8 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 3 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "number[22]",
+							"parameter_invisible" : 1,
+							"parameter_longname" : "number[18]",
 							"parameter_mmax" : 128.0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
@@ -458,33 +468,13 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-2" : [ "number[22]", "live.numbox", 0 ],
-			"obj-3" : [ "number[23]", "live.numbox", 0 ],
-			"obj-6" : [ "number[21]", "live.numbox", 0 ],
-			"obj-66" : [ "number[19]", "live.numbox", 0 ],
-			"obj-7" : [ "number[20]", "live.numbox", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
+		"saved_attribute_attributes" : 		{
+			"default_plcolor" : 			{
+				"expression" : ""
+			}
 
-			}
-,
-			"inherited_shortname" : 1
 		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "_mosaique.dictValueGetSet.maxpat",
-				"bootpath" : "~/Documents/GitHub/Mosaique",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+
 	}
 
 }

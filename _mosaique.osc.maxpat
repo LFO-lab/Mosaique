@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 368.0, 100.0, 1234.0, 983.0 ],
+		"rect" : [ 34.0, 100.0, 1234.0, 983.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -352,7 +352,7 @@
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
 							"parameter_linknames" : 1,
-							"parameter_longname" : "---Mosaique_OSC_state",
+							"parameter_longname" : "Recorded OSC - state",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "OSC_state",
 							"parameter_type" : 2
@@ -360,7 +360,7 @@
 
 					}
 ,
-					"varname" : "---Mosaique_OSC_state"
+					"varname" : "Recorded OSC - state"
 				}
 
 			}
@@ -435,7 +435,7 @@
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "---Mosaique_OSC_z",
+							"parameter_longname" : "Recorded OSC - z",
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : -1.0,
 							"parameter_modmode" : 2,
@@ -447,7 +447,7 @@
 					}
 ,
 					"triangle" : 1,
-					"varname" : "---Mosaique_OSC_z"
+					"varname" : "Recorded OSC - z"
 				}
 
 			}
@@ -468,7 +468,7 @@
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "---Mosaique_OSC_y",
+							"parameter_longname" : "Recorded OSC - y",
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : -1.0,
 							"parameter_modmode" : 2,
@@ -480,7 +480,7 @@
 					}
 ,
 					"triangle" : 1,
-					"varname" : "---Mosaique_OSC_y"
+					"varname" : "Recorded OSC - y"
 				}
 
 			}
@@ -501,7 +501,7 @@
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "---Mosaique_OSC_x",
+							"parameter_longname" : "Recorded OSC - x",
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : -1.0,
 							"parameter_modmode" : 2,
@@ -513,7 +513,7 @@
 					}
 ,
 					"triangle" : 1,
-					"varname" : "---Mosaique_OSC_x"
+					"varname" : "Recorded OSC - x"
 				}
 
 			}
@@ -886,7 +886,14 @@
 				}
 
 			}
- ]
+ ],
+		"saved_attribute_attributes" : 		{
+			"default_plcolor" : 			{
+				"expression" : ""
+			}
+
+		}
+
 	}
 
 }

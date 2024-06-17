@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 65.0, 106.0, 1649.0, 919.0 ],
+		"rect" : [ 45.0, 106.0, 1164.0, 919.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -442,11 +442,12 @@
 					"id" : "obj-39",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 4,
-					"outlettype" : [ "dictionary", "", "", "" ],
+					"numoutlets" : 5,
+					"outlettype" : [ "dictionary", "", "", "", "" ],
 					"patching_rect" : [ 2896.0, 106.800496876239777, 157.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
+						"legacy" : 1,
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
@@ -476,13 +477,15 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
+					"parameter_mappable" : 0,
 					"patching_rect" : [ 2988.0, 232.0, 75.200000464916229, 31.000000238418579 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 535.936502546072006, 508.0, 75.200000464916229, 31.000000238418579 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[22]",
+							"parameter_invisible" : 2,
+							"parameter_longname" : "live.text[6]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text[2]",
 							"parameter_type" : 2
@@ -615,7 +618,7 @@
 				"box" : 				{
 					"comment" : "Bang to store values",
 					"id" : "obj-10",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -628,7 +631,7 @@
 				"box" : 				{
 					"comment" : "Bang to initialize GUI",
 					"id" : "obj-106",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -641,7 +644,7 @@
 				"box" : 				{
 					"comment" : "Re-analyse message",
 					"id" : "obj-16",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2359,46 +2362,13 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-137" : [ "live.toggle[9]", "live.toggle", 0 ],
-			"obj-140" : [ "live.toggle[10]", "live.toggle", 0 ],
-			"obj-143" : [ "live.toggle[11]", "live.toggle", 0 ],
-			"obj-147" : [ "live.toggle[12]", "live.toggle", 0 ],
-			"obj-151" : [ "live.toggle[13]", "live.toggle", 0 ],
-			"obj-155" : [ "live.toggle[14]", "live.toggle", 0 ],
-			"obj-159" : [ "live.toggle[15]", "live.toggle", 0 ],
-			"obj-2" : [ "live.menu", "live.menu", 0 ],
-			"obj-21" : [ "live.menu[2]", "live.menu", 0 ],
-			"obj-23" : [ "live.toggle[16]", "live.toggle", 0 ],
-			"obj-27" : [ "live.numbox[3]", "live.numbox[3]", 0 ],
-			"obj-45" : [ "live.menu[3]", "live.menu", 0 ],
-			"obj-51" : [ "live.numbox[1]", "live.numbox[1]", 0 ],
-			"obj-53" : [ "live.numbox[2]", "live.numbox[1]", 0 ],
-			"obj-6" : [ "live.toggle[2]", "live.toggle", 0 ],
-			"obj-62" : [ "live.text[22]", "live.text[2]", 0 ],
-			"obj-66" : [ "live.menu[1]", "live.menu", 0 ],
-			"obj-7" : [ "live.toggle[6]", "live.toggle", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
+		"saved_attribute_attributes" : 		{
+			"default_plcolor" : 			{
+				"expression" : ""
+			}
 
-			}
-,
-			"inherited_shortname" : 1
 		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "_mosaique.dictValueGetSet.maxpat",
-				"bootpath" : "~/Documents/GitHub/Mosaique",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+
 	}
 
 }

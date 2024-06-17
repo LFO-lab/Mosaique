@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 729.0, 100.0, 965.0, 813.0 ],
+		"rect" : [ 729.0, 100.0, 480.0, 813.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1037,6 +1037,7 @@
 					"presentation_rect" : [ 48.0, 84.0, 44.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_invisible" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "---MIDI_velo_layers",
 							"parameter_shortname" : "live.numbox",
@@ -1064,6 +1065,7 @@
 					"presentation_rect" : [ 47.0, 60.0, 46.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_invisible" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "---MIDI_note_max",
 							"parameter_shortname" : "live.numbox",
@@ -1121,6 +1123,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 60 ],
 							"parameter_initial_enable" : 1,
+							"parameter_invisible" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "---MIDI_note_min",
 							"parameter_shortname" : "live.numbox",
@@ -1763,7 +1766,14 @@
 				}
 
 			}
- ]
+ ],
+		"saved_attribute_attributes" : 		{
+			"default_plcolor" : 			{
+				"expression" : ""
+			}
+
+		}
+
 	}
 
 }

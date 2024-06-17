@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -195,8 +195,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -384,10 +384,24 @@
 								}
 
 							}
- ]
+ ],
+						"saved_attribute_attributes" : 						{
+							"default_plcolor" : 							{
+								"expression" : ""
+							}
+
+						}
+
 					}
 ,
 					"patching_rect" : [ 1756.0, 283.0, 50.0, 22.0 ],
+					"saved_attribute_attributes" : 					{
+						"default_plcolor" : 						{
+							"expression" : ""
+						}
+
+					}
+,
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -942,7 +956,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 2096.0, 1352.0, 67.0, 21.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 278, 220, 1078, 505, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 34, 100, 1209, 1083, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
 
@@ -1115,8 +1129,8 @@
 					"id" : "obj-87",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 9,
-					"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "", "int" ],
+					"numoutlets" : 10,
+					"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "", "int", "" ],
 					"patching_rect" : [ 288.126987540698849, 874.190465927124023, 257.010080039501133, 22.0 ],
 					"text" : "info~ #0MosaiqueSlicer_longFile"
 				}
@@ -1203,16 +1217,18 @@
 					"fontsize" : 8.0,
 					"id" : "obj-42",
 					"ignoreclick" : 1,
+					"linecount" : 4,
 					"lines" : 1,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
+					"parameter_mappable" : 0,
 					"patching_rect" : [ 123.457714633169871, 559.0, 76.0, 127.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 68.881574422121048, 39.302417583763599, 712.988818123936653, 16.882352933287621 ],
-					"text" : "none"
+					"text" : "Macintosh HD:/Users/davidpiazza/Desktop/loop/slice_0.wav"
 				}
 
 			}
@@ -1226,6 +1242,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "float" ],
 					"parameter_enable" : 1,
+					"parameter_mappable" : 0,
 					"patching_rect" : [ 768.883023917675018, 183.159971117973328, 98.809522867202759, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 83.405766665935516, 253.04160863161087, 110.447760820388794, 20.0 ],
@@ -1234,6 +1251,7 @@
 							"parameter_enum" : [ "Attack detection", "Spectrum change" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
+							"parameter_invisible" : 2,
 							"parameter_longname" : "live.menu[19]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.menu[9]",
@@ -1367,7 +1385,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 100.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
+							"parameter_invisible" : 2,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "---MosaiqueSlicer_Length",
 							"parameter_mmax" : 1000.0,
@@ -1400,7 +1418,7 @@
 					"presentation_rect" : [ 289.551890939474106, 254.54160863161087, 48.310344457626343, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_invisible" : 1,
+							"parameter_invisible" : 2,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "---MosaiqueSlicer_Thresh",
 							"parameter_mmax" : 12.0,
@@ -1439,6 +1457,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_invisible" : 2,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "---MosaiqueSlicer_SliceButton",
 							"parameter_mmax" : 1,
@@ -1724,6 +1743,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_invisible" : 2,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "---MosaiqueSlicer_SaveButton",
 							"parameter_mmax" : 1,
@@ -1995,7 +2015,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 1.0 ],
+					"bgcolor" : [ 0.627450980392157, 0.627450980392157, 0.627450980392157, 1.0 ],
 					"id" : "obj-15",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -3057,7 +3077,14 @@
 				}
 
 			}
- ]
+ ],
+		"saved_attribute_attributes" : 		{
+			"default_plcolor" : 			{
+				"expression" : ""
+			}
+
+		}
+
 	}
 
 }
