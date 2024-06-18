@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 390.0, 189.0, 1475.0, 736.0 ],
+		"rect" : [ 219.0, 189.0, 990.0, 736.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -81,7 +81,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 340.912658476829506, 441.0, 109.0, 22.0 ],
-					"text" : "loadmess samps 5"
+					"text" : "loadmess samps 6"
 				}
 
 			}
@@ -229,7 +229,7 @@
 				"box" : 				{
 					"comment" : "Buffer name",
 					"id" : "obj-44",
-					"index" : 0,
+					"index" : 5,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -264,7 +264,7 @@
 				"box" : 				{
 					"comment" : "Number of channels",
 					"id" : "obj-41",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -287,7 +287,7 @@
 				"box" : 				{
 					"comment" : "Sampling rate",
 					"id" : "obj-39",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -310,7 +310,7 @@
 				"box" : 				{
 					"comment" : "Duration",
 					"id" : "obj-36",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -345,7 +345,7 @@
 				"box" : 				{
 					"comment" : "Bounds",
 					"id" : "obj-27",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -441,7 +441,7 @@
 				"box" : 				{
 					"comment" : "Name of slice \"# #\"",
 					"id" : "obj-53",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -655,16 +655,13 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "fluid.buf2list.mxo",
-				"type" : "iLaX"
+		"saved_attribute_attributes" : 		{
+			"default_plcolor" : 			{
+				"expression" : ""
 			}
-, 			{
-				"name" : "fluid.dataset~.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+
+		}
+
 	}
 
 }
