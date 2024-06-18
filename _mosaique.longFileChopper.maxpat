@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 6,
-			"revision" : 0,
+			"minor" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -195,8 +195,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 0,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -405,7 +405,9 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
+						"editing_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
 						"globalpatchername" : "",
+						"locked_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
 						"tags" : ""
 					}
 ,
@@ -956,7 +958,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 2096.0, 1352.0, 67.0, 21.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 34, 100, 1209, 1083, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 34, 106, 835, 394, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
 
@@ -1129,8 +1131,8 @@
 					"id" : "obj-87",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 10,
-					"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "", "int", "" ],
+					"numoutlets" : 9,
+					"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "", "int" ],
 					"patching_rect" : [ 288.126987540698849, 874.190465927124023, 257.010080039501133, 22.0 ],
 					"text" : "info~ #0MosaiqueSlicer_longFile"
 				}
@@ -1217,7 +1219,6 @@
 					"fontsize" : 8.0,
 					"id" : "obj-42",
 					"ignoreclick" : 1,
-					"linecount" : 4,
 					"lines" : 1,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
@@ -1228,7 +1229,7 @@
 					"patching_rect" : [ 123.457714633169871, 559.0, 76.0, 127.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 68.881574422121048, 39.302417583763599, 712.988818123936653, 16.882352933287621 ],
-					"text" : "Macintosh HD:/Users/davidpiazza/Desktop/loop/slice_0.wav"
+					"text" : "none"
 				}
 
 			}
@@ -2015,7 +2016,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.627450980392157, 0.627450980392157, 0.627450980392157, 1.0 ],
+					"bgcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 1.0 ],
 					"id" : "obj-15",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -2366,16 +2367,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
-					"order" : 1,
-					"source" : [ "obj-157", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-53", 0 ],
-					"midpoints" : [ 2292.5, 395.0, 2456.5, 395.0 ],
-					"order" : 0,
 					"source" : [ "obj-157", 0 ]
 				}
 
@@ -2599,6 +2590,16 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
+					"order" : 1,
+					"source" : [ "obj-28", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-53", 0 ],
+					"midpoints" : [ 2292.5, 454.0, 2456.5, 454.0 ],
+					"order" : 0,
 					"source" : [ "obj-28", 0 ]
 				}
 
