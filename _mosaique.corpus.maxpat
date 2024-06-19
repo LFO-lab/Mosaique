@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -61,8 +61,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -247,8 +247,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 6,
+											"minor" : 6,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -324,9 +324,13 @@
 													"id" : "obj-74",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 143.04878044128418, 293.677757978439331, 99.0, 22.0 ],
+													"saved_object_attributes" : 													{
+														"legacy" : 1
+													}
+,
 													"text" : "dict.unpack data:"
 												}
 
@@ -481,9 +485,7 @@
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
-										"editing_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
 										"globalpatchername" : "",
-										"locked_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
 										"tags" : ""
 									}
 ,
@@ -548,8 +550,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 6,
+											"minor" : 6,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -706,9 +708,7 @@
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
-										"editing_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
 										"globalpatchername" : "",
-										"locked_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
 										"tags" : ""
 									}
 ,
@@ -727,8 +727,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 6,
+											"minor" : 6,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -899,8 +899,8 @@
 													"id" : "obj-4",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
-													"numoutlets" : 9,
-													"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "", "int" ],
+													"numoutlets" : 10,
+													"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "", "int", "" ],
 													"patching_rect" : [ 117.444455107053102, 154.0, 190.0, 22.0 ],
 													"text" : "info~ #1Mosaique_#2corpusAudio"
 												}
@@ -1076,9 +1076,7 @@
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
-										"editing_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
 										"globalpatchername" : "",
-										"locked_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
 										"tags" : ""
 									}
 ,
@@ -1110,14 +1108,14 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 6,
+											"minor" : 6,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 106.0, 106.0, 1644.0, 719.0 ],
+										"rect" : [ 50.0, 106.0, 1644.0, 719.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -1145,6 +1143,7 @@
 										"style" : "",
 										"subpatcher_template" : "",
 										"assistshowspatchername" : 0,
+										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-16",
@@ -1154,28 +1153,6 @@
 													"outlettype" : [ "int", "float", "int", "int" ],
 													"patching_rect" : [ 569.5, 85.0, 61.0, 22.0 ],
 													"text" : "dspstate~"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-15",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 386.0, 673.20391970872879, 79.0, 22.0 ],
-													"text" : "print analysis"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-14",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 291.0, 294.0, 75.0, 22.0 ],
-													"text" : "print bounds"
 												}
 
 											}
@@ -1393,8 +1370,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 5,
-															"revision" : 6,
+															"minor" : 6,
+															"revision" : 0,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -1436,9 +1413,7 @@
 													"saved_object_attributes" : 													{
 														"description" : "",
 														"digest" : "",
-														"editing_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
 														"globalpatchername" : "",
-														"locked_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
 														"tags" : ""
 													}
 ,
@@ -1469,8 +1444,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 5,
-															"revision" : 6,
+															"minor" : 6,
+															"revision" : 0,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -1959,9 +1934,7 @@
 													"saved_object_attributes" : 													{
 														"description" : "",
 														"digest" : "",
-														"editing_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
 														"globalpatchername" : "",
-														"locked_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
 														"tags" : ""
 													}
 ,
@@ -1980,8 +1953,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 5,
-															"revision" : 6,
+															"minor" : 6,
+															"revision" : 0,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -2712,9 +2685,7 @@
 													"saved_object_attributes" : 													{
 														"description" : "",
 														"digest" : "",
-														"editing_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
 														"globalpatchername" : "",
-														"locked_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
 														"tags" : ""
 													}
 ,
@@ -2733,8 +2704,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 5,
-															"revision" : 6,
+															"minor" : 6,
+															"revision" : 0,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -4244,9 +4215,7 @@
 													"saved_object_attributes" : 													{
 														"description" : "",
 														"digest" : "",
-														"editing_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
 														"globalpatchername" : "",
-														"locked_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
 														"tags" : ""
 													}
 ,
@@ -4265,8 +4234,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 5,
-															"revision" : 6,
+															"minor" : 6,
+															"revision" : 0,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -5363,9 +5332,7 @@
 													"saved_object_attributes" : 													{
 														"description" : "",
 														"digest" : "",
-														"editing_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
 														"globalpatchername" : "",
-														"locked_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
 														"tags" : ""
 													}
 ,
@@ -5471,16 +5438,7 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-14", 0 ],
-													"order" : 0,
-													"source" : [ "obj-25", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
 													"destination" : [ "obj-4", 0 ],
-													"order" : 1,
 													"source" : [ "obj-25", 0 ]
 												}
 
@@ -5508,16 +5466,7 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-15", 0 ],
-													"order" : 0,
-													"source" : [ "obj-37", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
 													"destination" : [ "obj-47", 0 ],
-													"order" : 1,
 													"source" : [ "obj-37", 0 ]
 												}
 
@@ -5685,9 +5634,7 @@
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
-										"editing_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
 										"globalpatchername" : "",
-										"locked_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
 										"tags" : ""
 									}
 ,
@@ -5873,9 +5820,7 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
-						"editing_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
 						"globalpatchername" : "",
-						"locked_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
 						"tags" : ""
 					}
 ,
@@ -5894,8 +5839,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -6226,9 +6171,7 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
-						"editing_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
 						"globalpatchername" : "",
-						"locked_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
 						"tags" : ""
 					}
 ,
@@ -6248,8 +6191,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -6330,8 +6273,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 6,
+											"minor" : 6,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6490,9 +6433,7 @@
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
-										"editing_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
 										"globalpatchername" : "",
-										"locked_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
 										"tags" : ""
 									}
 ,
@@ -6641,8 +6582,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 6,
+											"minor" : 6,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6777,9 +6718,7 @@
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
-										"editing_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
 										"globalpatchername" : "",
-										"locked_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
 										"tags" : ""
 									}
 ,
@@ -6922,8 +6861,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 6,
+											"minor" : 6,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7334,8 +7273,8 @@
 													"id" : "obj-16",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
-													"numoutlets" : 9,
-													"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "", "int" ],
+													"numoutlets" : 10,
+													"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "", "int", "" ],
 													"patching_rect" : [ 1492.296627283096313, 285.389830589294434, 137.0, 22.0 ],
 													"text" : "info~ #1Mosaique_temp"
 												}
@@ -7990,9 +7929,7 @@
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
-										"editing_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
 										"globalpatchername" : "",
-										"locked_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
 										"tags" : ""
 									}
 ,
@@ -8105,8 +8042,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 6,
+											"minor" : 6,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -8199,9 +8136,7 @@
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
-										"editing_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
 										"globalpatchername" : "",
-										"locked_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
 										"tags" : ""
 									}
 ,
@@ -8226,14 +8161,14 @@
 									"autopopulate" : 1,
 									"depth" : 100,
 									"id" : "obj-95",
-									"items" : [ "Prophet_GligyLead_1.wav", ",", "Prophet_GligyLead_10.wav", ",", "Prophet_GligyLead_100.wav", ",", "Prophet_GligyLead_101.wav", ",", "Prophet_GligyLead_102.wav", ",", "Prophet_GligyLead_103.wav", ",", "Prophet_GligyLead_104.wav", ",", "Prophet_GligyLead_105.wav", ",", "Prophet_GligyLead_106.wav", ",", "Prophet_GligyLead_107.wav", ",", "Prophet_GligyLead_108.wav", ",", "Prophet_GligyLead_109.wav", ",", "Prophet_GligyLead_11.wav", ",", "Prophet_GligyLead_110.wav", ",", "Prophet_GligyLead_111.wav", ",", "Prophet_GligyLead_112.wav", ",", "Prophet_GligyLead_113.wav", ",", "Prophet_GligyLead_114.wav", ",", "Prophet_GligyLead_115.wav", ",", "Prophet_GligyLead_116.wav", ",", "Prophet_GligyLead_117.wav", ",", "Prophet_GligyLead_118.wav", ",", "Prophet_GligyLead_119.wav", ",", "Prophet_GligyLead_12.wav", ",", "Prophet_GligyLead_120.wav", ",", "Prophet_GligyLead_121.wav", ",", "Prophet_GligyLead_122.wav", ",", "Prophet_GligyLead_123.wav", ",", "Prophet_GligyLead_124.wav", ",", "Prophet_GligyLead_125.wav", ",", "Prophet_GligyLead_126.wav", ",", "Prophet_GligyLead_127.wav", ",", "Prophet_GligyLead_128.wav", ",", "Prophet_GligyLead_129.wav", ",", "Prophet_GligyLead_13.wav", ",", "Prophet_GligyLead_130.wav", ",", "Prophet_GligyLead_131.wav", ",", "Prophet_GligyLead_132.wav", ",", "Prophet_GligyLead_133.wav", ",", "Prophet_GligyLead_134.wav", ",", "Prophet_GligyLead_135.wav", ",", "Prophet_GligyLead_136.wav", ",", "Prophet_GligyLead_137.wav", ",", "Prophet_GligyLead_138.wav", ",", "Prophet_GligyLead_139.wav", ",", "Prophet_GligyLead_14.wav", ",", "Prophet_GligyLead_140.wav", ",", "Prophet_GligyLead_141.wav", ",", "Prophet_GligyLead_142.wav", ",", "Prophet_GligyLead_143.wav", ",", "Prophet_GligyLead_144.wav", ",", "Prophet_GligyLead_145.wav", ",", "Prophet_GligyLead_146.wav", ",", "Prophet_GligyLead_147.wav", ",", "Prophet_GligyLead_148.wav", ",", "Prophet_GligyLead_149.wav", ",", "Prophet_GligyLead_15.wav", ",", "Prophet_GligyLead_150.wav", ",", "Prophet_GligyLead_151.wav", ",", "Prophet_GligyLead_152.wav", ",", "Prophet_GligyLead_153.wav", ",", "Prophet_GligyLead_154.wav", ",", "Prophet_GligyLead_155.wav", ",", "Prophet_GligyLead_156.wav", ",", "Prophet_GligyLead_157.wav", ",", "Prophet_GligyLead_158.wav", ",", "Prophet_GligyLead_159.wav", ",", "Prophet_GligyLead_16.wav", ",", "Prophet_GligyLead_160.wav", ",", "Prophet_GligyLead_161.wav", ",", "Prophet_GligyLead_162.wav", ",", "Prophet_GligyLead_163.wav", ",", "Prophet_GligyLead_164.wav", ",", "Prophet_GligyLead_165.wav", ",", "Prophet_GligyLead_166.wav", ",", "Prophet_GligyLead_167.wav", ",", "Prophet_GligyLead_168.wav", ",", "Prophet_GligyLead_169.wav", ",", "Prophet_GligyLead_17.wav", ",", "Prophet_GligyLead_170.wav", ",", "Prophet_GligyLead_171.wav", ",", "Prophet_GligyLead_172.wav", ",", "Prophet_GligyLead_173.wav", ",", "Prophet_GligyLead_174.wav", ",", "Prophet_GligyLead_175.wav", ",", "Prophet_GligyLead_176.wav", ",", "Prophet_GligyLead_177.wav", ",", "Prophet_GligyLead_178.wav", ",", "Prophet_GligyLead_179.wav", ",", "Prophet_GligyLead_18.wav", ",", "Prophet_GligyLead_180.wav", ",", "Prophet_GligyLead_181.wav", ",", "Prophet_GligyLead_182.wav", ",", "Prophet_GligyLead_183.wav", ",", "Prophet_GligyLead_184.wav", ",", "Prophet_GligyLead_185.wav", ",", "Prophet_GligyLead_186.wav", ",", "Prophet_GligyLead_187.wav", ",", "Prophet_GligyLead_188.wav", ",", "Prophet_GligyLead_189.wav", ",", "Prophet_GligyLead_19.wav", ",", "Prophet_GligyLead_190.wav", ",", "Prophet_GligyLead_191.wav", ",", "Prophet_GligyLead_192.wav", ",", "Prophet_GligyLead_193.wav", ",", "Prophet_GligyLead_194.wav", ",", "Prophet_GligyLead_195.wav", ",", "Prophet_GligyLead_196.wav", ",", "Prophet_GligyLead_197.wav", ",", "Prophet_GligyLead_198.wav", ",", "Prophet_GligyLead_199.wav", ",", "Prophet_GligyLead_2.wav", ",", "Prophet_GligyLead_20.wav", ",", "Prophet_GligyLead_200.wav", ",", "Prophet_GligyLead_201.wav", ",", "Prophet_GligyLead_202.wav", ",", "Prophet_GligyLead_203.wav", ",", "Prophet_GligyLead_204.wav", ",", "Prophet_GligyLead_205.wav", ",", "Prophet_GligyLead_206.wav", ",", "Prophet_GligyLead_207.wav", ",", "Prophet_GligyLead_208.wav", ",", "Prophet_GligyLead_209.wav", ",", "Prophet_GligyLead_21.wav", ",", "Prophet_GligyLead_210.wav", ",", "Prophet_GligyLead_211.wav", ",", "Prophet_GligyLead_212.wav", ",", "Prophet_GligyLead_213.wav", ",", "Prophet_GligyLead_214.wav", ",", "Prophet_GligyLead_215.wav", ",", "Prophet_GligyLead_216.wav", ",", "Prophet_GligyLead_217.wav", ",", "Prophet_GligyLead_218.wav", ",", "Prophet_GligyLead_219.wav", ",", "Prophet_GligyLead_22.wav", ",", "Prophet_GligyLead_220.wav", ",", "Prophet_GligyLead_221.wav", ",", "Prophet_GligyLead_222.wav", ",", "Prophet_GligyLead_223.wav", ",", "Prophet_GligyLead_224.wav", ",", "Prophet_GligyLead_225.wav", ",", "Prophet_GligyLead_226.wav", ",", "Prophet_GligyLead_227.wav", ",", "Prophet_GligyLead_228.wav", ",", "Prophet_GligyLead_229.wav", ",", "Prophet_GligyLead_23.wav", ",", "Prophet_GligyLead_230.wav", ",", "Prophet_GligyLead_231.wav", ",", "Prophet_GligyLead_232.wav", ",", "Prophet_GligyLead_233.wav", ",", "Prophet_GligyLead_234.wav", ",", "Prophet_GligyLead_235.wav", ",", "Prophet_GligyLead_236.wav", ",", "Prophet_GligyLead_237.wav", ",", "Prophet_GligyLead_238.wav", ",", "Prophet_GligyLead_239.wav", ",", "Prophet_GligyLead_24.wav", ",", "Prophet_GligyLead_240.wav", ",", "Prophet_GligyLead_241.wav", ",", "Prophet_GligyLead_242.wav", ",", "Prophet_GligyLead_243.wav", ",", "Prophet_GligyLead_244.wav", ",", "Prophet_GligyLead_245.wav", ",", "Prophet_GligyLead_246.wav", ",", "Prophet_GligyLead_247.wav", ",", "Prophet_GligyLead_248.wav", ",", "Prophet_GligyLead_249.wav", ",", "Prophet_GligyLead_25.wav", ",", "Prophet_GligyLead_250.wav", ",", "Prophet_GligyLead_251.wav", ",", "Prophet_GligyLead_252.wav", ",", "Prophet_GligyLead_253.wav", ",", "Prophet_GligyLead_254.wav", ",", "Prophet_GligyLead_255.wav", ",", "Prophet_GligyLead_256.wav", ",", "Prophet_GligyLead_257.wav", ",", "Prophet_GligyLead_258.wav", ",", "Prophet_GligyLead_259.wav", ",", "Prophet_GligyLead_26.wav", ",", "Prophet_GligyLead_260.wav", ",", "Prophet_GligyLead_261.wav", ",", "Prophet_GligyLead_262.wav", ",", "Prophet_GligyLead_263.wav", ",", "Prophet_GligyLead_264.wav", ",", "Prophet_GligyLead_265.wav", ",", "Prophet_GligyLead_266.wav", ",", "Prophet_GligyLead_267.wav", ",", "Prophet_GligyLead_268.wav", ",", "Prophet_GligyLead_269.wav", ",", "Prophet_GligyLead_27.wav", ",", "Prophet_GligyLead_270.wav", ",", "Prophet_GligyLead_271.wav", ",", "Prophet_GligyLead_272.wav", ",", "Prophet_GligyLead_273.wav", ",", "Prophet_GligyLead_274.wav", ",", "Prophet_GligyLead_275.wav", ",", "Prophet_GligyLead_276.wav", ",", "Prophet_GligyLead_277.wav", ",", "Prophet_GligyLead_278.wav", ",", "Prophet_GligyLead_279.wav", ",", "Prophet_GligyLead_28.wav", ",", "Prophet_GligyLead_280.wav", ",", "Prophet_GligyLead_281.wav", ",", "Prophet_GligyLead_282.wav", ",", "Prophet_GligyLead_283.wav", ",", "Prophet_GligyLead_284.wav", ",", "Prophet_GligyLead_285.wav", ",", "Prophet_GligyLead_286.wav", ",", "Prophet_GligyLead_287.wav", ",", "Prophet_GligyLead_288.wav", ",", "Prophet_GligyLead_289.wav", ",", "Prophet_GligyLead_29.wav", ",", "Prophet_GligyLead_290.wav", ",", "Prophet_GligyLead_291.wav", ",", "Prophet_GligyLead_292.wav", ",", "Prophet_GligyLead_293.wav", ",", "Prophet_GligyLead_294.wav", ",", "Prophet_GligyLead_295.wav", ",", "Prophet_GligyLead_296.wav", ",", "Prophet_GligyLead_297.wav", ",", "Prophet_GligyLead_298.wav", ",", "Prophet_GligyLead_299.wav", ",", "Prophet_GligyLead_3.wav", ",", "Prophet_GligyLead_30.wav", ",", "Prophet_GligyLead_300.wav", ",", "Prophet_GligyLead_301.wav", ",", "Prophet_GligyLead_302.wav", ",", "Prophet_GligyLead_303.wav", ",", "Prophet_GligyLead_304.wav", ",", "Prophet_GligyLead_305.wav", ",", "Prophet_GligyLead_306.wav", ",", "Prophet_GligyLead_307.wav", ",", "Prophet_GligyLead_308.wav", ",", "Prophet_GligyLead_309.wav", ",", "Prophet_GligyLead_31.wav", ",", "Prophet_GligyLead_310.wav", ",", "Prophet_GligyLead_311.wav", ",", "Prophet_GligyLead_312.wav", ",", "Prophet_GligyLead_313.wav", ",", "Prophet_GligyLead_314.wav", ",", "Prophet_GligyLead_315.wav", ",", "Prophet_GligyLead_316.wav", ",", "Prophet_GligyLead_317.wav", ",", "Prophet_GligyLead_318.wav", ",", "Prophet_GligyLead_319.wav", ",", "Prophet_GligyLead_32.wav", ",", "Prophet_GligyLead_320.wav", ",", "Prophet_GligyLead_321.wav", ",", "Prophet_GligyLead_322.wav", ",", "Prophet_GligyLead_323.wav", ",", "Prophet_GligyLead_324.wav", ",", "Prophet_GligyLead_325.wav", ",", "Prophet_GligyLead_326.wav", ",", "Prophet_GligyLead_327.wav", ",", "Prophet_GligyLead_328.wav", ",", "Prophet_GligyLead_329.wav", ",", "Prophet_GligyLead_33.wav", ",", "Prophet_GligyLead_330.wav", ",", "Prophet_GligyLead_331.wav", ",", "Prophet_GligyLead_332.wav", ",", "Prophet_GligyLead_333.wav", ",", "Prophet_GligyLead_334.wav", ",", "Prophet_GligyLead_335.wav", ",", "Prophet_GligyLead_336.wav", ",", "Prophet_GligyLead_337.wav", ",", "Prophet_GligyLead_338.wav", ",", "Prophet_GligyLead_339.wav", ",", "Prophet_GligyLead_34.wav", ",", "Prophet_GligyLead_340.wav", ",", "Prophet_GligyLead_341.wav", ",", "Prophet_GligyLead_342.wav", ",", "Prophet_GligyLead_343.wav", ",", "Prophet_GligyLead_344.wav", ",", "Prophet_GligyLead_345.wav", ",", "Prophet_GligyLead_346.wav", ",", "Prophet_GligyLead_347.wav", ",", "Prophet_GligyLead_348.wav", ",", "Prophet_GligyLead_349.wav", ",", "Prophet_GligyLead_35.wav", ",", "Prophet_GligyLead_350.wav", ",", "Prophet_GligyLead_351.wav", ",", "Prophet_GligyLead_352.wav", ",", "Prophet_GligyLead_353.wav", ",", "Prophet_GligyLead_354.wav", ",", "Prophet_GligyLead_355.wav", ",", "Prophet_GligyLead_356.wav", ",", "Prophet_GligyLead_357.wav", ",", "Prophet_GligyLead_358.wav", ",", "Prophet_GligyLead_359.wav", ",", "Prophet_GligyLead_36.wav", ",", "Prophet_GligyLead_360.wav", ",", "Prophet_GligyLead_361.wav", ",", "Prophet_GligyLead_362.wav", ",", "Prophet_GligyLead_363.wav", ",", "Prophet_GligyLead_364.wav", ",", "Prophet_GligyLead_365.wav", ",", "Prophet_GligyLead_366.wav", ",", "Prophet_GligyLead_367.wav", ",", "Prophet_GligyLead_368.wav", ",", "Prophet_GligyLead_369.wav", ",", "Prophet_GligyLead_37.wav", ",", "Prophet_GligyLead_370.wav", ",", "Prophet_GligyLead_371.wav", ",", "Prophet_GligyLead_372.wav", ",", "Prophet_GligyLead_373.wav", ",", "Prophet_GligyLead_374.wav", ",", "Prophet_GligyLead_375.wav", ",", "Prophet_GligyLead_376.wav", ",", "Prophet_GligyLead_377.wav", ",", "Prophet_GligyLead_378.wav", ",", "Prophet_GligyLead_379.wav", ",", "Prophet_GligyLead_38.wav", ",", "Prophet_GligyLead_380.wav", ",", "Prophet_GligyLead_381.wav", ",", "Prophet_GligyLead_382.wav", ",", "Prophet_GligyLead_383.wav", ",", "Prophet_GligyLead_384.wav", ",", "Prophet_GligyLead_385.wav", ",", "Prophet_GligyLead_386.wav", ",", "Prophet_GligyLead_387.wav", ",", "Prophet_GligyLead_388.wav", ",", "Prophet_GligyLead_389.wav", ",", "Prophet_GligyLead_39.wav", ",", "Prophet_GligyLead_390.wav", ",", "Prophet_GligyLead_391.wav", ",", "Prophet_GligyLead_392.wav", ",", "Prophet_GligyLead_393.wav", ",", "Prophet_GligyLead_394.wav", ",", "Prophet_GligyLead_395.wav", ",", "Prophet_GligyLead_396.wav", ",", "Prophet_GligyLead_397.wav", ",", "Prophet_GligyLead_398.wav", ",", "Prophet_GligyLead_399.wav", ",", "Prophet_GligyLead_4.wav", ",", "Prophet_GligyLead_40.wav", ",", "Prophet_GligyLead_400.wav", ",", "Prophet_GligyLead_401.wav", ",", "Prophet_GligyLead_402.wav", ",", "Prophet_GligyLead_403.wav", ",", "Prophet_GligyLead_404.wav", ",", "Prophet_GligyLead_405.wav", ",", "Prophet_GligyLead_406.wav", ",", "Prophet_GligyLead_407.wav", ",", "Prophet_GligyLead_408.wav", ",", "Prophet_GligyLead_409.wav", ",", "Prophet_GligyLead_41.wav", ",", "Prophet_GligyLead_410.wav", ",", "Prophet_GligyLead_411.wav", ",", "Prophet_GligyLead_412.wav", ",", "Prophet_GligyLead_413.wav", ",", "Prophet_GligyLead_414.wav", ",", "Prophet_GligyLead_415.wav", ",", "Prophet_GligyLead_416.wav", ",", "Prophet_GligyLead_417.wav", ",", "Prophet_GligyLead_418.wav", ",", "Prophet_GligyLead_419.wav", ",", "Prophet_GligyLead_42.wav", ",", "Prophet_GligyLead_420.wav", ",", "Prophet_GligyLead_421.wav", ",", "Prophet_GligyLead_422.wav", ",", "Prophet_GligyLead_423.wav", ",", "Prophet_GligyLead_424.wav", ",", "Prophet_GligyLead_425.wav", ",", "Prophet_GligyLead_426.wav", ",", "Prophet_GligyLead_427.wav", ",", "Prophet_GligyLead_428.wav", ",", "Prophet_GligyLead_429.wav", ",", "Prophet_GligyLead_43.wav", ",", "Prophet_GligyLead_430.wav", ",", "Prophet_GligyLead_431.wav", ",", "Prophet_GligyLead_432.wav", ",", "Prophet_GligyLead_433.wav", ",", "Prophet_GligyLead_434.wav", ",", "Prophet_GligyLead_435.wav", ",", "Prophet_GligyLead_436.wav", ",", "Prophet_GligyLead_437.wav", ",", "Prophet_GligyLead_438.wav", ",", "Prophet_GligyLead_439.wav", ",", "Prophet_GligyLead_44.wav", ",", "Prophet_GligyLead_440.wav", ",", "Prophet_GligyLead_441.wav", ",", "Prophet_GligyLead_442.wav", ",", "Prophet_GligyLead_443.wav", ",", "Prophet_GligyLead_444.wav", ",", "Prophet_GligyLead_445.wav", ",", "Prophet_GligyLead_446.wav", ",", "Prophet_GligyLead_447.wav", ",", "Prophet_GligyLead_448.wav", ",", "Prophet_GligyLead_449.wav", ",", "Prophet_GligyLead_45.wav", ",", "Prophet_GligyLead_450.wav", ",", "Prophet_GligyLead_451.wav", ",", "Prophet_GligyLead_452.wav", ",", "Prophet_GligyLead_453.wav", ",", "Prophet_GligyLead_454.wav", ",", "Prophet_GligyLead_455.wav", ",", "Prophet_GligyLead_456.wav", ",", "Prophet_GligyLead_457.wav", ",", "Prophet_GligyLead_458.wav", ",", "Prophet_GligyLead_459.wav", ",", "Prophet_GligyLead_46.wav", ",", "Prophet_GligyLead_460.wav", ",", "Prophet_GligyLead_461.wav", ",", "Prophet_GligyLead_462.wav", ",", "Prophet_GligyLead_463.wav", ",", "Prophet_GligyLead_464.wav", ",", "Prophet_GligyLead_465.wav", ",", "Prophet_GligyLead_466.wav", ",", "Prophet_GligyLead_467.wav", ",", "Prophet_GligyLead_468.wav", ",", "Prophet_GligyLead_469.wav", ",", "Prophet_GligyLead_47.wav", ",", "Prophet_GligyLead_470.wav", ",", "Prophet_GligyLead_471.wav", ",", "Prophet_GligyLead_472.wav", ",", "Prophet_GligyLead_473.wav", ",", "Prophet_GligyLead_474.wav", ",", "Prophet_GligyLead_475.wav", ",", "Prophet_GligyLead_476.wav", ",", "Prophet_GligyLead_477.wav", ",", "Prophet_GligyLead_478.wav", ",", "Prophet_GligyLead_479.wav", ",", "Prophet_GligyLead_48.wav", ",", "Prophet_GligyLead_480.wav", ",", "Prophet_GligyLead_481.wav", ",", "Prophet_GligyLead_482.wav", ",", "Prophet_GligyLead_483.wav", ",", "Prophet_GligyLead_484.wav", ",", "Prophet_GligyLead_485.wav", ",", "Prophet_GligyLead_486.wav", ",", "Prophet_GligyLead_487.wav", ",", "Prophet_GligyLead_488.wav", ",", "Prophet_GligyLead_489.wav", ",", "Prophet_GligyLead_49.wav", ",", "Prophet_GligyLead_490.wav", ",", "Prophet_GligyLead_491.wav", ",", "Prophet_GligyLead_492.wav", ",", "Prophet_GligyLead_493.wav", ",", "Prophet_GligyLead_494.wav", ",", "Prophet_GligyLead_495.wav", ",", "Prophet_GligyLead_496.wav", ",", "Prophet_GligyLead_497.wav", ",", "Prophet_GligyLead_498.wav", ",", "Prophet_GligyLead_499.wav", ",", "Prophet_GligyLead_5.wav", ",", "Prophet_GligyLead_50.wav", ",", "Prophet_GligyLead_500.wav", ",", "Prophet_GligyLead_501.wav", ",", "Prophet_GligyLead_502.wav", ",", "Prophet_GligyLead_503.wav", ",", "Prophet_GligyLead_504.wav", ",", "Prophet_GligyLead_505.wav", ",", "Prophet_GligyLead_506.wav", ",", "Prophet_GligyLead_507.wav", ",", "Prophet_GligyLead_508.wav", ",", "Prophet_GligyLead_509.wav", ",", "Prophet_GligyLead_51.wav", ",", "Prophet_GligyLead_510.wav", ",", "Prophet_GligyLead_511.wav", ",", "Prophet_GligyLead_512.wav", ",", "Prophet_GligyLead_513.wav", ",", "Prophet_GligyLead_514.wav", ",", "Prophet_GligyLead_515.wav", ",", "Prophet_GligyLead_516.wav", ",", "Prophet_GligyLead_517.wav", ",", "Prophet_GligyLead_518.wav", ",", "Prophet_GligyLead_519.wav", ",", "Prophet_GligyLead_52.wav", ",", "Prophet_GligyLead_520.wav", ",", "Prophet_GligyLead_521.wav", ",", "Prophet_GligyLead_522.wav", ",", "Prophet_GligyLead_523.wav", ",", "Prophet_GligyLead_524.wav", ",", "Prophet_GligyLead_525.wav", ",", "Prophet_GligyLead_526.wav", ",", "Prophet_GligyLead_527.wav", ",", "Prophet_GligyLead_528.wav", ",", "Prophet_GligyLead_529.wav", ",", "Prophet_GligyLead_53.wav", ",", "Prophet_GligyLead_530.wav", ",", "Prophet_GligyLead_531.wav", ",", "Prophet_GligyLead_532.wav", ",", "Prophet_GligyLead_533.wav", ",", "Prophet_GligyLead_534.wav", ",", "Prophet_GligyLead_535.wav", ",", "Prophet_GligyLead_536.wav", ",", "Prophet_GligyLead_537.wav", ",", "Prophet_GligyLead_538.wav", ",", "Prophet_GligyLead_539.wav", ",", "Prophet_GligyLead_54.wav", ",", "Prophet_GligyLead_540.wav", ",", "Prophet_GligyLead_541.wav", ",", "Prophet_GligyLead_542.wav", ",", "Prophet_GligyLead_543.wav", ",", "Prophet_GligyLead_544.wav", ",", "Prophet_GligyLead_545.wav", ",", "Prophet_GligyLead_546.wav", ",", "Prophet_GligyLead_547.wav", ",", "Prophet_GligyLead_55.wav", ",", "Prophet_GligyLead_56.wav", ",", "Prophet_GligyLead_57.wav", ",", "Prophet_GligyLead_58.wav", ",", "Prophet_GligyLead_59.wav", ",", "Prophet_GligyLead_6.wav", ",", "Prophet_GligyLead_60.wav", ",", "Prophet_GligyLead_61.wav", ",", "Prophet_GligyLead_62.wav", ",", "Prophet_GligyLead_63.wav", ",", "Prophet_GligyLead_64.wav", ",", "Prophet_GligyLead_65.wav", ",", "Prophet_GligyLead_66.wav", ",", "Prophet_GligyLead_67.wav", ",", "Prophet_GligyLead_68.wav", ",", "Prophet_GligyLead_69.wav", ",", "Prophet_GligyLead_7.wav", ",", "Prophet_GligyLead_70.wav", ",", "Prophet_GligyLead_71.wav", ",", "Prophet_GligyLead_72.wav", ",", "Prophet_GligyLead_73.wav", ",", "Prophet_GligyLead_74.wav", ",", "Prophet_GligyLead_75.wav", ",", "Prophet_GligyLead_76.wav", ",", "Prophet_GligyLead_77.wav", ",", "Prophet_GligyLead_78.wav", ",", "Prophet_GligyLead_79.wav", ",", "Prophet_GligyLead_8.wav", ",", "Prophet_GligyLead_80.wav", ",", "Prophet_GligyLead_81.wav", ",", "Prophet_GligyLead_82.wav", ",", "Prophet_GligyLead_83.wav", ",", "Prophet_GligyLead_84.wav", ",", "Prophet_GligyLead_85.wav", ",", "Prophet_GligyLead_86.wav", ",", "Prophet_GligyLead_87.wav", ",", "Prophet_GligyLead_88.wav", ",", "Prophet_GligyLead_89.wav", ",", "Prophet_GligyLead_9.wav", ",", "Prophet_GligyLead_90.wav", ",", "Prophet_GligyLead_91.wav", ",", "Prophet_GligyLead_92.wav", ",", "Prophet_GligyLead_93.wav", ",", "Prophet_GligyLead_94.wav", ",", "Prophet_GligyLead_95.wav", ",", "Prophet_GligyLead_96.wav", ",", "Prophet_GligyLead_97.wav", ",", "Prophet_GligyLead_98.wav", ",", "Prophet_GligyLead_99.wav" ],
+									"items" : [ "slice_0.wav", ",", "slice_1.wav", ",", "slice_10.wav", ",", "slice_11.wav", ",", "slice_12.wav", ",", "slice_13.wav", ",", "slice_14.wav", ",", "slice_15.wav", ",", "slice_16.wav", ",", "slice_17.wav", ",", "slice_18.wav", ",", "slice_2.wav", ",", "slice_3.wav", ",", "slice_4.wav", ",", "slice_5.wav", ",", "slice_6.wav", ",", "slice_7.wav", ",", "slice_8.wav", ",", "slice_9.wav" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 671.648371279239655, 644.209932297468185, 192.818177759647369, 22.0 ],
-									"prefix" : "~/Library/CloudStorage/OneDrive-UniversitedeMontreal/2023-2024/Projets/Avec Joao/Stella Project/StellaCorpora/Prophet/Glidy Lead/",
+									"prefix" : "~/Desktop/piano_corpus/",
 									"types" : [ "WAVE", "AIFF", "FLAC" ]
 								}
 
@@ -8571,9 +8506,7 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
-						"editing_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
 						"globalpatchername" : "",
-						"locked_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
 						"tags" : ""
 					}
 ,
@@ -8809,8 +8742,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -9131,9 +9064,7 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
-						"editing_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
 						"globalpatchername" : "",
-						"locked_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
 						"tags" : ""
 					}
 ,
@@ -9152,8 +9083,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -9207,7 +9138,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 766.0, 185.0, 54.0, 22.0 ],
-									"text" : "absolute"
+									"text" : "none"
 								}
 
 							}
@@ -9228,9 +9159,13 @@
 									"id" : "obj-74",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 1203.79878044128418, 653.677757978439331, 99.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"legacy" : 1
+									}
+,
 									"text" : "dict.unpack data:"
 								}
 
@@ -9619,9 +9554,13 @@
 									"id" : "obj-46",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 143.0, 306.5, 99.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"legacy" : 1
+									}
+,
 									"text" : "dict.unpack data:"
 								}
 
@@ -10501,9 +10440,7 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
-						"editing_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
 						"globalpatchername" : "",
-						"locked_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
 						"tags" : ""
 					}
 ,
@@ -10593,7 +10530,8 @@
 
 					}
 ,
-					"text" : "Perc Bubbles"
+					"text" : "piano_corpus",
+					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ]
 				}
 
 			}
@@ -10619,7 +10557,7 @@
 							"parameter_enum" : [ "Load corpus", "val2" ],
 							"parameter_info" : "Clicking this button will open a window to load a folder of sounds",
 							"parameter_invisible" : 2,
-							"parameter_longname" : "live.text[19]",
+							"parameter_longname" : "live.text[7]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -10733,7 +10671,7 @@
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 2,
-							"parameter_longname" : "live.numbox[10]",
+							"parameter_longname" : "live.numbox[9]",
 							"parameter_mmax" : 100000.0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
@@ -10801,7 +10739,7 @@
 ,
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "live.drop[8]",
+							"parameter_longname" : "live.drop[2]",
 							"parameter_shortname" : "live.drop[8]",
 							"parameter_type" : 4
 						}
@@ -10816,7 +10754,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.093101, 0.698422, 0.539801, 1.0 ],
+					"bgcolor" : [ 0.083843, 0.570998, 0.445668, 1.0 ],
 					"bordercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"id" : "obj-4",
 					"maxclass" : "panel",
