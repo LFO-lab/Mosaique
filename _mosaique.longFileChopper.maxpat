@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 6,
-			"revision" : 0,
+			"minor" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,6 +39,29 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"hint" : "Export slices and import as a corpus",
+					"id" : "obj-101",
+					"maxclass" : "hint",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1435.526301860809326, 1024.437542736530304, 92.947368621826172, 27.831683218479156 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-96",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "bang", "" ],
+					"patching_rect" : [ 1631.473670482635498, 1030.26922595500946, 157.818114042282104, 22.0 ],
+					"text" : "sel 1 0"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontsize" : 72.0,
 					"id" : "obj-100",
@@ -423,22 +446,12 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 0,
 						"defer" : 0,
+						"node_bin_path" : "",
+						"npm_bin_path" : "",
 						"watch" : 0
 					}
 ,
 					"text" : "node.script n4m.max-fs.js"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-63",
-					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 3,
-					"outlettype" : [ "bang", "bang", "" ],
-					"patching_rect" : [ 1439.473670482635498, 1039.13360208272934, 157.818114042282104, 22.0 ],
-					"text" : "sel 1 0"
 				}
 
 			}
@@ -464,9 +477,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 1439.473670482635498, 999.659918248653412, 87.357144951820374, 25.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 669.724352478981018, 251.54160863161087, 110.324293911457062, 25.0 ],
+					"patching_rect" : [ 1639.473668575286865, 998.728443622589111, 87.357144951820374, 25.0 ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 0.0 ]
 				}
 
@@ -628,8 +639,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 0,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -838,7 +849,9 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
+						"editing_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
 						"globalpatchername" : "",
+						"locked_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
 						"tags" : ""
 					}
 ,
@@ -1261,11 +1274,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-62",
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1460.526301860809326, 954.923076570034027, 89.0, 20.0 ],
-					"text" : "Export process"
+					"patching_rect" : [ 1435.526301860809326, 900.963858902454376, 89.0, 47.0 ],
+					"text" : "Export slices and import as a corpus"
 				}
 
 			}
@@ -1377,7 +1391,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1639.473668575286865, 1257.554652631282806, 67.0, 21.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 34, 100, 1201, 1083, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 213, 229, 1013, 515, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
 
@@ -1538,8 +1552,8 @@
 					"id" : "obj-87",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 10,
-					"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "", "int", "" ],
+					"numoutlets" : 9,
+					"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "", "int" ],
 					"patching_rect" : [ 288.126987540698849, 874.190465927124023, 257.010080039501133, 22.0 ],
 					"text" : "info~ #0MosaiqueSlicer_longFile"
 				}
@@ -1626,7 +1640,7 @@
 					"fontsize" : 8.0,
 					"id" : "obj-42",
 					"ignoreclick" : 1,
-					"linecount" : 5,
+					"linecount" : 11,
 					"lines" : 1,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
@@ -1637,7 +1651,7 @@
 					"patching_rect" : [ 123.457714633169871, 559.0, 76.0, 127.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 68.881574422121048, 39.302417583763599, 712.988818123936653, 16.882352933287621 ],
-					"text" : "Macintosh HD:/Users/davidpiazza/Desktop/Rec-23.12.15-17h27m56s.aif"
+					"text" : "Macintosh HD:/Users/dthibault/Library/CloudStorage/OneDrive-UniversitedeMontreal/Projets/MOSAÏQUE/Corpora/ToutCroche/Track02/ToutCroche_Greenwich_Track02_Syntrx.wav"
 				}
 
 			}
@@ -1845,7 +1859,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgcolor" : [ 0.7, 0.0, 0.9, 1.0 ],
+					"activebgcolor" : [ 0.647, 0.647, 0.647, 1.0 ],
 					"fontname" : "Avenir Heavy",
 					"fontsize" : 12.0,
 					"id" : "obj-49",
@@ -2145,7 +2159,7 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 1534.210511684417725, 994.396760404109955, 89.0, 33.663366436958313 ],
+					"patching_rect" : [ 1439.473670482635498, 1024.437542736530304, 89.0, 33.663366436958313 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 669.724352478981018, 251.54160863161087, 110.324293911457062, 25.742574334144592 ],
 					"saved_attribute_attributes" : 					{
@@ -3057,7 +3071,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-63", 0 ],
+					"destination" : [ "obj-96", 0 ],
 					"source" : [ "obj-24", 0 ]
 				}
 
@@ -3455,7 +3469,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-45", 0 ],
-					"source" : [ "obj-63", 0 ]
+					"source" : [ "obj-61", 0 ]
 				}
 
 			}
