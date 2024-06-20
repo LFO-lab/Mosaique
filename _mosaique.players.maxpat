@@ -3363,6 +3363,18 @@
 						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-9",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "float", "bang" ],
+									"patching_rect" : [ 23.655915021896362, 362.679803729057312, 180.0, 22.0 ],
+									"text" : "buffer~ #1Mosaique_BufQuery"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-20",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -3380,8 +3392,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1226.966390132904053, 417.977561473846436, 243.0, 22.0 ],
-									"text" : "refer #1Mosaique_Corpus3D_GUI_kdtree"
+									"patching_rect" : [ 1226.966390132904053, 417.977561473846436, 244.0, 22.0 ],
+									"text" : "refer #1Mosaique_Corpus3D_flat_kdtree"
 								}
 
 							}
@@ -3440,7 +3452,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 247.865185141563416, 58.0, 54.0, 22.0 ],
+									"patching_rect" : [ 248.0, 47.820228219032288, 54.0, 22.0 ],
 									"text" : "deferlow"
 								}
 
@@ -4664,7 +4676,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 247.865185141563416, 7.0, 168.0, 22.0 ],
+									"patching_rect" : [ 248.0, 13.0, 168.0, 22.0 ],
 									"text" : "r #1Mosaique_ControlData"
 								}
 
@@ -4746,12 +4758,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-54",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "buffer" ],
-									"patching_rect" : [ 207.865185141563416, 356.179803729057312, 142.0, 22.0 ],
-									"text" : "fluid.list2buf @autosize 1"
+									"patching_rect" : [ 207.865185141563416, 356.179803729057312, 226.0, 35.0 ],
+									"text" : "fluid.list2buf @autosize 1 @destination #1Mosaique_BufQuery"
 								}
 
 							}
