@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 612.0, 106.0, 1248.0, 1161.0 ],
+		"rect" : [ 612.0, 106.0, 838.0, 1161.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -62,13 +62,13 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "_mosaique.navigation.OSC.maxpat",
+					"name" : "_mosaique.OSC.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 267.0, 306.0, 239.0, 175.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.0, 21.818181037902832, 221.0, 137.0 ],
+					"presentation_rect" : [ 9.5, 21.818181037902832, 222.681809484958649, 137.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -85,7 +85,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "_mosaique.navigation.midiNotes.maxpat",
+					"name" : "_mosaique.midi.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
@@ -110,13 +110,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 173.0, 243.181809484958649, 166.363630414009094 ],
 					"proportion" : 0.39,
-					"saved_attribute_attributes" : 					{
-						"bgfillcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-,
 					"shadow" : 1
 				}
 
@@ -135,13 +128,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 1.0, 243.0, 167.0 ],
 					"proportion" : 0.39,
-					"saved_attribute_attributes" : 					{
-						"bgfillcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-,
 					"shadow" : 1
 				}
 
@@ -162,7 +148,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -174,7 +160,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-7",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -198,7 +184,60 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-2::obj-13" : [ "Recorded OSC - y", "Y", 0 ],
+			"obj-2::obj-14" : [ "---MosaiqueServer_OSC_Port", "OSC Port", 0 ],
+			"obj-2::obj-15" : [ "Recorded OSC - z", "Z", 0 ],
+			"obj-2::obj-2" : [ "Recorded OSC - x", "X", 0 ],
+			"obj-2::obj-27" : [ "---Mosaisque_OSC_type", "OSC Type", 0 ],
+			"obj-2::obj-9" : [ "Recorded OSC - state", "OSC_state", 0 ],
+			"obj-4::obj-25" : [ "---MIDI_velo_layers", "live.numbox", 0 ],
+			"obj-4::obj-67" : [ "---MIDI_note_max[2]", "live.numbox", 0 ],
+			"obj-4::obj-70" : [ "---MIDI_note_min[2]", "live.numbox", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "_mosaique.OSC.maxpat",
+				"bootpath" : "~/Documents/GitHub/Mosaique",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "_mosaique.midi.maxpat",
+				"bootpath" : "~/Documents/GitHub/Mosaique",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fluid.datasetquery~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.dataset~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.plotter.js",
+				"bootpath" : "~/Documents/Max 8/Packages/FluidCorpusManipulation/jsui",
+				"patcherrelativepath" : "../../Max 8/Packages/FluidCorpusManipulation/jsui",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

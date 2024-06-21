@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 1234.0, 983.0 ],
+		"rect" : [ 34.0, 106.0, 1234.0, 983.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -351,13 +351,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-9",
-					"ignoreclick" : 1,
 					"maxclass" : "live.toggle",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 908.695634841918945, 695.34782600402832, 15.0, 15.0 ],
+					"patching_rect" : [ 941.804329872131348, 645.76190972328186, 33.0, 30.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 164.376285155614198, 101.0, 30.247429688771575, 30.476194381713867 ],
 					"saved_attribute_attributes" : 					{
@@ -383,7 +382,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 941.304329872131348, 649.695652961730957, 161.0, 22.0 ],
+					"patching_rect" : [ 941.304329872131348, 594.695652961730957, 161.0, 22.0 ],
 					"text" : "route /mosaique/server/state"
 				}
 
@@ -849,16 +848,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
-					"order" : 0,
-					"source" : [ "obj-4", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
-					"order" : 1,
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -895,6 +885,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-9", 0 ]
 				}
 
 			}
