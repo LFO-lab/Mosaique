@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -57,7 +57,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 285.0, 142.0, 63.0, 22.0 ],
+					"patching_rect" : [ 285.0, 142.0, 64.0, 22.0 ],
 					"text" : "set #1"
 				}
 
@@ -117,10 +117,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 119.750000000000114, 154.374317467212677, 99.499999999999773, 28.0 ],
+					"patching_rect" : [ 119.750000000000114, 185.0, 99.499999999999773, 28.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 96.963002502918243, 55.031342726629006, 54.0, 28.0 ],
-					"text" : "Server",
+					"presentation_rect" : [ 72.318182110786438, 55.031342726629006, 94.644820392131805, 28.0 ],
+					"text" : "Basic~",
 					"textjustification" : 1
 				}
 
@@ -137,7 +137,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 119.750000000000114, 154.374317467212677, 99.499999999999773, 28.625682532787323 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 80.871169954538345, 57.228807453258014, 86.183665096759796, 23.605070546741985 ],
+					"presentation_rect" : [ 70.140592306852341, 57.228807453258014, 96.730577647686005, 24.0 ],
 					"proportion" : 0.39,
 					"saved_attribute_attributes" : 					{
 						"bgfillcolor" : 						{
@@ -184,8 +184,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
