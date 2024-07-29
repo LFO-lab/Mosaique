@@ -1,0 +1,138 @@
+{
+	"patcher" : 	{
+		"fileversion" : 1,
+		"appversion" : 		{
+			"major" : 8,
+			"minor" : 6,
+			"revision" : 3,
+			"architecture" : "x64",
+			"modernui" : 1
+		}
+,
+		"classnamespace" : "jit.gen",
+		"rect" : [ 632.0, 100.0, 1062.0, 708.0 ],
+		"bglocked" : 0,
+		"openinpresentation" : 0,
+		"default_fontsize" : 12.0,
+		"default_fontface" : 0,
+		"default_fontname" : "Arial",
+		"gridonopen" : 1,
+		"gridsize" : [ 15.0, 15.0 ],
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
+		"statusbarvisible" : 2,
+		"toolbarvisible" : 1,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 0,
+		"tallnewobj" : 0,
+		"boxanimatetime" : 200,
+		"enablehscroll" : 1,
+		"enablevscroll" : 1,
+		"devicewidth" : 0.0,
+		"description" : "",
+		"digest" : "",
+		"tags" : "",
+		"style" : "",
+		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
+		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 561.0, 42.0, 61.0, 20.0 ],
+					"text" : "ray points"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-25",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 526.897436261177063, 41.025641441345215, 28.0, 22.0 ],
+					"text" : "in 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"code" : "\r\n\r\ncalculateAngleDifference(worldPoints, pointsA, pointsB) {\r\n\tm1_x = swiz(worldPoints, 0) - swiz(pointsA, 0);\r\n\tm1_y = swiz(worldPoints, 1) - swiz(pointsA, 1);\r\n\tm1_z = swiz(worldPoints, 2) - swiz(pointsA, 2);\r\n\t\r\n\tm1_length = sqrt(m1_x * m1_x + m1_y * m1_y + m1_z * m1_z);\r\n\t\r\n\tm2_x = swiz(pointsB, 0) - swiz(pointsA, 0);\r\n\tm2_y = swiz(pointsB, 1) - swiz(pointsA, 1);\r\n\tm2_z = swiz(pointsB, 2) - swiz(pointsA, 2);\r\n\t\r\n\tm2_length = sqrt(m2_x * m2_x + m2_y * m2_y + m2_z * m2_z);\r\n\t\r\n\tdot_product = m1_x * m2_x + m1_y * m2_y + m1_z * m2_z;\n\r\n\tmult_lengths = m1_length * m2_length;\r\n\t\r\n\tangle_difference = acos(dot_product / mult_lengths);\r\n\t\r\n\treturn angle_difference;\r\n}\r\n\t\r\n\r\ncolone_1 = sample(in2, (1/dim()));\r\ncolone_2 = sample(in2, (1/dim())*2);\r\n\r\nout1 = calculateAngleDifference(in1, colone_1, colone_2);",
+					"fontface" : 0,
+					"fontname" : "<Monospaced>",
+					"fontsize" : 12.0,
+					"id" : "obj-123",
+					"maxclass" : "codebox",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 35.897436261177063, 76.0, 510.0, 385.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-45",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 74.0, 42.025641441345215, 80.0, 20.0 ],
+					"text" : "corpus points"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 35.897436261177063, 479.0, 35.0, 22.0 ],
+					"text" : "out 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 35.897436261177063, 41.025641441345215, 28.0, 22.0 ],
+					"text" : "in 1"
+				}
+
+			}
+ ],
+		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-123", 0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"source" : [ "obj-123", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-123", 1 ],
+					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+ ]
+	}
+
+}
