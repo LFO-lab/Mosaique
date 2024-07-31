@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1710.0, 345.0, 188.0, 950.0 ],
+		"rect" : [ 786.0, 176.0, 886.0, 950.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,30 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-41",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 774.0, 867.0, 169.0, 22.0 ],
+					"text" : "r #1Mosaique_Loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-16",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 774.0, 897.0, 57.0, 22.0 ],
+					"text" : "active #2"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Avenir Black",
 					"id" : "obj-13",
 					"ignoreclick" : 1,
@@ -59,6 +83,7 @@
 							"parameter_invisible" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "MIDI_ctl#_state",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -106,6 +131,7 @@
 						"valueof" : 						{
 							"parameter_linknames" : 1,
 							"parameter_longname" : "RecordedMIDI_Y",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "Y",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -131,7 +157,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 721.0, 903.923597753047943, 44.0, 15.0 ],
+					"patching_rect" : [ 721.0, 930.0, 44.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 12.560239553451538, 131.522207677364349, 70.581386804580688, 22.329480409622192 ],
 					"saved_attribute_attributes" : 					{
@@ -140,6 +166,7 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "MIDI_state",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "state",
 							"parameter_type" : 2
 						}
@@ -172,6 +199,7 @@
 						"valueof" : 						{
 							"parameter_linknames" : 1,
 							"parameter_longname" : "RecordedMIDI_X",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "X",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -288,8 +316,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -688,9 +716,13 @@
 									"id" : "obj-8",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 168.028309285640717, 348.0, 99.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"legacy" : 1
+									}
+,
 									"text" : "dict.unpack data:"
 								}
 
@@ -1129,6 +1161,7 @@
 							"parameter_invisible" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "MIDI_ctl#_X",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -1161,6 +1194,7 @@
 							"parameter_invisible" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "MIDI_ctl#_Y",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -1385,6 +1419,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-92", 0 ],
 					"source" : [ "obj-17", 0 ]
 				}
@@ -1481,6 +1522,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-77", 1 ],
 					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"source" : [ "obj-41", 0 ]
 				}
 
 			}

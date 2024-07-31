@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 106.0, 864.0, 713.0 ],
+		"rect" : [ 34.0, 106.0, 1345.0, 713.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -59,7 +59,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 278.0, 411.0, 150.0, 20.0 ],
+					"patching_rect" : [ 660.0, 251.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 297.0, 410.0, 93.0, 20.0 ],
 					"text" : "<<< MIDI Ctl"
@@ -72,7 +72,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 297.0, 237.0, 150.0, 20.0 ],
+					"patching_rect" : [ 367.5, 251.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 297.0, 236.0, 93.0, 20.0 ],
 					"text" : "<<< MIDI Notes"
@@ -81,7 +81,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "#1" ],
+					"args" : [ "#1", "#2" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -117,13 +117,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 342.5, 257.181809484958649, 166.363630414009094 ],
 					"proportion" : 0.39,
-					"saved_attribute_attributes" : 					{
-						"bgfillcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-,
 					"shadow" : 1
 				}
 
@@ -132,7 +125,7 @@
 				"box" : 				{
 					"comment" : "Navigation type",
 					"id" : "obj-6",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -143,7 +136,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "#1" ],
+					"args" : [ "#1", "#2" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -203,13 +196,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 172.0, 257.181809484958649, 166.363630414009094 ],
 					"proportion" : 0.39,
-					"saved_attribute_attributes" : 					{
-						"bgfillcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-,
 					"shadow" : 1
 				}
 
@@ -228,13 +214,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 1.0, 257.0, 167.0 ],
 					"proportion" : 0.39,
-					"saved_attribute_attributes" : 					{
-						"bgfillcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-,
 					"shadow" : 1
 				}
 
@@ -255,7 +234,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -267,7 +246,7 @@
 				"box" : 				{
 					"comment" : "Bang to update plotter highlight",
 					"id" : "obj-7",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -301,7 +280,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
-					"order" : 2,
+					"order" : 1,
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -309,7 +288,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -317,7 +296,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"order" : 0,
+					"order" : 2,
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -325,7 +304,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 1 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -333,12 +312,86 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 1 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-7", 0 ]
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-10::obj-10" : [ "RecordedMIDI_Y", "Y", 0 ],
+			"obj-10::obj-13" : [ "MIDI_ctl#_state", "live.numbox", 0 ],
+			"obj-10::obj-67" : [ "MIDI_ctl#_Y", "live.numbox", 0 ],
+			"obj-10::obj-7" : [ "RecordedMIDI_X", "X", 0 ],
+			"obj-10::obj-70" : [ "MIDI_ctl#_X", "live.numbox", 0 ],
+			"obj-10::obj-9" : [ "MIDI_state", "state", 0 ],
+			"obj-2::obj-12" : [ "live.text[14]", "live.text[14]", 0 ],
+			"obj-2::obj-13" : [ "RecordedOSC_Y", "Y", 0 ],
+			"obj-2::obj-14" : [ "---MosaiqueServer_OSC_Port", "OSC Port", 0 ],
+			"obj-2::obj-15" : [ "RecordedOSC_Z", "Z", 0 ],
+			"obj-2::obj-2" : [ "RecordedOSC_X", "X", 0 ],
+			"obj-2::obj-27" : [ "Mosaisque_OSC_type", "OSC Type", 0 ],
+			"obj-2::obj-9" : [ "live.text[13]", "live.text[13]", 0 ],
+			"obj-4::obj-25" : [ "---MIDI_velo_layers", "live.numbox", 0 ],
+			"obj-4::obj-67" : [ "---MIDI_note_max[2]", "live.numbox", 0 ],
+			"obj-4::obj-70" : [ "---MIDI_note_min[2]", "live.numbox", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "_mosaique.OSC.maxpat",
+				"bootpath" : "~/Documents/GitHub/Mosaique",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "_mosaique.dictValueGetSet.maxpat",
+				"bootpath" : "~/Documents/GitHub/Mosaique",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "_mosaique.midiCtl.maxpat",
+				"bootpath" : "~/Documents/GitHub/Mosaique",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "_mosaique.midiNotes.maxpat",
+				"bootpath" : "~/Documents/GitHub/Mosaique",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fluid.datasetquery~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.dataset~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.plotter.js",
+				"bootpath" : "~/Documents/Max 8/Packages/FluidCorpusManipulation/jsui",
+				"patcherrelativepath" : "../../Max 8/Packages/FluidCorpusManipulation/jsui",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
