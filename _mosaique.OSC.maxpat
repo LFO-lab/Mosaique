@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 958.0, 106.0, 1015.0, 699.0 ],
+		"rect" : [ 958.0, 106.0, 455.0, 699.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
-					"outlettype" : [ "int", "outputvalue" ],
+					"outlettype" : [ "int", "int" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -56,7 +56,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 170.0, 260.0, 1289.0, 835.0 ],
+						"rect" : [ 388.0, 677.0, 1289.0, 835.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -84,6 +84,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-8",
@@ -91,20 +92,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 435.0, 229.0, 35.0, 22.0 ],
+									"patching_rect" : [ 417.0, 237.0, 35.0, 22.0 ],
 									"text" : "clear"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-6",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 200.0, 585.0, 72.0, 22.0 ],
-									"text" : "prepend set"
 								}
 
 							}
@@ -547,13 +536,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-79", 0 ],
-									"source" : [ "obj-6", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-73", 0 ],
 									"source" : [ "obj-72", 0 ]
 								}
@@ -569,15 +551,15 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-6", 0 ],
-									"source" : [ "obj-73", 2 ]
+									"destination" : [ "obj-75", 0 ],
+									"source" : [ "obj-73", 1 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-75", 0 ],
-									"source" : [ "obj-73", 1 ]
+									"destination" : [ "obj-79", 0 ],
+									"source" : [ "obj-73", 2 ]
 								}
 
 							}
@@ -790,7 +772,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[2]",
+							"parameter_longname" : "live.text[13]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text[13]",
@@ -832,7 +814,7 @@
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "RecordedOSC_Z[1]",
+							"parameter_longname" : "RecordedOSC_Z",
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : -1.0,
 							"parameter_modmode" : 2,
@@ -877,7 +859,7 @@
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "RecordedOSC_Y[1]",
+							"parameter_longname" : "RecordedOSC_Y",
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : -1.0,
 							"parameter_modmode" : 2,
@@ -922,7 +904,7 @@
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "RecordedOSC_X[1]",
+							"parameter_longname" : "RecordedOSC_X",
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : -1.0,
 							"parameter_modmode" : 2,
@@ -1116,7 +1098,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 50.435919225215912, 190.000006318092346, 158.0, 32.0 ],
+									"patching_rect" : [ 50.435919225215912, 190.000006318092346, 159.0, 32.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 8.876285155614141, 47.0, 190.0, 19.0 ],
 									"text" : "/mosaique/OSC_ID/<x,y or z> [-1., 1.]",
@@ -1222,7 +1204,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[1]",
+							"parameter_longname" : "live.text[14]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text[14]",
@@ -1827,7 +1809,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Mosaisque_OSC_type[1]",
+							"parameter_longname" : "Mosaisque_OSC_type",
 							"parameter_mmax" : 2,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "OSC Type",
@@ -1936,7 +1918,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "---MosaiqueServer_OSC_Port[1]",
+							"parameter_longname" : "---MosaiqueServer_OSC_Port",
 							"parameter_mmax" : 65535.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "OSC Port",
