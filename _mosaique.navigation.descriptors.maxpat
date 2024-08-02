@@ -40,6 +40,42 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-36",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1056.0, 837.0, 356.0, 22.0 ],
+					"text" : "fluid.kdtree~ #1Mosaique_CorpusNormalized_Queries_kdtree"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-35",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1056.0, 804.0, 271.0, 22.0 ],
+					"text" : "fit #1Mosaique_CorpusNormalized_Queries"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1056.0, 775.0, 90.0, 22.0 ],
+					"text" : "route transform"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-78",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -856,7 +892,7 @@
 				"box" : 				{
 					"comment" : "Navigation type (0 for OSC)",
 					"id" : "obj-23",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -881,7 +917,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-10",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -947,7 +983,14 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 26.75, 27.75, 95.024874120950699, 135.074624732136726 ],
 					"proportion" : 0.39,
-					"rounded" : 4
+					"rounded" : 4,
+					"saved_attribute_attributes" : 					{
+						"bgfillcolor" : 						{
+							"expression" : ""
+						}
+
+					}
+
 				}
 
 			}
@@ -957,6 +1000,13 @@
 					"destination" : [ "obj-18", 0 ],
 					"midpoints" : [ 1221.5, 653.0, 1293.0, 653.0, 1293.0, 728.0, 1065.5, 728.0 ],
 					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-35", 0 ],
+					"source" : [ "obj-12", 0 ]
 				}
 
 			}
@@ -986,6 +1036,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-22", 1 ],
 					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"source" : [ "obj-18", 0 ]
 				}
 
 			}
@@ -1086,6 +1143,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-34", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-36", 0 ],
+					"source" : [ "obj-35", 0 ]
 				}
 
 			}
@@ -1326,36 +1390,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-13" : [ "Navigation Descriptor B Value", "B", 0 ],
-			"obj-15" : [ "Navigation Descriptor C Value", "C", 0 ],
-			"obj-2" : [ "Navigation Descriptor A Value", "A", 0 ],
-			"obj-27" : [ "Navigation Descriptor A Type", "Descriptor A", 0 ],
-			"obj-45" : [ "Navigation Descriptor B Type", "Descriptor B", 0 ],
-			"obj-46" : [ "Navigation Descriptor C Type", "Descriptor C", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "fluid.datasetquery~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.dataset~.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
