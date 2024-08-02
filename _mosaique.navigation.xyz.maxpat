@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 955.0, 106.0, 498.0, 1189.0 ],
+		"rect" : [ 735.0, 106.0, 932.0, 1189.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -60,7 +60,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 755.0, 499.5, 29.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 77.0, 74.0, 29.0, 19.0 ],
+					"presentation_rect" : [ 86.559403479099274, 73.5, 29.0, 19.0 ],
 					"text" : "state",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -87,7 +87,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 977.0, 524.0, 33.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 81.25, 117.75, 23.0, 19.0 ],
+					"presentation_rect" : [ 90.059403479099274, 117.5, 23.0, 19.0 ],
 					"text" : "link",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -107,6 +107,8 @@
 			}
 , 			{
 				"box" : 				{
+					"automation" : "off",
+					"automationon" : "on",
 					"fontname" : "Avenir",
 					"hint" : "Link navigation coordinates to camera position",
 					"id" : "obj-43",
@@ -117,14 +119,15 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1005.0, 526.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 69.25, 131.5, 47.25, 16.0 ],
+					"presentation_rect" : [ 69.25, 131.5, 64.618806958198547, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[3]",
+							"parameter_enum" : [ "off", "on" ],
+							"parameter_linknames" : 1,
+							"parameter_longname" : "Navigation Cam Link",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "live.text[3]",
+							"parameter_shortname" : "Cam Link",
 							"parameter_type" : 2
 						}
 
@@ -132,7 +135,7 @@
 ,
 					"text" : "camera",
 					"texton" : "camera",
-					"varname" : "live.text[1]"
+					"varname" : "Navigation Cam Link"
 				}
 
 			}
@@ -197,7 +200,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 755.0, 519.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 68.25, 88.430692568421364, 47.326729252934456, 20.792077705264091 ],
+					"presentation_rect" : [ 68.25, 88.430692568421364, 65.618806958198547, 20.75 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
@@ -244,7 +247,7 @@
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Navigation Descriptor C Value",
+							"parameter_longname" : "RecordedOSC_Z",
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : -1.0,
 							"parameter_modmode" : 2,
@@ -289,7 +292,7 @@
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Navigation Descriptor B Value",
+							"parameter_longname" : "Navigation Y",
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : -1.0,
 							"parameter_modmode" : 2,
@@ -334,7 +337,7 @@
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Navigation Descriptor A Value",
+							"parameter_longname" : "Navigation X",
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : -1.0,
 							"parameter_modmode" : 2,
@@ -362,7 +365,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 89.666667282581329, 334.000009953975677, 58.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 63.75, 30.5, 58.0, 19.0 ],
+					"presentation_rect" : [ 71.993806958198547, 29.5, 58.0, 19.0 ],
 					"text" : "coordinates",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -574,7 +577,7 @@
 					"parameter_mappable" : 0,
 					"patching_rect" : [ 69.0, 355.333343923091888, 100.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 68.118806958198547, 44.55445222556591, 47.326729252934456, 16.0 ],
+					"presentation_rect" : [ 68.118806958198547, 44.55445222556591, 65.75, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "3D", "2D", "2D grid" ],
@@ -582,16 +585,16 @@
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Navigation Descriptor A Type",
+							"parameter_longname" : "Navigation Type",
 							"parameter_mmax" : 2,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "Descriptor A",
+							"parameter_shortname" : "Type",
 							"parameter_type" : 2
 						}
 
 					}
 ,
-					"varname" : "Mosaisque_OSC_type"
+					"varname" : "Navigation Type"
 				}
 
 			}
@@ -654,7 +657,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 506.0, 452.0, 316.0, 101.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 26.75, 27.75, 95.024874120950699, 135.074624732136726 ],
+					"presentation_rect" : [ 26.75, 26.75, 114.0, 135.0 ],
 					"proportion" : 0.39,
 					"rounded" : 4,
 					"saved_attribute_attributes" : 					{
