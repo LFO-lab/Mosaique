@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 134.0, 178.0, 1328.0, 983.0 ],
+		"rect" : [ 538.0, 312.0, 1328.0, 983.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1920,8 +1920,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1211.28090888261795, 417.977561473846436, 201.0, 35.0 ],
-					"text" : "refer #1Mosaique_Corpus3D_flat_kdtree"
+					"patching_rect" : [ 1211.28090888261795, 417.977561473846436, 182.0, 35.0 ],
+					"text" : "refer #1Mosaique_2Dview_kdtree"
 				}
 
 			}

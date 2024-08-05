@@ -57,7 +57,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 296.800000000000011, 2449.0, 87.0, 22.0 ],
+					"patching_rect" : [ 343.600000000000023, 2440.0, 87.0, 22.0 ],
 					"text" : "regexp (.+)\\\\..+"
 				}
 
@@ -69,7 +69,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 296.800000000000011, 2415.0, 81.0, 22.0 ],
+					"patching_rect" : [ 343.600000000000023, 2406.0, 81.0, 22.0 ],
 					"text" : "r #0_filename"
 				}
 
@@ -743,8 +743,6 @@
 									"saved_object_attributes" : 									{
 										"autostart" : 0,
 										"defer" : 0,
-										"node_bin_path" : "",
-										"npm_bin_path" : "",
 										"watch" : 0
 									}
 ,
@@ -2096,7 +2094,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 350.0, 1954.0, 67.0, 21.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 34, 106, 1692, 1295, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 337, 106, 1995, 1295, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
 
@@ -2687,7 +2685,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "int" ],
-					"patching_rect" : [ 267.0, 2245.0, 159.0, 22.0 ],
+					"patching_rect" : [ 267.0, 2245.0, 206.199999999999989, 22.0 ],
 					"text" : "t b i"
 				}
 
@@ -3399,7 +3397,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-71", 3 ],
+					"destination" : [ "obj-71", 4 ],
 					"source" : [ "obj-122", 1 ]
 				}
 
@@ -4324,7 +4322,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-71", 1 ],
+					"destination" : [ "obj-71", 2 ],
 					"source" : [ "obj-68", 1 ]
 				}
 
