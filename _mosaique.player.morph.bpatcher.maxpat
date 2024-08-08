@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 4,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 366.0, 106.0, 1328.0, 983.0 ],
+		"rect" : [ 366.0, 100.0, 960.0, 983.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -98,7 +98,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 4,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -302,7 +302,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 4,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -518,7 +518,7 @@
 ,
 						"valueof" : 						{
 							"parameter_exponent" : 0.36,
-							"parameter_initial" : [ -6 ],
+							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "MorphPlayer_Gain",
@@ -573,7 +573,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 4,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1088,7 +1088,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 4,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1859,7 +1859,7 @@
 					"patching_rect" : [ -710.0, 1121.0, 94.0, 8.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.264462351799011, 155.371892213821411, 158.0, 5.0 ],
-					"slidercolor" : [ 0.141176470588235, 0.141176470588235, 0.141176470588235, 1.0 ]
+					"slidercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 1.0 ]
 				}
 
 			}
@@ -1874,7 +1874,7 @@
 					"patching_rect" : [ -877.0, 1121.0, 94.0, 8.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.264462351799011, 147.933876097202301, 158.0, 5.0 ],
-					"slidercolor" : [ 0.141176470588235, 0.141176470588235, 0.141176470588235, 1.0 ]
+					"slidercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 1.0 ]
 				}
 
 			}
@@ -1942,11 +1942,11 @@
 					"presentation_rect" : [ 75.206607401371002, 24.793387055397034, 43.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ 1.0 ],
+							"parameter_initial" : [ 8.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "MorphPlayer_VoiceNum",
-							"parameter_mmax" : 128.0,
+							"parameter_mmax" : 64.0,
 							"parameter_mmin" : 1.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Voices",

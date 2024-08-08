@@ -40,6 +40,54 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-26",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 691.0, 1246.0, 121.0, 22.0 ],
+					"text" : "prepend startchannel"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-21",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 72.0, 1239.0, 121.0, 22.0 ],
+					"text" : "prepend startchannel"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-19",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 695.5, 935.0, 121.0, 22.0 ],
+					"text" : "prepend startchannel"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 170.0, 992.0, 121.0, 22.0 ],
+					"text" : "prepend startchannel"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-18",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -274,10 +322,10 @@
 					"id" : "obj-97",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 50.0, 1099.0, 115.0, 22.0 ],
-					"text" : "t s s"
+					"numoutlets" : 3,
+					"outlettype" : [ "", "int", "" ],
+					"patching_rect" : [ 50.0, 1099.0, 41.0, 22.0 ],
+					"text" : "t s 1 s"
 				}
 
 			}
@@ -348,7 +396,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 218.0, 951.0, 135.0, 22.0 ],
+					"patching_rect" : [ 218.0, 951.0, 155.0, 22.0 ],
 					"text" : "t s s"
 				}
 
@@ -358,10 +406,10 @@
 					"id" : "obj-90",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "", "int", "" ],
 					"patching_rect" : [ 122.0, 839.0, 115.0, 22.0 ],
-					"text" : "t s s"
+					"text" : "t s 1 s"
 				}
 
 			}
@@ -372,7 +420,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 334.0, 986.0, 86.0, 22.0 ],
+					"patching_rect" : [ 354.0, 986.0, 86.0, 22.0 ],
 					"text" : "prepend name"
 				}
 
@@ -442,10 +490,10 @@
 					"id" : "obj-15",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 651.0, 1091.0, 115.0, 22.0 ],
-					"text" : "t s s"
+					"numoutlets" : 3,
+					"outlettype" : [ "", "int", "" ],
+					"patching_rect" : [ 651.0, 1091.0, 41.0, 22.0 ],
+					"text" : "t s 1 s"
 				}
 
 			}
@@ -526,10 +574,10 @@
 					"id" : "obj-76",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 711.0, 819.0, 115.0, 22.0 ],
-					"text" : "t s s"
+					"numoutlets" : 3,
+					"outlettype" : [ "", "int", "" ],
+					"patching_rect" : [ 711.0, 819.0, 211.0, 22.0 ],
+					"text" : "t s 1 s"
 				}
 
 			}
@@ -588,7 +636,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 334.0, 1023.0, 285.0, 22.0 ],
+					"patching_rect" : [ 354.0, 1023.0, 285.0, 22.0 ],
 					"text" : "buffer~ #1Mosaique_corpusAudio_phasesR_flat"
 				}
 
@@ -920,6 +968,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-109", 0 ],
 					"source" : [ "obj-113", 0 ]
 				}
@@ -990,6 +1045,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"source" : [ "obj-15", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-71", 0 ],
 					"source" : [ "obj-15", 0 ]
 				}
@@ -998,7 +1060,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-85", 0 ],
-					"source" : [ "obj-15", 1 ]
+					"source" : [ "obj-15", 2 ]
 				}
 
 			}
@@ -1025,6 +1087,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-111", 0 ],
 					"source" : [ "obj-2", 0 ]
 				}
@@ -1034,6 +1103,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-77", 0 ],
 					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-101", 0 ],
+					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-71", 0 ],
+					"source" : [ "obj-26", 0 ]
 				}
 
 			}
@@ -1284,6 +1367,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"source" : [ "obj-76", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-27", 0 ],
 					"source" : [ "obj-76", 0 ]
 				}
@@ -1292,7 +1382,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-60", 0 ],
-					"source" : [ "obj-76", 1 ]
+					"source" : [ "obj-76", 2 ]
 				}
 
 			}
@@ -1347,6 +1437,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-90", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
 					"source" : [ "obj-90", 0 ]
 				}
@@ -1355,7 +1452,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-92", 0 ],
-					"source" : [ "obj-90", 1 ]
+					"source" : [ "obj-90", 2 ]
 				}
 
 			}
@@ -1396,8 +1493,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-99", 0 ],
+					"destination" : [ "obj-21", 0 ],
 					"source" : [ "obj-97", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-99", 0 ],
+					"source" : [ "obj-97", 2 ]
 				}
 
 			}
@@ -1408,7 +1512,14 @@
 				}
 
 			}
- ]
+ ],
+		"saved_attribute_attributes" : 		{
+			"default_plcolor" : 			{
+				"expression" : ""
+			}
+
+		}
+
 	}
 
 }
