@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 524.0, 1988.0, 771.0 ],
+		"rect" : [ 34.0, 236.0, 1988.0, 771.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -294,25 +294,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-6",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 5,
-					"outlettype" : [ "dictionary", "", "", "", "" ],
-					"patching_rect" : [ 311.0, 254.0, 159.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"embed" : 0,
-						"legacy" : 1,
-						"parameter_enable" : 0,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "dict #1Mosaique_corpusInfo"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-15",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -457,18 +438,6 @@
 				}
 
 			}
-, 			{
-				"box" : 				{
-					"id" : "obj-7",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 311.0, 209.0, 187.0, 22.0 ],
-					"text" : "replace #2Corpus::bufferLength 0"
-				}
-
-			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -536,13 +505,6 @@
 					"midpoints" : [ 531.5, 173.0, 1674.128085136413574, 173.0 ],
 					"order" : 0,
 					"source" : [ "obj-2", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"source" : [ "obj-2", 0 ]
 				}
 
 			}
@@ -692,13 +654,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
-					"source" : [ "obj-7", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"source" : [ "obj-72", 0 ]
 				}
@@ -741,14 +696,6 @@
 					"destination" : [ "obj-24", 0 ],
 					"midpoints" : [ 604.5, 81.5, 604.5, 81.5 ],
 					"order" : 2,
-					"source" : [ "obj-8", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"order" : 3,
 					"source" : [ "obj-8", 0 ]
 				}
 

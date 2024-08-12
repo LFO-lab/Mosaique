@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 1660.0, 983.0 ],
+		"rect" : [ 134.0, 178.0, 1660.0, 983.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -58,10 +58,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1000.0, 269.0, 28.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in 2"
 				}
 
@@ -73,7 +69,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 820.029849171638489, 394.0, 106.0, 22.0 ],
+					"patching_rect" : [ 820.029849171638489, 394.0, 113.0, 22.0 ],
 					"text" : "r #0currentSlice"
 				}
 
@@ -171,7 +167,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 668.029849171638489, 345.55222487449646, 108.0, 22.0 ],
+					"patching_rect" : [ 668.029849171638489, 345.55222487449646, 115.0, 22.0 ],
 					"text" : "s #0currentSlice"
 				}
 
@@ -183,7 +179,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1791.636778627832655, 1303.0, 106.0, 22.0 ],
+					"patching_rect" : [ 1791.636778627832655, 1303.0, 113.0, 22.0 ],
 					"text" : "r #0currentSlice"
 				}
 
@@ -531,10 +527,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 718.517190039157867, 1298.158060848712921, 42.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "out~ 2"
 				}
 
@@ -582,10 +574,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 545.017190039157867, 1298.158060848712921, 42.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "out~ 1"
 				}
 
@@ -706,7 +694,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "signal", "signal", "", "" ],
 					"patching_rect" : [ 1017.8019939661026, 1155.189864456653595, 415.106300354003906, 22.0 ],
-					"text" : "adsr~"
+					"text" : "adsr~ 10 0 1. 10 @retrigger 10"
 				}
 
 			}
@@ -839,10 +827,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 422.029849171638489, 208.164554297924042, 28.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in 1"
 				}
 
