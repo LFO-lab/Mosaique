@@ -49,7 +49,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ -1370.0, 767.0, 102.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 218.0, 11.481484055519104, 36.0, 17.0 ],
+					"presentation_rect" : [ 196.404897898435593, 8.0, 36.0, 17.0 ],
 					"text" : "FILTER",
 					"textcolor" : [ 0.796078431372549, 0.796078431372549, 0.796078431372549, 1.0 ],
 					"textjustification" : 1
@@ -102,7 +102,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ -500.5, 1142.0, 41.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 215.0, 85.481484055519104, 41.0, 48.0 ],
+					"presentation_rect" : [ 193.404897898435593, 82.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 0.0 ],
@@ -132,7 +132,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ -570.5, 1151.0, 41.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 215.0, 30.481484055519104, 41.0, 48.0 ],
+					"presentation_rect" : [ 193.404897898435593, 27.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_exponent" : 5.0,
@@ -385,8 +385,8 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 1.0 ],
-					"bufsize" : 8,
-					"calccount" : 128,
+					"bufsize" : 32,
+					"calccount" : 32,
 					"drawstyle" : 1,
 					"fgcolor" : [ 1.0, 0.694117647058824, 0.0, 1.0 ],
 					"gridcolor" : [ 1.0, 1.0, 1.0, 0.4 ],
@@ -1001,7 +1001,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ -1663.0, 1008.0, 40.0, 51.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 288.0, 110.981484055519104, 40.0, 51.0 ],
+					"presentation_rect" : [ 250.404897898435593, 114.0, 40.0, 51.0 ],
 					"saved_attribute_attributes" : 					{
 						"activedialcolor" : 						{
 							"expression" : ""
@@ -1728,7 +1728,7 @@
 					"patching_rect" : [ -1385.0, 752.0, 102.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 9,
-					"presentation_rect" : [ 274.0, 4.981484055519104, 16.0, 99.0 ],
+					"presentation_rect" : [ 236.404897898435593, 8.0, 16.0, 99.0 ],
 					"text" : "ENVELOPPE",
 					"textcolor" : [ 0.796078431372549, 0.796078431372549, 0.796078431372549, 1.0 ],
 					"textjustification" : 1
@@ -1747,7 +1747,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ -1328.0, 537.0, 46.0, 51.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 285.0, 59.981484055519104, 45.0, 51.0 ],
+					"presentation_rect" : [ 247.404897898435593, 63.0, 45.0, 51.0 ],
 					"saved_attribute_attributes" : 					{
 						"activedialcolor" : 						{
 							"expression" : ""
@@ -1790,7 +1790,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ -1385.0, 537.0, 46.0, 51.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 285.0, 5.981484055519104, 45.0, 51.0 ],
+					"presentation_rect" : [ 247.404897898435593, 9.0, 45.0, 51.0 ],
 					"saved_attribute_attributes" : 					{
 						"activedialcolor" : 						{
 							"expression" : ""
@@ -1914,7 +1914,7 @@
 					"outlettype" : [ "float", "int" ],
 					"patching_rect" : [ -487.0, 1387.0, 8.0, 94.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 341.0, 5.981484055519104, 5.0, 156.0 ],
+					"presentation_rect" : [ 303.404897898435593, 9.0, 5.0, 156.0 ],
 					"slidercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 1.0 ]
 				}
 
@@ -1928,7 +1928,7 @@
 					"outlettype" : [ "float", "int" ],
 					"patching_rect" : [ -706.0, 1387.0, 8.0, 94.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 335.0, 5.981484055519104, 5.0, 156.0 ],
+					"presentation_rect" : [ 297.404897898435593, 9.0, 5.0, 156.0 ],
 					"slidercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 1.0 ]
 				}
 
@@ -2094,7 +2094,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 142.857141494750977, 192.0, 1522.0, 1046.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, -0.518515944480896, 351.0, 169.0 ],
+					"presentation_rect" : [ 2.0, -0.518515944480896, 311.0, 169.0 ],
 					"proportion" : 0.5,
 					"saved_attribute_attributes" : 					{
 						"bgfillcolor" : 						{
