@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 6,
-			"revision" : 4,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 592.0, 284.0, 1181.0, 713.0 ],
+		"rect" : [ 34.0, 77.0, 1468.0, 713.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -163,7 +163,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1047.0, 361.0, 142.0, 22.0 ],
-					"text" : "udpsend localhost 23777"
+					"text" : "udpsend localhost 23778"
 				}
 
 			}
@@ -192,7 +192,6 @@
 						"valueof" : 						{
 							"parameter_invisible" : 1,
 							"parameter_longname" : "live.numbox",
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -212,10 +211,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 834.166666666666742, 665.0, 152.0, 17.0 ],
+					"patching_rect" : [ 834.166666666666742, 665.0, 152.0, 16.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 121.0, 0.0, 83.0, 28.0 ],
+					"presentation_rect" : [ 121.0, 0.0, 83.0, 26.0 ],
 					"text" : "No audio loaded in selected server!",
 					"textcolor" : [ 0.796078431372549, 0.796078431372549, 0.796078431372549, 1.0 ]
 				}
@@ -285,7 +284,6 @@
 							"parameter_enum" : [ "off", "on" ],
 							"parameter_longname" : "live.button",
 							"parameter_mmax" : 1,
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.button",
 							"parameter_type" : 2
 						}
@@ -318,8 +316,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 4,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1331,13 +1329,9 @@
 									"id" : "obj-177",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 673.0, 562.0, 99.0, 22.0 ],
-									"saved_object_attributes" : 									{
-										"legacy" : 1
-									}
-,
 									"text" : "dict.unpack data:"
 								}
 
@@ -2196,40 +2190,10 @@
 							}
  ],
 						"bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
-						"editing_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
-						"saved_attribute_attributes" : 						{
-							"default_plcolor" : 							{
-								"expression" : ""
-							}
-,
-							"editing_bgcolor" : 							{
-								"expression" : ""
-							}
-,
-							"locked_bgcolor" : 							{
-								"expression" : ""
-							}
-
-						}
-
+						"editing_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ]
 					}
 ,
 					"patching_rect" : [ 261.5, 844.0, 518.0, 22.0 ],
-					"saved_attribute_attributes" : 					{
-						"default_plcolor" : 						{
-							"expression" : ""
-						}
-,
-						"editing_bgcolor" : 						{
-							"expression" : ""
-						}
-,
-						"locked_bgcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-,
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -2493,8 +2457,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 4,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2891,40 +2855,10 @@
 							}
  ],
 						"bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
-						"editing_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
-						"saved_attribute_attributes" : 						{
-							"default_plcolor" : 							{
-								"expression" : ""
-							}
-,
-							"editing_bgcolor" : 							{
-								"expression" : ""
-							}
-,
-							"locked_bgcolor" : 							{
-								"expression" : ""
-							}
-
-						}
-
+						"editing_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ]
 					}
 ,
 					"patching_rect" : [ 726.166666666666742, 548.0, 127.0, 22.0 ],
-					"saved_attribute_attributes" : 					{
-						"default_plcolor" : 						{
-							"expression" : ""
-						}
-,
-						"editing_bgcolor" : 						{
-							"expression" : ""
-						}
-,
-						"locked_bgcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-,
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -2957,16 +2891,15 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 1,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 221.0, 387.0, 100.0, 25.0 ],
+					"patching_rect" : [ 221.0, 387.0, 100.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.5, 0.75, 96.0, 25.0 ],
+					"presentation_rect" : [ 7.5, 0.75, 96.0, 23.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "ServerA", "Server ---" ],
 							"parameter_invisible" : 1,
 							"parameter_longname" : "umenu",
 							"parameter_mmax" : 1,
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "umenu",
 							"parameter_type" : 2
 						}
@@ -2991,14 +2924,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 4.5, 3.75, 102.0, 19.0 ],
 					"proportion" : 0.39,
-					"rounded" : 4,
-					"saved_attribute_attributes" : 					{
-						"bgfillcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-
+					"rounded" : 4
 				}
 
 			}
@@ -3115,9 +3041,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 692.0, 37.0, 57.0, 23.0 ],
+					"patching_rect" : [ 692.0, 37.0, 57.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 305.0, 28.5, 149.0, 23.0 ],
+					"presentation_rect" : [ 305.0, 28.5, 149.0, 21.0 ],
 					"text" : "SERVER",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
@@ -3167,7 +3093,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-7",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -3701,13 +3627,74 @@
 
 			}
  ],
-		"saved_attribute_attributes" : 		{
-			"default_plcolor" : 			{
-				"expression" : ""
+		"parameters" : 		{
+			"obj-11" : [ "live.button", "live.button", 0 ],
+			"obj-13" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-14::obj-1" : [ "---Corpus_onOff[1]", "on/off", 0 ],
+			"obj-16::obj-1" : [ "---Corpus_onOff[3]", "on/off", 0 ],
+			"obj-32::obj-1" : [ "---Corpus_onOff[2]", "on/off", 0 ],
+			"obj-34::obj-1" : [ "---Corpus_onOff[7]", "on/off", 0 ],
+			"obj-41::obj-1" : [ "---Corpus_onOff[6]", "on/off", 0 ],
+			"obj-42::obj-1" : [ "---Corpus_onOff[5]", "on/off", 0 ],
+			"obj-46::obj-1" : [ "---Corpus_onOff[4]", "on/off", 0 ],
+			"obj-5" : [ "umenu", "umenu", 0 ],
+			"obj-6::obj-1" : [ "---Corpus_onOff", "on/off", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
 			}
+,
+			"parameter_overrides" : 			{
+				"obj-14::obj-1" : 				{
+					"parameter_longname" : "---Corpus_onOff[1]"
+				}
+,
+				"obj-16::obj-1" : 				{
+					"parameter_longname" : "---Corpus_onOff[3]"
+				}
+,
+				"obj-32::obj-1" : 				{
+					"parameter_longname" : "---Corpus_onOff[2]"
+				}
+,
+				"obj-34::obj-1" : 				{
+					"parameter_longname" : "---Corpus_onOff[7]"
+				}
+,
+				"obj-41::obj-1" : 				{
+					"parameter_longname" : "---Corpus_onOff[6]"
+				}
+,
+				"obj-42::obj-1" : 				{
+					"parameter_longname" : "---Corpus_onOff[5]"
+				}
+,
+				"obj-46::obj-1" : 				{
+					"parameter_longname" : "---Corpus_onOff[4]"
+				}
 
+			}
+,
+			"inherited_shortname" : 1
 		}
-
+,
+		"dependency_cache" : [ 			{
+				"name" : "_mosaique.miniCorpusOnOff.maxpat",
+				"bootpath" : "~/Documents/Projets/Mosaique/Mosaique",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fluid.libmanipulation.mxe64",
+				"type" : "mx64"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
