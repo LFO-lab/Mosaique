@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 677.0, 106.0, 417.0, 713.0 ],
+		"rect" : [ 677.0, 106.0, 1067.0, 937.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -67,30 +67,6 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "#1" ],
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-8",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "_mosaique.midiNotes.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1022.0, 155.0, 245.0, 171.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 648.0, 148.0, 257.181809484958649, 166.363630414009094 ],
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-12",
 					"linecount" : 5,
 					"maxclass" : "comment",
@@ -110,10 +86,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 660.0, 251.0, 150.0, 20.0 ],
+					"patching_rect" : [ 669.0, 251.0, 97.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 297.0, 410.0, 93.0, 20.0 ],
-					"text" : "<<< MIDI Ctl"
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 297.0, 410.0, 93.0, 33.0 ],
+					"text" : "Audio Mosaicing"
 				}
 
 			}

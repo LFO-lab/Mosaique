@@ -120,7 +120,7 @@
 					"patching_rect" : [ 119.750000000000114, 185.0, 99.499999999999773, 28.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 72.318182110786438, 55.031342726629006, 94.644820392131805, 28.0 ],
-					"text" : "Basic~",
+					"text" : "Server",
 					"textjustification" : 1
 				}
 
@@ -219,7 +219,30 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"border" : 0,
+									"evaluatehref" : 1,
+									"fontface" : 0,
+									"fontname" : "Arial",
+									"fontsize" : 14.0,
+									"id" : "obj-4",
+									"linkbold" : 1,
+									"linkcolor" : [ 0.52327972650528, 0.163281843066216, 0.342784136533737, 1.0 ],
+									"maxclass" : "markup",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 19.0, 161.0, 447.0, 24.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 28.0, 162.0, 193.0, 19.0 ],
+									"text" : "Huge thank you to their team!",
+									"textcolor" : [ 1.0, 0.733333333333333, 0.494117647058824, 1.0 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"border" : 0,
 									"evaluatehref" : 1,
@@ -255,7 +278,7 @@
 									"patching_rect" : [ 472.0, 305.17941029485263, 287.5, 144.322709163346616 ],
 									"pic" : "Logo-OICRM.png",
 									"presentation" : 1,
-									"presentation_rect" : [ 570.0, 299.820589705147484, 210.0, 105.418326693227087 ]
+									"presentation_rect" : [ 568.0, 330.0, 210.0, 105.418326693227087 ]
 								}
 
 							}
@@ -273,7 +296,7 @@
 									"patching_rect" : [ 248.0, 297.0, 287.5, 82.614942528735625 ],
 									"pic" : "FRQSC_logo.png",
 									"presentation" : 1,
-									"presentation_rect" : [ 346.0, 316.17941029485263, 190.0, 54.597701149425284 ]
+									"presentation_rect" : [ 344.0, 355.0, 190.0, 54.597701149425284 ]
 								}
 
 							}
@@ -291,7 +314,7 @@
 									"patching_rect" : [ 15.0, 15.0, 287.5, 100.0 ],
 									"pic" : "fluidcorpusmanipulation.png",
 									"presentation" : 1,
-									"presentation_rect" : [ 111.0, 299.820589705147484, 204.0, 70.956521739130437 ]
+									"presentation_rect" : [ 109.0, 339.0, 204.0, 70.956521739130437 ]
 								}
 
 							}
@@ -311,7 +334,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 23.0, 372.0, 447.0, 24.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 19.0, 252.0, 494.0, 27.0 ],
+									"presentation_rect" : [ 19.0, 291.0, 494.0, 27.0 ],
 									"text" : "· <link href=\"; max launchbrowser https://oicrm.org/\">Observatoire sur la création et la recherche en musique</link>",
 									"textcolor" : [ 1.0, 0.733333333333333, 0.494117647058824, 1.0 ]
 								}
@@ -333,7 +356,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 24.0, 343.0, 447.0, 24.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 19.0, 216.0, 494.0, 36.0 ],
+									"presentation_rect" : [ 19.0, 255.0, 494.0, 36.0 ],
 									"text" : "· <link href=\"; max launchbrowser https://frq.gouv.qc.ca/\">Fonds de recherche du Québec</link> - Société et culture through the program \"Soutien à la recherche-création pour la relève professorale\"",
 									"textcolor" : [ 1.0, 0.733333333333333, 0.494117647058824, 1.0 ]
 								}
@@ -354,7 +377,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 24.0, 275.0, 447.0, 24.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 19.0, 196.0, 494.0, 27.0 ],
+									"presentation_rect" : [ 19.0, 235.0, 494.0, 27.0 ],
 									"text" : "The project is funded by: ",
 									"textcolor" : [ 1.0, 0.733333333333333, 0.494117647058824, 1.0 ]
 								}
@@ -374,7 +397,7 @@
 									"patching_rect" : [ 446.0, -22.555000000000007, 359.0, 231.555000000000007 ],
 									"pic" : "00_Logo_LFO_Fond_Transparent (1).png",
 									"presentation" : 1,
-									"presentation_rect" : [ 464.0, -14.0, 437.0, 281.865000000000009 ]
+									"presentation_rect" : [ 473.0, 19.067499999999995, 437.0, 281.865000000000009 ]
 								}
 
 							}
@@ -393,7 +416,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 19.0, 178.0, 447.0, 24.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 19.0, 163.0, 494.0, 27.0 ],
+									"presentation_rect" : [ 19.0, 183.0, 494.0, 27.0 ],
 									"text" : "· took inspiration in the [xray.jit.quicksort] developped by Wesley Smith",
 									"textcolor" : [ 1.0, 0.733333333333333, 0.494117647058824, 1.0 ]
 								}
@@ -459,8 +482,8 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 19.0, 152.0, 447.0, 24.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 19.0, 146.0, 546.0, 20.0 ],
-									"text" : "· uses <link href= \"; max launchbrowser https://www.flucoma.org/\" >FluCoMa</link> for all of the heavy lifting in machine learning and listening",
+									"presentation_rect" : [ 19.0, 146.0, 692.0, 28.0 ],
+									"text" : "· uses <link href= \"; max launchbrowser https://www.flucoma.org/\" >FluCoMa</link> for all of the heavy lifting in machine learning and listening. <br>Huge thank you to their team!",
 									"textcolor" : [ 1.0, 0.733333333333333, 0.494117647058824, 1.0 ]
 								}
 

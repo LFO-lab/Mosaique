@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 134.0, 178.0, 1300.0, 983.0 ],
+		"rect" : [ 252.0, 267.0, 1300.0, 983.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -467,24 +467,10 @@
 												}
 
 											}
- ],
-										"saved_attribute_attributes" : 										{
-											"default_plcolor" : 											{
-												"expression" : ""
-											}
-
-										}
-
+ ]
 									}
 ,
 									"patching_rect" : [ 561.443430304527283, 215.536589772033693, 145.0, 22.0 ],
-									"saved_attribute_attributes" : 									{
-										"default_plcolor" : 										{
-											"expression" : ""
-										}
-
-									}
-,
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -704,24 +690,10 @@
 												}
 
 											}
- ],
-										"saved_attribute_attributes" : 										{
-											"default_plcolor" : 											{
-												"expression" : ""
-											}
-
-										}
-
+ ]
 									}
 ,
 									"patching_rect" : [ 336.443430304527283, 178.0, 106.0, 22.0 ],
-									"saved_attribute_attributes" : 									{
-										"default_plcolor" : 										{
-											"expression" : ""
-										}
-
-									}
-,
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -1086,24 +1058,10 @@
 												}
 
 											}
- ],
-										"saved_attribute_attributes" : 										{
-											"default_plcolor" : 											{
-												"expression" : ""
-											}
-
-										}
-
+ ]
 									}
 ,
 									"patching_rect" : [ 561.443430304527283, 178.0, 143.0, 22.0 ],
-									"saved_attribute_attributes" : 									{
-										"default_plcolor" : 										{
-											"expression" : ""
-										}
-
-									}
-,
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -1436,24 +1394,10 @@
 														"subpatcher_template" : "",
 														"assistshowspatchername" : 0,
 														"boxes" : [  ],
-														"lines" : [  ],
-														"saved_attribute_attributes" : 														{
-															"default_plcolor" : 															{
-																"expression" : ""
-															}
-
-														}
-
+														"lines" : [  ]
 													}
 ,
 													"patching_rect" : [ 1414.0, 438.0, 122.0, 22.0 ],
-													"saved_attribute_attributes" : 													{
-														"default_plcolor" : 														{
-															"expression" : ""
-														}
-
-													}
-,
 													"saved_object_attributes" : 													{
 														"description" : "",
 														"digest" : "",
@@ -1971,24 +1915,10 @@
 																}
 
 															}
- ],
-														"saved_attribute_attributes" : 														{
-															"default_plcolor" : 															{
-																"expression" : ""
-															}
-
-														}
-
+ ]
 													}
 ,
 													"patching_rect" : [ 1193.0, 347.0, 103.0, 22.0 ],
-													"saved_attribute_attributes" : 													{
-														"default_plcolor" : 														{
-															"expression" : ""
-														}
-
-													}
-,
 													"saved_object_attributes" : 													{
 														"description" : "",
 														"digest" : "",
@@ -2736,24 +2666,10 @@
 																}
 
 															}
- ],
-														"saved_attribute_attributes" : 														{
-															"default_plcolor" : 															{
-																"expression" : ""
-															}
-
-														}
-
+ ]
 													}
 ,
 													"patching_rect" : [ 907.5, 347.0, 105.0, 22.0 ],
-													"saved_attribute_attributes" : 													{
-														"default_plcolor" : 														{
-															"expression" : ""
-														}
-
-													}
-,
 													"saved_object_attributes" : 													{
 														"description" : "",
 														"digest" : "",
@@ -4280,24 +4196,10 @@
 																}
 
 															}
- ],
-														"saved_attribute_attributes" : 														{
-															"default_plcolor" : 															{
-																"expression" : ""
-															}
-
-														}
-
+ ]
 													}
 ,
 													"patching_rect" : [ 622.0, 347.0, 132.0, 22.0 ],
-													"saved_attribute_attributes" : 													{
-														"default_plcolor" : 														{
-															"expression" : ""
-														}
-
-													}
-,
 													"saved_object_attributes" : 													{
 														"description" : "",
 														"digest" : "",
@@ -5411,24 +5313,10 @@
 																}
 
 															}
- ],
-														"saved_attribute_attributes" : 														{
-															"default_plcolor" : 															{
-																"expression" : ""
-															}
-
-														}
-
+ ]
 													}
 ,
 													"patching_rect" : [ 336.5, 347.0, 135.0, 22.0 ],
-													"saved_attribute_attributes" : 													{
-														"default_plcolor" : 														{
-															"expression" : ""
-														}
-
-													}
-,
 													"saved_object_attributes" : 													{
 														"description" : "",
 														"digest" : "",
@@ -5727,24 +5615,10 @@
 												}
 
 											}
- ],
-										"saved_attribute_attributes" : 										{
-											"default_plcolor" : 											{
-												"expression" : ""
-											}
-
-										}
-
+ ]
 									}
 ,
 									"patching_rect" : [ 763.443430304527283, 348.766421556472778, 175.0, 22.0 ],
-									"saved_attribute_attributes" : 									{
-										"default_plcolor" : 										{
-											"expression" : ""
-										}
-
-									}
-,
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -5918,24 +5792,10 @@
 								}
 
 							}
- ],
-						"saved_attribute_attributes" : 						{
-							"default_plcolor" : 							{
-								"expression" : ""
-							}
-
-						}
-
+ ]
 					}
 ,
 					"patching_rect" : [ 66.830188810825348, 323.594737023115158, 62.0, 22.0 ],
-					"saved_attribute_attributes" : 					{
-						"default_plcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-,
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -6115,14 +5975,14 @@
 								"box" : 								{
 									"autopopulate" : 1,
 									"id" : "obj-8",
-									"items" : [ "Vibes_pickup 0003 [2023-06-16 143722]_0.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_10.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_100.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1000.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1001.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1002.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1003.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1004.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1005.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1006.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1007.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1008.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1009.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_101.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1010.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1011.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1012.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1013.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1014.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1015.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1016.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1017.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1018.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1019.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_102.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1020.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1021.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1022.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1023.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1024.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1025.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1026.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1027.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1028.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1029.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_103.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1030.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1031.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1032.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1033.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1034.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1035.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1036.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1037.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1038.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1039.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_104.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1040.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1041.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1042.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1043.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1044.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1045.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1046.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1047.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1048.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1049.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_105.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1050.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1051.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1052.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1053.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1054.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1055.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1056.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1057.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1058.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1059.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_106.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1060.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1061.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1062.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1063.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1064.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1065.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1066.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1067.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1068.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1069.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_107.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1070.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1071.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1072.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1073.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1074.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1075.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1076.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1077.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1078.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1079.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_108.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1080.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1081.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1082.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1083.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1084.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1085.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1086.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1087.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1088.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1089.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_109.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1090.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1091.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1092.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1093.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1094.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1095.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1096.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1097.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1098.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1099.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_11.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_110.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1100.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1101.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1102.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1103.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1104.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1105.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1106.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1107.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1108.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1109.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_111.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1110.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1111.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1112.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1113.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1114.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1115.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1116.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1117.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1118.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1119.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_112.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1120.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1121.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1122.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1123.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1124.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1125.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1126.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1127.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1128.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1129.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_113.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1130.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1131.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1132.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1133.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1134.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1135.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1136.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1137.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1138.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1139.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_114.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1140.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1141.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1142.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1143.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1144.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1145.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1146.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1147.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1148.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1149.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_115.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1150.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1151.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1152.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1153.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1154.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1155.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1156.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1157.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1158.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1159.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_116.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1160.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1161.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1162.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1163.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1164.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1165.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1166.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1167.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1168.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1169.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_117.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1170.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1171.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1172.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1173.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1174.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1175.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1176.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1177.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1178.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1179.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_118.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1180.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1181.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1182.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1183.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1184.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1185.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1186.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1187.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1188.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1189.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_119.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1190.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1191.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1192.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1193.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1194.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1195.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1196.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1197.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1198.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1199.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_12.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_120.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1200.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1201.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1202.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1203.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1204.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1205.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1206.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1207.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1208.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1209.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_121.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1210.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1211.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1212.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1213.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1214.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1215.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1216.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1217.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1218.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1219.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_122.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1220.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1221.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1222.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1223.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1224.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1225.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1226.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1227.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1228.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1229.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_123.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1230.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1231.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1232.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1233.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1234.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1235.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1236.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1237.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1238.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1239.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_124.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1240.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1241.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1242.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1243.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1244.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1245.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1246.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1247.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1248.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1249.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_125.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1250.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1251.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1252.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1253.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1254.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1255.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1256.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1257.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1258.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1259.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_126.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1260.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1261.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1262.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1263.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1264.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1265.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1266.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1267.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1268.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1269.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_127.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1270.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1271.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1272.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1273.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1274.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1275.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1276.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1277.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1278.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1279.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_128.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1280.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1281.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1282.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1283.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1284.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1285.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1286.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1287.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1288.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1289.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_129.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1290.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1291.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1292.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1293.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1294.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1295.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1296.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1297.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1298.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1299.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_13.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_130.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1300.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1301.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1302.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1303.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1304.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1305.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1306.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1307.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1308.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1309.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_131.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1310.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1311.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1312.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1313.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1314.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1315.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1316.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1317.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1318.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1319.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_132.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1320.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1321.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1322.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1323.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1324.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1325.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1326.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1327.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1328.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1329.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_133.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1330.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1331.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1332.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1333.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1334.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1335.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1336.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1337.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1338.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1339.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_134.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1340.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1341.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1342.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1343.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1344.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1345.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1346.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1347.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1348.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1349.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_135.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1350.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1351.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1352.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1353.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1354.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1355.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1356.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1357.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1358.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1359.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_136.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1360.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1361.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1362.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1363.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1364.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1365.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1366.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1367.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1368.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1369.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_137.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1370.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1371.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1372.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1373.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1374.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1375.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1376.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1377.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1378.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1379.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_138.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1380.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1381.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1382.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1383.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1384.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1385.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1386.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1387.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1388.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1389.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_139.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1390.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1391.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1392.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1393.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1394.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1395.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1396.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1397.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1398.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1399.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_14.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_140.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1400.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1401.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1402.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1403.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1404.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1405.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1406.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1407.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1408.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1409.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_141.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1410.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1411.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1412.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1413.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1414.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1415.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1416.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1417.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1418.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1419.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_142.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1420.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1421.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1422.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1423.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1424.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1425.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1426.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1427.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1428.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1429.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_143.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1430.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1431.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1432.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1433.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1434.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1435.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1436.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1437.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1438.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1439.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_144.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1440.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1441.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1442.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1443.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1444.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1445.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1446.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1447.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1448.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1449.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_145.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1450.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1451.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1452.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1453.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1454.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1455.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1456.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1457.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1458.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1459.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_146.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1460.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1461.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1462.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1463.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1464.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1465.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1466.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1467.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1468.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1469.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_147.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1470.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1471.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1472.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1473.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1474.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1475.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1476.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1477.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1478.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1479.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_148.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1480.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1481.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1482.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1483.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1484.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1485.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1486.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1487.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1488.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1489.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_149.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1490.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1491.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1492.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1493.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1494.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1495.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1496.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1497.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1498.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1499.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_15.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_150.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1500.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1501.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1502.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1503.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1504.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1505.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1506.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1507.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1508.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1509.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_151.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1510.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1511.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1512.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1513.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1514.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1515.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1516.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1517.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1518.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1519.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_152.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1520.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1521.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1522.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1523.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1524.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1525.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1526.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1527.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1528.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1529.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_153.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1530.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1531.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1532.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1533.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1534.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1535.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1536.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1537.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1538.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1539.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_154.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1540.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1541.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1542.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1543.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1544.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1545.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1546.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1547.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1548.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1549.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_155.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1550.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1551.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1552.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1553.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1554.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1555.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1556.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1557.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1558.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1559.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_156.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1560.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1561.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1562.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1563.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1564.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1565.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1566.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1567.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1568.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1569.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_157.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1570.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1571.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1572.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1573.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1574.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1575.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1576.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1577.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1578.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1579.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_158.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1580.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1581.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1582.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1583.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1584.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1585.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1586.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1587.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1588.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1589.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_159.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1590.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1591.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1592.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1593.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1594.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1595.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1596.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1597.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1598.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1599.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_16.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_160.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1600.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1601.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1602.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1603.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1604.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1605.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1606.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1607.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1608.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1609.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_161.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1610.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1611.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1612.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1613.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1614.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1615.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1616.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1617.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1618.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1619.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_162.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1620.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1621.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1622.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1623.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1624.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1625.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1626.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1627.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1628.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1629.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_163.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1630.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1631.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1632.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1633.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1634.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1635.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1636.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1637.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1638.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1639.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_164.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1640.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1641.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1642.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1643.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1644.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1645.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1646.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1647.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1648.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1649.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_165.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1650.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1651.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1652.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1653.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1654.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1655.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1656.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1657.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1658.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1659.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_166.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1660.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1661.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1662.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1663.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1664.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1665.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1666.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1667.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1668.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1669.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_167.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1670.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1671.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1672.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1673.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1674.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1675.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1676.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1677.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1678.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1679.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_168.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1680.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1681.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1682.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1683.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1684.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1685.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1686.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1687.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1688.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1689.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_169.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1690.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1691.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1692.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1693.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1694.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1695.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1696.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1697.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1698.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1699.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_17.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_170.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1700.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1701.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1702.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1703.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1704.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1705.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1706.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1707.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1708.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1709.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_171.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1710.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1711.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1712.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1713.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1714.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1715.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1716.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1717.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1718.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1719.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_172.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1720.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1721.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1722.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1723.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1724.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1725.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1726.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1727.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1728.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1729.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_173.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1730.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1731.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1732.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1733.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1734.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1735.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1736.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1737.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1738.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1739.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_174.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1740.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1741.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1742.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1743.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1744.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1745.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1746.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1747.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1748.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1749.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_175.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1750.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1751.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1752.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1753.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1754.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1755.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1756.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1757.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1758.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1759.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_176.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1760.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1761.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1762.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1763.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1764.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1765.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1766.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1767.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1768.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1769.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_177.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1770.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1771.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1772.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1773.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1774.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1775.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1776.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1777.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1778.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1779.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_178.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1780.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1781.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1782.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1783.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1784.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1785.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1786.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1787.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1788.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1789.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_179.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1790.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1791.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1792.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1793.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1794.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1795.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1796.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1797.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1798.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1799.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_18.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_180.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1800.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1801.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1802.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1803.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1804.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1805.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1806.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1807.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1808.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1809.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_181.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1810.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1811.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1812.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1813.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1814.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1815.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1816.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1817.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1818.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1819.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_182.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1820.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1821.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1822.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1823.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1824.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_1825.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_183.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_184.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_185.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_186.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_187.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_188.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_189.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_19.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_190.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_191.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_192.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_193.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_194.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_195.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_196.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_197.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_198.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_199.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_2.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_20.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_200.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_201.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_202.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_203.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_204.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_205.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_206.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_207.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_208.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_209.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_21.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_210.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_211.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_212.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_213.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_214.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_215.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_216.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_217.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_218.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_219.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_22.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_220.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_221.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_222.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_223.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_224.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_225.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_226.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_227.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_228.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_229.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_23.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_230.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_231.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_232.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_233.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_234.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_235.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_236.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_237.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_238.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_239.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_24.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_240.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_241.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_242.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_243.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_244.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_245.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_246.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_247.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_248.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_249.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_25.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_250.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_251.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_252.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_253.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_254.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_255.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_256.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_257.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_258.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_259.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_26.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_260.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_261.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_262.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_263.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_264.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_265.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_266.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_267.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_268.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_269.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_27.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_270.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_271.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_272.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_273.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_274.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_275.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_276.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_277.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_278.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_279.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_28.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_280.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_281.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_282.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_283.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_284.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_285.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_286.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_287.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_288.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_289.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_29.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_290.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_291.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_292.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_293.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_294.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_295.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_296.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_297.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_298.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_299.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_3.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_30.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_300.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_301.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_302.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_303.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_304.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_305.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_306.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_307.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_308.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_309.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_31.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_310.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_311.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_312.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_313.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_314.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_315.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_316.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_317.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_318.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_319.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_32.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_320.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_321.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_322.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_323.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_324.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_325.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_326.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_327.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_328.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_329.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_33.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_330.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_331.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_332.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_333.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_334.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_335.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_336.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_337.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_338.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_339.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_34.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_340.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_341.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_342.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_343.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_344.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_345.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_346.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_347.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_348.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_349.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_35.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_350.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_351.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_352.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_353.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_354.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_355.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_356.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_357.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_358.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_359.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_36.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_360.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_361.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_362.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_363.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_364.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_365.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_366.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_367.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_368.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_369.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_37.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_370.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_371.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_372.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_373.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_374.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_375.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_376.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_377.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_378.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_379.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_38.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_380.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_381.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_382.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_383.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_384.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_385.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_386.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_387.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_388.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_389.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_39.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_390.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_391.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_392.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_393.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_394.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_395.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_396.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_397.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_398.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_399.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_4.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_40.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_400.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_401.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_402.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_403.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_404.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_405.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_406.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_407.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_408.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_409.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_41.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_410.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_411.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_412.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_413.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_414.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_415.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_416.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_417.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_418.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_419.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_42.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_420.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_421.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_422.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_423.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_424.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_425.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_426.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_427.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_428.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_429.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_43.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_430.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_431.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_432.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_433.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_434.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_435.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_436.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_437.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_438.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_439.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_44.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_440.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_441.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_442.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_443.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_444.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_445.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_446.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_447.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_448.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_449.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_45.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_450.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_451.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_452.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_453.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_454.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_455.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_456.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_457.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_458.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_459.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_46.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_460.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_461.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_462.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_463.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_464.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_465.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_466.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_467.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_468.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_469.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_47.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_470.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_471.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_472.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_473.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_474.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_475.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_476.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_477.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_478.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_479.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_48.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_480.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_481.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_482.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_483.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_484.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_485.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_486.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_487.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_488.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_489.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_49.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_490.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_491.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_492.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_493.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_494.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_495.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_496.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_497.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_498.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_499.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_5.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_50.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_500.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_501.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_502.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_503.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_504.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_505.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_506.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_507.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_508.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_509.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_51.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_510.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_511.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_512.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_513.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_514.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_515.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_516.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_517.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_518.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_519.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_52.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_520.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_521.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_522.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_523.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_524.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_525.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_526.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_527.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_528.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_529.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_53.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_530.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_531.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_532.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_533.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_534.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_535.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_536.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_537.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_538.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_539.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_54.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_540.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_541.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_542.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_543.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_544.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_545.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_546.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_547.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_548.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_549.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_55.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_550.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_551.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_552.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_553.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_554.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_555.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_556.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_557.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_558.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_559.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_56.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_560.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_561.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_562.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_563.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_564.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_565.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_566.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_567.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_568.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_569.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_57.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_570.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_571.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_572.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_573.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_574.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_575.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_576.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_577.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_578.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_579.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_58.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_580.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_581.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_582.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_583.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_584.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_585.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_586.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_587.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_588.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_589.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_59.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_590.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_591.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_592.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_593.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_594.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_595.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_596.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_597.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_598.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_599.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_6.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_60.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_600.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_601.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_602.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_603.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_604.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_605.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_606.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_607.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_608.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_609.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_61.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_610.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_611.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_612.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_613.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_614.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_615.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_616.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_617.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_618.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_619.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_62.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_620.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_621.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_622.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_623.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_624.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_625.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_626.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_627.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_628.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_629.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_63.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_630.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_631.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_632.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_633.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_634.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_635.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_636.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_637.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_638.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_639.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_64.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_640.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_641.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_642.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_643.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_644.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_645.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_646.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_647.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_648.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_649.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_65.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_650.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_651.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_652.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_653.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_654.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_655.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_656.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_657.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_658.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_659.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_66.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_660.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_661.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_662.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_663.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_664.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_665.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_666.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_667.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_668.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_669.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_67.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_670.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_671.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_672.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_673.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_674.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_675.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_676.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_677.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_678.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_679.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_68.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_680.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_681.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_682.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_683.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_684.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_685.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_686.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_687.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_688.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_689.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_69.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_690.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_691.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_692.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_693.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_694.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_695.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_696.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_697.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_698.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_699.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_7.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_70.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_700.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_701.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_702.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_703.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_704.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_705.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_706.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_707.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_708.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_709.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_71.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_710.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_711.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_712.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_713.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_714.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_715.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_716.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_717.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_718.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_719.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_72.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_720.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_721.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_722.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_723.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_724.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_725.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_726.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_727.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_728.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_729.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_73.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_730.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_731.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_732.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_733.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_734.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_735.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_736.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_737.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_738.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_739.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_74.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_740.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_741.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_742.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_743.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_744.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_745.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_746.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_747.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_748.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_749.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_75.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_750.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_751.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_752.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_753.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_754.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_755.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_756.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_757.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_758.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_759.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_76.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_760.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_761.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_762.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_763.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_764.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_765.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_766.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_767.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_768.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_769.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_77.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_770.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_771.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_772.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_773.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_774.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_775.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_776.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_777.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_778.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_779.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_78.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_780.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_781.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_782.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_783.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_784.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_785.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_786.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_787.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_788.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_789.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_79.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_790.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_791.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_792.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_793.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_794.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_795.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_796.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_797.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_798.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_799.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_8.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_80.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_800.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_801.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_802.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_803.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_804.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_805.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_806.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_807.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_808.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_809.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_81.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_810.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_811.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_812.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_813.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_814.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_815.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_816.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_817.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_818.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_819.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_82.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_820.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_821.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_822.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_823.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_824.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_825.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_826.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_827.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_828.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_829.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_83.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_830.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_831.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_832.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_833.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_834.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_835.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_836.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_837.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_838.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_839.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_84.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_840.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_841.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_842.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_843.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_844.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_845.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_846.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_847.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_848.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_849.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_85.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_850.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_851.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_852.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_853.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_854.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_855.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_856.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_857.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_858.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_859.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_86.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_860.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_861.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_862.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_863.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_864.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_865.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_866.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_867.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_868.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_869.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_87.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_870.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_871.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_872.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_873.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_874.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_875.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_876.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_877.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_878.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_879.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_88.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_880.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_881.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_882.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_883.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_884.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_885.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_886.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_887.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_888.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_889.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_89.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_890.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_891.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_892.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_893.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_894.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_895.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_896.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_897.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_898.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_899.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_9.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_90.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_900.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_901.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_902.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_903.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_904.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_905.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_906.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_907.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_908.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_909.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_91.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_910.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_911.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_912.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_913.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_914.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_915.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_916.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_917.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_918.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_919.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_92.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_920.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_921.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_922.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_923.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_924.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_925.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_926.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_927.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_928.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_929.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_93.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_930.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_931.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_932.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_933.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_934.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_935.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_936.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_937.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_938.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_939.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_94.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_940.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_941.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_942.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_943.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_944.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_945.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_946.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_947.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_948.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_949.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_95.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_950.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_951.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_952.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_953.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_954.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_955.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_956.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_957.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_958.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_959.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_96.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_960.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_961.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_962.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_963.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_964.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_965.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_966.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_967.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_968.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_969.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_97.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_970.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_971.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_972.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_973.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_974.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_975.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_976.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_977.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_978.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_979.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_98.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_980.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_981.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_982.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_983.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_984.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_985.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_986.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_987.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_988.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_989.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_99.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_990.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_991.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_992.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_993.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_994.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_995.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_996.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_997.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_998.wav", ",", "Vibes_pickup 0003 [2023-06-16 143722]_999.wav" ],
+									"items" : [ "Ride-707-1.wav", ",", "Ride-707-10.wav", ",", "Ride-707-11.wav", ",", "Ride-707-12.wav", ",", "Ride-707-13.wav", ",", "Ride-707-14.wav", ",", "Ride-707-15.wav", ",", "Ride-707-16.wav", ",", "Ride-707-17.wav", ",", "Ride-707-18.wav", ",", "Ride-707-19.wav", ",", "Ride-707-2.wav", ",", "Ride-707-20.wav", ",", "Ride-707-21.wav", ",", "Ride-707-22.wav", ",", "Ride-707-23.wav", ",", "Ride-707-24.wav", ",", "Ride-707-25.wav", ",", "Ride-707-26.wav", ",", "Ride-707-27.wav", ",", "Ride-707-28.wav", ",", "Ride-707-29.wav", ",", "Ride-707-3.wav", ",", "Ride-707-30.wav", ",", "Ride-707-31.wav", ",", "Ride-707-32.wav", ",", "Ride-707-33.wav", ",", "Ride-707-34.wav", ",", "Ride-707-35.wav", ",", "Ride-707-36.wav", ",", "Ride-707-4.wav", ",", "Ride-707-5.wav", ",", "Ride-707-6.wav", ",", "Ride-707-7.wav", ",", "Ride-707-8.wav", ",", "Ride-707-9.wav" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 741.893219355079964, 207.238199889659882, 100.0, 22.0 ],
-									"prefix" : "Macintosh HD:/Users/dthibault/Library/CloudStorage/OneDrive-UniversitedeMontreal/2023-2024/Projets/Avec Joao/Stella Project/Exports/Stella_ImproAvecMosaïque_01.wav"
+									"prefix" : "~/Library/CloudStorage/OneDrive-UniversitedeMontreal/_RECHERCHE/Mosaïque/Corpora/ElectronicDrums/Rides/"
 								}
 
 							}
@@ -6283,24 +6143,10 @@
 								}
 
 							}
- ],
-						"saved_attribute_attributes" : 						{
-							"default_plcolor" : 							{
-								"expression" : ""
-							}
-
-						}
-
+ ]
 					}
 ,
 					"patching_rect" : [ 176.521733343601227, 157.0, 85.0, 22.0 ],
-					"saved_attribute_attributes" : 					{
-						"default_plcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-,
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -6441,7 +6287,6 @@
 										"style" : "",
 										"subpatcher_template" : "",
 										"assistshowspatchername" : 0,
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-11",
@@ -6560,24 +6405,10 @@
 												}
 
 											}
- ],
-										"saved_attribute_attributes" : 										{
-											"default_plcolor" : 											{
-												"expression" : ""
-											}
-
-										}
-
+ ]
 									}
 ,
 									"patching_rect" : [ 1048.085260374678455, 1305.0, 112.0, 22.0 ],
-									"saved_attribute_attributes" : 									{
-										"default_plcolor" : 										{
-											"expression" : ""
-										}
-
-									}
-,
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -6859,24 +6690,10 @@
 												}
 
 											}
- ],
-										"saved_attribute_attributes" : 										{
-											"default_plcolor" : 											{
-												"expression" : ""
-											}
-
-										}
-
+ ]
 									}
 ,
 									"patching_rect" : [ 860.291221439838409, 975.611833214759827, 127.0, 22.0 ],
-									"saved_attribute_attributes" : 									{
-										"default_plcolor" : 										{
-											"expression" : ""
-										}
-
-									}
-,
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -8148,24 +7965,10 @@
 												}
 
 											}
- ],
-										"saved_attribute_attributes" : 										{
-											"default_plcolor" : 											{
-												"expression" : ""
-											}
-
-										}
-
+ ]
 									}
 ,
 									"patching_rect" : [ 1197.524323046207428, 817.940959997718892, 226.0, 22.0 ],
-									"saved_attribute_attributes" : 									{
-										"default_plcolor" : 										{
-											"expression" : ""
-										}
-
-									}
-,
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -8369,24 +8172,10 @@
 												}
 
 											}
- ],
-										"saved_attribute_attributes" : 										{
-											"default_plcolor" : 											{
-												"expression" : ""
-											}
-
-										}
-
+ ]
 									}
 ,
 									"patching_rect" : [ 1166.220232867532332, 1193.892057120800018, 112.0, 22.0 ],
-									"saved_attribute_attributes" : 									{
-										"default_plcolor" : 										{
-											"expression" : ""
-										}
-
-									}
-,
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -8415,14 +8204,14 @@
 									"autopopulate" : 1,
 									"depth" : 100,
 									"id" : "obj-95",
-									"items" : [ "slice_0.wav", ",", "slice_1.wav", ",", "slice_10.wav", ",", "slice_11.wav", ",", "slice_12.wav", ",", "slice_13.wav", ",", "slice_14.wav", ",", "slice_15.wav", ",", "slice_16.wav", ",", "slice_17.wav", ",", "slice_18.wav", ",", "slice_19.wav", ",", "slice_2.wav", ",", "slice_20.wav", ",", "slice_21.wav", ",", "slice_22.wav", ",", "slice_23.wav", ",", "slice_24.wav", ",", "slice_25.wav", ",", "slice_26.wav", ",", "slice_27.wav", ",", "slice_28.wav", ",", "slice_29.wav", ",", "slice_3.wav", ",", "slice_30.wav", ",", "slice_31.wav", ",", "slice_32.wav", ",", "slice_33.wav", ",", "slice_34.wav", ",", "slice_35.wav", ",", "slice_36.wav", ",", "slice_37.wav", ",", "slice_38.wav", ",", "slice_4.wav", ",", "slice_5.wav", ",", "slice_6.wav", ",", "slice_7.wav", ",", "slice_8.wav", ",", "slice_9.wav" ],
+									"items" : [ "Ride-707-1.wav", ",", "Ride-707-10.wav", ",", "Ride-707-11.wav", ",", "Ride-707-12.wav", ",", "Ride-707-13.wav", ",", "Ride-707-14.wav", ",", "Ride-707-15.wav", ",", "Ride-707-16.wav", ",", "Ride-707-17.wav", ",", "Ride-707-18.wav", ",", "Ride-707-19.wav", ",", "Ride-707-2.wav", ",", "Ride-707-20.wav", ",", "Ride-707-21.wav", ",", "Ride-707-22.wav", ",", "Ride-707-23.wav", ",", "Ride-707-24.wav", ",", "Ride-707-25.wav", ",", "Ride-707-26.wav", ",", "Ride-707-27.wav", ",", "Ride-707-28.wav", ",", "Ride-707-29.wav", ",", "Ride-707-3.wav", ",", "Ride-707-30.wav", ",", "Ride-707-31.wav", ",", "Ride-707-32.wav", ",", "Ride-707-33.wav", ",", "Ride-707-34.wav", ",", "Ride-707-35.wav", ",", "Ride-707-36.wav", ",", "Ride-707-4.wav", ",", "Ride-707-5.wav", ",", "Ride-707-6.wav", ",", "Ride-707-7.wav", ",", "Ride-707-8.wav", ",", "Ride-707-9.wav" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 671.648371279239655, 644.209932297468185, 192.818177759647369, 22.0 ],
-									"prefix" : "~/Desktop/fileSaveTesting Project/Samples/Corpora/",
+									"prefix" : "~/Library/CloudStorage/OneDrive-UniversitedeMontreal/_RECHERCHE/Mosaïque/Corpora/ElectronicDrums/Rides/",
 									"types" : [ "WAVE", "AIFF", "FLAC" ]
 								}
 
@@ -8753,24 +8542,10 @@
 								}
 
 							}
- ],
-						"saved_attribute_attributes" : 						{
-							"default_plcolor" : 							{
-								"expression" : ""
-							}
-
-						}
-
+ ]
 					}
 ,
 					"patching_rect" : [ 66.830188810825348, 212.74351042509079, 78.0, 22.0 ],
-					"saved_attribute_attributes" : 					{
-						"default_plcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-,
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -9325,24 +9100,10 @@
 								}
 
 							}
- ],
-						"saved_attribute_attributes" : 						{
-							"default_plcolor" : 							{
-								"expression" : ""
-							}
-
-						}
-
+ ]
 					}
 ,
 					"patching_rect" : [ 849.830188810825348, 372.78454852104187, 89.0, 22.0 ],
-					"saved_attribute_attributes" : 					{
-						"default_plcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-,
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -9420,7 +9181,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 766.0, 185.0, 54.0, 22.0 ],
-									"text" : "absolute"
+									"text" : "none"
 								}
 
 							}
@@ -10560,24 +10321,10 @@
 								}
 
 							}
- ],
-						"saved_attribute_attributes" : 						{
-							"default_plcolor" : 							{
-								"expression" : ""
-							}
-
-						}
-
+ ]
 					}
 ,
 					"patching_rect" : [ 301.830188810825348, 335.018871784210205, 121.0, 22.0 ],
-					"saved_attribute_attributes" : 					{
-						"default_plcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-,
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -10663,7 +10410,6 @@
 					"parameter_mappable" : 0,
 					"patching_rect" : [ 849.830188810825348, 320.018871784210205, 88.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
 					"presentation_rect" : [ 0.0, 0.25, 79.144875764846802, 18.833333790302277 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
@@ -10672,13 +10418,13 @@
 
 					}
 ,
-					"text" : "ClarinetteSlaps",
-					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
+					"text" : "Rides"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"activebgcolor" : [ 0.701960784313725, 0.694117647058824, 0.694117647058824, 1.0 ],
 					"annotation" : "Clicking this button will open a window to load a folder of sounds",
 					"automation" : "Load corpus",
 					"blinktime" : 200,
@@ -10695,6 +10441,10 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 82.478208191963176, 0.833333313465118, 53.379271313007365, 17.333333373069763 ],
 					"saved_attribute_attributes" : 					{
+						"activebgcolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
 							"parameter_enum" : [ "Load corpus", "val2" ],
 							"parameter_info" : "Clicking this button will open a window to load a folder of sounds",
@@ -10855,6 +10605,32 @@
 			}
 , 			{
 				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.093101, 0.698422, 0.539801, 1.0 ],
+					"bordercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"id" : "obj-4",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 726.830188810825348, 778.28454852104187, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 0.0, 253.0, 19.5 ],
+					"proportion" : 0.39,
+					"rounded" : 4,
+					"saved_attribute_attributes" : 					{
+						"bgfillcolor" : 						{
+							"expression" : ""
+						}
+
+					}
+
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
 					"bordercolor" : [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 0.0 ],
 					"decodemode" : 1,
 					"focusbordercolor" : [ 0.662745098039216, 0.270588235294118, 0.890196078431372, 1.0 ],
@@ -10867,7 +10643,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 176.521733343601227, 62.028983473777771, 140.0, 60.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 27.561838030815125, 253.0, 20.0 ],
+					"presentation_rect" : [ 0.0, -0.5, 253.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"bordercolor" : 						{
 							"expression" : ""
@@ -10893,31 +10669,6 @@
 ,
 					"textcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"varname" : "#1File_Drop"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 270.0,
-					"bgcolor" : [ 0.093101, 0.698422, 0.539801, 1.0 ],
-					"bordercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"id" : "obj-4",
-					"maxclass" : "panel",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 726.830188810825348, 778.28454852104187, 128.0, 128.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 253.0, 19.5 ],
-					"proportion" : 0.39,
-					"rounded" : 4,
-					"saved_attribute_attributes" : 					{
-						"bgfillcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-
 				}
 
 			}
@@ -11223,14 +10974,7 @@
 				"parentstyle" : "",
 				"multi" : 0
 			}
- ],
-		"saved_attribute_attributes" : 		{
-			"default_plcolor" : 			{
-				"expression" : ""
-			}
-
-		}
-
+ ]
 	}
 
 }
