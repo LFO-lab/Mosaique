@@ -874,7 +874,7 @@ function onidleout(x, y, button, mod1, shift, caps, opt, mod2)
 
 function onclick(x, y, button, mod1, shift, caps, opt, mod2)
 {
-
+/*
     if (markerlayers.length > 0)
     {
         var l = markerlayers[markerlayers.length - 1];
@@ -896,15 +896,18 @@ function onclick(x, y, button, mod1, shift, caps, opt, mod2)
                 l.data.remove(sel[0]);
         }
     }
+*/
     redrawNeeded = true;
 }
 
 function ondrag(x, y, button, mod1, shift, caps, opt, mod2)
 {
+/*
     markerlayers.forEach(function(l, i)
     {
         l.ondrag(x, y, button, mod1, shift, caps, opt, mod2)
     })
+*/
     redrawNeeded = true;
     var pos = (x / (box.rect[2] - box.rect[0])) * zoom + offset;
     pos = Math.min(1 * zoom + offset, Math.max(offset, pos));
