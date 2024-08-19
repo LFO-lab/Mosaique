@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 4,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 735.0, 106.0, 932.0, 1189.0 ],
+		"rect" : [ 1478.0, 418.0, 932.0, 1189.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -225,9 +225,12 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "This button toggles playback for players like Granular and Morph.",
+					"annotation_name" : "State button",
 					"automation" : "off",
 					"automationon" : "on",
 					"fontname" : "Avenir",
+					"hint" : "This button toggles playback for players like Granular and Morph.",
 					"id" : "obj-9",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -239,7 +242,9 @@
 					"presentation_rect" : [ 68.25, 88.430692568421364, 65.618806958198547, 20.75 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "State button",
 							"parameter_enum" : [ "off", "on" ],
+							"parameter_info" : "This button toggles playback for players like Granular and Morph.",
 							"parameter_linknames" : 1,
 							"parameter_longname" : "Navigation State",
 							"parameter_mmax" : 1,
@@ -259,6 +264,8 @@
 , 			{
 				"box" : 				{
 					"activeneedlecolor" : [ 0.725490196078431, 0.596078431372549, 0.952941176470588, 1.0 ],
+					"annotation" : "\"Z Axis Coordinates\"",
+					"annotation_name" : "Z Axis Coordinates",
 					"fontname" : "Avenir",
 					"id" : "obj-15",
 					"maxclass" : "live.dial",
@@ -280,10 +287,12 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "Z Axis Coordinates",
+							"parameter_info" : "\"Z Axis Coordinates\"",
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "RecordedOSC_Z",
+							"parameter_longname" : "Navigation Z",
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : -1.0,
 							"parameter_modmode" : 2,
@@ -297,13 +306,15 @@
 					"showname" : 0,
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"triangle" : 1,
-					"varname" : "RecordedOSC_Z"
+					"varname" : "Navigation Z"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"activeneedlecolor" : [ 0.725490196078431, 0.596078431372549, 0.952941176470588, 1.0 ],
+					"annotation" : "\"Y Axis Coordinates\"",
+					"annotation_name" : "Y Axis Coordinates",
 					"fontname" : "Avenir",
 					"id" : "obj-13",
 					"maxclass" : "live.dial",
@@ -325,6 +336,8 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "Y Axis Coordinates",
+							"parameter_info" : "\"Y Axis Coordinates\"",
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
@@ -349,6 +362,8 @@
 , 			{
 				"box" : 				{
 					"activeneedlecolor" : [ 0.725490196078431, 0.596078431372549, 0.952941176470588, 1.0 ],
+					"annotation" : "\"X Axis Coordinates\"",
+					"annotation_name" : "X Axis Coordinates",
 					"fontname" : "Avenir",
 					"id" : "obj-2",
 					"maxclass" : "live.dial",
@@ -370,6 +385,8 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "X Axis Coordinates",
+							"parameter_info" : "\"X Axis Coordinates\"",
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
@@ -427,7 +444,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 114.0, 606.0, 78.0, 47.0 ],
-					"presentation_linecount" : 3,
 					"text" : "Checks if navigation type is XYZ"
 				}
 
@@ -604,6 +620,8 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Choose the dimensionality of the navigation space.",
+					"annotation_name" : "Coordinate space",
 					"fontname" : "Avenir Heavy",
 					"id" : "obj-27",
 					"maxclass" : "live.menu",
@@ -617,7 +635,9 @@
 					"presentation_rect" : [ 68.118806958198547, 44.55445222556591, 65.75, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Coordinate space",
 							"parameter_enum" : [ "3D", "2D", "2D grid" ],
+							"parameter_info" : "Choose the dimensionality of the navigation space.",
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
@@ -958,7 +978,14 @@
 				}
 
 			}
- ]
+ ],
+		"saved_attribute_attributes" : 		{
+			"default_plcolor" : 			{
+				"expression" : ""
+			}
+
+		}
+
 	}
 
 }

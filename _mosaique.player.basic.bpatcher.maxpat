@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 4,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 237.0, 188.0, 1378.0, 983.0 ],
+		"rect" : [ 237.0, 188.0, 384.0, 983.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -84,7 +84,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 4,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -313,10 +313,24 @@
 								}
 
 							}
- ]
+ ],
+						"saved_attribute_attributes" : 						{
+							"default_plcolor" : 							{
+								"expression" : ""
+							}
+
+						}
+
 					}
 ,
 					"patching_rect" : [ 327.0, 608.0, 172.0, 22.0 ],
+					"saved_attribute_attributes" : 					{
+						"default_plcolor" : 						{
+							"expression" : ""
+						}
+
+					}
+,
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -340,7 +354,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 4,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1012,10 +1026,24 @@
 								}
 
 							}
- ]
+ ],
+						"saved_attribute_attributes" : 						{
+							"default_plcolor" : 							{
+								"expression" : ""
+							}
+
+						}
+
 					}
 ,
 					"patching_rect" : [ 511.0, 608.0, 151.0, 22.0 ],
+					"saved_attribute_attributes" : 					{
+						"default_plcolor" : 						{
+							"expression" : ""
+						}
+
+					}
+,
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1063,7 +1091,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 4,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1189,10 +1217,24 @@
 								}
 
 							}
- ]
+ ],
+						"saved_attribute_attributes" : 						{
+							"default_plcolor" : 							{
+								"expression" : ""
+							}
+
+						}
+
 					}
 ,
 					"patching_rect" : [ 913.0, 831.0, 85.0, 22.0 ],
+					"saved_attribute_attributes" : 					{
+						"default_plcolor" : 						{
+							"expression" : ""
+						}
+
+					}
+,
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1263,7 +1305,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 4,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1412,10 +1454,24 @@
 								}
 
 							}
- ]
+ ],
+						"saved_attribute_attributes" : 						{
+							"default_plcolor" : 							{
+								"expression" : ""
+							}
+
+						}
+
 					}
 ,
 					"patching_rect" : [ 345.023557504018186, 1107.0, 168.0, 22.0 ],
+					"saved_attribute_attributes" : 					{
+						"default_plcolor" : 						{
+							"expression" : ""
+						}
+
+					}
+,
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1429,6 +1485,8 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Toggle on for direct transposition, off for pitch shifting and time stretching",
+					"annotation_name" : "Player Pitch-Speed Link",
 					"fontname" : "Avenir",
 					"id" : "obj-8",
 					"maxclass" : "live.text",
@@ -1443,7 +1501,9 @@
 					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Player Pitch-Speed Link",
 							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_info" : "Toggle on for direct transposition, off for pitch shifting and time stretching",
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
@@ -1465,6 +1525,8 @@
 , 			{
 				"box" : 				{
 					"activedialcolor" : [ 0.727056920528412, 0.594957113265991, 0.952508449554443, 1.0 ],
+					"annotation" : "Read speed of the slice",
+					"annotation_name" : "Player Speed",
 					"fontname" : "Avenir",
 					"id" : "obj-7",
 					"maxclass" : "live.dial",
@@ -1485,7 +1547,9 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "Player Speed",
 							"parameter_exponent" : 2.333,
+							"parameter_info" : "Read speed of the slice",
 							"parameter_initial" : [ 1.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
@@ -1501,7 +1565,7 @@
 
 					}
 ,
-					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ],
+					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"varname" : "Player Speed"
 				}
 
@@ -1563,7 +1627,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 4,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1726,10 +1790,24 @@
 								}
 
 							}
- ]
+ ],
+						"saved_attribute_attributes" : 						{
+							"default_plcolor" : 							{
+								"expression" : ""
+							}
+
+						}
+
 					}
 ,
 					"patching_rect" : [ 229.0, 1115.0, 41.0, 22.0 ],
+					"saved_attribute_attributes" : 					{
+						"default_plcolor" : 						{
+							"expression" : ""
+						}
+
+					}
+,
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1753,7 +1831,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 4,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1916,10 +1994,24 @@
 								}
 
 							}
- ]
+ ],
+						"saved_attribute_attributes" : 						{
+							"default_plcolor" : 							{
+								"expression" : ""
+							}
+
+						}
+
 					}
 ,
 					"patching_rect" : [ 122.0, 1111.0, 41.0, 22.0 ],
+					"saved_attribute_attributes" : 					{
+						"default_plcolor" : 						{
+							"expression" : ""
+						}
+
+					}
+,
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1934,6 +2026,8 @@
 , 			{
 				"box" : 				{
 					"activedialcolor" : [ 0.725490196078431, 0.596078431372549, 0.952941176470588, 1.0 ],
+					"annotation" : "Output gain control.",
+					"annotation_name" : "Player Output Gain",
 					"fontname" : "Avenir",
 					"id" : "obj-148",
 					"maxclass" : "live.dial",
@@ -1954,7 +2048,9 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "Player Output Gain",
 							"parameter_exponent" : 0.36,
+							"parameter_info" : "Output gain control.",
 							"parameter_initial" : [ -6 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
@@ -2131,7 +2227,7 @@
 					"patching_rect" : [ 269.0, 1146.0, 59.0, 8.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 23.75, 158.0, 140.0, 4.0 ],
-					"slidercolor" : [ 0.141176470588235, 0.141176470588235, 0.141176470588235, 1.0 ]
+					"slidercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 1.0 ]
 				}
 
 			}
@@ -2146,7 +2242,7 @@
 					"patching_rect" : [ 145.0, 1146.0, 67.0, 9.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 23.75, 153.0, 140.0, 4.0 ],
-					"slidercolor" : [ 0.141176470588235, 0.141176470588235, 0.141176470588235, 1.0 ]
+					"slidercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 1.0 ]
 				}
 
 			}
@@ -2200,7 +2296,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 4,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2418,10 +2514,24 @@
 								}
 
 							}
- ]
+ ],
+						"saved_attribute_attributes" : 						{
+							"default_plcolor" : 							{
+								"expression" : ""
+							}
+
+						}
+
 					}
 ,
 					"patching_rect" : [ 1181.0, 894.0, 85.0, 22.0 ],
+					"saved_attribute_attributes" : 					{
+						"default_plcolor" : 						{
+							"expression" : ""
+						}
+
+					}
+,
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -2472,6 +2582,8 @@
 , 			{
 				"box" : 				{
 					"activedialcolor" : [ 0.727056920528412, 0.594957113265991, 0.952508449554443, 1.0 ],
+					"annotation" : "Fine tune pitch in cents.",
+					"annotation_name" : "Player Fine Tune",
 					"fontname" : "Avenir",
 					"id" : "obj-66",
 					"maxclass" : "live.dial",
@@ -2492,8 +2604,10 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "Player Fine Tune",
+							"parameter_info" : "Fine tune pitch in cents.",
 							"parameter_linknames" : 1,
-							"parameter_longname" : "BasicPlayer_FineTune",
+							"parameter_longname" : "Player Fine Tune",
 							"parameter_mmax" : 50.0,
 							"parameter_mmin" : -50.0,
 							"parameter_modmode" : 0,
@@ -2505,7 +2619,7 @@
 
 					}
 ,
-					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ],
+					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"varname" : "Player Fine Tune"
 				}
 
@@ -2513,6 +2627,8 @@
 , 			{
 				"box" : 				{
 					"activedialcolor" : [ 0.727056920528412, 0.594957113265991, 0.952508449554443, 1.0 ],
+					"annotation" : "Change the player's pitch factor.",
+					"annotation_name" : "Player pitch",
 					"fontname" : "Avenir",
 					"id" : "obj-65",
 					"maxclass" : "live.dial",
@@ -2533,6 +2649,8 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "Player pitch",
+							"parameter_info" : "Change the player's pitch factor.",
 							"parameter_linknames" : 1,
 							"parameter_longname" : "BasicPlayer_Pitch",
 							"parameter_mmax" : 24.0,
@@ -2545,7 +2663,7 @@
 
 					}
 ,
-					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ],
+					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"varname" : "Player Pitch"
 				}
 
@@ -2553,6 +2671,8 @@
 , 			{
 				"box" : 				{
 					"activebgoncolor" : [ 0.725490196078431, 0.596078431372549, 0.952941176470588, 1.0 ],
+					"annotation" : "Toggle for looping or one-shot playback modes.",
+					"annotation_name" : "Playback Type",
 					"automation" : "Direct",
 					"automationon" : "Pitch Shift",
 					"fontname" : "Avenir",
@@ -2571,9 +2691,11 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "Playback Type",
 							"parameter_enum" : [ "Direct", "Pitch Shift" ],
+							"parameter_info" : "Toggle for looping or one-shot playback modes.",
 							"parameter_linknames" : 1,
-							"parameter_longname" : "BasicPlayer_TranspoMode",
+							"parameter_longname" : "Player PlayMode",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Transpose",
@@ -2584,7 +2706,7 @@
 ,
 					"text" : "one-shot",
 					"texton" : "looped",
-					"varname" : "Player TranspoMode"
+					"varname" : "Player PlayMode"
 				}
 
 			}
@@ -2600,7 +2722,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 4,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3149,10 +3271,24 @@
 								}
 
 							}
- ]
+ ],
+						"saved_attribute_attributes" : 						{
+							"default_plcolor" : 							{
+								"expression" : ""
+							}
+
+						}
+
 					}
 ,
 					"patching_rect" : [ 1485.0, 843.0, 74.0, 22.0 ],
+					"saved_attribute_attributes" : 					{
+						"default_plcolor" : 						{
+							"expression" : ""
+						}
+
+					}
+,
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -3167,6 +3303,8 @@
 , 			{
 				"box" : 				{
 					"activedialcolor" : [ 0.727056920528412, 0.594957113265991, 0.952508449554443, 1.0 ],
+					"annotation" : "These controls set the length over which an envelope will be applied to the playing slice, based on the total length of that slice.",
+					"annotation_name" : "Player Release",
 					"fontname" : "Avenir",
 					"id" : "obj-15",
 					"maxclass" : "live.dial",
@@ -3187,7 +3325,9 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "Player Release",
 							"parameter_exponent" : 2.0,
+							"parameter_info" : "These controls set the length over which an envelope will be applied to the playing slice, based on the total length of that slice.",
 							"parameter_initial" : [ 0.05 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
@@ -3202,7 +3342,7 @@
 					}
 ,
 					"shownumber" : 0,
-					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ],
+					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"varname" : "Player Release"
 				}
 
@@ -3210,6 +3350,8 @@
 , 			{
 				"box" : 				{
 					"activedialcolor" : [ 0.727056920528412, 0.594957113265991, 0.952508449554443, 1.0 ],
+					"annotation" : "These controls set the length over which an envelope will be applied to the playing slice, based on the total length of that slice.",
+					"annotation_name" : "Player Attack",
 					"fontname" : "Avenir",
 					"id" : "obj-19",
 					"maxclass" : "live.dial",
@@ -3230,7 +3372,9 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "Player Attack",
 							"parameter_exponent" : 3.0,
+							"parameter_info" : "These controls set the length over which an envelope will be applied to the playing slice, based on the total length of that slice.",
 							"parameter_initial" : [ 0.0001 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
@@ -3245,7 +3389,7 @@
 					}
 ,
 					"shownumber" : 0,
-					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ],
+					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"varname" : "Player Attack"
 				}
 
@@ -3265,6 +3409,8 @@
 , 			{
 				"box" : 				{
 					"activetricolor2" : [ 0.725490196078431, 0.596078431372549, 0.952941176470588, 1.0 ],
+					"annotation" : "This is the number of slices that can be playing concurrently. Triggering another slice causes voice stealing.",
+					"annotation_name" : "Voice count",
 					"appearance" : 1,
 					"fontname" : "Avenir",
 					"fontsize" : 9.0,
@@ -3283,6 +3429,8 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "Voice count",
+							"parameter_info" : "This is the number of slices that can be playing concurrently. Triggering another slice causes voice stealing.",
 							"parameter_initial" : [ 16 ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
@@ -3843,7 +3991,14 @@
 				}
 
 			}
- ]
+ ],
+		"saved_attribute_attributes" : 		{
+			"default_plcolor" : 			{
+				"expression" : ""
+			}
+
+		}
+
 	}
 
 }

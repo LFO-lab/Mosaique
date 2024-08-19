@@ -1289,6 +1289,7 @@
 , 			{
 				"box" : 				{
 					"activeneedlecolor" : [ 0.725490196078431, 0.596078431372549, 0.952941176470588, 1.0 ],
+					"annotation" : "Descriptor C normalized coordinate.",
 					"fontname" : "Avenir",
 					"id" : "obj-15",
 					"maxclass" : "live.dial",
@@ -1310,6 +1311,7 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_info" : "Descriptor C normalized coordinate.",
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
@@ -1332,6 +1334,7 @@
 , 			{
 				"box" : 				{
 					"activeneedlecolor" : [ 0.725490196078431, 0.596078431372549, 0.952941176470588, 1.0 ],
+					"annotation" : "Descriptor B normalized coordinate.",
 					"fontname" : "Avenir",
 					"id" : "obj-13",
 					"maxclass" : "live.dial",
@@ -1353,6 +1356,7 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_info" : "Descriptor B normalized coordinate.",
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
@@ -1375,6 +1379,7 @@
 , 			{
 				"box" : 				{
 					"activeneedlecolor" : [ 0.725490196078431, 0.596078431372549, 0.952941176470588, 1.0 ],
+					"annotation" : "Descriptor A normalized coordinate.",
 					"fontname" : "Avenir",
 					"id" : "obj-2",
 					"maxclass" : "live.dial",
@@ -1396,6 +1401,7 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_info" : "Descriptor A normalized coordinate.",
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
@@ -2230,7 +2236,14 @@
 				}
 
 			}
- ]
+ ],
+		"saved_attribute_attributes" : 		{
+			"default_plcolor" : 			{
+				"expression" : ""
+			}
+
+		}
+
 	}
 
 }

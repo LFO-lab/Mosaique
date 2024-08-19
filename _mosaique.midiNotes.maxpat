@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 4,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -262,6 +262,8 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Change this value to set the lowest note number to which the player should respond.",
+					"annotation_name" : "Minimum Note Number",
 					"fontname" : "Avenir Black",
 					"id" : "obj-70",
 					"maxclass" : "live.numbox",
@@ -274,6 +276,8 @@
 					"presentation_rect" : [ 26.75, 15.75, 34.109889894723892, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "Minimum Note Number",
+							"parameter_info" : "Change this value to set the lowest note number to which the player should respond.",
 							"parameter_initial" : [ 60 ],
 							"parameter_invisible" : 1,
 							"parameter_linknames" : 1,
@@ -830,7 +834,14 @@
 				}
 
 			}
- ]
+ ],
+		"saved_attribute_attributes" : 		{
+			"default_plcolor" : 			{
+				"expression" : ""
+			}
+
+		}
+
 	}
 
 }
