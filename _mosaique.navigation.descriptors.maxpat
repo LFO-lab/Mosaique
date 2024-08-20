@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 594.0, 191.0, 1293.0, 983.0 ],
+		"rect" : [ 594.0, 191.0, 906.0, 983.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -555,14 +555,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 68.0, 132.0, 68.0, 21.0 ],
 					"proportion" : 0.39,
-					"rounded" : 0,
-					"saved_attribute_attributes" : 					{
-						"bgfillcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-
+					"rounded" : 0
 				}
 
 			}
@@ -581,14 +574,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 68.0, 88.0, 68.0, 21.0 ],
 					"proportion" : 0.39,
-					"rounded" : 0,
-					"saved_attribute_attributes" : 					{
-						"bgfillcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-
+					"rounded" : 0
 				}
 
 			}
@@ -607,14 +593,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 68.0, 44.0, 68.0, 21.0 ],
 					"proportion" : 0.39,
-					"rounded" : 0,
-					"saved_attribute_attributes" : 					{
-						"bgfillcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-
+					"rounded" : 0
 				}
 
 			}
@@ -656,7 +635,7 @@
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "loudness", "<none>", "spectral", "centroid", "spread", "skewness", "kurtosis", "rolloff", "flatness", "crest", "<none>", "pitch", "pitch", "confidence" ],
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Navigation Descriptor A Type",
+							"parameter_longname" : "Descriptor A Type",
 							"parameter_mmax" : 14,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Descriptor A Type",
@@ -665,7 +644,7 @@
 
 					}
 ,
-					"varname" : "Navigation Descriptor A Type"
+					"varname" : "Descriptor A Type"
 				}
 
 			}
@@ -1180,7 +1159,7 @@
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "loudness", "<none>", "spectral", "centroid", "spread", "skewness", "kurtosis", "rolloff", "flatness", "crest", "<none>", "pitch", "pitch", "confidence" ],
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Navigation Descriptor C Type",
+							"parameter_longname" : "Descriptor C Type",
 							"parameter_mmax" : 14,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Descriptor C Type",
@@ -1189,7 +1168,7 @@
 
 					}
 ,
-					"varname" : "Navigation Descriptor C Type"
+					"varname" : "Descriptor C Type"
 				}
 
 			}
@@ -1219,7 +1198,7 @@
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "loudness", "<none>", "spectral", "centroid", "spread", "skewness", "kurtosis", "rolloff", "flatness", "crest", "<none>", "pitch", "pitch", "confidence" ],
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Navigation Descriptor B Type",
+							"parameter_longname" : "Descriptor B Type",
 							"parameter_mmax" : 14,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Descriptor B Type",
@@ -1228,7 +1207,7 @@
 
 					}
 ,
-					"varname" : "Navigation Descriptor B Type"
+					"varname" : "Descriptor B Type"
 				}
 
 			}
@@ -1309,7 +1288,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"parameter_mappable" : 0,
 					"patching_rect" : [ 716.0, 498.0, 27.0, 38.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 36.5, 123.5, 27.0, 38.0 ],
@@ -1327,7 +1305,7 @@
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Navigation Descriptor C Value",
+							"parameter_longname" : "Descriptor C Value",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 2,
 							"parameter_shortname" : "C",
@@ -1339,7 +1317,7 @@
 ,
 					"showname" : 0,
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "Navigation Descriptor C Value"
+					"varname" : "Descriptor C Value"
 				}
 
 			}
@@ -1354,7 +1332,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"parameter_mappable" : 0,
 					"patching_rect" : [ 394.0, 503.0, 27.0, 38.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 36.5, 79.5, 27.0, 38.0 ],
@@ -1372,7 +1349,7 @@
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Navigation Descriptor B Value",
+							"parameter_longname" : "Descriptor B Value",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 2,
 							"parameter_shortname" : "B",
@@ -1384,7 +1361,7 @@
 ,
 					"showname" : 0,
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "Navigation Descriptor B Value"
+					"varname" : "Descriptor B Value"
 				}
 
 			}
@@ -1399,7 +1376,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"parameter_mappable" : 0,
 					"patching_rect" : [ 72.0, 503.0, 27.0, 38.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 36.5, 35.5, 27.0, 38.0 ],
@@ -1417,7 +1393,7 @@
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Navigation Descriptor A Value",
+							"parameter_longname" : "Descriptor A Value",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 2,
 							"parameter_shortname" : "A",
@@ -1429,7 +1405,7 @@
 ,
 					"showname" : 0,
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "Navigation Descriptor A Value"
+					"varname" : "Descriptor A Value"
 				}
 
 			}
@@ -1473,7 +1449,7 @@
 				"box" : 				{
 					"comment" : "Navigation type (0 for OSC)",
 					"id" : "obj-23",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1498,7 +1474,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-10",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1531,14 +1507,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 26.75, 26.75, 114.5, 135.0 ],
 					"proportion" : 0.39,
-					"rounded" : 4,
-					"saved_attribute_attributes" : 					{
-						"bgfillcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-
+					"rounded" : 4
 				}
 
 			}
@@ -2272,7 +2241,40 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-13" : [ "Descriptor B Value", "B", 0 ],
+			"obj-15" : [ "Descriptor C Value", "C", 0 ],
+			"obj-2" : [ "Descriptor A Value", "A", 0 ],
+			"obj-42" : [ "Descriptor A Type", "Descriptor A Type", 0 ],
+			"obj-45" : [ "Descriptor B Type", "Descriptor B Type", 0 ],
+			"obj-46" : [ "Descriptor C Type", "Descriptor C Type", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "fluid.dataset~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.kdtree~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.list2buf.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
