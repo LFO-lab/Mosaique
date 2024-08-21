@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1090.0, 106.0, 545.0, 1189.0 ],
+		"rect" : [ 1090.0, 106.0, 299.0, 1189.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -530,7 +530,7 @@
 				"box" : 				{
 					"comment" : "Navigation type (0 for OSC)",
 					"id" : "obj-23",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -555,7 +555,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-10",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -615,7 +615,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "Choose the dimensionality of the navigation space.",
-					"annotation_name" : "Coordinate space",
+					"annotation_name" : "Navigation Coordinates",
 					"fontname" : "Avenir Heavy",
 					"id" : "obj-27",
 					"maxclass" : "live.menu",
@@ -628,7 +628,7 @@
 					"presentation_rect" : [ 68.118806958198547, 44.55445222556591, 65.75, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_annotation_name" : "Coordinate space",
+							"parameter_annotation_name" : "Navigation Coordinates",
 							"parameter_enum" : [ "3D", "2D", "2D grid" ],
 							"parameter_info" : "Choose the dimensionality of the navigation space.",
 							"parameter_initial" : [ 0 ],
@@ -708,7 +708,14 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 26.75, 26.75, 114.0, 135.0 ],
 					"proportion" : 0.39,
-					"rounded" : 4
+					"rounded" : 4,
+					"saved_attribute_attributes" : 					{
+						"bgfillcolor" : 						{
+							"expression" : ""
+						}
+
+					}
+
 				}
 
 			}
@@ -964,27 +971,13 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-13" : [ "Navigation Y", "Y", 0 ],
-			"obj-15" : [ "Navigation Z", "Z", 0 ],
-			"obj-2" : [ "Navigation X", "X", 0 ],
-			"obj-27" : [ "Navigation Coordinates", "Coord Type", 0 ],
-			"obj-43" : [ "Navigation Cam Link", "Cam Link", 0 ],
-			"obj-9" : [ "Navigation State", "state", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
+		"saved_attribute_attributes" : 		{
+			"default_plcolor" : 			{
+				"expression" : ""
 			}
-,
-			"inherited_shortname" : 1
+
 		}
-,
-		"dependency_cache" : [  ],
-		"autosave" : 0
+
 	}
 
 }

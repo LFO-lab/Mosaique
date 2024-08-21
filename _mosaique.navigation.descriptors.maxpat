@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 594.0, 191.0, 906.0, 983.0 ],
+		"rect" : [ 594.0, 190.0, 906.0, 983.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-18",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1932.0, 380.0, 38.0, 22.0 ],
+					"text" : "zl.reg"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-19",
 					"maxclass" : "newobj",
@@ -277,7 +289,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1932.0, 384.108346752179557, 53.0, 22.0 ],
+					"patching_rect" : [ 1932.0, 424.0, 53.0, 22.0 ],
 					"text" : "zl.filter 0"
 				}
 
@@ -555,7 +567,14 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 68.0, 132.0, 68.0, 21.0 ],
 					"proportion" : 0.39,
-					"rounded" : 0
+					"rounded" : 0,
+					"saved_attribute_attributes" : 					{
+						"bgfillcolor" : 						{
+							"expression" : ""
+						}
+
+					}
+
 				}
 
 			}
@@ -574,7 +593,14 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 68.0, 88.0, 68.0, 21.0 ],
 					"proportion" : 0.39,
-					"rounded" : 0
+					"rounded" : 0,
+					"saved_attribute_attributes" : 					{
+						"bgfillcolor" : 						{
+							"expression" : ""
+						}
+
+					}
+
 				}
 
 			}
@@ -593,7 +619,14 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 68.0, 44.0, 68.0, 21.0 ],
 					"proportion" : 0.39,
-					"rounded" : 0
+					"rounded" : 0,
+					"saved_attribute_attributes" : 					{
+						"bgfillcolor" : 						{
+							"expression" : ""
+						}
+
+					}
+
 				}
 
 			}
@@ -1449,7 +1482,7 @@
 				"box" : 				{
 					"comment" : "Navigation type (0 for OSC)",
 					"id" : "obj-23",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1474,7 +1507,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-10",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1507,7 +1540,14 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 26.75, 26.75, 114.5, 135.0 ],
 					"proportion" : 0.39,
-					"rounded" : 4
+					"rounded" : 4,
+					"saved_attribute_attributes" : 					{
+						"bgfillcolor" : 						{
+							"expression" : ""
+						}
+
+					}
+
 				}
 
 			}
@@ -1640,7 +1680,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"order" : 0,
+					"source" : [ "obj-172", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-35", 0 ],
+					"order" : 1,
 					"source" : [ "obj-172", 0 ]
 				}
 
@@ -1656,6 +1705,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-122", 0 ],
 					"source" : [ "obj-173", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-71", 0 ],
+					"source" : [ "obj-18", 0 ]
 				}
 
 			}
@@ -2035,7 +2091,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-71", 0 ],
+					"destination" : [ "obj-18", 0 ],
 					"source" : [ "obj-68", 0 ]
 				}
 
@@ -2242,39 +2298,13 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-13" : [ "Descriptor B Value", "B", 0 ],
-			"obj-15" : [ "Descriptor C Value", "C", 0 ],
-			"obj-2" : [ "Descriptor A Value", "A", 0 ],
-			"obj-42" : [ "Descriptor A Type", "Descriptor A Type", 0 ],
-			"obj-45" : [ "Descriptor B Type", "Descriptor B Type", 0 ],
-			"obj-46" : [ "Descriptor C Type", "Descriptor C Type", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
+		"saved_attribute_attributes" : 		{
+			"default_plcolor" : 			{
+				"expression" : ""
+			}
 
-			}
-,
-			"inherited_shortname" : 1
 		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "fluid.dataset~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.kdtree~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.list2buf.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+
 	}
 
 }
