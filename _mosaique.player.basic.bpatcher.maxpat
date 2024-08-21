@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 4,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 237.0, 188.0, 1335.0, 983.0 ],
+		"rect" : [ 237.0, 100.0, 796.0, 983.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,61 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "stopall" ],
+					"patching_rect" : [ 1417.557349920272827, 940.697640776634216, 50.0, 22.0 ],
+					"text" : "t stopall"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"activebgoncolor" : [ 0.725490196078431, 0.596078431372549, 0.952941176470588, 1.0 ],
+					"annotation" : "Toggle for looping or one-shot playback modes.",
+					"annotation_name" : "Player PlayMode",
+					"automation" : "Stop",
+					"automationon" : "All",
+					"fontname" : "Avenir",
+					"id" : "obj-1",
+					"maxclass" : "live.text",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 1417.557349920272827, 900.000062227249146, 71.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 79.399326577782631, 5.619760602712631, 28.701346844434738, 19.760478794574738 ],
+					"saved_attribute_attributes" : 					{
+						"activebgoncolor" : 						{
+							"expression" : ""
+						}
+,
+						"valueof" : 						{
+							"parameter_annotation_name" : "Player PlayMode",
+							"parameter_enum" : [ "Stop", "All" ],
+							"parameter_info" : "Toggle for looping or one-shot playback modes.",
+							"parameter_linknames" : 1,
+							"parameter_longname" : "Player Stop All",
+							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
+							"parameter_shortname" : "Stop All",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"text" : "stop",
+					"texton" : "looped",
+					"varname" : "Player Stop All"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-106",
 					"maxclass" : "newobj",
@@ -84,7 +139,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 4,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -354,13 +409,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 4,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 291.0, 377.0, 852.0, 770.0 ],
+						"rect" : [ 291.0, 313.0, 852.0, 770.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -396,7 +451,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 466.0, 16.0, 71.0, 22.0 ],
+									"patching_rect" : [ 466.0, 16.0, 71.0, 35.0 ],
 									"text" : "r #0_loop"
 								}
 
@@ -1091,7 +1146,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 4,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1305,7 +1360,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 4,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1565,7 +1620,7 @@
 
 					}
 ,
-					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ],
+					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"varname" : "Player Speed"
 				}
 
@@ -1627,7 +1682,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 4,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1831,7 +1886,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 4,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2227,7 +2282,7 @@
 					"patching_rect" : [ 269.0, 1146.0, 59.0, 8.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 23.75, 158.0, 140.0, 4.0 ],
-					"slidercolor" : [ 0.141176470588235, 0.141176470588235, 0.141176470588235, 1.0 ]
+					"slidercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 1.0 ]
 				}
 
 			}
@@ -2242,7 +2297,7 @@
 					"patching_rect" : [ 145.0, 1146.0, 67.0, 9.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 23.75, 153.0, 140.0, 4.0 ],
-					"slidercolor" : [ 0.141176470588235, 0.141176470588235, 0.141176470588235, 1.0 ]
+					"slidercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 1.0 ]
 				}
 
 			}
@@ -2296,7 +2351,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 4,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2607,7 +2662,7 @@
 							"parameter_annotation_name" : "Player Fine Tune",
 							"parameter_info" : "Fine tune pitch in cents.",
 							"parameter_linknames" : 1,
-							"parameter_longname" : "BasicPlayer_FineTune",
+							"parameter_longname" : "Player Fine Tune",
 							"parameter_mmax" : 50.0,
 							"parameter_mmin" : -50.0,
 							"parameter_modmode" : 0,
@@ -2619,7 +2674,7 @@
 
 					}
 ,
-					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ],
+					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"varname" : "Player Fine Tune"
 				}
 
@@ -2663,7 +2718,7 @@
 
 					}
 ,
-					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ],
+					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"varname" : "Player Pitch"
 				}
 
@@ -2684,7 +2739,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1299.0, 765.0, 71.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 21.75, 5.5, 60.0, 20.0 ],
+					"presentation_rect" : [ 21.75, 5.5, 55.649326577782631, 19.987020999193192 ],
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
 							"expression" : ""
@@ -2695,7 +2750,7 @@
 							"parameter_enum" : [ "onde-shot", "looped" ],
 							"parameter_info" : "Toggle for looping or one-shot playback modes.",
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Player Play Mode",
+							"parameter_longname" : "Player PlayMode",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Play Mode",
@@ -2722,7 +2777,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 4,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3342,7 +3397,7 @@
 					}
 ,
 					"shownumber" : 0,
-					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ],
+					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"varname" : "Player Release"
 				}
 
@@ -3389,7 +3444,7 @@
 					}
 ,
 					"shownumber" : 0,
-					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ],
+					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"varname" : "Player Attack"
 				}
 
@@ -3422,7 +3477,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 66.0, 302.0, 41.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 108.5, 7.5, 56.0, 16.0 ],
+					"presentation_rect" : [ 111.080868672579527, 7.5, 53.421725880354643, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"activetricolor2" : 						{
 							"expression" : ""
@@ -3552,6 +3607,13 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-106", 0 ],
 					"midpoints" : [ 1035.5, 978.653929459347637, 783.5, 978.653929459347637 ],
@@ -3819,6 +3881,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-60", 0 ],
 					"source" : [ "obj-45", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-106", 0 ],
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
