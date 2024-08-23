@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -57,6 +57,7 @@
 							"parameter_invisible" : 1,
 							"parameter_longname" : "live.toggle[6]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.toggle",
 							"parameter_type" : 2
 						}
@@ -137,6 +138,7 @@
 							"parameter_longname" : "live.numbox[3]",
 							"parameter_mmax" : 10.0,
 							"parameter_mmin" : 0.1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.numbox[3]",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
@@ -532,6 +534,7 @@
 							"parameter_invisible" : 2,
 							"parameter_longname" : "live.text[6]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text[2]",
 							"parameter_type" : 2
 						}
@@ -638,6 +641,7 @@
 							"parameter_invisible" : 1,
 							"parameter_longname" : "live.toggle[16]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.toggle",
 							"parameter_type" : 2
 						}
@@ -904,6 +908,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "float" ],
 					"parameter_enable" : 1,
+					"parameter_mappable" : 0,
 					"patching_rect" : [ 1724.166666666666515, 632.991390287876129, 100.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 343.478249609470367, 127.260865688323975, 53.913041710853577, 15.0 ],
@@ -913,9 +918,10 @@
 							"parameter_initial" : [ 2 ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_longname" : "live.menu[3]",
+							"parameter_longname" : "Pitch detection algorithm",
 							"parameter_mmax" : 2,
-							"parameter_shortname" : "live.menu",
+							"parameter_modmode" : 0,
+							"parameter_shortname" : "Pitch detection algorithm",
 							"parameter_type" : 2
 						}
 
@@ -947,6 +953,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "float" ],
 					"parameter_enable" : 1,
+					"parameter_mappable" : 0,
 					"patching_rect" : [ 1724.166666666666515, 751.027533352375031, 100.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 343.478249609470367, 96.919254004955292, 31.304346799850464, 15.0 ],
@@ -955,16 +962,17 @@
 							"parameter_enum" : [ "Off", "On" ],
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_longname" : "live.menu[2]",
+							"parameter_invisible" : 2,
+							"parameter_longname" : "Pitch confidence",
 							"parameter_mmax" : 1,
-							"parameter_shortname" : "live.menu",
+							"parameter_modmode" : 0,
+							"parameter_shortname" : "Pitch confidence",
 							"parameter_type" : 2
 						}
 
 					}
 ,
-					"varname" : "live.menu[2]"
+					"varname" : "Pitch confidence"
 				}
 
 			}
@@ -1000,6 +1008,7 @@
 							"parameter_invisible" : 1,
 							"parameter_longname" : "live.toggle[15]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.toggle",
 							"parameter_type" : 2
 						}
@@ -1042,6 +1051,7 @@
 							"parameter_invisible" : 1,
 							"parameter_longname" : "live.toggle[14]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.toggle",
 							"parameter_type" : 2
 						}
@@ -1084,6 +1094,7 @@
 							"parameter_invisible" : 1,
 							"parameter_longname" : "live.toggle[13]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.toggle",
 							"parameter_type" : 2
 						}
@@ -1126,6 +1137,7 @@
 							"parameter_invisible" : 1,
 							"parameter_longname" : "live.toggle[12]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.toggle",
 							"parameter_type" : 2
 						}
@@ -1168,6 +1180,7 @@
 							"parameter_invisible" : 1,
 							"parameter_longname" : "live.toggle[11]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.toggle",
 							"parameter_type" : 2
 						}
@@ -1210,6 +1223,7 @@
 							"parameter_invisible" : 1,
 							"parameter_longname" : "live.toggle[10]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.toggle",
 							"parameter_type" : 2
 						}
@@ -1252,6 +1266,7 @@
 							"parameter_invisible" : 1,
 							"parameter_longname" : "live.toggle[9]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.toggle",
 							"parameter_type" : 2
 						}
@@ -1279,15 +1294,16 @@
 							"parameter_initial" : [ 2 ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_longname" : "live.menu[1]",
+							"parameter_longname" : "True peak",
 							"parameter_mmax" : 2,
-							"parameter_shortname" : "live.menu",
+							"parameter_modmode" : 0,
+							"parameter_shortname" : "True peak",
 							"parameter_type" : 2
 						}
 
 					}
 ,
-					"varname" : "live.menu[1]"
+					"varname" : "True peak"
 				}
 
 			}
@@ -1308,15 +1324,16 @@
 							"parameter_initial" : [ 2 ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_longname" : "live.menu",
+							"parameter_longname" : "Loudness mode",
 							"parameter_mmax" : 2,
-							"parameter_shortname" : "live.menu",
+							"parameter_modmode" : 0,
+							"parameter_shortname" : "Loudness mode",
 							"parameter_type" : 2
 						}
 
 					}
 ,
-					"varname" : "live.menu"
+					"varname" : "Loudness mode"
 				}
 
 			}
@@ -1336,15 +1353,16 @@
 							"parameter_initial" : [ 12 ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_longname" : "live.numbox[2]",
-							"parameter_shortname" : "live.numbox[1]",
+							"parameter_longname" : "Pitch classes",
+							"parameter_modmode" : 0,
+							"parameter_shortname" : "Pitch classes",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
 
 					}
 ,
-					"varname" : "live.numbox[1]"
+					"varname" : "Pitch classes"
 				}
 
 			}
@@ -1392,6 +1410,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
+					"parameter_mappable" : 0,
 					"patching_rect" : [ 2460.0, 678.50946182012558, 44.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 74.388888955116272, 203.549687504768372, 39.255012571811676, 15.0 ],
@@ -1400,15 +1419,16 @@
 							"parameter_initial" : [ 13 ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_longname" : "live.numbox[1]",
-							"parameter_shortname" : "live.numbox[1]",
+							"parameter_longname" : "MFCC Coeff",
+							"parameter_modmode" : 0,
+							"parameter_shortname" : "MFCC Coeff",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
 
 					}
 ,
-					"varname" : "live.numbox"
+					"varname" : "MFCC Coeff"
 				}
 
 			}
@@ -1474,6 +1494,7 @@
 							"parameter_invisible" : 1,
 							"parameter_longname" : "live.toggle[2]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.toggle",
 							"parameter_type" : 2
 						}

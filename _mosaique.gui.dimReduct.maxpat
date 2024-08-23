@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 435.0, 224.0, 1101.0, 859.0 ],
+		"rect" : [ 435.0, 224.0, 562.0, 859.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -80,17 +80,18 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 0.2 ],
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_longname" : "number[5]",
+							"parameter_invisible" : 2,
+							"parameter_longname" : "Learning rate",
 							"parameter_mmax" : 5.0,
-							"parameter_shortname" : "live.numbox",
+							"parameter_modmode" : 0,
+							"parameter_shortname" : "Learning rate",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
 						}
 
 					}
 ,
-					"varname" : "live.menu[3]"
+					"varname" : "Learning rate"
 				}
 
 			}
@@ -110,18 +111,19 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 200 ],
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_longname" : "number[6]",
+							"parameter_invisible" : 2,
+							"parameter_longname" : "Iterations",
 							"parameter_mmax" : 10000.0,
 							"parameter_mmin" : 100.0,
-							"parameter_shortname" : "live.numbox",
+							"parameter_modmode" : 0,
+							"parameter_shortname" : "Iterations",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
 
 					}
 ,
-					"varname" : "live.menu[4]"
+					"varname" : "Iterations"
 				}
 
 			}
@@ -235,17 +237,18 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 0.3 ],
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_longname" : "number[17]",
+							"parameter_invisible" : 2,
+							"parameter_longname" : "Min distance",
 							"parameter_mmax" : 5.0,
-							"parameter_shortname" : "live.numbox",
+							"parameter_modmode" : 0,
+							"parameter_shortname" : "Min distance",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
 						}
 
 					}
 ,
-					"varname" : "live.menu[2]"
+					"varname" : "Min distance"
 				}
 
 			}
@@ -291,17 +294,18 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 25 ],
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_longname" : "number[16]",
+							"parameter_invisible" : 2,
+							"parameter_longname" : "Number of neighbours",
 							"parameter_mmax" : 100.0,
-							"parameter_shortname" : "live.numbox",
+							"parameter_modmode" : 0,
+							"parameter_shortname" : "Number of neighbours",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 5
 						}
 
 					}
 ,
-					"varname" : "live.menu[1]"
+					"varname" : "Number of neighbours"
 				}
 
 			}
@@ -321,17 +325,18 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 3 ],
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_longname" : "number[18]",
+							"parameter_invisible" : 2,
+							"parameter_longname" : "Dimensionality",
 							"parameter_mmax" : 128.0,
-							"parameter_shortname" : "live.numbox",
+							"parameter_modmode" : 0,
+							"parameter_shortname" : "Dimensionality",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
 
 					}
 ,
-					"varname" : "live.menu"
+					"varname" : "Dimensionality"
 				}
 
 			}
