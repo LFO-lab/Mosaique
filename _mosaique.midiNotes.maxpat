@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 754.0, 106.0, 707.0, 1114.0 ],
+		"rect" : [ 754.0, 106.0, 749.0, 1121.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -240,7 +240,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-4",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -307,7 +307,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-20",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -369,6 +369,7 @@
 			}
 , 			{
 				"box" : 				{
+					"activebgcolor" : [ 0.806839227676392, 0.806839227676392, 0.806839168071747, 1.0 ],
 					"annotation" : "Change this value to set the lowest note number to which the player should respond.",
 					"annotation_name" : "Minimum Note Number",
 					"fontname" : "Avenir Black",
@@ -382,13 +383,21 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 26.75, 15.75, 34.109889894723892, 16.0 ],
 					"saved_attribute_attributes" : 					{
+						"activebgcolor" : 						{
+							"expression" : ""
+						}
+,
+						"textcolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Minimum Note Number",
 							"parameter_info" : "Change this value to set the lowest note number to which the player should respond.",
 							"parameter_initial" : [ 60 ],
 							"parameter_invisible" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "MIDI lowest note",
+							"parameter_longname" : "---MIDI_note_min[2]",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "lowest note",
 							"parameter_type" : 0,
@@ -403,6 +412,7 @@
 			}
 , 			{
 				"box" : 				{
+					"activebgcolor" : [ 0.806839227676392, 0.806839227676392, 0.806839168071747, 1.0 ],
 					"fontname" : "Avenir Black",
 					"id" : "obj-67",
 					"ignoreclick" : 1,
@@ -416,6 +426,10 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 26.75, 30.75, 34.109889894723892, 16.0 ],
 					"saved_attribute_attributes" : 					{
+						"activebgcolor" : 						{
+							"expression" : ""
+						}
+,
 						"textcolor" : 						{
 							"expression" : ""
 						}
@@ -423,7 +437,7 @@
 						"valueof" : 						{
 							"parameter_invisible" : 2,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "MIDI highest note",
+							"parameter_longname" : "---MIDI_note_max[2]",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Highest Note",
 							"parameter_type" : 0,
@@ -432,7 +446,6 @@
 
 					}
 ,
-					"textcolor" : [ 0.443137254901961, 0.43921568627451, 0.43921568627451, 1.0 ],
 					"varname" : "MIDI highest note"
 				}
 
@@ -630,6 +643,7 @@
 			}
 , 			{
 				"box" : 				{
+					"activebgcolor" : [ 0.806839227676392, 0.806839227676392, 0.806839168071747, 1.0 ],
 					"fontname" : "Avenir Black",
 					"id" : "obj-25",
 					"ignoreclick" : 1,
@@ -643,6 +657,10 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 26.75, 45.75, 34.109889894723892, 16.0 ],
 					"saved_attribute_attributes" : 					{
+						"activebgcolor" : 						{
+							"expression" : ""
+						}
+,
 						"textcolor" : 						{
 							"expression" : ""
 						}
@@ -650,7 +668,7 @@
 						"valueof" : 						{
 							"parameter_invisible" : 2,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "MIDI velocity layers",
+							"parameter_longname" : "---MIDI_velo_layers",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Velocity Layers",
 							"parameter_type" : 0,
@@ -659,7 +677,6 @@
 
 					}
 ,
-					"textcolor" : [ 0.443137254901961, 0.43921568627451, 0.43921568627451, 1.0 ],
 					"varname" : "MIDI velocity layers"
 				}
 
@@ -689,7 +706,14 @@
 					"patching_rect" : [ 727.631572008132935, 242.763155579566956, 234.269681632518768, 170.22473269701004 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.5, 0.25, 62.5, 63.75 ],
-					"proportion" : 0.39
+					"proportion" : 0.39,
+					"saved_attribute_attributes" : 					{
+						"bgfillcolor" : 						{
+							"expression" : ""
+						}
+
+					}
+
 				}
 
 			}
@@ -1031,29 +1055,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-25" : [ "MIDI velocity layers", "Velocity Layers", 0 ],
-			"obj-67" : [ "MIDI highest note", "Highest Note", 0 ],
-			"obj-70" : [ "MIDI lowest note", "lowest note", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "fluid.dataset~.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
