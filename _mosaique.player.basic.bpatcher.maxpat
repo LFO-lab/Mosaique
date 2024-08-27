@@ -64,12 +64,11 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.725490196078431, 0.596078431372549, 0.952941176470588, 1.0 ],
 					"annotation" : "Toggle for looping or one-shot playback modes.",
 					"annotation_name" : "Player PlayMode",
 					"automation" : "Stop",
 					"automationon" : "All",
-					"fontname" : "Avenir",
+					"fontname" : "Ableton Sans Light",
 					"id" : "obj-1",
 					"maxclass" : "live.text",
 					"mode" : 0,
@@ -81,10 +80,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 79.399326577782631, 5.619760602712631, 28.701346844434738, 19.760478794574738 ],
 					"saved_attribute_attributes" : 					{
-						"activebgoncolor" : 						{
-							"expression" : ""
-						}
-,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Player PlayMode",
 							"parameter_enum" : [ "Stop", "All" ],
@@ -380,10 +375,24 @@
 								}
 
 							}
- ]
+ ],
+						"saved_attribute_attributes" : 						{
+							"default_plcolor" : 							{
+								"expression" : ""
+							}
+
+						}
+
 					}
 ,
 					"patching_rect" : [ 327.0, 608.0, 172.0, 22.0 ],
+					"saved_attribute_attributes" : 					{
+						"default_plcolor" : 						{
+							"expression" : ""
+						}
+
+					}
+,
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1079,10 +1088,24 @@
 								}
 
 							}
- ]
+ ],
+						"saved_attribute_attributes" : 						{
+							"default_plcolor" : 							{
+								"expression" : ""
+							}
+
+						}
+
 					}
 ,
 					"patching_rect" : [ 511.0, 608.0, 151.0, 22.0 ],
+					"saved_attribute_attributes" : 					{
+						"default_plcolor" : 						{
+							"expression" : ""
+						}
+
+					}
+,
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1256,10 +1279,24 @@
 								}
 
 							}
- ]
+ ],
+						"saved_attribute_attributes" : 						{
+							"default_plcolor" : 							{
+								"expression" : ""
+							}
+
+						}
+
 					}
 ,
 					"patching_rect" : [ 913.0, 831.0, 85.0, 22.0 ],
+					"saved_attribute_attributes" : 					{
+						"default_plcolor" : 						{
+							"expression" : ""
+						}
+
+					}
+,
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1323,7 +1360,7 @@
 				"box" : 				{
 					"annotation" : "Toggle on for direct transposition, off for pitch shifting and time stretching",
 					"annotation_name" : "Player Pitch-Speed Link",
-					"fontname" : "Avenir",
+					"fontname" : "Ableton Sans Light",
 					"id" : "obj-8",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -1360,24 +1397,19 @@
 			}
 , 			{
 				"box" : 				{
-					"activedialcolor" : [ 0.727056920528412, 0.594957113265991, 0.952508449554443, 1.0 ],
 					"annotation" : "Read speed of the slice",
 					"annotation_name" : "Player Speed",
-					"fontname" : "Avenir",
+					"fontname" : "Ableton Sans Light",
 					"id" : "obj-7",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1026.0, 858.0, 40.0, 51.0 ],
+					"patching_rect" : [ 1026.0, 858.0, 41.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 23.75, 38.25, 42.864101810380816, 51.0 ],
+					"presentation_rect" : [ 23.75, 38.25, 43.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
-						"activedialcolor" : 						{
-							"expression" : ""
-						}
-,
 						"textcolor" : 						{
 							"expression" : "themecolor.theme_textcolor_inverse"
 						}
@@ -1435,16 +1467,16 @@
 , 			{
 				"box" : 				{
 					"fontface" : 0,
-					"fontname" : "Avenir Black",
-					"fontsize" : 13.0,
+					"fontname" : "Ableton Sans Bold",
+					"fontsize" : 16.0,
 					"id" : "obj-161",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -56.0, 935.0, 82.0, 24.0 ],
+					"patching_rect" : [ -56.0, 935.0, 97.0, 26.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 6,
-					"presentation_rect" : [ 2.0, 28.0, 21.0, 113.0 ],
+					"presentation_rect" : [ -0.25, 22.25, 22.0, 122.0 ],
 					"text" : "PLAYER",
 					"textcolor" : [ 0.945098039215686, 0.933333333333333, 0.933333333333333, 1.0 ],
 					"textjustification" : 1
@@ -1626,10 +1658,24 @@
 								}
 
 							}
- ]
+ ],
+						"saved_attribute_attributes" : 						{
+							"default_plcolor" : 							{
+								"expression" : ""
+							}
+
+						}
+
 					}
 ,
 					"patching_rect" : [ 229.0, 1115.0, 41.0, 22.0 ],
+					"saved_attribute_attributes" : 					{
+						"default_plcolor" : 						{
+							"expression" : ""
+						}
+
+					}
+,
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1816,10 +1862,24 @@
 								}
 
 							}
- ]
+ ],
+						"saved_attribute_attributes" : 						{
+							"default_plcolor" : 							{
+								"expression" : ""
+							}
+
+						}
+
 					}
 ,
 					"patching_rect" : [ 122.0, 1111.0, 41.0, 22.0 ],
+					"saved_attribute_attributes" : 					{
+						"default_plcolor" : 						{
+							"expression" : ""
+						}
+
+					}
+,
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1833,24 +1893,19 @@
 			}
 , 			{
 				"box" : 				{
-					"activedialcolor" : [ 0.725490196078431, 0.596078431372549, 0.952941176470588, 1.0 ],
 					"annotation" : "Output gain control.",
 					"annotation_name" : "Player Output Gain",
-					"fontname" : "Avenir",
+					"fontname" : "Ableton Sans Light",
 					"id" : "obj-148",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 66.0, 1045.0, 40.0, 51.0 ],
+					"patching_rect" : [ 66.0, 1045.0, 41.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 119.25, 96.25, 40.0, 51.0 ],
+					"presentation_rect" : [ 119.25, 96.25, 40.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
-						"activedialcolor" : 						{
-							"expression" : ""
-						}
-,
 						"textcolor" : 						{
 							"expression" : ""
 						}
@@ -2322,10 +2377,24 @@
 								}
 
 							}
- ]
+ ],
+						"saved_attribute_attributes" : 						{
+							"default_plcolor" : 							{
+								"expression" : ""
+							}
+
+						}
+
 					}
 ,
 					"patching_rect" : [ 1181.0, 894.0, 85.0, 22.0 ],
+					"saved_attribute_attributes" : 					{
+						"default_plcolor" : 						{
+							"expression" : ""
+						}
+
+					}
+,
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -2340,15 +2409,15 @@
 , 			{
 				"box" : 				{
 					"fontface" : 0,
-					"fontname" : "Avenir Heavy",
-					"fontsize" : 7.5,
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 9.5,
 					"id" : "obj-33",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1177.0, 731.0, 102.0, 17.0 ],
+					"patching_rect" : [ 1177.0, 731.0, 121.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 23.25, 24.25, 139.75, 17.0 ],
+					"presentation_rect" : [ 24.5, 24.25, 138.5, 18.0 ],
 					"text" : "TRANSPOSE",
 					"textcolor" : [ 0.870588235294118, 0.850980392156863, 0.850980392156863, 1.0 ],
 					"textjustification" : 1
@@ -2358,15 +2427,15 @@
 , 			{
 				"box" : 				{
 					"fontface" : 0,
-					"fontname" : "Avenir Heavy",
-					"fontsize" : 7.5,
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 9.5,
 					"id" : "obj-31",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1485.0, 753.0, 101.0, 17.0 ],
+					"patching_rect" : [ 1485.0, 753.0, 118.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.0, 92.0, 89.0, 17.0 ],
+					"presentation_rect" : [ 24.0, 92.0, 88.75, 18.0 ],
 					"text" : "ENVELOPPE",
 					"textcolor" : [ 0.870588235294118, 0.850980392156863, 0.850980392156863, 1.0 ],
 					"textjustification" : 1
@@ -2375,24 +2444,19 @@
 			}
 , 			{
 				"box" : 				{
-					"activedialcolor" : [ 0.727056920528412, 0.594957113265991, 0.952508449554443, 1.0 ],
 					"annotation" : "Fine tune pitch in cents.",
 					"annotation_name" : "Player Fine Tune",
-					"fontname" : "Avenir",
+					"fontname" : "Ableton Sans Light",
 					"id" : "obj-66",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1247.0, 829.0, 27.0, 51.0 ],
+					"patching_rect" : [ 1247.0, 829.0, 29.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 116.5, 38.5, 45.553689450025558, 51.0 ],
+					"presentation_rect" : [ 116.5, 38.5, 48.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
-						"activedialcolor" : 						{
-							"expression" : ""
-						}
-,
 						"textcolor" : 						{
 							"expression" : "themecolor.theme_textcolor_inverse"
 						}
@@ -2420,24 +2484,19 @@
 			}
 , 			{
 				"box" : 				{
-					"activedialcolor" : [ 0.727056920528412, 0.594957113265991, 0.952508449554443, 1.0 ],
 					"annotation" : "Change the player's pitch factor.",
 					"annotation_name" : "Player pitch",
-					"fontname" : "Avenir",
+					"fontname" : "Ableton Sans Light",
 					"id" : "obj-65",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1181.0, 829.0, 40.0, 51.0 ],
+					"patching_rect" : [ 1181.0, 829.0, 41.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 77.0, 38.5, 49.494947075843811, 51.0 ],
+					"presentation_rect" : [ 77.0, 38.5, 50.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
-						"activedialcolor" : 						{
-							"expression" : ""
-						}
-,
 						"textcolor" : 						{
 							"expression" : "themecolor.theme_textcolor_inverse"
 						}
@@ -2464,12 +2523,11 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.725490196078431, 0.596078431372549, 0.952941176470588, 1.0 ],
 					"annotation" : "Toggle for looping or one-shot playback modes.",
 					"annotation_name" : "Player PlayMode",
 					"automation" : "onde-shot",
 					"automationon" : "looped",
-					"fontname" : "Avenir",
+					"fontname" : "Ableton Sans Light",
 					"id" : "obj-62",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -2480,10 +2538,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 21.75, 5.5, 55.649326577782631, 19.987020999193192 ],
 					"saved_attribute_attributes" : 					{
-						"activebgoncolor" : 						{
-							"expression" : ""
-						}
-,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Player PlayMode",
 							"parameter_enum" : [ "onde-shot", "looped" ],
@@ -3065,10 +3119,24 @@
 								}
 
 							}
- ]
+ ],
+						"saved_attribute_attributes" : 						{
+							"default_plcolor" : 							{
+								"expression" : ""
+							}
+
+						}
+
 					}
 ,
 					"patching_rect" : [ 1485.0, 843.0, 74.0, 22.0 ],
+					"saved_attribute_attributes" : 					{
+						"default_plcolor" : 						{
+							"expression" : ""
+						}
+
+					}
+,
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -3082,24 +3150,19 @@
 			}
 , 			{
 				"box" : 				{
-					"activedialcolor" : [ 0.727056920528412, 0.594957113265991, 0.952508449554443, 1.0 ],
 					"annotation" : "These controls set the length over which an envelope will be applied to the playing slice, based on the total length of that slice.",
 					"annotation_name" : "Player Release",
-					"fontname" : "Avenir",
+					"fontname" : "Ableton Sans Light",
 					"id" : "obj-15",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1539.0, 785.0, 27.0, 40.0 ],
+					"patching_rect" : [ 1539.0, 785.0, 29.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 70.0, 107.0, 39.0, 40.0 ],
+					"presentation_rect" : [ 70.0, 107.0, 42.0, 39.0 ],
 					"saved_attribute_attributes" : 					{
-						"activedialcolor" : 						{
-							"expression" : ""
-						}
-,
 						"textcolor" : 						{
 							"expression" : "themecolor.theme_textcolor_inverse"
 						}
@@ -3129,24 +3192,19 @@
 			}
 , 			{
 				"box" : 				{
-					"activedialcolor" : [ 0.727056920528412, 0.594957113265991, 0.952508449554443, 1.0 ],
 					"annotation" : "These controls set the length over which an envelope will be applied to the playing slice, based on the total length of that slice.",
 					"annotation_name" : "Player Attack",
-					"fontname" : "Avenir",
+					"fontname" : "Ableton Sans Light",
 					"id" : "obj-19",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1485.0, 785.0, 27.0, 40.0 ],
+					"patching_rect" : [ 1485.0, 785.0, 29.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 28.0, 107.0, 39.649635035544634, 40.0 ],
+					"presentation_rect" : [ 28.0, 107.0, 42.0, 39.0 ],
 					"saved_attribute_attributes" : 					{
-						"activedialcolor" : 						{
-							"expression" : ""
-						}
-,
 						"textcolor" : 						{
 							"expression" : "themecolor.theme_textcolor_inverse"
 						}
@@ -3188,11 +3246,10 @@
 			}
 , 			{
 				"box" : 				{
-					"activetricolor2" : [ 0.725490196078431, 0.596078431372549, 0.952941176470588, 1.0 ],
 					"annotation" : "This is the number of slices that can be playing concurrently. Triggering another slice causes voice stealing.",
 					"annotation_name" : "Voice count",
 					"appearance" : 1,
-					"fontname" : "Avenir",
+					"fontname" : "Ableton Sans Light",
 					"fontsize" : 9.0,
 					"id" : "obj-45",
 					"maxclass" : "live.numbox",
@@ -3200,14 +3257,10 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 66.0, 302.0, 41.0, 16.0 ],
+					"patching_rect" : [ 66.0, 302.0, 41.0, 14.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 111.080868672579527, 7.5, 53.421725880354643, 16.0 ],
+					"presentation_rect" : [ 111.0, 8.5, 53.0, 14.0 ],
 					"saved_attribute_attributes" : 					{
-						"activetricolor2" : 						{
-							"expression" : ""
-						}
-,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Voice count",
 							"parameter_info" : "This is the number of slices that can be playing concurrently. Triggering another slice causes voice stealing.",
@@ -3785,7 +3838,14 @@
 				}
 
 			}
- ]
+ ],
+		"saved_attribute_attributes" : 		{
+			"default_plcolor" : 			{
+				"expression" : ""
+			}
+
+		}
+
 	}
 
 }
