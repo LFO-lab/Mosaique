@@ -40,6 +40,30 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "multichannelsignal" ],
+					"patching_rect" : [ -648.0, 958.0, 114.0, 22.0 ],
+					"text" : "mc.sig~ @chans 32"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-20",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ -622.5, 921.0, 65.0, 22.0 ],
+					"text" : "spread 0 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-16",
 					"maxclass" : "live.slider",
 					"numinlets" : 1,
@@ -47,18 +71,18 @@
 					"orientation" : 1,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ -469.500000000000227, 375.0, 50.0, 41.0 ],
+					"patching_rect" : [ -536.0, 954.0, 50.0, 41.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 26.5, 118.5, 83.0, 41.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "x",
+							"parameter_longname" : "X axis scanning frequency",
 							"parameter_mmax" : 1000.0,
 							"parameter_modmode" : 3,
-							"parameter_shortname" : "x",
+							"parameter_shortname" : "x freq",
 							"parameter_type" : 0,
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 1
 						}
 
 					}
@@ -75,18 +99,18 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ -409.0, 317.0, 39.0, 95.0 ],
+					"patching_rect" : [ -230.0, 831.0, 39.0, 95.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 94.5, 33.888886630535126, 39.0, 95.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "y",
+							"parameter_longname" : "Y axis scanning frequency",
 							"parameter_mmax" : 1000.0,
 							"parameter_modmode" : 3,
-							"parameter_shortname" : "y",
+							"parameter_shortname" : "y freq",
 							"parameter_type" : 0,
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 1
 						}
 
 					}
@@ -165,7 +189,7 @@
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "resonance",
+							"parameter_longname" : "Filter resonance",
 							"parameter_mmax" : 100.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Q",
@@ -196,7 +220,7 @@
 							"parameter_initial" : [ 20000 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "cutoff",
+							"parameter_longname" : "Filter Cutoff",
 							"parameter_mmax" : 20000.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Cutoff",
@@ -232,7 +256,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 33.0, 661.0, 44.0, 15.0 ],
+					"patching_rect" : [ 61.0, 645.0, 44.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 146.404897898435593, 143.5, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
@@ -350,7 +374,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ -32.0, 723.0, 29.5, 22.0 ],
+					"patching_rect" : [ -8.0, 681.0, 29.5, 22.0 ],
 					"text" : "+ 0."
 				}
 
@@ -362,7 +386,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "float" ],
-					"patching_rect" : [ -68.0, 696.0, 29.5, 22.0 ],
+					"patching_rect" : [ -8.0, 641.0, 29.5, 22.0 ],
 					"text" : "t b f"
 				}
 
@@ -410,7 +434,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ -101.75, 764.5, 41.0, 22.0 ],
+					"patching_rect" : [ -31.0, 749.0, 41.0, 22.0 ],
 					"text" : "pak f f"
 				}
 
@@ -448,13 +472,13 @@
 					"orientation" : 1,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ -32.0, 552.0, 98.0, 41.0 ],
+					"patching_rect" : [ -31.0, 526.0, 98.0, 41.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 132.0, 60.888886630535126, 51.0, 41.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Table_index",
+							"parameter_longname" : "Wavetable Start Index",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "Table Index",
@@ -522,7 +546,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 3,
 					"outlettype" : [ "multichannelsignal", "", "" ],
-					"patching_rect" : [ -684.0, 1089.0, 463.0, 22.0 ],
+					"patching_rect" : [ -684.0, 1089.0, 478.0, 22.0 ],
 					"text" : "mc.poly~ _mosaique.player.wavetable.poly.maxpat @args #1 @parallel 1 @voices 32"
 				}
 
@@ -974,7 +998,7 @@
 							"parameter_initial" : [ -6 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "MorphPlayer_Gain",
+							"parameter_longname" : "Player Gain",
 							"parameter_mmax" : 12.0,
 							"parameter_mmin" : -70.0,
 							"parameter_modmode" : 0,
@@ -1720,7 +1744,7 @@
 							"parameter_initial" : [ 200.333491063309253 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "MorphPlayer_Release",
+							"parameter_longname" : "Player Release",
 							"parameter_mmax" : 10000.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Release",
@@ -1763,7 +1787,7 @@
 							"parameter_initial" : [ 100.366301165657859 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "MorphPlayer_Attack",
+							"parameter_longname" : "Player Attack",
 							"parameter_mmax" : 10000.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Attack",
@@ -1932,7 +1956,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 2,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "MorphPlayer_VoiceNum",
+							"parameter_longname" : "Player Voice Count",
 							"parameter_mmax" : 32.0,
 							"parameter_mmin" : 32.0,
 							"parameter_modmode" : 0,
@@ -2050,7 +2074,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 142.857141494750977, 192.0, 1522.0, 1046.0 ],
+					"patching_rect" : [ 177.0, 189.0, 1522.0, 1046.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, -0.518515944480896, 311.0, 169.0 ],
 					"proportion" : 0.5,
@@ -2081,6 +2105,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-102", 0 ]
 				}
 
 			}
@@ -2180,6 +2211,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-7", 1 ],
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-171", 0 ],
 					"order" : 1,
 					"source" : [ "obj-172", 0 ]
@@ -2269,6 +2307,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"source" : [ "obj-20", 0 ]
 				}
 
 			}
@@ -2560,7 +2605,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-63", 1 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-85", 0 ]
 				}
 
@@ -2568,7 +2613,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-92", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-85", 0 ]
 				}
 
@@ -2634,7 +2679,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-184", 0 ],
-					"order" : 1,
+					"order" : 2,
+					"source" : [ "obj-9", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"order" : 0,
 					"source" : [ "obj-9", 1 ]
 				}
 
@@ -2643,7 +2696,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-44", 0 ],
 					"midpoints" : [ -1265.16665518283844, 793.631245136260986, -921.548972288767573, 793.631245136260986, -921.548972288767573, 793.631236910820007, -835.5, 793.631236910820007 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-9", 1 ]
 				}
 
