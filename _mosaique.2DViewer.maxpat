@@ -110,7 +110,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 50.0, 150.0, 163.0, 163.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 4.75, 158.5, 157.930801369249821 ]
+					"presentation_rect" : [ 0.0, 0.0, 161.0, 160.0 ]
 				}
 
 			}
@@ -5419,7 +5419,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "bang" ],
 									"patching_rect" : [ 1120.533012390136719, 338.0, 30.0, 30.0 ]
 								}
 
@@ -5798,7 +5798,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 50.0, 40.0, 30.0, 30.0 ]
 				}
 
