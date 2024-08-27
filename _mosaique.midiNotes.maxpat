@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 881.0, 501.0, 749.0, 1121.0 ],
+		"rect" : [ 881.0, 174.0, 749.0, 1121.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -208,16 +208,16 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Avenir Heavy",
+					"fontface" : 0,
+					"fontname" : "Ableton Sans Bold",
 					"fontsize" : 9.5,
 					"id" : "obj-8",
-					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 65.75, 18.75, 26.0, 58.0 ],
+					"patching_rect" : [ 65.75, 18.75, 50.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.75, -0.75, 52.0, 19.0 ],
+					"presentation_rect" : [ 6.75, -0.75, 50.0, 18.0 ],
 					"text" : "MIDI map",
 					"textcolor" : [ 0.831372549019608, 0.831372549019608, 0.831372549019608, 1.0 ],
 					"textjustification" : 1
@@ -251,15 +251,15 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Avenir",
+					"fontname" : "Ableton Sans Light",
 					"fontsize" : 9.5,
 					"id" : "obj-5",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 538.815784335136414, 472.368416547775269, 56.0, 19.0 ],
+					"patching_rect" : [ 538.815784335136414, 472.368416547775269, 55.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -1.5, 45.75, 33.0, 19.0 ],
+					"presentation_rect" : [ -1.5, 45.75, 32.0, 18.0 ],
 					"text" : "layers",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
@@ -352,15 +352,15 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Avenir",
+					"fontname" : "Ableton Sans Light",
 					"fontsize" : 9.5,
 					"id" : "obj-69",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 403.0, 180.5, 25.0, 19.0 ],
+					"patching_rect" : [ 403.0, 180.5, 24.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.5, 14.75, 25.0, 19.0 ],
+					"presentation_rect" : [ 4.5, 14.75, 24.0, 18.0 ],
 					"text" : "min",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
@@ -372,16 +372,16 @@
 					"activebgcolor" : [ 0.806839227676392, 0.806839227676392, 0.806839168071747, 1.0 ],
 					"annotation" : "Change this value to set the lowest note number to which the player should respond.",
 					"annotation_name" : "Minimum Note Number",
-					"fontname" : "Avenir Black",
+					"fontname" : "Ableton Sans Bold",
 					"id" : "obj-70",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 356.0, 182.0, 45.0, 16.0 ],
+					"patching_rect" : [ 356.0, 182.0, 51.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 26.75, 15.75, 34.109889894723892, 16.0 ],
+					"presentation_rect" : [ 26.75, 16.736842105263158, 35.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -406,6 +406,7 @@
 
 					}
 ,
+					"textcolor" : [ 0.070588235294118, 0.070588235294118, 0.070588235294118, 1.0 ],
 					"varname" : "MIDI lowest note"
 				}
 
@@ -413,7 +414,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.806839227676392, 0.806839227676392, 0.806839168071747, 1.0 ],
-					"fontname" : "Avenir Black",
+					"fontname" : "Ableton Sans Bold",
 					"id" : "obj-67",
 					"ignoreclick" : 1,
 					"maxclass" : "live.numbox",
@@ -422,9 +423,9 @@
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 151.263156592845917, 925.0, 46.0, 16.0 ],
+					"patching_rect" : [ 151.263156592845917, 925.0, 52.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 26.75, 30.75, 34.109889894723892, 16.0 ],
+					"presentation_rect" : [ 26.75, 31.736842105263158, 35.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -446,21 +447,22 @@
 
 					}
 ,
+					"textcolor" : [ 0.070588235294118, 0.070588235294118, 0.070588235294118, 1.0 ],
 					"varname" : "MIDI highest note"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Avenir",
+					"fontname" : "Ableton Sans Light",
 					"fontsize" : 9.5,
 					"id" : "obj-68",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 118.263156592845917, 923.0, 26.0, 19.0 ],
+					"patching_rect" : [ 118.263156592845917, 923.0, 25.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 28.75, 26.0, 19.0 ],
+					"presentation_rect" : [ 4.0, 28.75, 25.0, 18.0 ],
 					"text" : "max",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
@@ -626,15 +628,15 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Avenir",
+					"fontname" : "Ableton Sans Light",
 					"fontsize" : 9.5,
 					"id" : "obj-26",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 538.815784335136414, 458.552627205848694, 56.0, 19.0 ],
+					"patching_rect" : [ 538.815784335136414, 458.552627205848694, 54.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.5, 39.25, 27.0, 19.0 ],
+					"presentation_rect" : [ 1.5, 39.25, 26.0, 18.0 ],
 					"text" : "velo",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
@@ -644,7 +646,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.806839227676392, 0.806839227676392, 0.806839168071747, 1.0 ],
-					"fontname" : "Avenir Black",
+					"fontname" : "Ableton Sans Bold",
 					"id" : "obj-25",
 					"ignoreclick" : 1,
 					"maxclass" : "live.numbox",
@@ -653,9 +655,9 @@
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 492.105258464813232, 461.184206128120422, 45.0, 16.0 ],
+					"patching_rect" : [ 492.105258464813232, 461.184206128120422, 47.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 26.75, 45.75, 34.109889894723892, 16.0 ],
+					"presentation_rect" : [ 26.75, 45.75, 35.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -677,6 +679,7 @@
 
 					}
 ,
+					"textcolor" : [ 0.070588235294118, 0.070588235294118, 0.070588235294118, 1.0 ],
 					"varname" : "MIDI velocity layers"
 				}
 
@@ -1055,7 +1058,14 @@
 				}
 
 			}
- ]
+ ],
+		"saved_attribute_attributes" : 		{
+			"default_plcolor" : 			{
+				"expression" : ""
+			}
+
+		}
+
 	}
 
 }
