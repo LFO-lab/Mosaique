@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1090.0, 106.0, 299.0, 1189.0 ],
+		"rect" : [ 372.0, 106.0, 299.0, 1189.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -88,17 +88,24 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Avenir",
+					"fontname" : "Ableton Sans Light",
 					"fontsize" : 9.5,
 					"id" : "obj-12",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 995.0, 502.0, 29.0, 19.0 ],
+					"patching_rect" : [ 995.0, 502.0, 29.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 86.559403479099274, 73.5, 29.0, 19.0 ],
+					"presentation_rect" : [ 87.0, 74.0, 29.0, 18.0 ],
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : "themecolor.live_control_fg"
+						}
+
+					}
+,
 					"text" : "state",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor" : [ 0.070588235294118, 0.070588235294118, 0.070588235294118, 1.0 ]
 				}
 
 			}
@@ -174,49 +181,70 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Avenir Black",
+					"fontname" : "Ableton Sans Bold",
 					"fontsize" : 8.0,
 					"id" : "obj-24",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 933.0, 469.0, 19.0, 17.0 ],
+					"patching_rect" : [ 933.0, 469.0, 19.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 43.5, 137.0, 16.0, 17.0 ],
+					"presentation_rect" : [ 44.5, 137.0, 15.0, 16.0 ],
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : "themecolor.live_control_fg"
+						}
+
+					}
+,
 					"text" : "Z",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor" : [ 0.070588235294118, 0.070588235294118, 0.070588235294118, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Avenir Black",
+					"fontname" : "Ableton Sans Bold",
 					"fontsize" : 8.0,
 					"id" : "obj-21",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 859.0, 470.0, 19.0, 17.0 ],
+					"patching_rect" : [ 859.0, 470.0, 19.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 43.0, 93.0, 16.0, 17.0 ],
+					"presentation_rect" : [ 44.0, 93.0, 15.0, 16.0 ],
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : "themecolor.live_control_fg"
+						}
+
+					}
+,
 					"text" : "Y",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor" : [ 0.070588235294118, 0.070588235294118, 0.070588235294118, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Avenir Black",
+					"fontname" : "Ableton Sans Bold",
 					"fontsize" : 8.0,
 					"id" : "obj-8",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 785.0, 470.0, 19.0, 17.0 ],
+					"patching_rect" : [ 785.0, 470.0, 19.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 43.0, 49.0, 16.0, 17.0 ],
+					"presentation_rect" : [ 44.0, 49.0, 15.0, 16.0 ],
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : "themecolor.live_control_fg"
+						}
+
+					}
+,
 					"text" : "X",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor" : [ 0.070588235294118, 0.070588235294118, 0.070588235294118, 1.0 ]
 				}
 
 			}
@@ -226,7 +254,6 @@
 					"annotation_name" : "State button",
 					"automation" : "off",
 					"automationon" : "on",
-					"fontname" : "Avenir",
 					"hint" : "This button toggles playback for players like Granular and Morph.",
 					"id" : "obj-9",
 					"maxclass" : "live.text",
@@ -260,26 +287,22 @@
 			}
 , 			{
 				"box" : 				{
-					"activeneedlecolor" : [ 0.725490196078431, 0.596078431372549, 0.952941176470588, 1.0 ],
+					"activeneedlecolor" : [ 0.0, 0.933333333333333, 1.0, 1.0 ],
 					"annotation" : "\"Z Axis Coordinates\"",
 					"annotation_name" : "Z Axis Coordinates",
-					"fontname" : "Avenir",
+					"fontname" : "Ableton Sans Light",
 					"id" : "obj-15",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 921.0, 489.0, 27.0, 44.0 ],
+					"patching_rect" : [ 921.0, 489.0, 29.0, 43.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 36.5, 117.5, 27.0, 44.0 ],
+					"presentation_rect" : [ 36.5, 117.5, 29.0, 43.0 ],
 					"saved_attribute_attributes" : 					{
 						"activeneedlecolor" : 						{
-							"expression" : ""
-						}
-,
-						"textcolor" : 						{
-							"expression" : ""
+							"expression" : "themecolor.live_value_arc"
 						}
 ,
 						"valueof" : 						{
@@ -300,7 +323,6 @@
 					}
 ,
 					"showname" : 0,
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"triangle" : 1,
 					"varname" : "Navigation Z"
 				}
@@ -308,26 +330,22 @@
 			}
 , 			{
 				"box" : 				{
-					"activeneedlecolor" : [ 0.725490196078431, 0.596078431372549, 0.952941176470588, 1.0 ],
+					"activeneedlecolor" : [ 0.0, 0.933333333333333, 1.0, 1.0 ],
 					"annotation" : "\"Y Axis Coordinates\"",
 					"annotation_name" : "Y Axis Coordinates",
-					"fontname" : "Avenir",
+					"fontname" : "Ableton Sans Light",
 					"id" : "obj-13",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 847.0, 489.0, 27.0, 44.0 ],
+					"patching_rect" : [ 847.0, 489.0, 29.0, 43.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 36.5, 73.5, 27.0, 44.0 ],
+					"presentation_rect" : [ 36.5, 73.5, 29.0, 43.0 ],
 					"saved_attribute_attributes" : 					{
 						"activeneedlecolor" : 						{
-							"expression" : ""
-						}
-,
-						"textcolor" : 						{
-							"expression" : ""
+							"expression" : "themecolor.live_value_arc"
 						}
 ,
 						"valueof" : 						{
@@ -348,7 +366,6 @@
 					}
 ,
 					"showname" : 0,
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"triangle" : 1,
 					"varname" : "Navigation Y"
 				}
@@ -356,26 +373,22 @@
 			}
 , 			{
 				"box" : 				{
-					"activeneedlecolor" : [ 0.725490196078431, 0.596078431372549, 0.952941176470588, 1.0 ],
+					"activeneedlecolor" : [ 0.0, 0.933333333333333, 1.0, 1.0 ],
 					"annotation" : "\"X Axis Coordinates\"",
 					"annotation_name" : "X Axis Coordinates",
-					"fontname" : "Avenir",
+					"fontname" : "Ableton Sans Light",
 					"id" : "obj-2",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 773.0, 489.0, 27.0, 44.0 ],
+					"patching_rect" : [ 773.0, 489.0, 29.0, 43.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 36.5, 29.5, 27.0, 44.0 ],
+					"presentation_rect" : [ 36.5, 29.5, 29.0, 43.0 ],
 					"saved_attribute_attributes" : 					{
 						"activeneedlecolor" : 						{
-							"expression" : ""
-						}
-,
-						"textcolor" : 						{
-							"expression" : ""
+							"expression" : "themecolor.live_value_arc"
 						}
 ,
 						"valueof" : 						{
@@ -396,7 +409,6 @@
 					}
 ,
 					"showname" : 0,
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"triangle" : 1,
 					"varname" : "Navigation X"
 				}
@@ -404,17 +416,24 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Avenir",
+					"fontname" : "Ableton Sans Light",
 					"fontsize" : 9.5,
 					"id" : "obj-1",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 330.0, 336.0, 58.0, 19.0 ],
+					"patching_rect" : [ 330.0, 336.0, 57.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 71.993806958198547, 29.5, 58.0, 19.0 ],
+					"presentation_rect" : [ 72.0, 31.5, 57.0, 18.0 ],
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : "themecolor.live_control_fg"
+						}
+
+					}
+,
 					"text" : "coordinates",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor" : [ 0.070588235294118, 0.070588235294118, 0.070588235294118, 1.0 ]
 				}
 
 			}
@@ -616,16 +635,16 @@
 				"box" : 				{
 					"annotation" : "Choose the dimensionality of the navigation space.",
 					"annotation_name" : "Navigation Coordinates",
-					"fontname" : "Avenir Heavy",
+					"fontname" : "Ableton Sans Bold",
 					"id" : "obj-27",
 					"maxclass" : "live.menu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 309.0, 357.0, 100.0, 16.0 ],
+					"patching_rect" : [ 309.0, 357.0, 100.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 68.118806958198547, 44.55445222556591, 65.75, 16.0 ],
+					"presentation_rect" : [ 68.118806958198547, 44.55445222556591, 65.75, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Navigation Coordinates",

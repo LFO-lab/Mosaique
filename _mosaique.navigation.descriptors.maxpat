@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 594.0, 190.0, 906.0, 983.0 ],
+		"rect" : [ 64.0, 132.0, 906.0, 983.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -522,33 +522,47 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Avenir",
+					"fontname" : "Ableton Sans Light",
 					"fontsize" : 8.0,
 					"id" : "obj-64",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1507.5, 142.0, 54.0, 17.0 ],
+					"patching_rect" : [ 1507.5, 142.0, 52.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 75.5, 117.75, 54.0, 17.0 ],
+					"presentation_rect" : [ 75.5, 117.75, 52.0, 16.0 ],
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : "themecolor.live_control_fg"
+						}
+
+					}
+,
 					"text" : "Descriptor C",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor" : [ 0.070588235294118, 0.070588235294118, 0.070588235294118, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Avenir",
+					"fontname" : "Ableton Sans Light",
 					"fontsize" : 8.0,
 					"id" : "obj-63",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1273.5, 142.0, 53.0, 17.0 ],
+					"patching_rect" : [ 1273.5, 142.0, 52.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 75.5, 73.75, 53.0, 17.0 ],
+					"presentation_rect" : [ 75.5, 73.75, 52.0, 16.0 ],
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : "themecolor.live_control_fg"
+						}
+
+					}
+,
 					"text" : "Descriptor B",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor" : [ 0.070588235294118, 0.070588235294118, 0.070588235294118, 1.0 ]
 				}
 
 			}
@@ -652,7 +666,7 @@
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"bgfillcolor_proportion" : 0.5,
 					"bgfillcolor_type" : "color",
-					"fontname" : "Avenir",
+					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
 					"id" : "obj-42",
 					"items" : [ "off", ",", "loudness", ",", "-", ",", "spectral", ",", "centroid", ",", "spread", ",", "skewness", ",", "kurtosis", ",", "rolloff", ",", "flatness", ",", "crest", ",", "-", ",", "pitch", ",", "pitch", ",", "confidence" ],
@@ -661,9 +675,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1015.5, 161.0, 100.0, 21.0 ],
+					"patching_rect" : [ 1015.5, 161.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 68.0, 44.0, 68.0, 21.0 ],
+					"presentation_rect" : [ 68.0, 44.0, 68.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "loudness", "<none>", "spectral", "centroid", "spread", "skewness", "kurtosis", "rolloff", "flatness", "crest", "<none>", "pitch", "pitch", "confidence" ],
@@ -1020,17 +1034,24 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Avenir",
+					"fontname" : "Ableton Sans Light",
 					"fontsize" : 8.0,
 					"id" : "obj-8",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1038.5, 142.0, 53.0, 17.0 ],
+					"patching_rect" : [ 1038.5, 142.0, 52.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 75.5, 29.75, 53.0, 17.0 ],
+					"presentation_rect" : [ 75.5, 29.75, 52.0, 16.0 ],
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : "themecolor.live_control_fg"
+						}
+
+					}
+,
 					"text" : "Descriptor A",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textcolor" : [ 0.070588235294118, 0.070588235294118, 0.070588235294118, 1.0 ]
 				}
 
 			}
@@ -1176,7 +1197,7 @@
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"bgfillcolor_proportion" : 0.5,
 					"bgfillcolor_type" : "color",
-					"fontname" : "Avenir",
+					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
 					"id" : "obj-46",
 					"items" : [ "off", ",", "loudness", ",", "-", ",", "spectral", ",", "centroid", ",", "spread", ",", "skewness", ",", "kurtosis", ",", "rolloff", ",", "flatness", ",", "crest", ",", "-", ",", "pitch", ",", "pitch", ",", "confidence" ],
@@ -1185,9 +1206,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1484.5, 161.0, 100.0, 21.0 ],
+					"patching_rect" : [ 1484.5, 161.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 68.0, 132.0, 68.0, 21.0 ],
+					"presentation_rect" : [ 68.0, 132.0, 68.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "loudness", "<none>", "spectral", "centroid", "spread", "skewness", "kurtosis", "rolloff", "flatness", "crest", "<none>", "pitch", "pitch", "confidence" ],
@@ -1215,7 +1236,7 @@
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"bgfillcolor_proportion" : 0.5,
 					"bgfillcolor_type" : "color",
-					"fontname" : "Avenir",
+					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
 					"id" : "obj-45",
 					"items" : [ "off", ",", "loudness", ",", "-", ",", "spectral", ",", "centroid", ",", "spread", ",", "skewness", ",", "kurtosis", ",", "rolloff", ",", "flatness", ",", "crest", ",", "-", ",", "pitch", ",", "pitch", ",", "confidence" ],
@@ -1224,9 +1245,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1250.5, 161.0, 100.0, 21.0 ],
+					"patching_rect" : [ 1250.5, 161.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 68.0, 88.0, 68.0, 21.0 ],
+					"presentation_rect" : [ 68.0, 88.0, 68.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "loudness", "<none>", "spectral", "centroid", "spread", "skewness", "kurtosis", "rolloff", "flatness", "crest", "<none>", "pitch", "pitch", "confidence" ],
@@ -1312,7 +1333,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activeneedlecolor" : [ 0.725490196078431, 0.596078431372549, 0.952941176470588, 1.0 ],
+					"activeneedlecolor" : [ 0.0, 0.933333333333333, 1.0, 1.0 ],
 					"annotation" : "Descriptor C normalized coordinate.",
 					"fontname" : "Avenir",
 					"id" : "obj-15",
@@ -1326,11 +1347,7 @@
 					"presentation_rect" : [ 36.5, 123.5, 27.0, 38.0 ],
 					"saved_attribute_attributes" : 					{
 						"activeneedlecolor" : 						{
-							"expression" : ""
-						}
-,
-						"textcolor" : 						{
-							"expression" : ""
+							"expression" : "themecolor.live_value_arc"
 						}
 ,
 						"valueof" : 						{
@@ -1349,14 +1366,13 @@
 					}
 ,
 					"showname" : 0,
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "Descriptor C Value"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"activeneedlecolor" : [ 0.725490196078431, 0.596078431372549, 0.952941176470588, 1.0 ],
+					"activeneedlecolor" : [ 0.0, 0.933333333333333, 1.0, 1.0 ],
 					"annotation" : "Descriptor B normalized coordinate.",
 					"fontname" : "Avenir",
 					"id" : "obj-13",
@@ -1370,11 +1386,7 @@
 					"presentation_rect" : [ 36.5, 79.5, 27.0, 38.0 ],
 					"saved_attribute_attributes" : 					{
 						"activeneedlecolor" : 						{
-							"expression" : ""
-						}
-,
-						"textcolor" : 						{
-							"expression" : ""
+							"expression" : "themecolor.live_value_arc"
 						}
 ,
 						"valueof" : 						{
@@ -1393,14 +1405,13 @@
 					}
 ,
 					"showname" : 0,
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "Descriptor B Value"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"activeneedlecolor" : [ 0.725490196078431, 0.596078431372549, 0.952941176470588, 1.0 ],
+					"activeneedlecolor" : [ 0.0, 0.933333333333333, 1.0, 1.0 ],
 					"annotation" : "Descriptor A normalized coordinate.",
 					"fontname" : "Avenir",
 					"id" : "obj-2",
@@ -1414,11 +1425,7 @@
 					"presentation_rect" : [ 36.5, 35.5, 27.0, 38.0 ],
 					"saved_attribute_attributes" : 					{
 						"activeneedlecolor" : 						{
-							"expression" : ""
-						}
-,
-						"textcolor" : 						{
-							"expression" : ""
+							"expression" : "themecolor.live_value_arc"
 						}
 ,
 						"valueof" : 						{
@@ -1437,7 +1444,6 @@
 					}
 ,
 					"showname" : 0,
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "Descriptor A Value"
 				}
 
