@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 539.0, 524.0, 796.0, 983.0 ],
+		"rect" : [ 629.0, 312.0, 796.0, 983.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -146,7 +146,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -416,7 +416,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1153,7 +1153,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1410,10 +1410,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 23.75, 38.25, 43.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
-						"textcolor" : 						{
-							"expression" : "themecolor.theme_textcolor_inverse"
-						}
-,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Player Speed",
 							"parameter_exponent" : 2.333,
@@ -1433,7 +1429,6 @@
 
 					}
 ,
-					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"varname" : "Player Speed"
 				}
 
@@ -1495,7 +1490,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1699,7 +1694,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1906,10 +1901,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 119.25, 96.25, 40.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
-						"textcolor" : 						{
-							"expression" : ""
-						}
-,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Player Output Gain",
 							"parameter_exponent" : 0.36,
@@ -1928,7 +1919,6 @@
 
 					}
 ,
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "Player Output Gain"
 				}
 
@@ -2090,7 +2080,7 @@
 					"patching_rect" : [ 269.0, 1146.0, 59.0, 8.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 23.75, 158.0, 140.0, 4.0 ],
-					"slidercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 1.0 ]
+					"slidercolor" : [ 0.141176470588235, 0.141176470588235, 0.141176470588235, 1.0 ]
 				}
 
 			}
@@ -2105,7 +2095,7 @@
 					"patching_rect" : [ 145.0, 1146.0, 67.0, 9.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 23.75, 153.0, 140.0, 4.0 ],
-					"slidercolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 1.0 ]
+					"slidercolor" : [ 0.141176470588235, 0.141176470588235, 0.141176470588235, 1.0 ]
 				}
 
 			}
@@ -2159,7 +2149,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2418,8 +2408,15 @@
 					"patching_rect" : [ 1177.0, 731.0, 121.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 24.5, 24.25, 138.5, 18.0 ],
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : "themecolor.live_lcd_title"
+						}
+
+					}
+,
 					"text" : "TRANSPOSE",
-					"textcolor" : [ 0.870588235294118, 0.850980392156863, 0.850980392156863, 1.0 ],
+					"textcolor" : [ 0.811764705882353, 0.811764705882353, 0.811764705882353, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -2436,8 +2433,15 @@
 					"patching_rect" : [ 1485.0, 753.0, 118.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 24.0, 92.0, 88.75, 18.0 ],
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : "themecolor.live_lcd_title"
+						}
+
+					}
+,
 					"text" : "ENVELOPPE",
-					"textcolor" : [ 0.870588235294118, 0.850980392156863, 0.850980392156863, 1.0 ],
+					"textcolor" : [ 0.811764705882353, 0.811764705882353, 0.811764705882353, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -2457,10 +2461,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 116.5, 38.5, 48.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
-						"textcolor" : 						{
-							"expression" : "themecolor.theme_textcolor_inverse"
-						}
-,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Player Fine Tune",
 							"parameter_info" : "Fine tune pitch in cents.",
@@ -2477,7 +2477,6 @@
 
 					}
 ,
-					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"varname" : "Player Fine Tune"
 				}
 
@@ -2497,10 +2496,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 77.0, 38.5, 50.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
-						"textcolor" : 						{
-							"expression" : "themecolor.theme_textcolor_inverse"
-						}
-,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Player pitch",
 							"parameter_info" : "Change the player's pitch factor.",
@@ -2516,7 +2511,6 @@
 
 					}
 ,
-					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"varname" : "Player Pitch"
 				}
 
@@ -2570,7 +2564,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3163,10 +3157,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 70.0, 107.0, 42.0, 39.0 ],
 					"saved_attribute_attributes" : 					{
-						"textcolor" : 						{
-							"expression" : "themecolor.theme_textcolor_inverse"
-						}
-,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Player Release",
 							"parameter_exponent" : 2.0,
@@ -3185,7 +3175,6 @@
 					}
 ,
 					"shownumber" : 0,
-					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"varname" : "Player Release"
 				}
 
@@ -3205,10 +3194,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 28.0, 107.0, 42.0, 39.0 ],
 					"saved_attribute_attributes" : 					{
-						"textcolor" : 						{
-							"expression" : "themecolor.theme_textcolor_inverse"
-						}
-,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Player Attack",
 							"parameter_exponent" : 3.0,
@@ -3227,7 +3212,6 @@
 					}
 ,
 					"shownumber" : 0,
-					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"varname" : "Player Attack"
 				}
 

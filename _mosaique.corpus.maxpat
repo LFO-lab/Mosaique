@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 252.0, 106.0, 1152.0, 1110.0 ],
+		"rect" : [ 650.0, 574.0, 651.0, 983.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -8805,7 +8805,7 @@
 					"parameter_mappable" : 0,
 					"patching_rect" : [ 66.830188810825348, 116.593657255172729, 54.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 81.144875764846802, 0.5, 56.045936167240143, 18.0 ],
+					"presentation_rect" : [ 78.25, 0.5, 56.045936167240143, 18.0 ],
 					"textcolor" : [ 0.27843137254902, 0.27843137254902, 0.27843137254902, 0.0 ]
 				}
 
@@ -8918,7 +8918,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 605.330188810825348, 37.018871784210205, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 205.993402908195492, 2.25, 14.0, 14.0 ],
+					"presentation_rect" : [ 198.0, 2.25, 14.0, 14.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0,
 					"saved_attribute_attributes" : 					{
@@ -8992,7 +8992,7 @@
 					"parameter_mappable" : 0,
 					"patching_rect" : [ 633.330188810825348, 233.518871784210205, 46.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 205.993402908195492, 2.25, 14.0, 14.0 ],
+					"presentation_rect" : [ 198.0, 2.25, 14.0, 14.0 ],
 					"saved_attribute_attributes" : 					{
 						"bgcolor" : 						{
 							"expression" : ""
@@ -10686,11 +10686,8 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgcolor" : [ 0.831372549019608, 0.831372549019608, 0.831372549019608, 1.0 ],
-					"activetextcolor" : [ 0.070588235294118, 0.070588235294118, 0.070588235294118, 1.0 ],
 					"annotation" : "Clicking this button will open a window to load a folder of sounds",
 					"automation" : "Load corpus",
-					"bgcolor" : [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ],
 					"blinktime" : 200,
 					"fontname" : "Ableton Sans Bold",
 					"id" : "obj-47",
@@ -10703,20 +10700,8 @@
 					"parameter_mappable" : 0,
 					"patching_rect" : [ 66.949951112270355, 95.093657255172729, 53.880237698554993, 19.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 82.478208191963176, 0.833333313465118, 53.379271313007365, 17.333333373069763 ],
+					"presentation_rect" : [ 79.5, 0.75, 53.379271313007365, 17.333333373069763 ],
 					"saved_attribute_attributes" : 					{
-						"activebgcolor" : 						{
-							"expression" : ""
-						}
-,
-						"activetextcolor" : 						{
-							"expression" : ""
-						}
-,
-						"bgcolor" : 						{
-							"expression" : ""
-						}
-,
 						"valueof" : 						{
 							"parameter_enum" : [ "Load corpus", "val2" ],
 							"parameter_info" : "Clicking this button will open a window to load a folder of sounds",
@@ -10745,7 +10730,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 301.830188810825348, 465.78454852104187, 44.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 168.0, 2.0, 41.0, 17.0 ],
+					"presentation_rect" : [ 160.0, 2.0, 41.0, 17.0 ],
 					"text" : "sound",
 					"textcolor" : [ 0.905882352941176, 0.905882352941176, 0.905882352941176, 1.0 ]
 				}
@@ -10818,7 +10803,7 @@
 					"parameter_mappable" : 0,
 					"patching_rect" : [ 301.830188810825348, 382.78454852104187, 54.0, 14.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 137.75, 2.0, 33.0, 14.0 ],
+					"presentation_rect" : [ 129.75, 2.5, 33.0, 14.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -10864,8 +10849,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 439.830188810825348, 37.018871784210205, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 141.988377905570985, 1.498743712902069, 62.000000000000028, 15.5 ],
+					"presentation_rect" : [ 134.0, 1.5, 62.000000000000028, 15.5 ],
 					"proportion" : 0.5,
+					"rounded" : 2,
 					"saved_attribute_attributes" : 					{
 						"bgfillcolor" : 						{
 							"expression" : ""
@@ -10888,7 +10874,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 726.830188810825348, 778.28454852104187, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 253.0, 19.5 ],
+					"presentation_rect" : [ 0.0, 0.0, 216.5, 19.5 ],
 					"proportion" : 0.39,
 					"rounded" : 4,
 					"saved_attribute_attributes" : 					{
@@ -10916,7 +10902,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 176.521733343601227, 62.028983473777771, 140.0, 60.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, -0.5, 253.0, 20.0 ],
+					"presentation_rect" : [ 0.0, -0.5, 216.5, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"bordercolor" : 						{
 							"expression" : ""

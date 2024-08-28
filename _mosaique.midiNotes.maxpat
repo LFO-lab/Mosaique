@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 881.0, 174.0, 749.0, 1121.0 ],
+		"rect" : [ 227.0, 106.0, 1126.0, 1121.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -217,7 +217,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 65.75, 18.75, 50.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.75, -0.75, 50.0, 18.0 ],
+					"presentation_rect" : [ 9.5, -1.75, 50.0, 18.0 ],
 					"text" : "MIDI map",
 					"textcolor" : [ 0.831372549019608, 0.831372549019608, 0.831372549019608, 1.0 ],
 					"textjustification" : 1
@@ -257,9 +257,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 538.815784335136414, 472.368416547775269, 55.0, 18.0 ],
+					"patching_rect" : [ 541.105258464813232, 459.684206128120422, 55.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -1.5, 45.75, 32.0, 18.0 ],
+					"presentation_rect" : [ 0.5, 44.25, 32.0, 18.0 ],
 					"text" : "layers",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
@@ -360,7 +360,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 403.0, 180.5, 24.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.5, 14.75, 24.0, 18.0 ],
+					"presentation_rect" : [ 8.5, 14.75, 24.0, 18.0 ],
 					"text" : "min",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
@@ -381,7 +381,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 356.0, 182.0, 51.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 26.75, 16.736842105263158, 35.0, 15.0 ],
+					"presentation_rect" : [ 29.75, 15.75, 35.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -414,7 +414,6 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.806839227676392, 0.806839227676392, 0.806839168071747, 1.0 ],
-					"fontname" : "Ableton Sans Bold",
 					"id" : "obj-67",
 					"ignoreclick" : 1,
 					"maxclass" : "live.numbox",
@@ -423,9 +422,9 @@
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 151.263156592845917, 925.0, 52.0, 15.0 ],
+					"patching_rect" : [ 151.263156592845917, 925.0, 50.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 26.75, 31.736842105263158, 35.0, 15.0 ],
+					"presentation_rect" : [ 29.75, 30.75, 35.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -462,7 +461,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 118.263156592845917, 923.0, 25.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 28.75, 25.0, 18.0 ],
+					"presentation_rect" : [ 7.0, 28.75, 25.0, 18.0 ],
 					"text" : "max",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
@@ -628,25 +627,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Ableton Sans Light",
-					"fontsize" : 9.5,
-					"id" : "obj-26",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 538.815784335136414, 458.552627205848694, 54.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1.5, 39.25, 26.0, 18.0 ],
-					"text" : "velo",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textjustification" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"activebgcolor" : [ 0.806839227676392, 0.806839227676392, 0.806839168071747, 1.0 ],
-					"fontname" : "Ableton Sans Bold",
 					"id" : "obj-25",
 					"ignoreclick" : 1,
 					"maxclass" : "live.numbox",
@@ -655,9 +636,9 @@
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 492.105258464813232, 461.184206128120422, 47.0, 15.0 ],
+					"patching_rect" : [ 492.105258464813232, 461.184206128120422, 48.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 26.75, 45.75, 35.0, 15.0 ],
+					"presentation_rect" : [ 29.75, 45.75, 35.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -708,7 +689,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 727.631572008132935, 242.763155579566956, 234.269681632518768, 170.22473269701004 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.5, 0.25, 62.5, 63.75 ],
+					"presentation_rect" : [ 0.5, 0.25, 67.75, 63.75 ],
 					"proportion" : 0.39,
 					"saved_attribute_attributes" : 					{
 						"bgfillcolor" : 						{
