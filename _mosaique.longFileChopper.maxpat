@@ -135,9 +135,9 @@
 						"valueof" : 						{
 							"parameter_invisible" : 2,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Slice index",
+							"parameter_longname" : "live.numbox[20]",
 							"parameter_modmode" : 3,
-							"parameter_shortname" : "Slice index",
+							"parameter_shortname" : "live.numbox[20]",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
@@ -555,7 +555,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 2,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Number of slices",
+							"parameter_longname" : "live.numbox",
 							"parameter_mmax" : 50000.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Slices",
@@ -1406,6 +1406,8 @@
 									"saved_object_attributes" : 									{
 										"autostart" : 0,
 										"defer" : 0,
+										"node_bin_path" : "",
+										"npm_bin_path" : "",
 										"watch" : 0
 									}
 ,
@@ -3155,7 +3157,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgcolor" : [ 0.647, 0.647, 0.647, 1.0 ],
+					"activebgcolor" : [ 0.7, 0.0, 0.9, 1.0 ],
 					"fontname" : "Avenir Heavy",
 					"fontsize" : 12.0,
 					"id" : "obj-49",
@@ -3475,7 +3477,7 @@
 
 					}
 ,
-					"text" : "Import Corpus",
+					"text" : "Export Slices",
 					"varname" : "---MosaiqueSlicer_SaveButton"
 				}
 
@@ -3767,7 +3769,7 @@
 				"box" : 				{
 					"angle" : 270.0,
 					"background" : 1,
-					"bgcolor" : [ 0.627450980392157, 0.627450980392157, 0.627450980392157, 1.0 ],
+					"bgcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 1.0 ],
 					"id" : "obj-15",
 					"maxclass" : "panel",
 					"mode" : 0,
