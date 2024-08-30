@@ -40,9 +40,27 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Ableton Sans Bold Regular",
+					"fontsize" : 7.5,
+					"id" : "obj-7",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ -1590.0, 539.0, 100.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 134.483612298965454, 19.393939971923828, 51.0, 15.0 ],
+					"text" : "DIRECTION",
+					"textcolor" : [ 0.796078431372549, 0.796078431372549, 0.796078431372549, 1.0 ],
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -516,22 +534,17 @@
 			}
 , 			{
 				"box" : 				{
-					"activedialcolor" : [ 0.725490196078431, 0.596078431372549, 0.952941176470588, 1.0 ],
-					"fontname" : "Avenir",
+					"fontname" : "Ableton Sans Light Regular",
 					"id" : "obj-175",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ -1663.0, 1008.0, 40.0, 51.0 ],
+					"patching_rect" : [ -1663.0, 1008.0, 41.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 123.140489041805267, 91.735532104969025, 40.0, 51.0 ],
+					"presentation_rect" : [ 139.983612298965454, 94.904146641492844, 40.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
-						"activedialcolor" : 						{
-							"expression" : ""
-						}
-,
 						"textcolor" : 						{
 							"expression" : ""
 						}
@@ -541,7 +554,7 @@
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "MorphPlayer_Gain",
+							"parameter_longname" : "Player Gain",
 							"parameter_mmax" : 12.0,
 							"parameter_mmin" : -70.0,
 							"parameter_modmode" : 0,
@@ -756,16 +769,15 @@
 , 			{
 				"box" : 				{
 					"fontface" : 0,
-					"fontname" : "Avenir Black",
+					"fontname" : "Ableton Sans Bold Regular",
 					"fontsize" : 7.5,
 					"id" : "obj-114",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -1605.0, 524.0, 103.0, 17.0 ],
+					"patching_rect" : [ -1605.0, 524.0, 100.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 9,
-					"presentation_rect" : [ 4.958677411079407, 43.80165046453476, 16.0, 99.0 ],
+					"presentation_rect" : [ 35.013915717601776, 19.393939971923828, 90.0, 15.0 ],
 					"text" : "TRANSPOSE",
 					"textcolor" : [ 0.796078431372549, 0.796078431372549, 0.796078431372549, 1.0 ],
 					"textjustification" : 1
@@ -798,22 +810,17 @@
 			}
 , 			{
 				"box" : 				{
-					"activedialcolor" : [ 0.727056920528412, 0.594957113265991, 0.952508449554443, 1.0 ],
-					"fontname" : "Avenir",
+					"fontname" : "Ableton Sans Light Regular",
 					"id" : "obj-129",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ -1576.0, 564.0, 41.0, 51.0 ],
+					"patching_rect" : [ -1576.0, 564.0, 44.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 18.181817173957825, 91.735532104969025, 42.864101810380816, 51.0 ],
+					"presentation_rect" : [ 83.765286871232092, 30.822511792182922, 46.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
-						"activedialcolor" : 						{
-							"expression" : ""
-						}
-,
 						"textcolor" : 						{
 							"expression" : "themecolor.theme_textcolor_inverse"
 						}
@@ -822,7 +829,7 @@
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "MorphPlayer_FineTune",
+							"parameter_longname" : "Player Fine Tune",
 							"parameter_mmax" : 25.0,
 							"parameter_mmin" : -25.0,
 							"parameter_modmode" : 0,
@@ -841,29 +848,24 @@
 			}
 , 			{
 				"box" : 				{
-					"activedialcolor" : [ 0.727056920528412, 0.594957113265991, 0.952508449554443, 1.0 ],
-					"fontname" : "Avenir",
+					"fontname" : "Ableton Sans Light Regular",
 					"id" : "obj-132",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ -1641.0, 564.0, 40.0, 51.0 ],
+					"patching_rect" : [ -1641.0, 564.0, 41.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 18.181817173957825, 42.975204229354858, 42.864101810380816, 51.0 ],
+					"presentation_rect" : [ 29.795919388532639, 31.020409226417542, 43.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
-						"activedialcolor" : 						{
-							"expression" : ""
-						}
-,
 						"textcolor" : 						{
 							"expression" : "themecolor.theme_textcolor_inverse"
 						}
 ,
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "MorphPlayer_Pitch",
+							"parameter_longname" : "Player Pitch",
 							"parameter_mmax" : 48.0,
 							"parameter_mmin" : -48.0,
 							"parameter_modmode" : 0,
@@ -933,9 +935,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ -1505.0, 704.0, 26.0, 22.0 ],
-					"text" : "t -1"
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ -1505.0, 704.0, 29.0, 22.0 ],
+					"text" : "t -1."
 				}
 
 			}
@@ -946,7 +948,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "" ],
-					"patching_rect" : [ -1532.0, 664.0, 44.0, 22.0 ],
+					"patching_rect" : [ -1532.0, 664.0, 73.0, 22.0 ],
 					"text" : "sel 0 1"
 				}
 
@@ -955,8 +957,8 @@
 				"box" : 				{
 					"activebgcolor" : [ 0.952941176470588, 0.890196078431372, 0.596078431372549, 1.0 ],
 					"activebgoncolor" : [ 0.725490196078431, 0.596078431372549, 0.952941176470588, 1.0 ],
-					"automation" : "forward",
-					"automationon" : "reverse",
+					"automation" : "Forward",
+					"automationon" : "Reverse",
 					"id" : "obj-49",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -965,7 +967,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ -1532.0, 621.0, 79.0, 34.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.743801057338715, 24.793387055397034, 52.0, 17.0 ],
+					"presentation_rect" : [ 140.797565490007401, 36.801721945405006, 39.186046808958054, 39.147287428379059 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -976,9 +978,9 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_enum" : [ "forward", "reverse" ],
+							"parameter_enum" : [ "Forward", "Reverse" ],
 							"parameter_linknames" : 1,
-							"parameter_longname" : "MorphPlayer_Reverse",
+							"parameter_longname" : "Player Reverse",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text[42]",
@@ -987,8 +989,8 @@
 
 					}
 ,
-					"text" : "Forward",
-					"texton" : "Reverse",
+					"text" : "FWD",
+					"texton" : "BACK",
 					"varname" : "MorphPlayer_Reverse"
 				}
 
@@ -1654,16 +1656,15 @@
 , 			{
 				"box" : 				{
 					"fontface" : 0,
-					"fontname" : "Avenir Black",
+					"fontname" : "Ableton Sans Bold Regular",
 					"fontsize" : 7.5,
 					"id" : "obj-106",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -1385.0, 752.0, 102.0, 17.0 ],
+					"patching_rect" : [ -1385.0, 752.0, 95.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 9,
-					"presentation_rect" : [ 105.785118103027344, 43.80165046453476, 16.0, 99.0 ],
+					"presentation_rect" : [ 33.589671730995178, 83.122447818517685, 87.0, 15.0 ],
 					"text" : "ENVELOPPE",
 					"textcolor" : [ 0.796078431372549, 0.796078431372549, 0.796078431372549, 1.0 ],
 					"textjustification" : 1
@@ -1672,22 +1673,17 @@
 			}
 , 			{
 				"box" : 				{
-					"activedialcolor" : [ 0.725490196078431, 0.596078431372549, 0.952941176470588, 1.0 ],
-					"fontname" : "Avenir",
+					"fontname" : "Ableton Sans Light Regular",
 					"id" : "obj-130",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ -1328.0, 537.0, 46.0, 51.0 ],
+					"patching_rect" : [ -1328.0, 537.0, 28.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 67.768591284751892, 91.735532104969025, 45.0, 51.0 ],
+					"presentation_rect" : [ 83.357123591937125, 94.904146641492844, 44.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
-						"activedialcolor" : 						{
-							"expression" : ""
-						}
-,
 						"textcolor" : 						{
 							"expression" : ""
 						}
@@ -1697,7 +1693,7 @@
 							"parameter_initial" : [ 40.100000000000001 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "MorphPlayer_Release",
+							"parameter_longname" : "Player Release",
 							"parameter_mmax" : 10000.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Release",
@@ -1715,22 +1711,17 @@
 			}
 , 			{
 				"box" : 				{
-					"activedialcolor" : [ 0.725490196078431, 0.596078431372549, 0.952941176470588, 1.0 ],
-					"fontname" : "Avenir",
+					"fontname" : "Ableton Sans Light Regular",
 					"id" : "obj-120",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ -1385.0, 537.0, 46.0, 51.0 ],
+					"patching_rect" : [ -1385.0, 537.0, 28.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 67.768591284751892, 42.975204229354858, 45.0, 51.0 ],
+					"presentation_rect" : [ 28.803727201186121, 94.904146641492844, 45.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
-						"activedialcolor" : 						{
-							"expression" : ""
-						}
-,
 						"textcolor" : 						{
 							"expression" : ""
 						}
@@ -1740,7 +1731,7 @@
 							"parameter_initial" : [ 10.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "MorphPlayer_Attack",
+							"parameter_longname" : "Player Attack",
 							"parameter_mmax" : 10000.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Attack",
@@ -1838,7 +1829,7 @@
 					"outlettype" : [ "float", "int" ],
 					"patching_rect" : [ -710.0, 1121.0, 94.0, 8.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.264462351799011, 155.371892213821411, 158.0, 5.0 ],
+					"presentation_rect" : [ 26.0, 155.0, 158.0, 5.0 ],
 					"slidercolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -1853,7 +1844,7 @@
 					"outlettype" : [ "float", "int" ],
 					"patching_rect" : [ -877.0, 1121.0, 94.0, 8.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.264462351799011, 147.933876097202301, 158.0, 5.0 ],
+					"presentation_rect" : [ 26.0, 148.0, 158.0, 5.0 ],
 					"slidercolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -1919,13 +1910,13 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ -1571.0, 271.0, 56.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 75.206607401371002, 24.793387055397034, 43.0, 16.0 ],
+					"presentation_rect" : [ 138.483612298965454, 1.179654747247696, 43.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 8.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "MorphPlayer_VoiceNum",
+							"parameter_longname" : "Player Voice Count",
 							"parameter_mmax" : 64.0,
 							"parameter_mmin" : 1.0,
 							"parameter_modmode" : 0,
@@ -1944,15 +1935,16 @@
 , 			{
 				"box" : 				{
 					"fontface" : 0,
-					"fontname" : "Avenir Black",
+					"fontname" : "Ableton Sans Bold Regular",
 					"fontsize" : 16.0,
 					"id" : "obj-161",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -1812.0, 1323.0, 99.0, 28.0 ],
+					"patching_rect" : [ -1812.0, 1323.0, 95.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 0.0, 69.0, 28.0 ],
+					"presentation_linecount" : 6,
+					"presentation_rect" : [ 0.775193810462952, 20.393939971923828, 22.0, 122.0 ],
 					"text" : "PLAYER",
 					"textcolor" : [ 0.945098039215686, 0.933333333333333, 0.933333333333333, 1.0 ],
 					"textjustification" : 1
@@ -1963,7 +1955,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-177",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1976,7 +1968,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-171",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1988,7 +1980,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-170",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2008,8 +2000,113 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ -1689.0, 1121.0, 459.0, 419.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 0.0, 168.865767136216164, 167.762820735573769 ],
-					"proportion" : 0.5
+					"presentation_rect" : [ 134.0, 531.0, 168.865767136216164, 167.762820735573769 ],
+					"proportion" : 0.5,
+					"saved_attribute_attributes" : 					{
+						"bgfillcolor" : 						{
+							"expression" : ""
+						}
+
+					}
+
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.2 ],
+					"id" : "obj-27",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1456.0, 719.0, 151.0, 172.898102182501816 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 135.967224597930908, 83.122447818517685, 48.032775402069092, 62.877552181482315 ],
+					"proportion" : 0.5,
+					"rounded" : 4,
+					"saved_attribute_attributes" : 					{
+						"bgfillcolor" : 						{
+							"expression" : ""
+						}
+
+					}
+
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.2 ],
+					"id" : "obj-6",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1471.0, 734.0, 151.0, 172.898102182501816 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 135.967224597930908, 19.179654747247696, 48.032775402069092, 62.877552181482315 ],
+					"proportion" : 0.5,
+					"rounded" : 4,
+					"saved_attribute_attributes" : 					{
+						"bgfillcolor" : 						{
+							"expression" : ""
+						}
+
+					}
+
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"background" : 1,
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.2 ],
+					"id" : "obj-3",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 128.5, 91.25, 151.0, 172.898102182501816 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 26.212118864059448, 83.122447818517685, 107.75510573387146, 62.877552181482315 ],
+					"proportion" : 0.5,
+					"rounded" : 4,
+					"saved_attribute_attributes" : 					{
+						"bgfillcolor" : 						{
+							"expression" : ""
+						}
+
+					}
+
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"background" : 1,
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.2 ],
+					"id" : "obj-17",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 113.5, 76.25, 151.0, 172.898102182501816 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 26.060606837272644, 19.393939971923828, 107.906617760658264, 62.448981732130051 ],
+					"proportion" : 0.5,
+					"rounded" : 4,
+					"saved_attribute_attributes" : 					{
+						"bgfillcolor" : 						{
+							"expression" : ""
+						}
+
+					}
+
 				}
 
 			}
@@ -2631,51 +2728,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-10" : [ "MorphPlayer_VoiceNum", "Voices", 0 ],
-			"obj-120" : [ "MorphPlayer_Attack", "Attack", 0 ],
-			"obj-129" : [ "MorphPlayer_FineTune", "Fine Tune", 0 ],
-			"obj-130" : [ "MorphPlayer_Release", "Release", 0 ],
-			"obj-132" : [ "MorphPlayer_Pitch", "Pitch", 0 ],
-			"obj-175" : [ "MorphPlayer_Gain", "Gain", 0 ],
-			"obj-49" : [ "MorphPlayer_Reverse", "live.text[42]", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "_mosaique.player.morph.poly.maxpat",
-				"bootpath" : "~/Documents/GitHub/Mosaique",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "_mosaique.sliceInfos.maxpat",
-				"bootpath" : "~/Documents/GitHub/Mosaique",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fluid.buf2list.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.dataset~.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
