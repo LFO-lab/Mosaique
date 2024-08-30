@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1671.0, 590.0, 1121.0, 983.0 ],
+		"rect" : [ 926.0, 584.0, 1223.0, 983.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1362,7 +1362,8 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.098039215686275, 0.098039215686275, 0.098039215686275, 1.0 ],
-					"candycane" : 8,
+					"candicane2" : [ 1.0, 0.694117647058824, 0.0, 1.0 ],
+					"candycane" : 2,
 					"id" : "obj-20",
 					"maxclass" : "multislider",
 					"numinlets" : 1,
@@ -1376,12 +1377,21 @@
 						"bgcolor" : 						{
 							"expression" : "themecolor.live_meter_bg"
 						}
+,
+						"candicane2" : 						{
+							"expression" : "themecolor.live_control_selection"
+						}
+,
+						"slidercolor" : 						{
+							"expression" : "themecolor.live_value_arc"
+						}
 
 					}
 ,
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"size" : 16,
+					"slidercolor" : [ 0.333333333333333, 0.870588235294118, 0.964705882352941, 1.0 ],
 					"thickness" : 1
 				}
 
@@ -2198,7 +2208,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints_with_curve" : [ 0.0, 0.0, 1, 0.0, 495.566925048828125, 1.0, 0, 0.007874015718699, 1000.0, 0.0, 0, -0.007874015718699, 1000.0, 0.0, 0, 0.409448818897637 ],
+					"addpoints_with_curve" : [ 0.0, 0.0, 1, 0.0, 0.0, 1.0, 0, -0.0, 1000.0, 0.0, 0, 0.0, 1000.0, 0.0, 0, 0.409448818897637 ],
 					"bgcolor" : [ 0.352941176470588, 0.352941176470588, 0.352941176470588, 1.0 ],
 					"classic_curve" : 0,
 					"clickadd" : 0,
