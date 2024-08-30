@@ -218,8 +218,15 @@
 					"patching_rect" : [ 65.75, 18.75, 50.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 9.5, -1.75, 50.0, 18.0 ],
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : "themecolor.live_lcd_title"
+						}
+
+					}
+,
 					"text" : "MIDI map",
-					"textcolor" : [ 0.831372549019608, 0.831372549019608, 0.831372549019608, 1.0 ],
+					"textcolor" : [ 0.811764705882353, 0.811764705882353, 0.811764705882353, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -360,7 +367,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 403.0, 180.5, 24.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.5, 14.75, 24.0, 18.0 ],
+					"presentation_rect" : [ 0.25, 14.25, 24.0, 18.0 ],
 					"text" : "min",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
@@ -369,7 +376,6 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgcolor" : [ 0.806839227676392, 0.806839227676392, 0.806839168071747, 1.0 ],
 					"annotation" : "Change this value to set the lowest note number to which the player should respond.",
 					"annotation_name" : "Minimum Note Number",
 					"fontname" : "Ableton Sans Bold",
@@ -383,14 +389,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 29.75, 15.75, 35.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
-						"activebgcolor" : 						{
-							"expression" : ""
-						}
-,
-						"textcolor" : 						{
-							"expression" : ""
-						}
-,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Minimum Note Number",
 							"parameter_info" : "Change this value to set the lowest note number to which the player should respond.",
@@ -406,14 +404,12 @@
 
 					}
 ,
-					"textcolor" : [ 0.070588235294118, 0.070588235294118, 0.070588235294118, 1.0 ],
 					"varname" : "MIDI lowest note"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"activebgcolor" : [ 0.806839227676392, 0.806839227676392, 0.806839168071747, 1.0 ],
 					"id" : "obj-67",
 					"ignoreclick" : 1,
 					"maxclass" : "live.numbox",
@@ -426,14 +422,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 29.75, 30.75, 35.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
-						"activebgcolor" : 						{
-							"expression" : ""
-						}
-,
-						"textcolor" : 						{
-							"expression" : ""
-						}
-,
 						"valueof" : 						{
 							"parameter_invisible" : 2,
 							"parameter_linknames" : 1,
@@ -446,7 +434,6 @@
 
 					}
 ,
-					"textcolor" : [ 0.070588235294118, 0.070588235294118, 0.070588235294118, 1.0 ],
 					"varname" : "MIDI highest note"
 				}
 
@@ -461,7 +448,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 118.263156592845917, 923.0, 25.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 28.75, 25.0, 18.0 ],
+					"presentation_rect" : [ -0.25, 29.25, 25.0, 18.0 ],
 					"text" : "max",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
@@ -627,7 +614,6 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgcolor" : [ 0.806839227676392, 0.806839227676392, 0.806839168071747, 1.0 ],
 					"id" : "obj-25",
 					"ignoreclick" : 1,
 					"maxclass" : "live.numbox",
@@ -640,14 +626,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 29.75, 45.75, 35.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
-						"activebgcolor" : 						{
-							"expression" : ""
-						}
-,
-						"textcolor" : 						{
-							"expression" : ""
-						}
-,
 						"valueof" : 						{
 							"parameter_invisible" : 2,
 							"parameter_linknames" : 1,
@@ -660,7 +638,6 @@
 
 					}
 ,
-					"textcolor" : [ 0.070588235294118, 0.070588235294118, 0.070588235294118, 1.0 ],
 					"varname" : "MIDI velocity layers"
 				}
 
