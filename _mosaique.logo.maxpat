@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 563.0, 193.0, 766.0, 480.0 ],
+		"rect" : [ 633.0, 168.0, 766.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -125,8 +125,15 @@
 					"patching_rect" : [ 182.0, 280.0, 42.0, 56.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 208.0, 55.0, 56.0 ],
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : "themecolor.live_control_fg"
+						}
+
+					}
+,
 					"text" : "M",
-					"textcolor" : [ 0.23921568627451, 0.23921568627451, 0.23921568627451, 1.0 ]
+					"textcolor" : [ 0.070588235294118, 0.070588235294118, 0.070588235294118, 1.0 ]
 				}
 
 			}
@@ -141,8 +148,15 @@
 					"patching_rect" : [ 232.0, 288.0, 83.0, 28.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 36.0, 217.0, 83.0, 28.0 ],
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : "themecolor.live_control_fg"
+						}
+
+					}
+,
 					"text" : "OSAÏQUE",
-					"textcolor" : [ 0.23921568627451, 0.23921568627451, 0.23921568627451, 1.0 ]
+					"textcolor" : [ 0.070588235294118, 0.070588235294118, 0.070588235294118, 1.0 ]
 				}
 
 			}
@@ -248,8 +262,15 @@
 					"patching_rect" : [ 50.0, 100.0, 61.0, 83.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -0.5, 6.0, 78.0, 83.0 ],
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : "themecolor.live_control_fg"
+						}
+
+					}
+,
 					"text" : "M",
-					"textcolor" : [ 0.23921568627451, 0.23921568627451, 0.23921568627451, 1.0 ]
+					"textcolor" : [ 0.070588235294118, 0.070588235294118, 0.070588235294118, 1.0 ]
 				}
 
 			}
@@ -264,8 +285,15 @@
 					"patching_rect" : [ 100.0, 108.48190301656723, 139.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 50.818182110786438, 19.715302497148514, 139.0, 45.0 ],
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : "themecolor.live_control_fg"
+						}
+
+					}
+,
 					"text" : "OSAÏQUE",
-					"textcolor" : [ 0.23921568627451, 0.23921568627451, 0.23921568627451, 1.0 ]
+					"textcolor" : [ 0.070588235294118, 0.070588235294118, 0.070588235294118, 1.0 ]
 				}
 
 			}
