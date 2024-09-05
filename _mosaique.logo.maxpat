@@ -132,8 +132,7 @@
 
 					}
 ,
-					"text" : "M",
-					"textcolor" : [ 0.070588235294118, 0.070588235294118, 0.070588235294118, 1.0 ]
+					"text" : "M"
 				}
 
 			}
@@ -155,8 +154,7 @@
 
 					}
 ,
-					"text" : "OSAÏQUE",
-					"textcolor" : [ 0.070588235294118, 0.070588235294118, 0.070588235294118, 1.0 ]
+					"text" : "OSAÏQUE"
 				}
 
 			}
@@ -269,8 +267,7 @@
 
 					}
 ,
-					"text" : "M",
-					"textcolor" : [ 0.070588235294118, 0.070588235294118, 0.070588235294118, 1.0 ]
+					"text" : "M"
 				}
 
 			}
@@ -292,8 +289,7 @@
 
 					}
 ,
-					"text" : "OSAÏQUE",
-					"textcolor" : [ 0.070588235294118, 0.070588235294118, 0.070588235294118, 1.0 ]
+					"text" : "OSAÏQUE"
 				}
 
 			}
@@ -419,6 +415,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"border" : 0,
@@ -725,40 +722,6 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-7",
-									"linecount" : 2,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 192.5, 492.0, 595.0, 33.0 ],
-									"text" : "Usage of external [jit.gl.gui]\nThis work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-5",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 192.5, 522.0, 218.0, 20.0 ],
-									"text" : "Federico Foderaro - Amazing Max Stuff"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-3",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 192.5, 544.0, 267.0, 20.0 ],
-									"text" : "https://www.patreon.com/amazingmaxstuff/about"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"comment" : "",
 									"id" : "obj-1",
 									"index" : 1,
@@ -773,32 +736,10 @@
  ],
 						"lines" : [  ],
 						"bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
-						"editing_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
-						"saved_attribute_attributes" : 						{
-							"editing_bgcolor" : 							{
-								"expression" : ""
-							}
-,
-							"locked_bgcolor" : 							{
-								"expression" : ""
-							}
-
-						}
-
+						"editing_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ]
 					}
 ,
 					"patching_rect" : [ 50.0, 460.0, 54.0, 22.0 ],
-					"saved_attribute_attributes" : 					{
-						"editing_bgcolor" : 						{
-							"expression" : ""
-						}
-,
-						"locked_bgcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-,
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -824,7 +765,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 361.0, 329.0, 100.0, 45.645821157218002 ],
-					"pic" : "Macintosh HD:/Users/dthibault/Documents/GitHub/Mosaique/LogoBlancMosaiqueMax4Live.png",
+					"pic" : "LogoBlancMosaiqueMax4Live.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 217.0, 107.0, 49.0 ]
 				}
@@ -842,7 +783,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 50.0, 339.0, 100.0, 45.645821157218002 ],
-					"pic" : "Macintosh HD:/Users/dthibault/Documents/GitHub/Mosaique/LogoBlancMosaiqueMax4Live.png",
+					"pic" : "LogoBlancMosaiqueMax4Live.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 24.238570719957352, 10.531605983485221, 165.579611390829086, 73.936788033029558 ]
 				}
