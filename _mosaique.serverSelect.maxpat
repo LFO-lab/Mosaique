@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 112.0, 1601.0, 1183.0 ],
+		"rect" : [ 148.0, 106.0, 840.0, 316.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -238,16 +238,16 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Avenir",
+					"fontname" : "Ableton Sans Light",
 					"fontsize" : 8.0,
 					"id" : "obj-23",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 931.5, 646.0, 152.0, 17.0 ],
+					"patching_rect" : [ 931.5, 646.0, 145.0, 16.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 121.0, 0.0, 76.0, 28.0 ],
+					"presentation_rect" : [ 121.0, 0.0, 71.0, 26.0 ],
 					"text" : "No audio loaded in selected server!",
 					"textcolor" : [ 0.796078431372549, 0.796078431372549, 0.796078431372549, 1.0 ]
 				}
@@ -313,7 +313,7 @@
 					"parameter_mappable" : 0,
 					"patching_rect" : [ 195.0, 59.0, 15.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 108.0, 6.0, 15.0, 15.0 ],
+					"presentation_rect" : [ 107.0, 6.0, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
@@ -2441,40 +2441,10 @@
 							}
  ],
 						"bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
-						"editing_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
-						"saved_attribute_attributes" : 						{
-							"default_plcolor" : 							{
-								"expression" : ""
-							}
-,
-							"editing_bgcolor" : 							{
-								"expression" : ""
-							}
-,
-							"locked_bgcolor" : 							{
-								"expression" : ""
-							}
-
-						}
-
+						"editing_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ]
 					}
 ,
 					"patching_rect" : [ 262.0, 1162.0, 484.0, 22.0 ],
-					"saved_attribute_attributes" : 					{
-						"default_plcolor" : 						{
-							"expression" : ""
-						}
-,
-						"editing_bgcolor" : 						{
-							"expression" : ""
-						}
-,
-						"locked_bgcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-,
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -2935,8 +2905,12 @@
 , 							{
 								"box" : 								{
 									"coll_data" : 									{
-										"count" : 0,
-										"data" : [  ]
+										"count" : 1,
+										"data" : [ 											{
+												"key" : "Server ---",
+												"value" : [ "---", 1, "Corpus 1", 0, 0.0, "0.8966 0.2503 0.2751 1.0000", 2, "Corpus 2", 0, 0.0, "0.9204 0.2776 0.4492 1.0000", 3, "Corpus 3", 0, 0.0, "0.9441 0.4532 0.2496 1.0000", 4, "Corpus 4", 0, 0.0, "0.9789 0.6358 0.0808 1.0000", 5, "Corpus 5", 0, 0.0, "0.8383 0.8033 0.2494 1.0000", 6, "Corpus 6", 0, 0.0, "0.2616 0.6943 0.3818 1.0000", 7, "Corpus 7", 0, 0.0, "0.0577 0.3972 0.4374 1.0000", 8, "Corpus 8", 0, 0.0, "0.9204 0.2776 0.4492 1.0000" ]
+											}
+ ]
 									}
 ,
 									"id" : "obj-10",
@@ -3121,40 +3095,10 @@
 							}
  ],
 						"bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
-						"editing_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
-						"saved_attribute_attributes" : 						{
-							"default_plcolor" : 							{
-								"expression" : ""
-							}
-,
-							"editing_bgcolor" : 							{
-								"expression" : ""
-							}
-,
-							"locked_bgcolor" : 							{
-								"expression" : ""
-							}
-
-						}
-
+						"editing_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ]
 					}
 ,
 					"patching_rect" : [ 823.5, 548.0, 127.0, 22.0 ],
-					"saved_attribute_attributes" : 					{
-						"default_plcolor" : 						{
-							"expression" : ""
-						}
-,
-						"editing_bgcolor" : 						{
-							"expression" : ""
-						}
-,
-						"locked_bgcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-,
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -3170,27 +3114,36 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.01 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 1.0, 1.0, 1.0, 0.01 ],
+					"bgfillcolor_color" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"bgfillcolor_color1" : [ 0.517647058823529, 0.517647058823529, 0.517647058823529, 1.0 ],
 					"bgfillcolor_color2" : [ 0.728545315984307, 0.72854514435665, 0.728545189205699, 1.0 ],
 					"bgfillcolor_proportion" : 0.39,
 					"bgfillcolor_type" : "color",
-					"fontname" : "Avenir Heavy",
+					"color" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
+					"fontname" : "Ableton Sans Bold",
 					"id" : "obj-5",
-					"items" : "<empty>",
+					"items" : "Server ---",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 1,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 221.0, 387.0, 100.0, 25.0 ],
+					"patching_rect" : [ 221.0, 387.0, 100.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.5, 0.75, 96.0, 25.0 ],
+					"presentation_rect" : [ 7.5, 0.75, 96.0, 23.0 ],
 					"saved_attribute_attributes" : 					{
+						"color" : 						{
+							"expression" : "themecolor.live_lcd_control_fg_alt"
+						}
+,
+						"textcolor" : 						{
+							"expression" : "themecolor.live_lcd_title"
+						}
+,
 						"valueof" : 						{
 							"parameter_enum" : [ "ServerA", "Server ---" ],
 							"parameter_invisible" : 1,
@@ -3203,7 +3156,7 @@
 
 					}
 ,
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textcolor" : [ 0.807843, 0.807843, 0.807843, 1.0 ],
 					"varname" : "umenu"
 				}
 
@@ -3211,7 +3164,8 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.676960706710815, 0.653935611248016, 0.670039713382721, 1.0 ],
+					"bgcolor" : [ 0.352941176470588, 0.352941176470588, 0.352941176470588, 1.0 ],
+					"bordercolor" : [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 1.0 ],
 					"id" : "obj-9",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -3224,7 +3178,11 @@
 					"rounded" : 4,
 					"saved_attribute_attributes" : 					{
 						"bgfillcolor" : 						{
-							"expression" : ""
+							"expression" : "themecolor.live_led_bg"
+						}
+,
+						"bordercolor" : 						{
+							"expression" : "themecolor.live_contrast_frame"
 						}
 
 					}
@@ -3294,8 +3252,12 @@
 , 			{
 				"box" : 				{
 					"coll_data" : 					{
-						"count" : 0,
-						"data" : [  ]
+						"count" : 1,
+						"data" : [ 							{
+								"key" : "Server ---",
+								"value" : [ "---", 1, "Corpus 1", 0, 0.0, "0.8966 0.2503 0.2751 1.0000", 2, "Corpus 2", 0, 0.0, "0.9204 0.2776 0.4492 1.0000", 3, "Corpus 3", 0, 0.0, "0.9441 0.4532 0.2496 1.0000", 4, "Corpus 4", 0, 0.0, "0.9789 0.6358 0.0808 1.0000", 5, "Corpus 5", 0, 0.0, "0.8383 0.8033 0.2494 1.0000", 6, "Corpus 6", 0, 0.0, "0.2616 0.6943 0.3818 1.0000", 7, "Corpus 7", 0, 0.0, "0.0577 0.3972 0.4374 1.0000", 8, "Corpus 8", 0, 0.0, "0.9204 0.2776 0.4492 1.0000" ]
+							}
+ ]
 					}
 ,
 					"id" : "obj-44",
@@ -3334,23 +3296,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 374.5, 674.0, 182.0, 22.0 ],
 					"text" : "r #1Mosaique_ServerID_request"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Avenir Black",
-					"fontsize" : 12.0,
-					"id" : "obj-37",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 692.0, 37.0, 57.0, 23.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 305.0, 28.5, 149.0, 23.0 ],
-					"text" : "SERVER",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textjustification" : 1
 				}
 
 			}
@@ -3441,8 +3386,12 @@
 , 			{
 				"box" : 				{
 					"coll_data" : 					{
-						"count" : 0,
-						"data" : [  ]
+						"count" : 1,
+						"data" : [ 							{
+								"key" : "Server ---",
+								"value" : [ "---", 1, "Corpus 1", 0, 0.0, "0.8966 0.2503 0.2751 1.0000", 2, "Corpus 2", 0, 0.0, "0.9204 0.2776 0.4492 1.0000", 3, "Corpus 3", 0, 0.0, "0.9441 0.4532 0.2496 1.0000", 4, "Corpus 4", 0, 0.0, "0.9789 0.6358 0.0808 1.0000", 5, "Corpus 5", 0, 0.0, "0.8383 0.8033 0.2494 1.0000", 6, "Corpus 6", 0, 0.0, "0.2616 0.6943 0.3818 1.0000", 7, "Corpus 7", 0, 0.0, "0.0577 0.3972 0.4374 1.0000", 8, "Corpus 8", 0, 0.0, "0.9204 0.2776 0.4492 1.0000" ]
+							}
+ ]
 					}
 ,
 					"id" : "obj-48",
@@ -3989,14 +3938,7 @@
 				}
 
 			}
- ],
-		"saved_attribute_attributes" : 		{
-			"default_plcolor" : 			{
-				"expression" : ""
-			}
-
-		}
-
+ ]
 	}
 
 }

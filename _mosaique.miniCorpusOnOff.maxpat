@@ -162,6 +162,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-1",
+					"ignoreclick" : 1,
 					"maxclass" : "live.toggle",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -192,32 +193,32 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Avenir",
+					"fontname" : "Ableton Sans Light",
 					"fontsize" : 9.5,
 					"id" : "obj-29",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 398.0, 228.0, 52.0, 19.0 ],
+					"patching_rect" : [ 398.0, 228.0, 51.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 22.0, -2.875, 74.0, 19.0 ],
-					"text" : "Corpus 8",
+					"presentation_rect" : [ 22.0, -2.0, 73.0, 18.0 ],
+					"text" : "Corpus 1",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Avenir",
+					"fontname" : "Ableton Sans Light",
 					"fontsize" : 9.5,
 					"id" : "obj-28",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 276.0, 237.0, 24.0, 19.0 ],
+					"patching_rect" : [ 276.0, 237.0, 25.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 12.0, -2.875, 17.0, 19.0 ],
-					"text" : "8",
+					"presentation_rect" : [ 12.0, -2.0, 17.0, 18.0 ],
+					"text" : "1",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -285,7 +286,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.1542, 0.2187, 0.2995, 1.0 ],
+					"bgcolor" : [ 0.8966, 0.2503, 0.2751, 1.0 ],
 					"id" : "obj-31",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -533,14 +534,7 @@
 				}
 
 			}
- ],
-		"saved_attribute_attributes" : 		{
-			"default_plcolor" : 			{
-				"expression" : ""
-			}
-
-		}
-
+ ]
 	}
 
 }

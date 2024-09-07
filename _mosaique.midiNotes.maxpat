@@ -40,6 +40,29 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 285.0, 353.0, 50.0, 22.0 ],
+					"text" : "size 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 545.0, 271.0, 127.0, 22.0 ],
+					"text" : "s #1MIDI_note_min"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-94",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -226,7 +249,7 @@
 					}
 ,
 					"text" : "MIDI map",
-					"textcolor" : [ 0.811764705882353, 0.811764705882353, 0.811764705882353, 1.0 ],
+					"textcolor" : [ 0.807843, 0.807843, 0.807843, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -395,7 +418,7 @@
 							"parameter_initial" : [ 60 ],
 							"parameter_invisible" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "---MIDI_note_min[2]",
+							"parameter_longname" : "MIDI lowest note",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "lowest note",
 							"parameter_type" : 0,
@@ -425,7 +448,7 @@
 						"valueof" : 						{
 							"parameter_invisible" : 2,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "---MIDI_note_max[2]",
+							"parameter_longname" : "MIDI highest note",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Highest Note",
 							"parameter_type" : 0,
@@ -629,7 +652,7 @@
 						"valueof" : 						{
 							"parameter_invisible" : 2,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "---MIDI_velo_layers",
+							"parameter_longname" : "MIDI velocity layers",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Velocity Layers",
 							"parameter_type" : 0,
@@ -805,6 +828,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-54", 1 ],
 					"midpoints" : [ 690.5, 730.473680853843689, 434.5, 730.473680853843689 ],
+					"order" : 1,
+					"source" : [ "obj-45", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
 					"order" : 0,
 					"source" : [ "obj-45", 1 ]
 				}
@@ -814,7 +845,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-86", 1 ],
 					"midpoints" : [ 690.5, 865.763149738311768, 173.763156592845917, 865.763149738311768 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-45", 1 ]
 				}
 
@@ -835,7 +866,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-10", 1 ],
+					"order" : 1,
+					"source" : [ "obj-52", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-55", 0 ],
+					"order" : 0,
 					"source" : [ "obj-52", 0 ]
 				}
 
@@ -1016,14 +1056,7 @@
 				}
 
 			}
- ],
-		"saved_attribute_attributes" : 		{
-			"default_plcolor" : 			{
-				"expression" : ""
-			}
-
-		}
-
+ ]
 	}
 
 }
