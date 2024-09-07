@@ -9141,7 +9141,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 181.0, 134.0, 1691.0, 1161.0 ],
+						"rect" : [ 331.0, 106.0, 1691.0, 1161.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -9249,7 +9249,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 766.0, 382.0, 54.0, 22.0 ],
-									"text" : "none"
+									"text" : "relative"
 								}
 
 							}
@@ -9677,11 +9677,11 @@
 								"box" : 								{
 									"id" : "obj-23",
 									"maxclass" : "newobj",
-									"numinlets" : 3,
+									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 145.0, 798.0, 171.0, 22.0 ],
-									"text" : "combine path / file @triggers 2"
+									"patching_rect" : [ 143.0, 806.0, 165.0, 22.0 ],
+									"text" : "combine path file @triggers 1"
 								}
 
 							}
@@ -9858,7 +9858,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 120.0, 830.0, 95.0, 22.0 ],
+									"patching_rect" : [ 120.0, 845.0, 95.0, 22.0 ],
 									"text" : "prepend replace"
 								}
 
@@ -10074,7 +10074,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-23", 2 ],
+									"destination" : [ "obj-23", 1 ],
 									"source" : [ "obj-13", 1 ]
 								}
 
@@ -10115,7 +10115,7 @@
 								"patchline" : 								{
 									"color" : [ 0.927756428718567, 0.529348790645599, 0.0, 1.0 ],
 									"destination" : [ "obj-23", 0 ],
-									"midpoints" : [ 467.0, 542.0, 719.0, 542.0, 719.0, 551.0, 719.0, 551.0, 719.0, 794.0, 154.5, 794.0 ],
+									"midpoints" : [ 467.0, 542.0, 719.0, 542.0, 719.0, 551.0, 719.0, 551.0, 719.0, 794.0, 152.5, 794.0 ],
 									"source" : [ "obj-21", 1 ]
 								}
 
@@ -10522,8 +10522,7 @@
 
 					}
 ,
-					"text" : "Corpus 1",
-					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
+					"text" : "Perc Bubbles"
 				}
 
 			}
@@ -10574,7 +10573,7 @@
 					"patching_rect" : [ 301.830188810825348, 465.78454852104187, 44.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 160.0, 2.0, 41.0, 17.0 ],
-					"text" : "sound",
+					"text" : "sounds",
 					"textcolor" : [ 0.905882352941176, 0.905882352941176, 0.905882352941176, 1.0 ]
 				}
 
@@ -10708,7 +10707,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.896585, 0.250263, 0.275095, 1.0 ],
+					"bgcolor" : [ 0.478781512605042, 0.117647058823529, 0.819852941176471, 1.0 ],
 					"bordercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"id" : "obj-4",
 					"maxclass" : "panel",

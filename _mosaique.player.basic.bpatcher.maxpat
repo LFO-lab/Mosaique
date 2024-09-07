@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 629.0, 312.0, 796.0, 983.0 ],
+		"rect" : [ 795.0, 217.0, 796.0, 983.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -42,7 +42,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-12",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -183,7 +183,6 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-35",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -375,24 +374,10 @@
 								}
 
 							}
- ],
-						"saved_attribute_attributes" : 						{
-							"default_plcolor" : 							{
-								"expression" : ""
-							}
-
-						}
-
+ ]
 					}
 ,
 					"patching_rect" : [ 327.0, 608.0, 172.0, 22.0 ],
-					"saved_attribute_attributes" : 					{
-						"default_plcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-,
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -453,7 +438,6 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-35",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -1088,24 +1072,10 @@
 								}
 
 							}
- ],
-						"saved_attribute_attributes" : 						{
-							"default_plcolor" : 							{
-								"expression" : ""
-							}
-
-						}
-
+ ]
 					}
 ,
 					"patching_rect" : [ 511.0, 608.0, 151.0, 22.0 ],
-					"saved_attribute_attributes" : 					{
-						"default_plcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-,
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1279,24 +1249,10 @@
 								}
 
 							}
- ],
-						"saved_attribute_attributes" : 						{
-							"default_plcolor" : 							{
-								"expression" : ""
-							}
-
-						}
-
+ ]
 					}
 ,
 					"patching_rect" : [ 913.0, 831.0, 85.0, 22.0 ],
-					"saved_attribute_attributes" : 					{
-						"default_plcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-,
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1454,7 +1410,7 @@
 					"patching_rect" : [ 555.0, 302.0, 150.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 385.0, 14.0, 150.0, 33.0 ],
+					"presentation_rect" : [ 369.0, 13.0, 150.0, 33.0 ],
 					"text" : "- Filter per sample with env mod"
 				}
 
@@ -1653,24 +1609,10 @@
 								}
 
 							}
- ],
-						"saved_attribute_attributes" : 						{
-							"default_plcolor" : 							{
-								"expression" : ""
-							}
-
-						}
-
+ ]
 					}
 ,
 					"patching_rect" : [ 229.0, 1115.0, 41.0, 22.0 ],
-					"saved_attribute_attributes" : 					{
-						"default_plcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-,
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1857,24 +1799,10 @@
 								}
 
 							}
- ],
-						"saved_attribute_attributes" : 						{
-							"default_plcolor" : 							{
-								"expression" : ""
-							}
-
-						}
-
+ ]
 					}
 ,
 					"patching_rect" : [ 122.0, 1111.0, 41.0, 22.0 ],
-					"saved_attribute_attributes" : 					{
-						"default_plcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-,
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1908,7 +1836,7 @@
 							"parameter_initial" : [ -6 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "BasicPlayer_Gain",
+							"parameter_longname" : "Player Output Gain",
 							"parameter_mmax" : 12.0,
 							"parameter_mmin" : -70.0,
 							"parameter_modmode" : 0,
@@ -2000,7 +1928,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-177",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2049,7 +1977,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-171",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2061,7 +1989,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-170",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2079,8 +2007,7 @@
 					"outlettype" : [ "float", "int" ],
 					"patching_rect" : [ 269.0, 1146.0, 59.0, 8.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 23.75, 158.0, 140.0, 4.0 ],
-					"slidercolor" : [ 0.141176470588235, 0.141176470588235, 0.141176470588235, 1.0 ]
+					"presentation_rect" : [ 23.75, 158.0, 140.0, 4.0 ]
 				}
 
 			}
@@ -2094,8 +2021,7 @@
 					"outlettype" : [ "float", "int" ],
 					"patching_rect" : [ 145.0, 1146.0, 67.0, 9.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 23.75, 153.0, 140.0, 4.0 ],
-					"slidercolor" : [ 0.141176470588235, 0.141176470588235, 0.141176470588235, 1.0 ]
+					"presentation_rect" : [ 23.75, 153.0, 140.0, 4.0 ]
 				}
 
 			}
@@ -2367,24 +2293,10 @@
 								}
 
 							}
- ],
-						"saved_attribute_attributes" : 						{
-							"default_plcolor" : 							{
-								"expression" : ""
-							}
-
-						}
-
+ ]
 					}
 ,
 					"patching_rect" : [ 1181.0, 894.0, 85.0, 22.0 ],
-					"saved_attribute_attributes" : 					{
-						"default_plcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-,
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -2416,7 +2328,7 @@
 					}
 ,
 					"text" : "TRANSPOSE",
-					"textcolor" : [ 0.811764705882353, 0.811764705882353, 0.811764705882353, 1.0 ],
+					"textcolor" : [ 0.807843, 0.807843, 0.807843, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -2441,7 +2353,7 @@
 					}
 ,
 					"text" : "ENVELOPPE",
-					"textcolor" : [ 0.811764705882353, 0.811764705882353, 0.811764705882353, 1.0 ],
+					"textcolor" : [ 0.807843, 0.807843, 0.807843, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -2500,7 +2412,7 @@
 							"parameter_annotation_name" : "Player pitch",
 							"parameter_info" : "Change the player's pitch factor.",
 							"parameter_linknames" : 1,
-							"parameter_longname" : "BasicPlayer_Pitch",
+							"parameter_longname" : "Player Pitch",
 							"parameter_mmax" : 24.0,
 							"parameter_mmin" : -24.0,
 							"parameter_modmode" : 0,
@@ -2537,7 +2449,7 @@
 							"parameter_enum" : [ "onde-shot", "looped" ],
 							"parameter_info" : "Toggle for looping or one-shot playback modes.",
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Player PlayMode",
+							"parameter_longname" : "Player Play Mode",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Play Mode",
@@ -3113,24 +3025,10 @@
 								}
 
 							}
- ],
-						"saved_attribute_attributes" : 						{
-							"default_plcolor" : 							{
-								"expression" : ""
-							}
-
-						}
-
+ ]
 					}
 ,
 					"patching_rect" : [ 1485.0, 843.0, 74.0, 22.0 ],
-					"saved_attribute_attributes" : 					{
-						"default_plcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-,
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -3164,7 +3062,7 @@
 							"parameter_initial" : [ 0.05 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "BasicPlayer_Release",
+							"parameter_longname" : "Player Release",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Release",
@@ -3201,7 +3099,7 @@
 							"parameter_initial" : [ 0.0001 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "BasicPlayer_Attack",
+							"parameter_longname" : "Player Attack",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Attack",
@@ -3281,14 +3179,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 23.75, 93.0, 89.0, 57.5 ],
 					"proportion" : 0.5,
-					"rounded" : 4,
-					"saved_attribute_attributes" : 					{
-						"bgfillcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-
+					"rounded" : 4
 				}
 
 			}
@@ -3306,14 +3197,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 114.5, 93.0, 49.25, 57.5 ],
 					"proportion" : 0.5,
-					"rounded" : 4,
-					"saved_attribute_attributes" : 					{
-						"bgfillcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-
+					"rounded" : 4
 				}
 
 			}
@@ -3331,14 +3215,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 23.75, 26.25, 139.25, 64.25 ],
 					"proportion" : 0.5,
-					"rounded" : 4,
-					"saved_attribute_attributes" : 					{
-						"bgfillcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-
+					"rounded" : 4
 				}
 
 			}
@@ -3356,14 +3233,7 @@
 					"patching_rect" : [ 1297.0, 176.0, 200.0, 399.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 197.0, 166.5, 165.0 ],
-					"proportion" : 0.5,
-					"saved_attribute_attributes" : 					{
-						"bgfillcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-
+					"proportion" : 0.5
 				}
 
 			}
@@ -3823,13 +3693,67 @@
 
 			}
  ],
-		"saved_attribute_attributes" : 		{
-			"default_plcolor" : 			{
-				"expression" : ""
+		"parameters" : 		{
+			"obj-1" : [ "Player Stop All", "Stop All", 0 ],
+			"obj-148" : [ "Player Output Gain", "Gain", 0 ],
+			"obj-15" : [ "Player Release", "Release", 0 ],
+			"obj-19" : [ "Player Attack", "Attack", 0 ],
+			"obj-45" : [ "BasicPlayer_VoiceNum", "Voices", 0 ],
+			"obj-62" : [ "Player Play Mode", "Play Mode", 0 ],
+			"obj-65" : [ "Player Pitch", "Pitch", 0 ],
+			"obj-66" : [ "Player Fine Tune", "Tune", 0 ],
+			"obj-7" : [ "Player Speed", "Speed", 0 ],
+			"obj-8" : [ "Player Pitch-Speed Link", "link", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
 			}
-
+,
+			"inherited_shortname" : 1
 		}
-
+,
+		"dependency_cache" : [ 			{
+				"name" : "_mosaique.player.basic.poly.maxpat",
+				"bootpath" : "~/Documents/GitHub/Mosaique",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "_mosaique.sliceInfos.maxpat",
+				"bootpath" : "~/Documents/GitHub/Mosaique",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fluid.buf2list.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.dataset~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "link.svg",
+				"bootpath" : "~/Documents/GitHub/Mosaique",
+				"patcherrelativepath" : ".",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "link_off.svg",
+				"bootpath" : "~/Documents/GitHub/Mosaique",
+				"patcherrelativepath" : ".",
+				"type" : "svg",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

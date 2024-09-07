@@ -817,7 +817,7 @@
 					"shownumber" : 0,
 					"slidercolor" : [ 0.145098039215686, 0.149019607843137, 0.152941176470588, 1.0 ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"trioncolor" : [ 0.0, 0.933333333333333, 1.0, 1.0 ],
+					"trioncolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"varname" : "Camera Speed"
 				}
 
@@ -842,7 +842,7 @@
 					}
 ,
 					"text" : "SPEED",
-					"textcolor" : [ 0.431372549019608, 0.431372549019608, 0.431372549019608, 1.0 ]
+					"textcolor" : [ 0.352941176470588, 0.352941176470588, 0.352941176470588, 1.0 ]
 				}
 
 			}
@@ -864,7 +864,7 @@
 					}
 ,
 					"text" : "CAMERA",
-					"textcolor" : [ 0.874509803921569, 0.874509803921569, 0.874509803921569, 1.0 ],
+					"textcolor" : [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -3419,8 +3419,8 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgcolor" : [ 1.0, 0.725490196078431, 0.003921568627451, 1.0 ],
-					"activebgoncolor" : [ 0.0, 0.933333333333333, 1.0, 1.0 ],
+					"activebgcolor" : [ 1.0, 0.709803921568627, 0.196078431372549, 1.0 ],
+					"activebgoncolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"annotation" : "Toggle whether the player is controlled by the mouse or the camera.",
 					"annotation_name" : "3D View Control Source",
 					"fontsize" : 11.0,
@@ -7842,11 +7842,11 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgcolor" : [ 1.0, 0.725490196078431, 0.003921568627451, 1.0 ],
-					"activebgoncolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
+					"activebgcolor" : [ 1.0, 0.709803921568627, 0.196078431372549, 1.0 ],
+					"activebgoncolor" : [ 0.968627450980392, 0.431372549019608, 0.431372549019608, 1.0 ],
 					"annotation" : "Toggle the 3D view window.",
 					"annotation_name" : "3D View",
-					"bgcolor" : [ 1.0, 0.725490196078431, 0.003921568627451, 1.0 ],
+					"bgcolor" : [ 1.0, 0.709803921568627, 0.196078431372549, 1.0 ],
 					"fontsize" : 28.0,
 					"id" : "obj-34",
 					"maxclass" : "live.text",
@@ -8938,7 +8938,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 822.0, 667.0, 1429.0, 790.0 ],
+						"rect" : [ 593.0, 505.0, 1429.0, 790.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -14053,7 +14053,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-62", 0 ],
-									"disabled" : 1,
 									"source" : [ "obj-66", 1 ]
 								}
 
