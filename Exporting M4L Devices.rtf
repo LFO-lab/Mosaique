@@ -8,13 +8,14 @@
 \pard\tx220\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li720\fi-720\pardirnatural\partightenfactor0
 \ls1\ilvl0
 \f0\fs24 \cf0 {\listtext	1.	}Make a copy of the repository somewhere outside the scope of GitHub\
-{\listtext	2.	}Create .maxpat named identically to AMXD file you want to freeze and save in the same folder\
+{\listtext	2.	}Create .maxpat named identically to AMXD file you want to freeze and save in the same folder. Make sure it opens in presentation mode and that the background colour in darker gray.\
 {\listtext	3.	}Copy content of AMXD file in .maxpat file just created. Save maxpat file.\
 {\listtext	4.	}Create an empty Max project next to the folder containing all files. Not inside.\
 {\listtext	5.	}In the project, import the maxpat file (through \'ab\'a0Add existing files\'a0\'bb function). The dependancies should automatically be identified. \
 {\listtext	6.	}Add the .mxe64 Windows externals to the project (through \'ab\'a0Add existing files\'a0\'bb function).\
 {\listtext	7.	}Consolidate the project files\
 {\listtext	8.	}Create the openactions.txt file from within the project. Copy/paste the following lines and save :\
+{\listtext	9.	}\
 ;max objectfile fluid.dataset~ fluid.libmanipulation\
 \pard\tx940\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li1440\fi-1440\pardirnatural\partightenfactor0
 \ls1\ilvl1\cf0 ;max objectfile fluid.labelset~ fluid.libmanipulation\
@@ -37,8 +38,9 @@
 ;max objectfile fluid.waveform~ fluid.waveform~;\
 \
 \pard\tx220\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\li720\fi-720\pardirnatural\partightenfactor0
-\ls1\ilvl0\cf0 {\listtext	10.	}Manually add [fluid.libmanipulation.mxo] and [fluid.libmanipulation.mxe64] to the root of the project\
-{\listtext	11.	}Create the Max for Live (AMXD) file from the project. Save outside of the scope.\
+\ls1\ilvl0\cf0 {\listtext	11.	}Manually add [fluid.libmanipulation.mxo] and [fluid.libmanipulation.mxe64] to the root of the project\
+{\listtext	12.	}In the project inspector, check the \'ab\'a0Include Packages When Freezing\'a0\'bb option. Also make sure the Max for Live Device Type is set properly.\
+{\listtext	13.	}Create the Max for Live (AMXD) file from the project. Save outside of the scope.\
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
 \cf0 \
 }
