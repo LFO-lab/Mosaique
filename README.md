@@ -31,7 +31,7 @@ Mosaïque works as both a Max for Live device AND a Max patch.
 
 Two ways of installing :
 <ol>
-  <li>Clone the current repository : you will have the most recent version of Mosaïque. We make sure the main branch is always in working order </li>
+  <li>Clone the current repository : you will have the most recent version of Mosaïque. We make sure the main branch is always in working order. However, the Max for Live devices are not frozen (i.e. you will end up with a folder containing multiple files.)</li>
   <li>Go to our releases here : https://github.com/LFO-lab/Mosaique/releases. You'll find the most recent stable version of the project</li>
   <ul>
     <li>If you intend to use Mosaïque as a Max for Live device, download the ZIP file titled : Mosaique.M4L.v0.1.2-beta.zip</li>
