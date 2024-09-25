@@ -39,3 +39,6 @@ Two ways of installing :
 </li>
   </ul>
 </ol>
+
+<h2>Using Mosaïque</h2>
+Coming soon.
