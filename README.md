@@ -9,11 +9,11 @@ In order to use Mosaïque you need the following softwares :
   <li><a href="https://www.ableton.com/en/live/" target="_blank" rel="noopener noreferrer">Ableton Live 11 or 12</a></li>
   <li><a href="https://cycling74.com/products/max" target="_blank" rel="noopener noreferrer">Max 8.6.0 or later</a></li>
 </ul>
-<p>N.B. If you have **Ableton Live 11**, we recommend that you install a separate Max version that is at least version 8.6.0 and define the application as the default Max in your Ableton preferences</p>
+<p>N.B. If you have **Ableton Live 11**, we recommend that you install a separate Max version that is at least version 8.6.0 and define the application as the default Max in your Ableton preferences. For support : https://help.ableton.com/hc/en-us/articles/209070309-Using-a-separate-Max-for-Live-installation</p>
 
 <p>N.B.2. Mosaïque has not been tested on **Ableton Live 10**, but it might well work. Again, just make sure your Max version is at least 8.6.0.</p>
 
-https://help.ableton.com/hc/en-us/articles/209070309-Using-a-separate-Max-for-Live-installation
+
 <h3>Library needed</h3>
 Mosaïque uses the <a href="https://www.flucoma.org/">Fluid Corpus Manipulation</a> library to do all its machine listening and learning processes.
 
