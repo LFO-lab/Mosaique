@@ -1,4 +1,5 @@
-<img width="1447" alt="MosaiqueInterface" src="https://github.com/LFO-lab/Mosaique/assets/93346310/c9da7d38-44ac-4aa1-a772-3027d95e7c1c">
+<img width="1447" alt="MosaiqueInterface" src="https://freight.cargo.site/w/2045/h/384/q/75/i/V1956564417129844157721709182096/Screenshot-2024-09-06-at-10.38.06AM.png">
+
 <p>Mosaïque is a corpus-based concatenative synthesis software that offers an immersive graphical representation to creators who wish to manipulate sound within a virtual timbral space. Mosaïque takes the form of a collection of Max for Live instruments to play sound coming from the Ableton Live composition environment. In developing Mosaïque, we aim to provide greater accessibility to a sound generation technique that is relatively new and still not widely spread. The technique involves mapping thousands of short sound samples (the corpus) into a three-dimensional representation based on their timbral proximity; the similarity of sounds will correspond to their respective proximity to each other in the 3D space.</p>
 <p>For more details, visit : https://mosaique.cargo.site/</p>
 
