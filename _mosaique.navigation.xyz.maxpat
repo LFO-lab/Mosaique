@@ -105,7 +105,7 @@
 					}
 ,
 					"text" : "state",
-					"textcolor" : [ 0.070588235294118, 0.070588235294118, 0.070588235294118, 1.0 ]
+					"textcolor" : [ 0.862745098039216, 0.862745098039216, 0.862745098039216, 1.0 ]
 				}
 
 			}
@@ -198,7 +198,7 @@
 					}
 ,
 					"text" : "Z",
-					"textcolor" : [ 0.070588235294118, 0.070588235294118, 0.070588235294118, 1.0 ]
+					"textcolor" : [ 0.862745098039216, 0.862745098039216, 0.862745098039216, 1.0 ]
 				}
 
 			}
@@ -221,7 +221,7 @@
 					}
 ,
 					"text" : "Y",
-					"textcolor" : [ 0.070588235294118, 0.070588235294118, 0.070588235294118, 1.0 ]
+					"textcolor" : [ 0.862745098039216, 0.862745098039216, 0.862745098039216, 1.0 ]
 				}
 
 			}
@@ -244,7 +244,7 @@
 					}
 ,
 					"text" : "X",
-					"textcolor" : [ 0.070588235294118, 0.070588235294118, 0.070588235294118, 1.0 ]
+					"textcolor" : [ 0.862745098039216, 0.862745098039216, 0.862745098039216, 1.0 ]
 				}
 
 			}
@@ -287,7 +287,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activeneedlecolor" : [ 0.0, 0.933333333333333, 1.0, 1.0 ],
+					"activeneedlecolor" : [ 0.2, 0.749019607843137, 0.858823529411765, 1.0 ],
 					"annotation" : "\"Z Axis Coordinates\"",
 					"annotation_name" : "Z Axis Coordinates",
 					"fontname" : "Ableton Sans Light",
@@ -330,7 +330,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activeneedlecolor" : [ 0.0, 0.933333333333333, 1.0, 1.0 ],
+					"activeneedlecolor" : [ 0.2, 0.749019607843137, 0.858823529411765, 1.0 ],
 					"annotation" : "\"Y Axis Coordinates\"",
 					"annotation_name" : "Y Axis Coordinates",
 					"fontname" : "Ableton Sans Light",
@@ -373,7 +373,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activeneedlecolor" : [ 0.0, 0.933333333333333, 1.0, 1.0 ],
+					"activeneedlecolor" : [ 0.2, 0.749019607843137, 0.858823529411765, 1.0 ],
 					"annotation" : "\"X Axis Coordinates\"",
 					"annotation_name" : "X Axis Coordinates",
 					"fontname" : "Ableton Sans Light",
@@ -433,7 +433,7 @@
 					}
 ,
 					"text" : "coordinates",
-					"textcolor" : [ 0.070588235294118, 0.070588235294118, 0.070588235294118, 1.0 ]
+					"textcolor" : [ 0.862745098039216, 0.862745098039216, 0.862745098039216, 1.0 ]
 				}
 
 			}
@@ -642,6 +642,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "float" ],
 					"parameter_enable" : 1,
+					"parameter_mappable" : 0,
 					"patching_rect" : [ 309.0, 357.0, 100.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 68.118806958198547, 44.55445222556591, 65.75, 15.0 ],
@@ -652,6 +653,7 @@
 							"parameter_info" : "Choose the dimensionality of the navigation space.",
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
+							"parameter_invisible" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "Navigation Coordinates",
 							"parameter_mmax" : 2,
