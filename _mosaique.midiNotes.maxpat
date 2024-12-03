@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -304,7 +304,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 208.552629590034485, 1299.999987602233887, 40.0, 22.0 ],
+					"patching_rect" : [ 162.0, 1110.0, 40.0, 22.0 ],
 					"text" : "midiin"
 				}
 
@@ -328,7 +328,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 442.763153672218323, 1421.052618026733398, 161.199999809265137, 22.0 ],
+					"patching_rect" : [ 396.0, 1231.0, 161.199999809265137, 22.0 ],
 					"text" : "t i i"
 				}
 
@@ -341,7 +341,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 208.552629590034485, 1769.736825227737427, 30.0, 30.0 ]
+					"patching_rect" : [ 162.0, 1580.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -418,7 +418,7 @@
 							"parameter_initial" : [ 60 ],
 							"parameter_invisible" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "MIDI lowest note",
+							"parameter_longname" : "---MIDI_note_min[2]",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "lowest note",
 							"parameter_type" : 0,
@@ -448,7 +448,7 @@
 						"valueof" : 						{
 							"parameter_invisible" : 2,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "MIDI highest note",
+							"parameter_longname" : "---MIDI_note_max[2]",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Highest Note",
 							"parameter_type" : 0,
@@ -522,7 +522,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 584.868415474891663, 1621.710510849952698, 82.0, 22.0 ],
+					"patching_rect" : [ 538.0, 1432.0, 82.0, 22.0 ],
 					"text" : "prepend state"
 				}
 
@@ -534,7 +534,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 584.868415474891663, 1590.131563782691956, 29.5, 22.0 ],
+					"patching_rect" : [ 538.0, 1400.0, 29.5, 22.0 ],
 					"text" : "!= 0"
 				}
 
@@ -546,8 +546,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 208.552629590034485, 1671.052615642547607, 98.0, 22.0 ],
-					"text" : "prepend 2D_grid"
+					"patching_rect" : [ 162.0, 1481.0, 105.0, 22.0 ],
+					"text" : "prepend MIDInote"
 				}
 
 			}
@@ -558,7 +558,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 208.552629590034485, 1390.131565690040588, 252.666671395301819, 22.0 ],
+					"patching_rect" : [ 162.0, 1200.0, 252.666671395301819, 22.0 ],
 					"text" : "unpack i i"
 				}
 
@@ -570,7 +570,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 208.552629590034485, 1451.973670363426208, 252.666671395301819, 22.0 ],
+					"patching_rect" : [ 162.0, 1262.0, 252.666671395301819, 22.0 ],
 					"text" : "stripnote"
 				}
 
@@ -582,7 +582,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 208.552629590034485, 1625.657879233360291, 252.666671395301819, 22.0 ],
+					"patching_rect" : [ 162.0, 1436.0, 252.666671395301819, 22.0 ],
 					"text" : "pack f f"
 				}
 
@@ -594,7 +594,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 442.763153672218323, 1578.947353363037109, 101.0, 22.0 ],
+					"patching_rect" : [ 396.0, 1389.0, 101.0, 22.0 ],
 					"text" : "scale 1 127 -1. 1."
 				}
 
@@ -606,7 +606,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 267.763155341148376, 1523.684195995330811, 114.0, 22.0 ],
+					"patching_rect" : [ 221.0, 1334.0, 114.0, 22.0 ],
 					"text" : "r #1MIDI_note_max"
 				}
 
@@ -618,7 +618,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 238.815787196159363, 1492.763143658638, 111.0, 22.0 ],
+					"patching_rect" : [ 192.0, 1303.0, 111.0, 22.0 ],
 					"text" : "r #1MIDI_note_min"
 				}
 
@@ -630,7 +630,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 208.552629590034485, 1584.210511207580566, 166.730346322059688, 22.0 ],
+					"patching_rect" : [ 162.0, 1394.0, 166.730346322059688, 22.0 ],
 					"text" : "scale 0 127 -1. 1."
 				}
 
@@ -652,7 +652,7 @@
 						"valueof" : 						{
 							"parameter_invisible" : 2,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "MIDI velocity layers",
+							"parameter_longname" : "---MIDI_velo_layers",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Velocity Layers",
 							"parameter_type" : 0,
@@ -672,7 +672,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 8,
 					"outlettype" : [ "", "", "", "int", "int", "", "int", "" ],
-					"patching_rect" : [ 208.552629590034485, 1342.763145089149475, 539.0, 22.0 ],
+					"patching_rect" : [ 162.0, 1153.0, 539.0, 22.0 ],
 					"text" : "midiparse"
 				}
 
