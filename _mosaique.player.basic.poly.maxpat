@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-25",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1978.0, 1404.0, 74.0, 22.0 ],
+					"text" : "route stopall"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-22",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -57,8 +69,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1978.0, 1410.0, 174.0, 22.0 ],
-					"text" : "r #1Mosaique_PlayerParams"
+					"patching_rect" : [ 1978.0, 1373.0, 199.0, 22.0 ],
+					"text" : "r #1Mosaique_BasicPlayer_Params"
 				}
 
 			}
@@ -221,8 +233,8 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 102.0, 196.0, 174.0, 22.0 ],
-													"text" : "r #1Mosaique_PlayerParams"
+													"patching_rect" : [ 102.0, 196.0, 199.0, 22.0 ],
+													"text" : "r #1Mosaique_BasicPlayer_Params"
 												}
 
 											}
@@ -412,8 +424,8 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 416.0, 508.0, 174.0, 22.0 ],
-													"text" : "r #1Mosaique_PlayerParams"
+													"patching_rect" : [ 416.0, 508.0, 199.0, 22.0 ],
+													"text" : "r #1Mosaique_BasicPlayer_Params"
 												}
 
 											}
@@ -1132,8 +1144,8 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 67.975525140762329, 156.862748622894287, 174.0, 22.0 ],
-													"text" : "r #1Mosaique_PlayerParams"
+													"patching_rect" : [ 67.975525140762329, 156.862748622894287, 199.0, 22.0 ],
+													"text" : "r #1Mosaique_BasicPlayer_Params"
 												}
 
 											}
@@ -1324,8 +1336,8 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 617.975559234619141, 100.0, 174.0, 22.0 ],
-													"text" : "r #1Mosaique_PlayerParams"
+													"patching_rect" : [ 617.975559234619141, 100.0, 199.0, 22.0 ],
+													"text" : "r #1Mosaique_BasicPlayer_Params"
 												}
 
 											}
@@ -1754,8 +1766,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 580.0, 226.0, 174.0, 22.0 ],
-									"text" : "r #1Mosaique_PlayerParams"
+									"patching_rect" : [ 580.0, 226.0, 199.0, 22.0 ],
+									"text" : "r #1Mosaique_BasicPlayer_Params"
 								}
 
 							}
@@ -2126,8 +2138,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 52.0, 606.0, 174.0, 22.0 ],
-					"text" : "r #1Mosaique_PlayerParams"
+					"patching_rect" : [ 52.0, 606.0, 199.0, 22.0 ],
+					"text" : "r #1Mosaique_BasicPlayer_Params"
 				}
 
 			}
@@ -2246,7 +2258,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 927.0, 1109.0, 50.5, 22.0 ],
+					"patching_rect" : [ 934.0, 1109.0, 50.5, 22.0 ],
 					"text" : "*~"
 				}
 
@@ -2270,7 +2282,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1002.0, 1047.0, 132.0, 22.0 ],
+					"patching_rect" : [ 1115.0, 1048.0, 132.0, 22.0 ],
 					"text" : "trapezoid~ 0.001 0.999"
 				}
 
@@ -2521,7 +2533,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 927.0, 1314.0, 42.0, 22.0 ],
+					"patching_rect" : [ 934.0, 1314.0, 42.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"attr_comment" : ""
 					}
@@ -2537,7 +2549,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 927.0, 1276.0, 50.5, 22.0 ],
+					"patching_rect" : [ 934.0, 1276.0, 50.5, 22.0 ],
 					"text" : "*~"
 				}
 
@@ -2885,7 +2897,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-22", 0 ],
+					"destination" : [ "obj-25", 0 ],
 					"source" : [ "obj-21", 0 ]
 				}
 
@@ -2915,6 +2927,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-63", 0 ],
 					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"source" : [ "obj-25", 0 ]
 				}
 
 			}
@@ -3320,24 +3339,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "_mosaique.sliceInfos.maxpat",
-				"bootpath" : "~/Documents/GitHub/Mosaique",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fluid.buf2list.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.dataset~.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

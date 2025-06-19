@@ -2,17 +2,42 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 9,
-			"minor" : 0,
-			"revision" : 6,
+			"major" : 8,
+			"minor" : 6,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 777.0, 100.0, 792.0, 975.0 ],
+		"rect" : [ 134.0, 178.0, 1636.0, 975.0 ],
+		"bglocked" : 0,
 		"openinpresentation" : 1,
+		"default_fontsize" : 12.0,
+		"default_fontface" : 0,
+		"default_fontname" : "Arial",
+		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
+		"statusbarvisible" : 2,
+		"toolbarvisible" : 1,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 0,
+		"tallnewobj" : 0,
+		"boxanimatetime" : 200,
+		"enablehscroll" : 1,
+		"enablevscroll" : 1,
+		"devicewidth" : 0.0,
+		"description" : "",
+		"digest" : "",
+		"tags" : "",
+		"style" : "",
+		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-43",
@@ -40,11 +65,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-36",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 563.0, 982.0, 30.0, 30.0 ]
 				}
 
@@ -94,7 +119,7 @@
 					}
 ,
 					"text" : "Active grains",
-					"textcolor" : [ 0.83921568627451, 0.803921568627451, 0.658823529411765, 1.0 ],
+					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -119,7 +144,7 @@
 					}
 ,
 					"text" : "SHAPE",
-					"textcolor" : [ 0.83921568627451, 0.803921568627451, 0.658823529411765, 1.0 ],
+					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -144,7 +169,7 @@
 					}
 ,
 					"text" : "GRAIN SCHEDULER",
-					"textcolor" : [ 0.83921568627451, 0.803921568627451, 0.658823529411765, 1.0 ],
+					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -241,7 +266,6 @@
 
 					}
 ,
-					"valuepopup" : 1,
 					"varname" : "Grain Probability"
 				}
 
@@ -431,7 +455,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-12",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -474,7 +498,7 @@
 							"parameter_enum" : [ "Stop", "All" ],
 							"parameter_info" : "Toggle for looping or one-shot playback modes.",
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Player Stop All[1]",
+							"parameter_longname" : "Player Stop All",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Stop All",
@@ -495,8 +519,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 774.0, 997.333363056182861, 171.0, 22.0 ],
-					"text" : "s #1Mosaique_PlayerParams"
+					"patching_rect" : [ 774.0, 997.333363056182861, 208.0, 22.0 ],
+					"text" : "s #1Mosaique_GranulPlayer_Params"
 				}
 
 			}
@@ -533,16 +557,42 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 9,
-							"minor" : 0,
-							"revision" : 6,
+							"major" : 8,
+							"minor" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 511.0, 142.0, 852.0, 770.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-12",
@@ -885,27 +935,20 @@
 
 							}
  ],
-						"saved_attribute_attributes" : 						{
-							"default_plcolor" : 							{
-								"expression" : ""
-							}
-
-						}
-
+						"patchlinecolor" : [ 0.690196078431373, 0.709803921568627, 0.63921568627451, 1.0 ],
+						"bgcolor" : [ 0.149019607843137, 0.219607843137255, 0.247058823529412, 1.0 ],
+						"editing_bgcolor" : [ 0.149019607843137, 0.219607843137255, 0.247058823529412, 1.0 ]
 					}
 ,
 					"patching_rect" : [ 327.0, 608.0, 172.0, 22.0 ],
-					"saved_attribute_attributes" : 					{
-						"default_plcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-,
 					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
 						"editing_bgcolor" : [ 0.149019607843137, 0.219607843137255, 0.247058823529412, 1.0 ],
+						"globalpatchername" : "",
 						"locked_bgcolor" : [ 0.149019607843137, 0.219607843137255, 0.247058823529412, 1.0 ],
-						"patchlinecolor" : [ 0.690196078431373, 0.709803921568627, 0.63921568627451, 1.0 ]
+						"patchlinecolor" : [ 0.690196078431373, 0.709803921568627, 0.63921568627451, 1.0 ],
+						"tags" : ""
 					}
 ,
 					"text" : "p VoiceManagement_OneShot"
@@ -922,16 +965,42 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 9,
-							"minor" : 0,
-							"revision" : 6,
+							"major" : 8,
+							"minor" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 290.0, 312.0, 852.0, 770.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-1",
@@ -1589,27 +1658,20 @@
 
 							}
  ],
-						"saved_attribute_attributes" : 						{
-							"default_plcolor" : 							{
-								"expression" : ""
-							}
-
-						}
-
+						"patchlinecolor" : [ 0.690196078431373, 0.709803921568627, 0.63921568627451, 1.0 ],
+						"bgcolor" : [ 0.149019607843137, 0.219607843137255, 0.247058823529412, 1.0 ],
+						"editing_bgcolor" : [ 0.149019607843137, 0.219607843137255, 0.247058823529412, 1.0 ]
 					}
 ,
 					"patching_rect" : [ 511.0, 608.0, 151.0, 22.0 ],
-					"saved_attribute_attributes" : 					{
-						"default_plcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-,
 					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
 						"editing_bgcolor" : [ 0.149019607843137, 0.219607843137255, 0.247058823529412, 1.0 ],
+						"globalpatchername" : "",
 						"locked_bgcolor" : [ 0.149019607843137, 0.219607843137255, 0.247058823529412, 1.0 ],
-						"patchlinecolor" : [ 0.690196078431373, 0.709803921568627, 0.63921568627451, 1.0 ]
+						"patchlinecolor" : [ 0.690196078431373, 0.709803921568627, 0.63921568627451, 1.0 ],
+						"tags" : ""
 					}
 ,
 					"text" : "p VoiceManagement_Loop"
@@ -1671,16 +1733,42 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 9,
-							"minor" : 0,
-							"revision" : 6,
+							"major" : 8,
+							"minor" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 59.0, 125.0, 640.0, 480.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-159",
@@ -1811,27 +1899,20 @@
 
 							}
  ],
-						"saved_attribute_attributes" : 						{
-							"default_plcolor" : 							{
-								"expression" : ""
-							}
-
-						}
-
+						"patchlinecolor" : [ 0.690196078431373, 0.709803921568627, 0.63921568627451, 1.0 ],
+						"bgcolor" : [ 0.149019607843137, 0.219607843137255, 0.247058823529412, 1.0 ],
+						"editing_bgcolor" : [ 0.149019607843137, 0.219607843137255, 0.247058823529412, 1.0 ]
 					}
 ,
 					"patching_rect" : [ 229.0, 1115.0, 41.0, 22.0 ],
-					"saved_attribute_attributes" : 					{
-						"default_plcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-,
 					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
 						"editing_bgcolor" : [ 0.149019607843137, 0.219607843137255, 0.247058823529412, 1.0 ],
+						"globalpatchername" : "",
 						"locked_bgcolor" : [ 0.149019607843137, 0.219607843137255, 0.247058823529412, 1.0 ],
-						"patchlinecolor" : [ 0.690196078431373, 0.709803921568627, 0.63921568627451, 1.0 ]
+						"patchlinecolor" : [ 0.690196078431373, 0.709803921568627, 0.63921568627451, 1.0 ],
+						"tags" : ""
 					}
 ,
 					"text" : "p gain"
@@ -1848,16 +1929,42 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 9,
-							"minor" : 0,
-							"revision" : 6,
+							"major" : 8,
+							"minor" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 59.0, 125.0, 640.0, 480.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-159",
@@ -1988,27 +2095,20 @@
 
 							}
  ],
-						"saved_attribute_attributes" : 						{
-							"default_plcolor" : 							{
-								"expression" : ""
-							}
-
-						}
-
+						"patchlinecolor" : [ 0.690196078431373, 0.709803921568627, 0.63921568627451, 1.0 ],
+						"bgcolor" : [ 0.149019607843137, 0.219607843137255, 0.247058823529412, 1.0 ],
+						"editing_bgcolor" : [ 0.149019607843137, 0.219607843137255, 0.247058823529412, 1.0 ]
 					}
 ,
 					"patching_rect" : [ 122.0, 1111.0, 41.0, 22.0 ],
-					"saved_attribute_attributes" : 					{
-						"default_plcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-,
 					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
 						"editing_bgcolor" : [ 0.149019607843137, 0.219607843137255, 0.247058823529412, 1.0 ],
+						"globalpatchername" : "",
 						"locked_bgcolor" : [ 0.149019607843137, 0.219607843137255, 0.247058823529412, 1.0 ],
-						"patchlinecolor" : [ 0.690196078431373, 0.709803921568627, 0.63921568627451, 1.0 ]
+						"patchlinecolor" : [ 0.690196078431373, 0.709803921568627, 0.63921568627451, 1.0 ],
+						"tags" : ""
 					}
 ,
 					"text" : "p gain"
@@ -2037,7 +2137,7 @@
 							"parameter_initial" : [ -6 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Player Output Gain[1]",
+							"parameter_longname" : "Player Output Gain",
 							"parameter_mmax" : 12.0,
 							"parameter_mmin" : -70.0,
 							"parameter_modmode" : 0,
@@ -2129,7 +2229,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-177",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2169,7 +2269,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "signal", "", "" ],
-					"patching_rect" : [ 122.0, 1026.0, 354.0, 22.0 ],
+					"patching_rect" : [ 122.0, 1026.0, 355.0, 22.0 ],
 					"text" : "poly~ _mosaique.player.granular.poly.maxpat @args #1 @steal 0"
 				}
 
@@ -2178,7 +2278,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-171",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2190,7 +2290,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-170",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2209,7 +2309,7 @@
 					"patching_rect" : [ 269.0, 1146.0, 59.0, 8.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 23.75, 159.75, 227.0, 4.0 ],
-					"slidercolor" : [ 0.011764705882353, 0.066666666666667, 0.090196078431373, 1.0 ]
+					"slidercolor" : [ 0.12156862745098, 0.12156862745098, 0.12156862745098, 1.0 ]
 				}
 
 			}
@@ -2224,7 +2324,7 @@
 					"patching_rect" : [ 145.0, 1146.0, 67.0, 9.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 23.75, 154.75, 227.0, 4.0 ],
-					"slidercolor" : [ 0.011764705882353, 0.066666666666667, 0.090196078431373, 1.0 ]
+					"slidercolor" : [ 0.12156862745098, 0.12156862745098, 0.12156862745098, 1.0 ]
 				}
 
 			}
@@ -2264,16 +2364,42 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 9,
-							"minor" : 0,
-							"revision" : 6,
+							"major" : 8,
+							"minor" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 604.0, 456.0, 258.0, 516.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-16",
@@ -2459,27 +2585,20 @@
 
 							}
  ],
-						"saved_attribute_attributes" : 						{
-							"default_plcolor" : 							{
-								"expression" : ""
-							}
-
-						}
-
+						"patchlinecolor" : [ 0.690196078431373, 0.709803921568627, 0.63921568627451, 1.0 ],
+						"bgcolor" : [ 0.149019607843137, 0.219607843137255, 0.247058823529412, 1.0 ],
+						"editing_bgcolor" : [ 0.149019607843137, 0.219607843137255, 0.247058823529412, 1.0 ]
 					}
 ,
 					"patching_rect" : [ 885.84077924489975, 893.805381655693054, 85.0, 22.0 ],
-					"saved_attribute_attributes" : 					{
-						"default_plcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-,
 					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
 						"editing_bgcolor" : [ 0.149019607843137, 0.219607843137255, 0.247058823529412, 1.0 ],
+						"globalpatchername" : "",
 						"locked_bgcolor" : [ 0.149019607843137, 0.219607843137255, 0.247058823529412, 1.0 ],
-						"patchlinecolor" : [ 0.690196078431373, 0.709803921568627, 0.63921568627451, 1.0 ]
+						"patchlinecolor" : [ 0.690196078431373, 0.709803921568627, 0.63921568627451, 1.0 ],
+						"tags" : ""
 					}
 ,
 					"text" : "p Cents2Ratio"
@@ -2506,7 +2625,7 @@
 					}
 ,
 					"text" : "XPOSE",
-					"textcolor" : [ 0.83921568627451, 0.803921568627451, 0.658823529411765, 1.0 ],
+					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -2531,7 +2650,7 @@
 					}
 ,
 					"text" : "ENVELOPPE",
-					"textcolor" : [ 0.83921568627451, 0.803921568627451, 0.658823529411765, 1.0 ],
+					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -2555,7 +2674,7 @@
 							"parameter_annotation_name" : "Player Fine Tune",
 							"parameter_info" : "Fine tune pitch in cents.",
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Player Fine Tune[1]",
+							"parameter_longname" : "Player Fine Tune",
 							"parameter_mmax" : 50.0,
 							"parameter_mmin" : -50.0,
 							"parameter_modmode" : 0,
@@ -2590,7 +2709,7 @@
 							"parameter_annotation_name" : "Player pitch",
 							"parameter_info" : "Change the player's pitch factor.",
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Player Pitch[1]",
+							"parameter_longname" : "Player Pitch",
 							"parameter_mmax" : 24.0,
 							"parameter_mmin" : -24.0,
 							"parameter_modmode" : 0,
@@ -2627,7 +2746,7 @@
 							"parameter_enum" : [ "onde-shot", "looped" ],
 							"parameter_info" : "Toggle for looping or one-shot playback modes.",
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Player Play Mode[1]",
+							"parameter_longname" : "Player Play Mode",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Play Mode",
@@ -2652,16 +2771,42 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 9,
-							"minor" : 0,
-							"revision" : 6,
+							"major" : 8,
+							"minor" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 672.0, 246.0, 712.0, 762.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -3178,27 +3323,20 @@
 
 							}
  ],
-						"saved_attribute_attributes" : 						{
-							"default_plcolor" : 							{
-								"expression" : ""
-							}
-
-						}
-
+						"patchlinecolor" : [ 0.690196078431373, 0.709803921568627, 0.63921568627451, 1.0 ],
+						"bgcolor" : [ 0.149019607843137, 0.219607843137255, 0.247058823529412, 1.0 ],
+						"editing_bgcolor" : [ 0.149019607843137, 0.219607843137255, 0.247058823529412, 1.0 ]
 					}
 ,
 					"patching_rect" : [ 1485.0, 843.0, 74.0, 22.0 ],
-					"saved_attribute_attributes" : 					{
-						"default_plcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-,
 					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
 						"editing_bgcolor" : [ 0.149019607843137, 0.219607843137255, 0.247058823529412, 1.0 ],
+						"globalpatchername" : "",
 						"locked_bgcolor" : [ 0.149019607843137, 0.219607843137255, 0.247058823529412, 1.0 ],
-						"patchlinecolor" : [ 0.690196078431373, 0.709803921568627, 0.63921568627451, 1.0 ]
+						"patchlinecolor" : [ 0.690196078431373, 0.709803921568627, 0.63921568627451, 1.0 ],
+						"tags" : ""
 					}
 ,
 					"text" : "p Env"
@@ -3227,7 +3365,7 @@
 							"parameter_initial" : [ 0.05 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Player Release[1]",
+							"parameter_longname" : "Player Release",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Release",
@@ -3264,7 +3402,7 @@
 							"parameter_initial" : [ 0.0001 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Player Attack[1]",
+							"parameter_longname" : "Player Attack",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Attack",
@@ -3315,7 +3453,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "BasicPlayer_VoiceNum[1]",
+							"parameter_longname" : "BasicPlayer_VoiceNum",
 							"parameter_mmax" : 64.0,
 							"parameter_mmin" : 1.0,
 							"parameter_modmode" : 0,
@@ -3344,14 +3482,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 23.75, 93.0, 89.0, 57.5 ],
 					"proportion" : 0.5,
-					"rounded" : 4,
-					"saved_attribute_attributes" : 					{
-						"bgfillcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-
+					"rounded" : 4
 				}
 
 			}
@@ -3369,14 +3500,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 207.0, 26.0, 43.25, 123.8333360850811 ],
 					"proportion" : 0.5,
-					"rounded" : 4,
-					"saved_attribute_attributes" : 					{
-						"bgfillcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-
+					"rounded" : 4
 				}
 
 			}
@@ -3394,14 +3518,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 114.5, 92.75, 40.5, 57.75 ],
 					"proportion" : 0.5,
-					"rounded" : 4,
-					"saved_attribute_attributes" : 					{
-						"bgfillcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-
+					"rounded" : 4
 				}
 
 			}
@@ -3419,14 +3536,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 156.75, 92.5, 48.75, 57.5 ],
 					"proportion" : 0.5,
-					"rounded" : 4,
-					"saved_attribute_attributes" : 					{
-						"bgfillcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-
+					"rounded" : 4
 				}
 
 			}
@@ -3444,14 +3554,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 24.0, 26.0, 182.0, 64.0 ],
 					"proportion" : 0.5,
-					"rounded" : 4,
-					"saved_attribute_attributes" : 					{
-						"bgfillcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-
+					"rounded" : 4
 				}
 
 			}
@@ -3469,14 +3572,7 @@
 					"patching_rect" : [ 1297.0, 176.0, 200.0, 399.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 197.0, 166.5, 165.0 ],
-					"proportion" : 0.5,
-					"saved_attribute_attributes" : 					{
-						"bgfillcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-
+					"proportion" : 0.5
 				}
 
 			}
@@ -3917,13 +4013,70 @@
 
 			}
  ],
-		"saved_attribute_attributes" : 		{
-			"default_plcolor" : 			{
-				"expression" : ""
+		"parameters" : 		{
+			"obj-1" : [ "Player Stop All", "Stop All", 0 ],
+			"obj-148" : [ "Player Output Gain", "Gain", 0 ],
+			"obj-15" : [ "Player Release", "Release", 0 ],
+			"obj-19" : [ "Player Attack", "Attack", 0 ],
+			"obj-20" : [ "Grain rate", "Rate", 0 ],
+			"obj-24" : [ "Grain duration", "Duration", 0 ],
+			"obj-30" : [ "Grain Probability", "Probability", 0 ],
+			"obj-32" : [ "Grain Window Shape", "Skew", 0 ],
+			"obj-45" : [ "BasicPlayer_VoiceNum", "Voices", 0 ],
+			"obj-62" : [ "Player Play Mode", "Play Mode", 0 ],
+			"obj-65" : [ "Player Pitch", "Pitch", 0 ],
+			"obj-66" : [ "Player Fine Tune", "Tune", 0 ],
+			"obj-8" : [ "Player Position", "Position", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
 			}
-
+,
+			"inherited_shortname" : 1
 		}
-
+,
+		"dependency_cache" : [ 			{
+				"name" : "_mosaique.player.granular.poly.maxpat",
+				"bootpath" : "~/Documents/GitHub/Mosaique",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "_mosaique.sliceInfos.maxpat",
+				"bootpath" : "~/Documents/GitHub/Mosaique",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fluid.buf2list.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.dataset~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "granulator_gen.gendsp",
+				"bootpath" : "~/Documents/GitHub/Mosaique",
+				"patcherrelativepath" : ".",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "voice.gendsp",
+				"bootpath" : "~/Documents/GitHub/Mosaique",
+				"patcherrelativepath" : ".",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
