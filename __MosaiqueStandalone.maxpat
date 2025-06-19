@@ -15,6 +15,42 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-29",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 5,
+					"outlettype" : [ "", "", "", "", "" ],
+					"patching_rect" : [ 875.5, 826.0, 61.0, 22.0 ],
+					"text" : "gate 5"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-28",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 8,
+					"outlettype" : [ "", "", "", "int", "int", "", "int", "" ],
+					"patching_rect" : [ 986.5, 769.0, 92.5, 22.0 ],
+					"text" : "midiparse"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-25",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 917.5, 708.0, 40.0, 22.0 ],
+					"text" : "midiin"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-215",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -567,7 +603,6 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"hidden" : 1,
 					"id" : "obj-32",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -616,7 +651,6 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"active" : 0,
 						"parameter_enable" : 1,
 						"patchername" : "__MosaiquePlayers.amxd",
 						"patchername_fallback" : "~/Documents/GitHub/Mosaique/__MosaiquePlayers.amxd",
@@ -648,7 +682,7 @@
 									"Basic - Attack" : 0.0001,
 									"Basic - Fine Tune" : 0.0,
 									"Basic - Output Gain" : -6.0,
-									"Basic - Pitch" : -18.0,
+									"Basic - Pitch" : 0.0,
 									"Basic - Play Mode" : 0.0,
 									"Basic - Release" : 0.05,
 									"Basic - Stop All" : 0.0,
@@ -661,7 +695,7 @@
 									"Grain Probability" : 1.0,
 									"Grain Window Shape" : 0.5,
 									"Grain duration" : 1.0,
-									"Grain rate" : 1.0,
+									"Grain rate" : 308.08661417322844,
 									"Morph - Attack" : 0.0001,
 									"Morph - Fine Tune" : 0.0,
 									"Morph - Gain" : -6.0,
@@ -679,20 +713,19 @@
 									"Navigation Z" : 0.0,
 									"Player Attack" : 0.0001,
 									"Player Fine Tune" : 0.0,
-									"Player Output Gain" : -6.0,
+									"Player Output Gain" : -28.806294784934021,
 									"Player Pitch" : 0.0,
 									"Player Pitch-Speed Link" : 1.0,
-									"Player Play Mode" : 0.0,
-									"Player Position" : 1.0,
+									"Player Play Mode" : 1.0,
+									"Player Position" : 0.669291338582677,
 									"Player Release" : 0.05,
-									"Player Speed" : 1.0,
+									"Player Speed" : 2.13117801354872,
 									"Player Stop All" : 0.0,
 									"live.menu[17]" : 0.0,
 									"blob" : 									{
 										"Basic - Voice Count" : [ 16 ],
 										"BasicPlayer_VoiceNum" : [ 8 ],
-										"MIDI lowest note" : [ 0.0 ],
-										"MIDI lowest note[1]" : [ 60.0 ],
+										"MIDI lowest note" : [ 60.0 ],
 										"Navigation Coordinates" : [ 0 ],
 										"live.numbox" : [ 0.0 ],
 										"umenu" : [ 0 ]
@@ -702,7 +735,7 @@
 
 							}
 ,
-							"active" : 0
+							"active" : 1
 						}
 ,
 						"snapshotlist" : 						{
@@ -732,7 +765,7 @@
 												"Basic - Attack" : 0.0001,
 												"Basic - Fine Tune" : 0.0,
 												"Basic - Output Gain" : -6.0,
-												"Basic - Pitch" : -18.0,
+												"Basic - Pitch" : 0.0,
 												"Basic - Play Mode" : 0.0,
 												"Basic - Release" : 0.05,
 												"Basic - Stop All" : 0.0,
@@ -745,7 +778,7 @@
 												"Grain Probability" : 1.0,
 												"Grain Window Shape" : 0.5,
 												"Grain duration" : 1.0,
-												"Grain rate" : 1.0,
+												"Grain rate" : 308.08661417322844,
 												"Morph - Attack" : 0.0001,
 												"Morph - Fine Tune" : 0.0,
 												"Morph - Gain" : -6.0,
@@ -763,20 +796,19 @@
 												"Navigation Z" : 0.0,
 												"Player Attack" : 0.0001,
 												"Player Fine Tune" : 0.0,
-												"Player Output Gain" : -6.0,
+												"Player Output Gain" : -28.806294784934021,
 												"Player Pitch" : 0.0,
 												"Player Pitch-Speed Link" : 1.0,
-												"Player Play Mode" : 0.0,
-												"Player Position" : 1.0,
+												"Player Play Mode" : 1.0,
+												"Player Position" : 0.669291338582677,
 												"Player Release" : 0.05,
-												"Player Speed" : 1.0,
+												"Player Speed" : 2.13117801354872,
 												"Player Stop All" : 0.0,
 												"live.menu[17]" : 0.0,
 												"blob" : 												{
 													"Basic - Voice Count" : [ 16 ],
 													"BasicPlayer_VoiceNum" : [ 8 ],
-													"MIDI lowest note" : [ 0.0 ],
-													"MIDI lowest note[1]" : [ 60.0 ],
+													"MIDI lowest note" : [ 60.0 ],
 													"Navigation Coordinates" : [ 0 ],
 													"live.numbox" : [ 0.0 ],
 													"umenu" : [ 0 ]
@@ -786,7 +818,7 @@
 
 										}
 ,
-										"active" : 0
+										"active" : 1
 									}
 ,
 									"fileref" : 									{
@@ -871,7 +903,6 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"hidden" : 1,
 					"id" : "obj-31",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -920,7 +951,6 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"active" : 0,
 						"parameter_enable" : 1,
 						"patchername" : "__MosaiquePlayers.amxd",
 						"patchername_fallback" : "~/Documents/GitHub/Mosaique/__MosaiquePlayers.amxd",
@@ -951,8 +981,8 @@
 									"8_corpus_on-off" : 0.0,
 									"Basic - Attack" : 0.0001,
 									"Basic - Fine Tune" : 0.0,
-									"Basic - Output Gain" : -6.0,
-									"Basic - Pitch" : -18.0,
+									"Basic - Output Gain" : -28.806294784934021,
+									"Basic - Pitch" : 0.0,
 									"Basic - Play Mode" : 0.0,
 									"Basic - Release" : 0.05,
 									"Basic - Stop All" : 0.0,
@@ -964,8 +994,8 @@
 									"Descriptor C Value" : 0.0,
 									"Grain Probability" : 1.0,
 									"Grain Window Shape" : 0.5,
-									"Grain duration" : 1.0,
-									"Grain rate" : 1.0,
+									"Grain duration" : 337.88976377952747,
+									"Grain rate" : 315.960629921259965,
 									"Morph - Attack" : 0.0001,
 									"Morph - Fine Tune" : 0.0,
 									"Morph - Gain" : -6.0,
@@ -973,7 +1003,7 @@
 									"Morph - Pitch-Speed Link" : 1.0,
 									"Morph - Play Mode" : 0.0,
 									"Morph - Release" : 0.05,
-									"Morph - Speed" : 1.0,
+									"Morph - Speed" : 1.055100284197099,
 									"Morph - Stop All" : 0.0,
 									"Morph - Voice Count" : 8.0,
 									"Navigation State" : 0.0,
@@ -983,20 +1013,19 @@
 									"Navigation Z" : 0.0,
 									"Player Attack" : 0.0001,
 									"Player Fine Tune" : 0.0,
-									"Player Output Gain" : -6.0,
+									"Player Output Gain" : -28.806294784934021,
 									"Player Pitch" : 0.0,
 									"Player Pitch-Speed Link" : 1.0,
-									"Player Play Mode" : 0.0,
+									"Player Play Mode" : 1.0,
 									"Player Position" : 1.0,
 									"Player Release" : 0.05,
-									"Player Speed" : 1.0,
+									"Player Speed" : 2.13117801354872,
 									"Player Stop All" : 0.0,
 									"live.menu[17]" : 0.0,
 									"blob" : 									{
 										"Basic - Voice Count" : [ 16 ],
 										"BasicPlayer_VoiceNum" : [ 8 ],
-										"MIDI lowest note" : [ 0.0 ],
-										"MIDI lowest note[1]" : [ 60.0 ],
+										"MIDI lowest note" : [ 60.0 ],
 										"Navigation Coordinates" : [ 0 ],
 										"live.numbox" : [ 0.0 ],
 										"umenu" : [ 0 ]
@@ -1006,7 +1035,7 @@
 
 							}
 ,
-							"active" : 0
+							"active" : 1
 						}
 ,
 						"snapshotlist" : 						{
@@ -1035,8 +1064,8 @@
 												"8_corpus_on-off" : 0.0,
 												"Basic - Attack" : 0.0001,
 												"Basic - Fine Tune" : 0.0,
-												"Basic - Output Gain" : -6.0,
-												"Basic - Pitch" : -18.0,
+												"Basic - Output Gain" : -28.806294784934021,
+												"Basic - Pitch" : 0.0,
 												"Basic - Play Mode" : 0.0,
 												"Basic - Release" : 0.05,
 												"Basic - Stop All" : 0.0,
@@ -1048,8 +1077,8 @@
 												"Descriptor C Value" : 0.0,
 												"Grain Probability" : 1.0,
 												"Grain Window Shape" : 0.5,
-												"Grain duration" : 1.0,
-												"Grain rate" : 1.0,
+												"Grain duration" : 337.88976377952747,
+												"Grain rate" : 315.960629921259965,
 												"Morph - Attack" : 0.0001,
 												"Morph - Fine Tune" : 0.0,
 												"Morph - Gain" : -6.0,
@@ -1057,7 +1086,7 @@
 												"Morph - Pitch-Speed Link" : 1.0,
 												"Morph - Play Mode" : 0.0,
 												"Morph - Release" : 0.05,
-												"Morph - Speed" : 1.0,
+												"Morph - Speed" : 1.055100284197099,
 												"Morph - Stop All" : 0.0,
 												"Morph - Voice Count" : 8.0,
 												"Navigation State" : 0.0,
@@ -1067,20 +1096,19 @@
 												"Navigation Z" : 0.0,
 												"Player Attack" : 0.0001,
 												"Player Fine Tune" : 0.0,
-												"Player Output Gain" : -6.0,
+												"Player Output Gain" : -28.806294784934021,
 												"Player Pitch" : 0.0,
 												"Player Pitch-Speed Link" : 1.0,
-												"Player Play Mode" : 0.0,
+												"Player Play Mode" : 1.0,
 												"Player Position" : 1.0,
 												"Player Release" : 0.05,
-												"Player Speed" : 1.0,
+												"Player Speed" : 2.13117801354872,
 												"Player Stop All" : 0.0,
 												"live.menu[17]" : 0.0,
 												"blob" : 												{
 													"Basic - Voice Count" : [ 16 ],
 													"BasicPlayer_VoiceNum" : [ 8 ],
-													"MIDI lowest note" : [ 0.0 ],
-													"MIDI lowest note[1]" : [ 60.0 ],
+													"MIDI lowest note" : [ 60.0 ],
 													"Navigation Coordinates" : [ 0 ],
 													"live.numbox" : [ 0.0 ],
 													"umenu" : [ 0 ]
@@ -1090,7 +1118,7 @@
 
 										}
 ,
-										"active" : 0
+										"active" : 1
 									}
 ,
 									"fileref" : 									{
@@ -1175,7 +1203,6 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"hidden" : 1,
 					"id" : "obj-30",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -1280,7 +1307,6 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"active" : 0,
 						"parameter_enable" : 1,
 						"patchername" : "__MosaiquePlayers.amxd",
 						"patchername_fallback" : "~/Documents/GitHub/Mosaique/__MosaiquePlayers.amxd",
@@ -1312,7 +1338,7 @@
 									"Basic - Attack" : 0.0001,
 									"Basic - Fine Tune" : 0.0,
 									"Basic - Output Gain" : -6.0,
-									"Basic - Pitch" : -24.0,
+									"Basic - Pitch" : 0.0,
 									"Basic - Play Mode" : 0.0,
 									"Basic - Release" : 0.05,
 									"Basic - Stop All" : 0.0,
@@ -1349,14 +1375,13 @@
 									"Player Play Mode" : 0.0,
 									"Player Position" : 1.0,
 									"Player Release" : 0.05,
-									"Player Speed" : 1.0,
+									"Player Speed" : 2.13117801354872,
 									"Player Stop All" : 0.0,
 									"live.menu[17]" : 0.0,
 									"blob" : 									{
 										"Basic - Voice Count" : [ 16 ],
 										"BasicPlayer_VoiceNum" : [ 8 ],
 										"MIDI lowest note" : [ 60.0 ],
-										"MIDI lowest note[1]" : [ 60.0 ],
 										"Navigation Coordinates" : [ 0 ],
 										"live.numbox" : [ 0.0 ],
 										"umenu" : [ 0 ]
@@ -1366,7 +1391,7 @@
 
 							}
 ,
-							"active" : 0
+							"active" : 1
 						}
 ,
 						"snapshotlist" : 						{
@@ -1396,7 +1421,7 @@
 												"Basic - Attack" : 0.0001,
 												"Basic - Fine Tune" : 0.0,
 												"Basic - Output Gain" : -6.0,
-												"Basic - Pitch" : -24.0,
+												"Basic - Pitch" : 0.0,
 												"Basic - Play Mode" : 0.0,
 												"Basic - Release" : 0.05,
 												"Basic - Stop All" : 0.0,
@@ -1433,14 +1458,13 @@
 												"Player Play Mode" : 0.0,
 												"Player Position" : 1.0,
 												"Player Release" : 0.05,
-												"Player Speed" : 1.0,
+												"Player Speed" : 2.13117801354872,
 												"Player Stop All" : 0.0,
 												"live.menu[17]" : 0.0,
 												"blob" : 												{
 													"Basic - Voice Count" : [ 16 ],
 													"BasicPlayer_VoiceNum" : [ 8 ],
 													"MIDI lowest note" : [ 60.0 ],
-													"MIDI lowest note[1]" : [ 60.0 ],
 													"Navigation Coordinates" : [ 0 ],
 													"live.numbox" : [ 0.0 ],
 													"umenu" : [ 0 ]
@@ -1450,7 +1474,7 @@
 
 										}
 ,
-										"active" : 0
+										"active" : 1
 									}
 ,
 									"fileref" : 									{
@@ -1535,7 +1559,6 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"hidden" : 1,
 					"id" : "obj-19",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -1640,7 +1663,6 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"active" : 0,
 						"parameter_enable" : 1,
 						"patchername" : "__MosaiquePlayers.amxd",
 						"patchername_fallback" : "~/Documents/GitHub/Mosaique/__MosaiquePlayers.amxd",
@@ -1672,7 +1694,7 @@
 									"Basic - Attack" : 0.0001,
 									"Basic - Fine Tune" : 0.0,
 									"Basic - Output Gain" : -6.0,
-									"Basic - Pitch" : -24.0,
+									"Basic - Pitch" : 0.0,
 									"Basic - Play Mode" : 0.0,
 									"Basic - Release" : 0.05,
 									"Basic - Stop All" : 0.0,
@@ -1684,8 +1706,8 @@
 									"Descriptor C Value" : 0.0,
 									"Grain Probability" : 1.0,
 									"Grain Window Shape" : 0.5,
-									"Grain duration" : 1.0,
-									"Grain rate" : 1.0,
+									"Grain duration" : 330.055118110235981,
+									"Grain rate" : 174.22834645669289,
 									"Morph - Attack" : 0.0001,
 									"Morph - Fine Tune" : 0.0,
 									"Morph - Gain" : -6.0,
@@ -1703,20 +1725,19 @@
 									"Navigation Z" : 0.0,
 									"Player Attack" : 0.0001,
 									"Player Fine Tune" : 0.0,
-									"Player Output Gain" : -6.0,
+									"Player Output Gain" : -28.806294784934021,
 									"Player Pitch" : 0.0,
 									"Player Pitch-Speed Link" : 1.0,
 									"Player Play Mode" : 0.0,
 									"Player Position" : 1.0,
 									"Player Release" : 0.05,
-									"Player Speed" : 1.0,
+									"Player Speed" : 2.13117801354872,
 									"Player Stop All" : 0.0,
 									"live.menu[17]" : 0.0,
 									"blob" : 									{
 										"Basic - Voice Count" : [ 16 ],
 										"BasicPlayer_VoiceNum" : [ 8 ],
 										"MIDI lowest note" : [ 60.0 ],
-										"MIDI lowest note[1]" : [ 60.0 ],
 										"Navigation Coordinates" : [ 0 ],
 										"live.numbox" : [ 0.0 ],
 										"umenu" : [ 0 ]
@@ -1726,7 +1747,7 @@
 
 							}
 ,
-							"active" : 0
+							"active" : 1
 						}
 ,
 						"snapshotlist" : 						{
@@ -1756,7 +1777,7 @@
 												"Basic - Attack" : 0.0001,
 												"Basic - Fine Tune" : 0.0,
 												"Basic - Output Gain" : -6.0,
-												"Basic - Pitch" : -24.0,
+												"Basic - Pitch" : 0.0,
 												"Basic - Play Mode" : 0.0,
 												"Basic - Release" : 0.05,
 												"Basic - Stop All" : 0.0,
@@ -1768,8 +1789,8 @@
 												"Descriptor C Value" : 0.0,
 												"Grain Probability" : 1.0,
 												"Grain Window Shape" : 0.5,
-												"Grain duration" : 1.0,
-												"Grain rate" : 1.0,
+												"Grain duration" : 330.055118110235981,
+												"Grain rate" : 174.22834645669289,
 												"Morph - Attack" : 0.0001,
 												"Morph - Fine Tune" : 0.0,
 												"Morph - Gain" : -6.0,
@@ -1787,20 +1808,19 @@
 												"Navigation Z" : 0.0,
 												"Player Attack" : 0.0001,
 												"Player Fine Tune" : 0.0,
-												"Player Output Gain" : -6.0,
+												"Player Output Gain" : -28.806294784934021,
 												"Player Pitch" : 0.0,
 												"Player Pitch-Speed Link" : 1.0,
 												"Player Play Mode" : 0.0,
 												"Player Position" : 1.0,
 												"Player Release" : 0.05,
-												"Player Speed" : 1.0,
+												"Player Speed" : 2.13117801354872,
 												"Player Stop All" : 0.0,
 												"live.menu[17]" : 0.0,
 												"blob" : 												{
 													"Basic - Voice Count" : [ 16 ],
 													"BasicPlayer_VoiceNum" : [ 8 ],
 													"MIDI lowest note" : [ 60.0 ],
-													"MIDI lowest note[1]" : [ 60.0 ],
 													"Navigation Coordinates" : [ 0 ],
 													"live.numbox" : [ 0.0 ],
 													"umenu" : [ 0 ]
@@ -1810,7 +1830,7 @@
 
 										}
 ,
-										"active" : 0
+										"active" : 1
 									}
 ,
 									"fileref" : 									{
@@ -1902,18 +1922,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-9",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 1024.0, 46.0, 40.0, 22.0 ],
-					"text" : "midiin"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"autosave" : 1,
 					"bgmode" : 1,
 					"border" : 0,
@@ -1964,13 +1972,10 @@
 							"valuedictionary" : 							{
 								"parameter_values" : 								{
 									"3DNav_MouseCam" : 0.0,
-									"Basic - Attack" : 0.0001,
-									"Basic - Fine Tune" : 0.0,
-									"Basic - Output Gain" : -6.0,
-									"Basic - Pitch" : 0.0,
-									"Basic - Play Mode" : 0.0,
-									"Basic - Release" : 0.05,
-									"Basic - Stop All" : 0.0,
+									"BasicPlayer_Attack" : 0.0001,
+									"BasicPlayer_Gain" : -28.806294784934021,
+									"BasicPlayer_Pitch" : 0.0,
+									"BasicPlayer_Release" : 0.05,
 									"Camera Back" : 0.0,
 									"Camera Down" : 0.0,
 									"Camera Forward" : 0.0,
@@ -1988,12 +1993,15 @@
 									"Navigation X" : 0.0,
 									"Navigation Y" : 0.0,
 									"Navigation Z" : 0.0,
+									"Player Fine Tune" : 0.0,
 									"Player Pitch-Speed Link" : 1.0,
+									"Player PlayMode" : 0.0,
 									"Player Speed" : 2.13117801354872,
+									"Player Stop All" : 0.0,
 									"live.menu[17]" : 0.0,
 									"blob" : 									{
 										"3DNav_ViewerOnOff" : [ 0.0 ],
-										"Basic - Voice Count" : [ 16 ],
+										"BasicPlayer_VoiceNum" : [ 16 ],
 										"CorpusInfos" : [ 											{
 												"1Corpus" : 												{
 													"name" : "Beats",
@@ -3385,23 +3393,22 @@
 
 											}
  ],
-										"Loudness mode" : [ 2 ],
-										"MFCC Coeff" : [ 13 ],
 										"MIDI lowest note" : [ 60.0 ],
-										"MIDI lowest note[1]" : [ 0.0 ],
 										"Navigation Coordinates" : [ 0 ],
-										"Navigation Type" : [ 0 ],
-										"Pitch classes" : [ 12 ],
-										"Pitch detection algorithm" : [ 2 ],
-										"True peak" : [ 2 ],
+										"Navigation Type[1]" : [ 0.0 ],
+										"live.drop[12]" : [ "" ],
 										"live.drop[14]" : [ "" ],
-										"live.drop[15]" : [ "" ],
-										"live.drop[1]" : [ "" ],
-										"live.drop[2]" : [ "" ],
-										"live.drop[3]" : [ "" ],
-										"live.drop[4]" : [ "" ],
-										"live.drop[5]" : [ "" ],
-										"live.drop[6]" : [ "" ],
+										"live.drop[18]" : [ "" ],
+										"live.drop[22]" : [ "" ],
+										"live.drop[23]" : [ "" ],
+										"live.drop[24]" : [ "" ],
+										"live.drop[25]" : [ "" ],
+										"live.drop[26]" : [ "" ],
+										"live.menu" : [ 2 ],
+										"live.menu[1]" : [ 2 ],
+										"live.menu[3]" : [ 2 ],
+										"live.numbox[1]" : [ 13 ],
+										"live.numbox[2]" : [ 12 ],
 										"live.numbox[3]" : [ 1.0 ],
 										"live.toggle[10]" : [ 1 ],
 										"live.toggle[11]" : [ 1 ],
@@ -3439,13 +3446,10 @@
 										"valuedictionary" : 										{
 											"parameter_values" : 											{
 												"3DNav_MouseCam" : 0.0,
-												"Basic - Attack" : 0.0001,
-												"Basic - Fine Tune" : 0.0,
-												"Basic - Output Gain" : -6.0,
-												"Basic - Pitch" : 0.0,
-												"Basic - Play Mode" : 0.0,
-												"Basic - Release" : 0.05,
-												"Basic - Stop All" : 0.0,
+												"BasicPlayer_Attack" : 0.0001,
+												"BasicPlayer_Gain" : -28.806294784934021,
+												"BasicPlayer_Pitch" : 0.0,
+												"BasicPlayer_Release" : 0.05,
 												"Camera Back" : 0.0,
 												"Camera Down" : 0.0,
 												"Camera Forward" : 0.0,
@@ -3463,12 +3467,15 @@
 												"Navigation X" : 0.0,
 												"Navigation Y" : 0.0,
 												"Navigation Z" : 0.0,
+												"Player Fine Tune" : 0.0,
 												"Player Pitch-Speed Link" : 1.0,
+												"Player PlayMode" : 0.0,
 												"Player Speed" : 2.13117801354872,
+												"Player Stop All" : 0.0,
 												"live.menu[17]" : 0.0,
 												"blob" : 												{
 													"3DNav_ViewerOnOff" : [ 0.0 ],
-													"Basic - Voice Count" : [ 16 ],
+													"BasicPlayer_VoiceNum" : [ 16 ],
 													"CorpusInfos" : [ 														{
 															"1Corpus" : 															{
 																"name" : "Beats",
@@ -4860,23 +4867,22 @@
 
 														}
  ],
-													"Loudness mode" : [ 2 ],
-													"MFCC Coeff" : [ 13 ],
 													"MIDI lowest note" : [ 60.0 ],
-													"MIDI lowest note[1]" : [ 0.0 ],
 													"Navigation Coordinates" : [ 0 ],
-													"Navigation Type" : [ 0 ],
-													"Pitch classes" : [ 12 ],
-													"Pitch detection algorithm" : [ 2 ],
-													"True peak" : [ 2 ],
+													"Navigation Type[1]" : [ 0.0 ],
+													"live.drop[12]" : [ "" ],
 													"live.drop[14]" : [ "" ],
-													"live.drop[15]" : [ "" ],
-													"live.drop[1]" : [ "" ],
-													"live.drop[2]" : [ "" ],
-													"live.drop[3]" : [ "" ],
-													"live.drop[4]" : [ "" ],
-													"live.drop[5]" : [ "" ],
-													"live.drop[6]" : [ "" ],
+													"live.drop[18]" : [ "" ],
+													"live.drop[22]" : [ "" ],
+													"live.drop[23]" : [ "" ],
+													"live.drop[24]" : [ "" ],
+													"live.drop[25]" : [ "" ],
+													"live.drop[26]" : [ "" ],
+													"live.menu" : [ 2 ],
+													"live.menu[1]" : [ 2 ],
+													"live.menu[3]" : [ 2 ],
+													"live.numbox[1]" : [ 13 ],
+													"live.numbox[2]" : [ 12 ],
 													"live.numbox[3]" : [ 1.0 ],
 													"live.toggle[10]" : [ 1 ],
 													"live.toggle[11]" : [ 1 ],
@@ -5369,6 +5375,64 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-28", 0 ],
+					"order" : 0,
+					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-29", 1 ],
+					"order" : 1,
+					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-29", 0 ],
+					"source" : [ "obj-28", 6 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-19", 2 ],
+					"source" : [ "obj-29", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 2 ],
+					"source" : [ "obj-29", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-31", 2 ],
+					"source" : [ "obj-29", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-32", 2 ],
+					"source" : [ "obj-29", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 2 ],
+					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-207", 1 ],
 					"source" : [ "obj-30", 1 ]
 				}
@@ -5434,13 +5498,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-207", 0 ],
 					"source" : [ "obj-4", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-4", 2 ],
-					"source" : [ "obj-9", 0 ]
 				}
 
 			}
