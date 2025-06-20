@@ -10,14 +10,14 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1137.0, 106.0, 485.0, 984.0 ],
+		"rect" : [ 34.0, 100.0, 1660.0, 983.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-4",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -126,7 +126,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -139,7 +139,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-12",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -151,7 +151,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-11",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -163,7 +163,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-9",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -433,264 +433,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-3::obj-1" : [ "Player Stop All", "Stop All", 0 ],
-			"obj-3::obj-148" : [ "Player Output Gain", "Gain", 0 ],
-			"obj-3::obj-15" : [ "Player Release", "Release", 0 ],
-			"obj-3::obj-19" : [ "Player Attack", "Attack", 0 ],
-			"obj-3::obj-45" : [ "BasicPlayer_VoiceNum", "Voices", 0 ],
-			"obj-3::obj-62" : [ "Player Play Mode", "Play Mode", 0 ],
-			"obj-3::obj-65" : [ "Player Pitch", "Pitch", 0 ],
-			"obj-3::obj-66" : [ "Player Fine Tune", "Tune", 0 ],
-			"obj-3::obj-7" : [ "Player Speed", "Speed", 0 ],
-			"obj-3::obj-8" : [ "Player Pitch-Speed Link", "link", 0 ],
-			"obj-6::obj-1" : [ "Player Stop All[1]", "Stop All", 0 ],
-			"obj-6::obj-148" : [ "Player Output Gain[1]", "Gain", 0 ],
-			"obj-6::obj-15" : [ "Player Release[1]", "Release", 0 ],
-			"obj-6::obj-19" : [ "Player Attack[1]", "Attack", 0 ],
-			"obj-6::obj-20" : [ "Grain rate", "Rate", 0 ],
-			"obj-6::obj-24" : [ "Grain duration", "Duration", 0 ],
-			"obj-6::obj-30" : [ "Grain Probability", "Probability", 0 ],
-			"obj-6::obj-32" : [ "Grain Window Shape", "Shape", 0 ],
-			"obj-6::obj-45" : [ "BasicPlayer_VoiceNum[1]", "Voices", 0 ],
-			"obj-6::obj-62" : [ "Player Play Mode[1]", "Play Mode", 0 ],
-			"obj-6::obj-65" : [ "Player Pitch[1]", "Pitch", 0 ],
-			"obj-6::obj-66" : [ "Player Fine Tune[1]", "Tune", 0 ],
-			"obj-6::obj-8" : [ "Player Position", "Position", 0 ],
-			"obj-8::obj-10" : [ "MorphPlayer_VoiceNum", "Voices", 0 ],
-			"obj-8::obj-12" : [ "Basic - Stop All", "Stop All", 0 ],
-			"obj-8::obj-175" : [ "MorphPlayer_Gain", "Gain", 0 ],
-			"obj-8::obj-31" : [ "Player Pitch-Speed Link[1]", "link", 0 ],
-			"obj-8::obj-33" : [ "Player Speed[1]", "Speed", 0 ],
-			"obj-8::obj-40" : [ "Basic - Release", "Release", 0 ],
-			"obj-8::obj-41" : [ "Basic - Attack", "Attack", 0 ],
-			"obj-8::obj-62" : [ "Basic - Play Mode", "Play Mode", 0 ],
-			"obj-8::obj-65" : [ "Basic - Pitch", "Pitch", 0 ],
-			"obj-8::obj-66" : [ "Basic - Fine Tune", "Tune", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-3::obj-1" : 				{
-					"parameter_longname" : "Player Stop All"
-				}
-,
-				"obj-3::obj-148" : 				{
-					"parameter_longname" : "Player Output Gain"
-				}
-,
-				"obj-3::obj-15" : 				{
-					"parameter_longname" : "Player Release"
-				}
-,
-				"obj-3::obj-19" : 				{
-					"parameter_longname" : "Player Attack"
-				}
-,
-				"obj-3::obj-45" : 				{
-					"parameter_longname" : "BasicPlayer_VoiceNum"
-				}
-,
-				"obj-3::obj-62" : 				{
-					"parameter_longname" : "Player Play Mode"
-				}
-,
-				"obj-3::obj-65" : 				{
-					"parameter_longname" : "Player Pitch"
-				}
-,
-				"obj-3::obj-66" : 				{
-					"parameter_longname" : "Player Fine Tune"
-				}
-,
-				"obj-6::obj-1" : 				{
-					"parameter_longname" : "Player Stop All[1]"
-				}
-,
-				"obj-6::obj-148" : 				{
-					"parameter_longname" : "Player Output Gain[1]"
-				}
-,
-				"obj-6::obj-15" : 				{
-					"parameter_longname" : "Player Release[1]"
-				}
-,
-				"obj-6::obj-19" : 				{
-					"parameter_longname" : "Player Attack[1]"
-				}
-,
-				"obj-6::obj-20" : 				{
-					"parameter_longname" : "Grain rate"
-				}
-,
-				"obj-6::obj-24" : 				{
-					"parameter_longname" : "Grain duration"
-				}
-,
-				"obj-6::obj-32" : 				{
-					"parameter_longname" : "Grain Window Shape"
-				}
-,
-				"obj-6::obj-45" : 				{
-					"parameter_longname" : "BasicPlayer_VoiceNum[1]"
-				}
-,
-				"obj-6::obj-62" : 				{
-					"parameter_longname" : "Player Play Mode[1]"
-				}
-,
-				"obj-6::obj-65" : 				{
-					"parameter_longname" : "Player Pitch[1]"
-				}
-,
-				"obj-6::obj-66" : 				{
-					"parameter_longname" : "Player Fine Tune[1]"
-				}
-,
-				"obj-6::obj-8" : 				{
-					"parameter_longname" : "Player Position"
-				}
-,
-				"obj-8::obj-10" : 				{
-					"parameter_longname" : "MorphPlayer_VoiceNum"
-				}
-,
-				"obj-8::obj-12" : 				{
-					"parameter_longname" : "Basic - Stop All"
-				}
-,
-				"obj-8::obj-175" : 				{
-					"parameter_initial" : -6,
-					"parameter_longname" : "MorphPlayer_Gain"
-				}
-,
-				"obj-8::obj-31" : 				{
-					"parameter_longname" : "Player Pitch-Speed Link[1]"
-				}
-,
-				"obj-8::obj-33" : 				{
-					"parameter_longname" : "Player Speed[1]"
-				}
-,
-				"obj-8::obj-40" : 				{
-					"parameter_longname" : "Basic - Release"
-				}
-,
-				"obj-8::obj-41" : 				{
-					"parameter_longname" : "Basic - Attack"
-				}
-,
-				"obj-8::obj-62" : 				{
-					"parameter_longname" : "Basic - Play Mode"
-				}
-,
-				"obj-8::obj-65" : 				{
-					"parameter_longname" : "Basic - Pitch"
-				}
-,
-				"obj-8::obj-66" : 				{
-					"parameter_longname" : "Basic - Fine Tune"
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "_mosaique.player.basic.bpatcher.maxpat",
-				"bootpath" : "~/Documents/GitHub/Mosaique",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "_mosaique.player.basic.poly.maxpat",
-				"bootpath" : "~/Documents/GitHub/Mosaique",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "_mosaique.player.granular.bpatcher.maxpat",
-				"bootpath" : "~/Documents/GitHub/Mosaique",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "_mosaique.player.granular.poly.maxpat",
-				"bootpath" : "~/Documents/GitHub/Mosaique",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "_mosaique.player.morph.bpatcher.maxpat",
-				"bootpath" : "~/Documents/GitHub/Mosaique",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "_mosaique.player.morph.poly.maxpat",
-				"bootpath" : "~/Documents/GitHub/Mosaique",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "_mosaique.sliceInfos.maxpat",
-				"bootpath" : "~/Documents/GitHub/Mosaique",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fluid.buf2list.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.dataset~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "granulator_gen.gendsp",
-				"bootpath" : "~/Documents/GitHub/Mosaique",
-				"patcherrelativepath" : ".",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "link.svg",
-				"bootpath" : "~/Documents/GitHub/Mosaique",
-				"patcherrelativepath" : ".",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "link_off.svg",
-				"bootpath" : "~/Documents/GitHub/Mosaique",
-				"patcherrelativepath" : ".",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "voice.gendsp",
-				"bootpath" : "~/Documents/GitHub/Mosaique",
-				"patcherrelativepath" : ".",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
