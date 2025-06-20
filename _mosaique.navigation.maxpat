@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1136.0, 346.0, 1001.0, 983.0 ],
+		"rect" : [ 961.0, 277.0, 1001.0, 983.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
@@ -19,7 +19,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 196.0, 110.0, 32.0, 20.0 ],
+					"patching_rect" : [ 136.0, 251.0, 32.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 266.0, 105.0, 93.0, 20.0 ],
 					"text" : "XYZ"
@@ -61,11 +61,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 669.0, 251.0, 97.0, 20.0 ],
+					"patching_rect" : [ 669.0, 251.0, 83.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 297.0, 410.0, 93.0, 33.0 ],
-					"text" : "Audio Mosaicing"
+					"presentation_rect" : [ 297.0, 410.0, 93.0, 20.0 ],
+					"text" : "MIDI mapping"
 				}
 
 			}
@@ -306,7 +305,6 @@
 			"obj-2::obj-2" : [ "Navigation X", "X", 0 ],
 			"obj-2::obj-27" : [ "Navigation Coordinates", "Coord Type", 0 ],
 			"obj-2::obj-43" : [ "Navigation Cam Link", "Cam Link", 0 ],
-			"obj-2::obj-9" : [ "Navigation State", "state", 0 ],
 			"obj-4::obj-13" : [ "Descriptor B Value", "B", 0 ],
 			"obj-4::obj-15" : [ "Descriptor C Value", "C", 0 ],
 			"obj-4::obj-2" : [ "Descriptor A Value", "A", 0 ],
