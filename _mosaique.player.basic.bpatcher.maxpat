@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 746.0, 124.0, 929.0, 959.0 ],
+		"rect" : [ 715.0, 124.0, 929.0, 959.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
@@ -25,7 +25,7 @@
 					"patching_rect" : [ -1812.0, 1323.0, 95.0, 26.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 7,
-					"presentation_rect" : [ -1.0, 12.0, 22.0, 141.0 ],
+					"presentation_rect" : [ 0.0, 12.0, 22.0, 141.0 ],
 					"text" : "SAMPLER",
 					"textcolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 1.0 ],
 					"textjustification" : 1
@@ -145,7 +145,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1417.557349920272827, 900.000062227249146, 71.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 79.0, 5.0, 28.701346844434738, 19.760478794574738 ],
+					"presentation_rect" : [ 84.0, 95.0, 27.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Stop all voices from playing",
@@ -1410,7 +1410,7 @@
 					"patching_rect" : [ 710.0, 559.0, 44.0, 34.050948908748978 ],
 					"pictures" : [ "link_off.svg", "link.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 62.75, 58.25, 21.75, 13.0 ],
+					"presentation_rect" : [ 63.0, 59.0, 21.75, 13.0 ],
 					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -1448,7 +1448,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1026.0, 858.0, 41.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 23.75, 38.25, 43.0, 48.0 ],
+					"presentation_rect" : [ 24.0, 39.0, 43.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Basic - Speed",
@@ -1844,7 +1844,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 66.0, 1045.0, 41.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 119.25, 96.25, 40.0, 48.0 ],
+					"presentation_rect" : [ 119.0, 99.0, 40.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Player Output Gain",
@@ -2024,8 +2024,8 @@
 					"outlettype" : [ "float", "int" ],
 					"patching_rect" : [ 269.0, 1146.0, 59.0, 8.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 23.75, 158.0, 140.0, 4.0 ],
-					"slidercolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ]
+					"presentation_rect" : [ 24.0, 159.0, 140.0, 4.0 ],
+					"slidercolor" : [ 0.12156862745098, 0.12156862745098, 0.12156862745098, 1.0 ]
 				}
 
 			}
@@ -2039,8 +2039,8 @@
 					"outlettype" : [ "float", "int" ],
 					"patching_rect" : [ 145.0, 1146.0, 67.0, 9.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 23.75, 153.0, 140.0, 4.0 ],
-					"slidercolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ]
+					"presentation_rect" : [ 24.0, 154.0, 140.0, 4.0 ],
+					"slidercolor" : [ 0.12156862745098, 0.12156862745098, 0.12156862745098, 1.0 ]
 				}
 
 			}
@@ -2314,7 +2314,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1177.0, 731.0, 121.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.5, 24.25, 138.5, 18.0 ],
+					"presentation_rect" : [ 25.0, 25.0, 138.5, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_lcd_title"
@@ -2323,7 +2323,6 @@
 					}
 ,
 					"text" : "TRANSPOSE",
-					"textcolor" : [ 0.746970796362449, 0.746970609902925, 0.746970658435034, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -2339,7 +2338,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1485.0, 753.0, 118.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.0, 92.0, 88.75, 18.0 ],
+					"presentation_rect" : [ 24.0, 94.0, 88.75, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_lcd_title"
@@ -2347,9 +2346,7 @@
 
 					}
 ,
-					"text" : "ENVELOPPE",
-					"textcolor" : [ 0.746970796362449, 0.746970609902925, 0.746970658435034, 1.0 ],
-					"textjustification" : 1
+					"text" : "ENVELOPPE"
 				}
 
 			}
@@ -2366,7 +2363,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1247.0, 829.0, 29.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 116.5, 38.5, 48.0, 48.0 ],
+					"presentation_rect" : [ 117.0, 40.0, 48.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Player Fine Tune",
@@ -2401,7 +2398,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1181.0, 829.0, 41.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 77.0, 38.5, 50.0, 48.0 ],
+					"presentation_rect" : [ 77.0, 40.0, 50.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Basic - Pitch",
@@ -2437,7 +2434,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1299.0, 765.0, 71.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 21.0, 5.0, 55.649326577782631, 19.987020999193192 ],
+					"presentation_rect" : [ 90.0, 7.0, 45.0, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Player PlayMode",
@@ -3024,7 +3021,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1539.0, 785.0, 29.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 70.0, 107.0, 42.0, 39.0 ],
+					"presentation_rect" : [ 70.0, 109.0, 42.0, 39.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Player Release",
@@ -3061,7 +3058,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1485.0, 785.0, 29.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 28.0, 107.0, 42.0, 39.0 ],
+					"presentation_rect" : [ 28.0, 109.0, 42.0, 39.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Player Attack",
@@ -3101,18 +3098,17 @@
 				"box" : 				{
 					"annotation" : "This is the number of slices that can be playing concurrently. Triggering another slice causes voice stealing.",
 					"annotation_name" : "Voice count",
-					"appearance" : 1,
 					"fontname" : "Ableton Sans Light",
-					"fontsize" : 9.0,
+					"fontsize" : 12.0,
 					"id" : "obj-45",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 66.0, 302.0, 41.0, 14.0 ],
+					"patching_rect" : [ 66.0, 302.0, 49.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 111.0, 8.0, 53.0, 14.0 ],
+					"presentation_rect" : [ 136.0, 7.0, 27.0, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Voice count",
@@ -3127,8 +3123,7 @@
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Voices",
 							"parameter_type" : 1,
-							"parameter_units" : "voices",
-							"parameter_unitstyle" : 9
+							"parameter_unitstyle" : 0
 						}
 
 					}
@@ -3148,7 +3143,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1456.0, 719.0, 151.0, 172.898102182501816 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 23.75, 93.0, 89.0, 57.5 ],
+					"presentation_rect" : [ 24.0, 94.0, 89.0, 57.5 ],
 					"proportion" : 0.5,
 					"rounded" : 4
 				}
@@ -3166,7 +3161,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 113.5, 76.25, 151.0, 172.898102182501816 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 114.5, 93.0, 49.25, 57.5 ],
+					"presentation_rect" : [ 115.0, 94.0, 49.25, 57.5 ],
 					"proportion" : 0.5,
 					"rounded" : 4
 				}
@@ -3184,7 +3179,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1238.383777856826782, 888.0, 151.0, 172.898102182501816 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 23.75, 26.25, 139.25, 64.25 ],
+					"presentation_rect" : [ 24.0, 27.0, 139.25, 64.25 ],
 					"proportion" : 0.5,
 					"rounded" : 4
 				}

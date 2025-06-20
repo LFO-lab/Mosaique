@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1183.0, 346.0, 1636.0, 975.0 ],
+		"rect" : [ 377.0, 166.0, 1236.0, 975.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
@@ -25,7 +25,7 @@
 					"patching_rect" : [ -1812.0, 1323.0, 95.0, 26.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 7,
-					"presentation_rect" : [ -1.0, 12.0, 22.0, 141.0 ],
+					"presentation_rect" : [ 0.0, 12.0, 22.0, 141.0 ],
 					"text" : "SAMPLER",
 					"textcolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 1.0 ],
 					"textjustification" : 1
@@ -113,32 +113,6 @@
 					}
 ,
 					"text" : "Active grains",
-					"textcolor" : [ 0.746970796362449, 0.746970609902925, 0.746970658435034, 1.0 ],
-					"textjustification" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 0,
-					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 9.5,
-					"id" : "obj-37",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1500.0, 768.0, 118.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 117.0, 92.0, 38.0, 18.0 ],
-					"saved_attribute_attributes" : 					{
-						"textcolor" : 						{
-							"expression" : "themecolor.live_lcd_title"
-						}
-
-					}
-,
-					"text" : "SHAPE",
-					"textcolor" : [ 0.746970796362449, 0.746970609902925, 0.746970658435034, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -154,7 +128,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 60.333335131406784, 24.666667401790619, 121.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 69.0, 25.75, 92.0, 18.0 ],
+					"presentation_rect" : [ 28.0, 25.0, 217.25, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_lcd_title"
@@ -163,7 +137,6 @@
 					}
 ,
 					"text" : "GRAIN EMITTER",
-					"textcolor" : [ 0.746970796362449, 0.746970609902925, 0.746970658435034, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -195,7 +168,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "Grain window shape",
-					"annotation_name" : "Grain Window Shape",
+					"annotation_name" : "Granular - Grain Window Shape",
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-32",
 					"maxclass" : "live.dial",
@@ -203,36 +176,34 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 327.0, 841.0, 27.0, 28.0 ],
+					"patching_rect" : [ 327.0, 841.0, 27.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 122.5, 112.5, 27.0, 28.0 ],
+					"presentation_rect" : [ 115.0, 38.5, 42.600673422217369, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_annotation_name" : "Grain Window Shape",
+							"parameter_annotation_name" : "Granular - Grain Window Shape",
 							"parameter_info" : "Grain window shape",
 							"parameter_initial" : [ 0.5 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Grain Window Shape",
+							"parameter_longname" : "Granular - Grain Window Shape",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 2,
-							"parameter_shortname" : "Skew",
+							"parameter_shortname" : "Shape",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 9
 						}
 
 					}
 ,
-					"showname" : 0,
-					"shownumber" : 0,
-					"varname" : "Grain Window Shape"
+					"varname" : "Granular - Grain Window Shape"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"annotation" : "Grain probability",
-					"annotation_name" : "Grain Probability",
+					"annotation_name" : "Granular - Grain Probability",
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-30",
 					"maxclass" : "live.dial",
@@ -242,10 +213,10 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 449.0, 841.0, 41.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 157.100673422217369, 38.5, 43.0, 48.0 ],
+					"presentation_rect" : [ 206.5, 38.5, 43.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_annotation_name" : "Grain Probability",
+							"parameter_annotation_name" : "Granular - Grain Probability",
 							"parameter_info" : "Grain probability",
 							"parameter_initial" : [ 1.0 ],
 							"parameter_initial_enable" : 1,
@@ -313,15 +284,15 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 647.787662744522095, 845.132811367511749, 41.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 114.092003377775342, 38.5, 43.0, 48.0 ],
+					"presentation_rect" : [ 160.5, 38.5, 43.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Grain Duration",
 							"parameter_info" : "Duration of the individual grains",
-							"parameter_initial" : [ 1.0 ],
+							"parameter_initial" : [ 100 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Grain duration",
+							"parameter_longname" : "Granular - Grain duration",
 							"parameter_mmax" : 1000.0,
 							"parameter_mmin" : 5.0,
 							"parameter_modmax" : 1000.0,
@@ -334,7 +305,7 @@
 
 					}
 ,
-					"varname" : "Grain duration"
+					"varname" : "Granular - Grain duration"
 				}
 
 			}
@@ -351,15 +322,15 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 592.035445868968964, 845.132811367511749, 41.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 71.083333333333329, 38.5, 43.0, 48.0 ],
+					"presentation_rect" : [ 70.5, 38.5, 43.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Grain Rate",
 							"parameter_info" : "Frequency of the grain scheduler",
-							"parameter_initial" : [ 1.0 ],
+							"parameter_initial" : [ 50 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Grain rate",
+							"parameter_longname" : "Granular - Grain rate",
 							"parameter_mmax" : 1000.0,
 							"parameter_modmax" : 1000.0,
 							"parameter_modmode" : 4,
@@ -370,7 +341,7 @@
 
 					}
 ,
-					"varname" : "Grain rate"
+					"varname" : "Granular - Grain rate"
 				}
 
 			}
@@ -389,7 +360,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "Position in the slice",
-					"annotation_name" : "Player position",
+					"annotation_name" : "Granular - Position",
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-8",
 					"maxclass" : "live.dial",
@@ -402,12 +373,12 @@
 					"presentation_rect" : [ 28.074663288891315, 38.5, 43.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_annotation_name" : "Player position",
+							"parameter_annotation_name" : "Granular - Position",
 							"parameter_info" : "Position in the slice",
-							"parameter_initial" : [ 1.0 ],
+							"parameter_initial" : [ 0.5 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Player Position",
+							"parameter_longname" : "Granular - Position",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 2,
 							"parameter_shortname" : "Position",
@@ -417,7 +388,7 @@
 
 					}
 ,
-					"varname" : "Player Position"
+					"varname" : "Granular - Position"
 				}
 
 			}
@@ -485,14 +456,14 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1417.557349920272827, 900.000062227249146, 71.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 165.767340088884026, 4.012979000806808, 28.701346844434738, 19.760478794574738 ],
+					"presentation_rect" : [ 84.0, 95.0, 27.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Player PlayMode",
 							"parameter_enum" : [ "Stop", "All" ],
 							"parameter_info" : "Toggle for looping or one-shot playback modes.",
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Player Stop All",
+							"parameter_longname" : "Granular - Stop All",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Stop All",
@@ -503,7 +474,7 @@
 ,
 					"text" : "stop",
 					"texton" : "looped",
-					"varname" : "Player Stop All"
+					"varname" : "Granular - Stop All"
 				}
 
 			}
@@ -1983,7 +1954,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 66.0, 1045.0, 41.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 161.25, 95.5, 40.0, 48.0 ],
+					"presentation_rect" : [ 211.458339333534241, 97.0, 40.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Player Output Gain",
@@ -1992,7 +1963,7 @@
 							"parameter_initial" : [ -6 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Player Output Gain",
+							"parameter_longname" : "Granular - Output Gain",
 							"parameter_mmax" : 12.0,
 							"parameter_mmin" : -70.0,
 							"parameter_modmode" : 0,
@@ -2003,7 +1974,7 @@
 
 					}
 ,
-					"varname" : "Player Output Gain"
+					"varname" : "Granular - Output Gain"
 				}
 
 			}
@@ -2163,8 +2134,8 @@
 					"outlettype" : [ "float", "int" ],
 					"patching_rect" : [ 269.0, 1146.0, 59.0, 8.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 23.75, 159.75, 227.0, 4.0 ],
-					"slidercolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ]
+					"presentation_rect" : [ 23.75, 159.75, 232.0, 4.0 ],
+					"slidercolor" : [ 0.12156862745098, 0.12156862745098, 0.12156862745098, 1.0 ]
 				}
 
 			}
@@ -2178,8 +2149,8 @@
 					"outlettype" : [ "float", "int" ],
 					"patching_rect" : [ 145.0, 1146.0, 67.0, 9.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 23.75, 154.75, 227.0, 4.0 ],
-					"slidercolor" : [ 0.079348079365577, 0.07934804057877, 0.079348050547289, 1.0 ]
+					"presentation_rect" : [ 23.75, 154.75, 232.0, 4.0 ],
+					"slidercolor" : [ 0.12156862745098, 0.12156862745098, 0.12156862745098, 1.0 ]
 				}
 
 			}
@@ -2441,7 +2412,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1177.0, 731.0, 121.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 209.625, 26.666667461395264, 38.0, 18.0 ],
+					"presentation_rect" : [ 115.0, 93.5, 90.0, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_lcd_title"
@@ -2449,8 +2420,7 @@
 
 					}
 ,
-					"text" : "XPOSE",
-					"textcolor" : [ 0.746970796362449, 0.746970609902925, 0.746970658435034, 1.0 ],
+					"text" : "TRANSPOSE",
 					"textjustification" : 1
 				}
 
@@ -2466,7 +2436,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1485.0, 753.0, 118.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.0, 92.0, 88.75, 18.0 ],
+					"presentation_rect" : [ 24.0, 94.0, 88.75, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_lcd_title"
@@ -2475,8 +2445,7 @@
 					}
 ,
 					"text" : "ENVELOPPE",
-					"textcolor" : [ 0.746970796362449, 0.746970609902925, 0.746970658435034, 1.0 ],
-					"textjustification" : 1
+					"textjustification" : 0
 				}
 
 			}
@@ -2484,6 +2453,7 @@
 				"box" : 				{
 					"annotation" : "Fine tune pitch in cents.",
 					"annotation_name" : "Player Fine Tune",
+					"appearance" : 1,
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-66",
 					"maxclass" : "live.dial",
@@ -2491,15 +2461,15 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 951.327510178089142, 828.318650722503662, 29.0, 48.0 ],
+					"patching_rect" : [ 951.327510178089142, 828.318650722503662, 25.0, 36.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 204.625, 97.0833360850811, 48.0, 48.0 ],
+					"presentation_rect" : [ 163.0, 110.5, 38.100673422217369, 36.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Player Fine Tune",
 							"parameter_info" : "Fine tune pitch in cents.",
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Player Fine Tune",
+							"parameter_longname" : "Granular - Fine Tune",
 							"parameter_mmax" : 50.0,
 							"parameter_mmin" : -50.0,
 							"parameter_modmode" : 0,
@@ -2511,7 +2481,7 @@
 
 					}
 ,
-					"varname" : "Player Fine Tune"
+					"varname" : "Granular - Fine Tune"
 				}
 
 			}
@@ -2519,6 +2489,7 @@
 				"box" : 				{
 					"annotation" : "Change the player's pitch factor.",
 					"annotation_name" : "Player pitch",
+					"appearance" : 1,
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-65",
 					"maxclass" : "live.dial",
@@ -2526,15 +2497,17 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 885.84077924489975, 828.318650722503662, 41.0, 48.0 ],
+					"patching_rect" : [ 885.84077924489975, 828.318650722503662, 25.0, 36.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 203.625, 38.5, 50.0, 48.0 ],
+					"presentation_rect" : [ 122.0, 110.5, 43.100673422217369, 36.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Player pitch",
 							"parameter_info" : "Change the player's pitch factor.",
+							"parameter_initial" : [ 0.0 ],
+							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Player Pitch",
+							"parameter_longname" : "Granular - Pitch",
 							"parameter_mmax" : 24.0,
 							"parameter_mmin" : -24.0,
 							"parameter_modmode" : 0,
@@ -2545,7 +2518,7 @@
 
 					}
 ,
-					"varname" : "Player Pitch"
+					"varname" : "Granular - Pitch"
 				}
 
 			}
@@ -2564,14 +2537,14 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1299.0, 765.0, 71.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 107.767340088884026, 4.012979000806808, 55.649326577782631, 19.987020999193192 ],
+					"presentation_rect" : [ 90.0, 7.0, 45.0, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Player PlayMode",
 							"parameter_enum" : [ "onde-shot", "looped" ],
 							"parameter_info" : "Toggle for looping or one-shot playback modes.",
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Player Play Mode",
+							"parameter_longname" : "Granular - Play Mode",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Play Mode",
@@ -2582,7 +2555,7 @@
 ,
 					"text" : "one-shot",
 					"texton" : "looped",
-					"varname" : "Player Play Mode"
+					"varname" : "Granular - Play Mode"
 				}
 
 			}
@@ -3151,7 +3124,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1539.0, 785.0, 29.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 70.0, 107.0, 42.0, 39.0 ],
+					"presentation_rect" : [ 70.0, 109.0, 42.0, 39.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Player Release",
@@ -3160,7 +3133,7 @@
 							"parameter_initial" : [ 0.05 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Player Release",
+							"parameter_longname" : "Granular - Release",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Release",
@@ -3171,7 +3144,7 @@
 					}
 ,
 					"shownumber" : 0,
-					"varname" : "Player Release"
+					"varname" : "Granular - Release"
 				}
 
 			}
@@ -3188,7 +3161,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1485.0, 785.0, 29.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 28.0, 107.0, 42.0, 39.0 ],
+					"presentation_rect" : [ 28.0, 109.0, 42.0, 39.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Player Attack",
@@ -3197,7 +3170,7 @@
 							"parameter_initial" : [ 0.0001 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Player Attack",
+							"parameter_longname" : "Granular - Attack",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Attack",
@@ -3208,7 +3181,7 @@
 					}
 ,
 					"shownumber" : 0,
-					"varname" : "Player Attack"
+					"varname" : "Granular - Attack"
 				}
 
 			}
@@ -3228,18 +3201,17 @@
 				"box" : 				{
 					"annotation" : "This is the number of slices that can be playing concurrently. Triggering another slice causes voice stealing.",
 					"annotation_name" : "Voice count",
-					"appearance" : 1,
 					"fontname" : "Ableton Sans Light",
-					"fontsize" : 9.0,
+					"fontsize" : 12.0,
 					"id" : "obj-45",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 66.0, 302.0, 41.0, 14.0 ],
+					"patching_rect" : [ 66.0, 302.0, 48.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 197.767340088884026, 7.012979000806808, 53.0, 14.0 ],
+					"presentation_rect" : [ 136.0, 7.0, 27.0, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Voice count",
@@ -3248,19 +3220,18 @@
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "BasicPlayer_VoiceNum",
+							"parameter_longname" : "Granular - Voice count",
 							"parameter_mmax" : 64.0,
 							"parameter_mmin" : 1.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Voices",
 							"parameter_type" : 1,
-							"parameter_units" : "voices",
-							"parameter_unitstyle" : 9
+							"parameter_unitstyle" : 0
 						}
 
 					}
 ,
-					"varname" : "BasicPlayer_VoiceNum"
+					"varname" : "Granular - Voice count"
 				}
 
 			}
@@ -3275,7 +3246,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1456.0, 719.0, 151.0, 172.898102182501816 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 23.75, 93.0, 89.0, 57.5 ],
+					"presentation_rect" : [ 24.0, 94.0, 89.0, 57.5 ],
 					"proportion" : 0.5,
 					"rounded" : 4
 				}
@@ -3293,25 +3264,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 208.0, 25.0, 151.0, 172.898102182501816 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 207.0, 26.0, 43.25, 123.8333360850811 ],
-					"proportion" : 0.5,
-					"rounded" : 4
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 270.0,
-					"background" : 1,
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.2 ],
-					"id" : "obj-9",
-					"maxclass" : "panel",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 329.0, 104.0, 151.0, 172.898102182501816 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 114.5, 92.75, 40.5, 57.75 ],
+					"presentation_rect" : [ 114.75, 94.0, 90.25, 57.5 ],
 					"proportion" : 0.5,
 					"rounded" : 4
 				}
@@ -3329,7 +3282,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 113.5, 76.25, 151.0, 172.898102182501816 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 156.75, 92.5, 48.75, 57.5 ],
+					"presentation_rect" : [ 206.958339333534241, 94.0, 48.75, 57.5 ],
 					"proportion" : 0.5,
 					"rounded" : 4
 				}
@@ -3347,7 +3300,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1238.383777856826782, 888.0, 151.0, 172.898102182501816 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.0, 26.0, 182.0, 64.0 ],
+					"presentation_rect" : [ 24.0, 27.0, 231.708339333534241, 64.25 ],
 					"proportion" : 0.5,
 					"rounded" : 4
 				}
@@ -3791,19 +3744,19 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1" : [ "Player Stop All", "Stop All", 0 ],
-			"obj-148" : [ "Player Output Gain", "Gain", 0 ],
-			"obj-15" : [ "Player Release", "Release", 0 ],
-			"obj-19" : [ "Player Attack", "Attack", 0 ],
-			"obj-20" : [ "Grain rate", "Rate", 0 ],
-			"obj-24" : [ "Grain duration", "Duration", 0 ],
+			"obj-1" : [ "Granular - Stop All", "Stop All", 0 ],
+			"obj-148" : [ "Granular - Output Gain", "Gain", 0 ],
+			"obj-15" : [ "Granular - Release", "Release", 0 ],
+			"obj-19" : [ "Granular - Attack", "Attack", 0 ],
+			"obj-20" : [ "Granular - Grain rate", "Rate", 0 ],
+			"obj-24" : [ "Granular - Grain duration", "Duration", 0 ],
 			"obj-30" : [ "Grain Probability", "Probability", 0 ],
-			"obj-32" : [ "Grain Window Shape", "Skew", 0 ],
-			"obj-45" : [ "BasicPlayer_VoiceNum", "Voices", 0 ],
-			"obj-62" : [ "Player Play Mode", "Play Mode", 0 ],
-			"obj-65" : [ "Player Pitch", "Pitch", 0 ],
-			"obj-66" : [ "Player Fine Tune", "Tune", 0 ],
-			"obj-8" : [ "Player Position", "Position", 0 ],
+			"obj-32" : [ "Granular - Grain Window Shape", "Shape", 0 ],
+			"obj-45" : [ "Granular - Voice count", "Voices", 0 ],
+			"obj-62" : [ "Granular - Play Mode", "Play Mode", 0 ],
+			"obj-65" : [ "Granular - Pitch", "Pitch", 0 ],
+			"obj-66" : [ "Granular - Fine Tune", "Tune", 0 ],
+			"obj-8" : [ "Granular - Position", "Position", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
