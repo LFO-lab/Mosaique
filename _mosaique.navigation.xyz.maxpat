@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 1001.0, 983.0 ],
+		"rect" : [ 876.0, 278.0, 1001.0, 983.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
@@ -82,29 +82,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1245.0, 630.0, 52.0, 22.0 ],
 					"text" : "gate 1 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Ableton Sans Light",
-					"fontsize" : 9.5,
-					"id" : "obj-12",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 995.0, 502.0, 29.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 87.0, 74.0, 29.0, 18.0 ],
-					"saved_attribute_attributes" : 					{
-						"textcolor" : 						{
-							"expression" : "themecolor.live_control_fg"
-						}
-
-					}
-,
-					"text" : "state",
-					"textcolor" : [ 0.85, 0.85, 0.85, 1.0 ]
 				}
 
 			}
@@ -188,7 +165,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 933.0, 469.0, 19.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 44.5, 137.0, 15.0, 16.0 ],
+					"presentation_rect" : [ 107.625, 138.25, 15.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_control_fg"
@@ -197,7 +174,7 @@
 					}
 ,
 					"text" : "Z",
-					"textcolor" : [ 0.85, 0.85, 0.85, 1.0 ]
+					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ]
 				}
 
 			}
@@ -211,7 +188,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 859.0, 470.0, 19.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 44.0, 93.0, 15.0, 16.0 ],
+					"presentation_rect" : [ 75.0, 92.25, 15.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_control_fg"
@@ -220,7 +197,7 @@
 					}
 ,
 					"text" : "Y",
-					"textcolor" : [ 0.85, 0.85, 0.85, 1.0 ]
+					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ]
 				}
 
 			}
@@ -243,50 +220,13 @@
 					}
 ,
 					"text" : "X",
-					"textcolor" : [ 0.85, 0.85, 0.85, 1.0 ]
+					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "This button toggles playback for players like Granular and Morph.",
-					"annotation_name" : "State button",
-					"automation" : "off",
-					"automationon" : "on",
-					"hint" : "This button toggles playback for players like Granular and Morph.",
-					"id" : "obj-9",
-					"maxclass" : "live.text",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 995.0, 521.0, 44.0, 15.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 68.25, 88.430692568421364, 65.618806958198547, 20.75 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_annotation_name" : "State button",
-							"parameter_enum" : [ "off", "on" ],
-							"parameter_info" : "This button toggles playback for players like Granular and Morph.",
-							"parameter_linknames" : 1,
-							"parameter_longname" : "Navigation State",
-							"parameter_mmax" : 1,
-							"parameter_modmode" : 0,
-							"parameter_shortname" : "state",
-							"parameter_type" : 2
-						}
-
-					}
-,
-					"text" : "off",
-					"texton" : "on",
-					"varname" : "Navigation State"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"activeneedlecolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activeneedlecolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation" : "\"Z Axis Coordinates\"",
 					"annotation_name" : "Z Axis Coordinates",
 					"fontname" : "Ableton Sans Light",
@@ -298,7 +238,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 921.0, 489.0, 29.0, 43.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 36.5, 117.5, 29.0, 43.0 ],
+					"presentation_rect" : [ 99.625, 118.75, 29.0, 43.0 ],
 					"saved_attribute_attributes" : 					{
 						"activeneedlecolor" : 						{
 							"expression" : "themecolor.live_value_arc"
@@ -329,7 +269,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activeneedlecolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activeneedlecolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation" : "\"Y Axis Coordinates\"",
 					"annotation_name" : "Y Axis Coordinates",
 					"fontname" : "Ableton Sans Light",
@@ -341,7 +281,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 847.0, 489.0, 29.0, 43.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 36.5, 73.5, 29.0, 43.0 ],
+					"presentation_rect" : [ 67.5, 72.75, 29.0, 43.0 ],
 					"saved_attribute_attributes" : 					{
 						"activeneedlecolor" : 						{
 							"expression" : "themecolor.live_value_arc"
@@ -372,7 +312,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activeneedlecolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activeneedlecolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation" : "\"X Axis Coordinates\"",
 					"annotation_name" : "X Axis Coordinates",
 					"fontname" : "Ableton Sans Light",
@@ -410,41 +350,6 @@
 					"showname" : 0,
 					"triangle" : 1,
 					"varname" : "Navigation X"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Ableton Sans Light",
-					"fontsize" : 9.5,
-					"id" : "obj-1",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 330.0, 336.0, 57.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 72.0, 31.5, 57.0, 18.0 ],
-					"saved_attribute_attributes" : 					{
-						"textcolor" : 						{
-							"expression" : "themecolor.live_control_fg"
-						}
-
-					}
-,
-					"text" : "coordinates",
-					"textcolor" : [ 0.85, 0.85, 0.85, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-4",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1089.0, 489.0, 57.0, 22.0 ],
-					"text" : "active #2"
 				}
 
 			}
@@ -548,7 +453,7 @@
 				"box" : 				{
 					"comment" : "Navigation type (0 for OSC)",
 					"id" : "obj-23",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -573,23 +478,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-10",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 212.0, 871.0, 30.0, 30.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-5",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 995.0, 566.0, 82.0, 22.0 ],
-					"text" : "prepend state"
 				}
 
 			}
@@ -635,6 +528,7 @@
 					"annotation" : "Choose the dimensionality of the navigation space.",
 					"annotation_name" : "Navigation Coordinates",
 					"fontname" : "Ableton Sans Bold",
+					"fontsize" : 12.0,
 					"id" : "obj-27",
 					"maxclass" : "live.menu",
 					"numinlets" : 1,
@@ -642,9 +536,9 @@
 					"outlettype" : [ "", "", "float" ],
 					"parameter_enable" : 1,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 309.0, 357.0, 100.0, 15.0 ],
+					"patching_rect" : [ 309.0, 357.0, 100.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 68.118806958198547, 44.55445222556591, 65.75, 15.0 ],
+					"presentation_rect" : [ 87.5, 7.0, 53.25, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Navigation Coordinates",
@@ -728,14 +622,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 26.75, 26.75, 114.0, 135.0 ],
 					"proportion" : 0.39,
-					"rounded" : 4,
-					"saved_attribute_attributes" : 					{
-						"bgfillcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-
+					"rounded" : 4
 				}
 
 			}
@@ -955,23 +842,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
-					"source" : [ "obj-4", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
-					"order" : 1,
-					"source" : [ "obj-41", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-44", 0 ],
-					"order" : 0,
 					"source" : [ "obj-41", 0 ]
 				}
 
@@ -992,27 +863,32 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-22", 1 ],
-					"midpoints" : [ 1004.5, 808.0, 318.5, 808.0 ],
-					"source" : [ "obj-5", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
-					"source" : [ "obj-9", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-101", 0 ],
 					"source" : [ "obj-96", 0 ]
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-13" : [ "Navigation Y", "Y", 0 ],
+			"obj-15" : [ "Navigation Z", "Z", 0 ],
+			"obj-2" : [ "Navigation X", "X", 0 ],
+			"obj-27" : [ "Navigation Coordinates", "Coord Type", 0 ],
+			"obj-43" : [ "Navigation Cam Link", "Cam Link", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [  ],
+		"autosave" : 0
 	}
 
 }

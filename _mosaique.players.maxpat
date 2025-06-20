@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 222.0, 727.0, 885.0, 984.0 ],
+		"rect" : [ 1137.0, 106.0, 485.0, 984.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
@@ -452,7 +452,7 @@
 			"obj-6::obj-20" : [ "Grain rate", "Rate", 0 ],
 			"obj-6::obj-24" : [ "Grain duration", "Duration", 0 ],
 			"obj-6::obj-30" : [ "Grain Probability", "Probability", 0 ],
-			"obj-6::obj-32" : [ "Grain Window Shape", "Skew", 0 ],
+			"obj-6::obj-32" : [ "Grain Window Shape", "Shape", 0 ],
 			"obj-6::obj-45" : [ "BasicPlayer_VoiceNum[1]", "Voices", 0 ],
 			"obj-6::obj-62" : [ "Player Play Mode[1]", "Play Mode", 0 ],
 			"obj-6::obj-65" : [ "Player Pitch[1]", "Pitch", 0 ],
@@ -526,6 +526,18 @@
 					"parameter_longname" : "Player Attack[1]"
 				}
 ,
+				"obj-6::obj-20" : 				{
+					"parameter_longname" : "Grain rate"
+				}
+,
+				"obj-6::obj-24" : 				{
+					"parameter_longname" : "Grain duration"
+				}
+,
+				"obj-6::obj-32" : 				{
+					"parameter_longname" : "Grain Window Shape"
+				}
+,
 				"obj-6::obj-45" : 				{
 					"parameter_longname" : "BasicPlayer_VoiceNum[1]"
 				}
@@ -540,6 +552,10 @@
 ,
 				"obj-6::obj-66" : 				{
 					"parameter_longname" : "Player Fine Tune[1]"
+				}
+,
+				"obj-6::obj-8" : 				{
+					"parameter_longname" : "Player Position"
 				}
 ,
 				"obj-8::obj-10" : 				{

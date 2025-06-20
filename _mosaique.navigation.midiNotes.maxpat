@@ -4,16 +4,55 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 227.0, 100.0, 1126.0, 983.0 ],
+		"rect" : [ 898.0, 184.0, 726.0, 983.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontface" : 2,
+					"fontname" : "Ableton Sans Light",
+					"fontsize" : 8.0,
+					"id" : "obj-9",
+					"linecount" : 7,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 27.25, 126.5, 27.0, 74.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 27.0, 140.75, 113.0, 16.0 ],
+					"text" : "Lowest note can be adjusted",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 2,
+					"fontname" : "Ableton Sans Light",
+					"fontsize" : 8.0,
+					"id" : "obj-8",
+					"linecount" : 14,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 80.0, 183.5, 26.0, 141.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 27.0, 112.75, 113.0, 26.0 ],
+					"text" : "MIDI mapping is automatically adapted to the corpora size",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-10",
 					"maxclass" : "message",
@@ -206,31 +245,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 0,
-					"fontname" : "Ableton Sans Bold",
-					"fontsize" : 9.5,
-					"id" : "obj-8",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 65.75, 18.75, 50.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 35.0, 29.0, 50.0, 18.0 ],
-					"saved_attribute_attributes" : 					{
-						"textcolor" : 						{
-							"expression" : "themecolor.live_lcd_title"
-						}
-
-					}
-,
-					"text" : "MIDI map",
-					"textcolor" : [ 0.768399306904929, 0.768399117237748, 0.7683991666346, 1.0 ],
-					"textjustification" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-6",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -245,7 +259,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-4",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -259,13 +273,14 @@
 					"fontname" : "Ableton Sans Light",
 					"fontsize" : 9.5,
 					"id" : "obj-5",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 541.105258464813232, 459.684206128120422, 55.0, 18.0 ],
+					"patching_rect" : [ 541.105258464813232, 459.684206128120422, 55.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 27.0, 140.0, 32.0, 18.0 ],
-					"text" : "layers",
+					"presentation_rect" : [ 50.5, 74.5, 66.0, 18.0 ],
+					"text" : "velocity layers",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -312,7 +327,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-20",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -365,7 +380,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 403.0, 180.5, 24.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 26.0, 49.0, 24.0, 18.0 ],
+					"presentation_rect" : [ 49.75, 41.0, 24.0, 18.0 ],
 					"text" : "min",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
@@ -375,7 +390,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "Change this value to set the lowest note number to which the player should respond.",
-					"annotation_name" : "Minimum Note Number",
+					"annotation_name" : "Navigation - Min Note",
 					"fontname" : "Ableton Sans Bold",
 					"id" : "obj-70",
 					"maxclass" : "live.numbox",
@@ -385,10 +400,10 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 356.0, 182.0, 51.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 56.0, 50.0, 35.0, 15.0 ],
+					"presentation_rect" : [ 44.25, 54.0, 35.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_annotation_name" : "Minimum Note Number",
+							"parameter_annotation_name" : "Navigation - Min Note",
 							"parameter_info" : "Change this value to set the lowest note number to which the player should respond.",
 							"parameter_initial" : [ 60 ],
 							"parameter_invisible" : 1,
@@ -408,6 +423,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Light",
 					"id" : "obj-67",
 					"ignoreclick" : 1,
 					"maxclass" : "live.numbox",
@@ -418,7 +434,7 @@
 					"parameter_mappable" : 0,
 					"patching_rect" : [ 151.263156592845917, 925.0, 50.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 56.0, 65.0, 35.0, 15.0 ],
+					"presentation_rect" : [ 90.0, 53.5, 35.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 2,
@@ -446,7 +462,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 118.263156592845917, 923.0, 25.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 26.0, 64.0, 25.0, 18.0 ],
+					"presentation_rect" : [ 95.0, 40.0, 25.0, 18.0 ],
 					"text" : "max",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
@@ -497,7 +513,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 538.0, 1432.0, 82.0, 22.0 ],
+					"patching_rect" : [ 538.199999809265137, 1454.0, 82.0, 22.0 ],
 					"text" : "prepend state"
 				}
 
@@ -509,7 +525,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 538.0, 1400.0, 29.5, 22.0 ],
+					"patching_rect" : [ 538.199999809265137, 1422.0, 29.5, 22.0 ],
 					"text" : "!= 0"
 				}
 
@@ -612,6 +628,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Light",
 					"id" : "obj-25",
 					"ignoreclick" : 1,
 					"maxclass" : "live.numbox",
@@ -622,7 +639,7 @@
 					"parameter_mappable" : 0,
 					"patching_rect" : [ 492.105258464813232, 461.184206128120422, 48.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 56.0, 141.0, 35.0, 15.0 ],
+					"presentation_rect" : [ 65.75, 88.75, 35.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 2,
@@ -665,14 +682,7 @@
 					"patching_rect" : [ 727.631572008132935, 242.763155579566956, 234.269681632518768, 170.22473269701004 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 27.0, 29.0, 113.0, 131.0 ],
-					"proportion" : 0.39,
-					"saved_attribute_attributes" : 					{
-						"bgfillcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-
+					"proportion" : 0.39
 				}
 
 			}
@@ -788,6 +798,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
+					"disabled" : 1,
 					"source" : [ "obj-42", 1 ]
 				}
 
@@ -1031,7 +1042,29 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-25" : [ "MIDI velocity layers", "Velocity Layers", 0 ],
+			"obj-67" : [ "MIDI highest note", "Highest Note", 0 ],
+			"obj-70" : [ "MIDI lowest note", "lowest note", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "fluid.dataset~.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

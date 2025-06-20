@@ -2,42 +2,17 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
-			"revision" : 4,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
 		"rect" : [ 64.0, 132.0, 906.0, 983.0 ],
-		"bglocked" : 0,
 		"openinpresentation" : 1,
-		"default_fontsize" : 12.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-18",
@@ -539,7 +514,7 @@
 					}
 ,
 					"text" : "Descriptor C",
-					"textcolor" : [ 0.070588235294118, 0.070588235294118, 0.070588235294118, 1.0 ]
+					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ]
 				}
 
 			}
@@ -562,7 +537,7 @@
 					}
 ,
 					"text" : "Descriptor B",
-					"textcolor" : [ 0.070588235294118, 0.070588235294118, 0.070588235294118, 1.0 ]
+					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ]
 				}
 
 			}
@@ -581,14 +556,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 68.0, 132.0, 68.0, 21.0 ],
 					"proportion" : 0.39,
-					"rounded" : 0,
-					"saved_attribute_attributes" : 					{
-						"bgfillcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-
+					"rounded" : 0
 				}
 
 			}
@@ -607,14 +575,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 68.0, 88.0, 68.0, 21.0 ],
 					"proportion" : 0.39,
-					"rounded" : 0,
-					"saved_attribute_attributes" : 					{
-						"bgfillcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-
+					"rounded" : 0
 				}
 
 			}
@@ -633,14 +594,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 68.0, 44.0, 68.0, 21.0 ],
 					"proportion" : 0.39,
-					"rounded" : 0,
-					"saved_attribute_attributes" : 					{
-						"bgfillcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-
+					"rounded" : 0
 				}
 
 			}
@@ -658,14 +612,15 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.714289247989655, 0.714289247989655, 0.714289247989655, 1.0 ],
+					"bgcolor" : [ 0.192156862745098, 0.192156862745098, 0.192156862745098, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.714289247989655, 0.714289247989655, 0.714289247989655, 1.0 ],
+					"bgfillcolor_color" : [ 0.192156862745098, 0.192156862745098, 0.192156862745098, 1.0 ],
 					"bgfillcolor_color1" : [ 0.714289247989655, 0.714289247989655, 0.714289247989655, 1.0 ],
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"bgfillcolor_proportion" : 0.5,
 					"bgfillcolor_type" : "color",
+					"color" : [ 0.588235294117647, 0.831372549019608, 0.909803921568627, 1.0 ],
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
 					"id" : "obj-42",
@@ -679,6 +634,18 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 68.0, 44.0, 68.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
+						"bgfillcolor" : 						{
+							"expression" : "themecolor.live_control_text_bg"
+						}
+,
+						"color" : 						{
+							"expression" : "themecolor.live_selection"
+						}
+,
+						"textcolor" : 						{
+							"expression" : "themecolor.live_control_fg"
+						}
+,
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "loudness", "<none>", "spectral", "centroid", "spread", "skewness", "kurtosis", "rolloff", "flatness", "crest", "<none>", "pitch", "pitch", "confidence" ],
 							"parameter_linknames" : 1,
@@ -691,6 +658,7 @@
 
 					}
 ,
+					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ],
 					"varname" : "Descriptor A Type"
 				}
 
@@ -1051,7 +1019,7 @@
 					}
 ,
 					"text" : "Descriptor A",
-					"textcolor" : [ 0.070588235294118, 0.070588235294118, 0.070588235294118, 1.0 ]
+					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ]
 				}
 
 			}
@@ -1189,14 +1157,15 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.714289247989655, 0.714289247989655, 0.714289247989655, 1.0 ],
+					"bgcolor" : [ 0.192156862745098, 0.192156862745098, 0.192156862745098, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.714289247989655, 0.714289247989655, 0.714289247989655, 1.0 ],
+					"bgfillcolor_color" : [ 0.192156862745098, 0.192156862745098, 0.192156862745098, 1.0 ],
 					"bgfillcolor_color1" : [ 0.714289247989655, 0.714289247989655, 0.714289247989655, 1.0 ],
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"bgfillcolor_proportion" : 0.5,
 					"bgfillcolor_type" : "color",
+					"color" : [ 0.588235294117647, 0.831372549019608, 0.909803921568627, 1.0 ],
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
 					"id" : "obj-46",
@@ -1210,6 +1179,18 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 68.0, 132.0, 68.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
+						"bgfillcolor" : 						{
+							"expression" : "themecolor.live_control_text_bg"
+						}
+,
+						"color" : 						{
+							"expression" : "themecolor.live_selection"
+						}
+,
+						"textcolor" : 						{
+							"expression" : "themecolor.live_control_fg"
+						}
+,
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "loudness", "<none>", "spectral", "centroid", "spread", "skewness", "kurtosis", "rolloff", "flatness", "crest", "<none>", "pitch", "pitch", "confidence" ],
 							"parameter_linknames" : 1,
@@ -1222,20 +1203,22 @@
 
 					}
 ,
+					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ],
 					"varname" : "Descriptor C Type"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.714289247989655, 0.714289247989655, 0.714289247989655, 1.0 ],
+					"bgcolor" : [ 0.192156862745098, 0.192156862745098, 0.192156862745098, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.714289247989655, 0.714289247989655, 0.714289247989655, 1.0 ],
+					"bgfillcolor_color" : [ 0.192156862745098, 0.192156862745098, 0.192156862745098, 1.0 ],
 					"bgfillcolor_color1" : [ 0.714289247989655, 0.714289247989655, 0.714289247989655, 1.0 ],
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"bgfillcolor_proportion" : 0.5,
 					"bgfillcolor_type" : "color",
+					"color" : [ 0.588235294117647, 0.831372549019608, 0.909803921568627, 1.0 ],
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.5,
 					"id" : "obj-45",
@@ -1249,6 +1232,18 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 68.0, 88.0, 68.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
+						"bgfillcolor" : 						{
+							"expression" : "themecolor.live_control_text_bg"
+						}
+,
+						"color" : 						{
+							"expression" : "themecolor.live_selection"
+						}
+,
+						"textcolor" : 						{
+							"expression" : "themecolor.live_control_fg"
+						}
+,
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "loudness", "<none>", "spectral", "centroid", "spread", "skewness", "kurtosis", "rolloff", "flatness", "crest", "<none>", "pitch", "pitch", "confidence" ],
 							"parameter_linknames" : 1,
@@ -1261,6 +1256,7 @@
 
 					}
 ,
+					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ],
 					"varname" : "Descriptor B Type"
 				}
 
@@ -1333,7 +1329,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activeneedlecolor" : [ 0.0, 0.933333333333333, 1.0, 1.0 ],
+					"activeneedlecolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation" : "Descriptor C normalized coordinate.",
 					"fontname" : "Avenir",
 					"id" : "obj-15",
@@ -1372,7 +1368,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activeneedlecolor" : [ 0.0, 0.933333333333333, 1.0, 1.0 ],
+					"activeneedlecolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation" : "Descriptor B normalized coordinate.",
 					"fontname" : "Avenir",
 					"id" : "obj-13",
@@ -1411,7 +1407,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activeneedlecolor" : [ 0.0, 0.933333333333333, 1.0, 1.0 ],
+					"activeneedlecolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"annotation" : "Descriptor A normalized coordinate.",
 					"fontname" : "Avenir",
 					"id" : "obj-2",
@@ -1488,7 +1484,7 @@
 				"box" : 				{
 					"comment" : "Navigation type (0 for OSC)",
 					"id" : "obj-23",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1513,7 +1509,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-10",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1546,14 +1542,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 26.75, 26.75, 114.5, 135.0 ],
 					"proportion" : 0.39,
-					"rounded" : 4,
-					"saved_attribute_attributes" : 					{
-						"bgfillcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-
+					"rounded" : 4
 				}
 
 			}
@@ -2304,13 +2293,39 @@
 
 			}
  ],
-		"saved_attribute_attributes" : 		{
-			"default_plcolor" : 			{
-				"expression" : ""
+		"parameters" : 		{
+			"obj-13" : [ "Descriptor B Value", "B", 0 ],
+			"obj-15" : [ "Descriptor C Value", "C", 0 ],
+			"obj-2" : [ "Descriptor A Value", "A", 0 ],
+			"obj-42" : [ "Descriptor A Type", "Descriptor A Type", 0 ],
+			"obj-45" : [ "Descriptor B Type", "Descriptor B Type", 0 ],
+			"obj-46" : [ "Descriptor C Type", "Descriptor C Type", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
 			}
-
+,
+			"inherited_shortname" : 1
 		}
-
+,
+		"dependency_cache" : [ 			{
+				"name" : "fluid.dataset~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.kdtree~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.list2buf.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
