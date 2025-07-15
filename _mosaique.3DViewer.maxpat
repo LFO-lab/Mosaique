@@ -668,13 +668,14 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "2D view of the corpora",
 					"args" : [ "#1" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"hint" : "2D viewer",
+					"hint" : "",
 					"id" : "obj-22",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -743,7 +744,7 @@
 							"parameter_annotation_name" : "Camera Speed",
 							"parameter_exponent" : 3.0,
 							"parameter_info" : "Camera movement speed.",
-							"parameter_initial" : [ 2.0 ],
+							"parameter_initial" : [ 0.5 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "Camera - Speed",
@@ -2029,7 +2030,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "Tilt camera downwards.",
+					"annotation" : "Tilt camera downwards.  MIDI bindable",
 					"annotation_name" : "Camera - Down",
 					"id" : "obj-141",
 					"maxclass" : "live.text",
@@ -2044,7 +2045,7 @@
 						"valueof" : 						{
 							"parameter_annotation_name" : "Camera - Down",
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_info" : "Tilt camera downwards.",
+							"parameter_info" : "Tilt camera downwards.  MIDI bindable",
 							"parameter_linknames" : 1,
 							"parameter_longname" : "Camera - Down",
 							"parameter_mmax" : 1,
@@ -2064,7 +2065,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "Tilt camera upwards.",
+					"annotation" : "Tilt camera upwards.  MIDI bindable",
 					"annotation_name" : "Camera Up",
 					"id" : "obj-140",
 					"maxclass" : "live.text",
@@ -2079,7 +2080,7 @@
 						"valueof" : 						{
 							"parameter_annotation_name" : "Camera Up",
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_info" : "Tilt camera upwards.",
+							"parameter_info" : "Tilt camera upwards.  MIDI bindable",
 							"parameter_linknames" : 1,
 							"parameter_longname" : "Camera - Up",
 							"parameter_mmax" : 1,
@@ -2099,7 +2100,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "Rotate camera to the left.",
+					"annotation" : "Rotate camera to the left.  MIDI bindable",
 					"annotation_name" : "Camera Left",
 					"id" : "obj-138",
 					"maxclass" : "live.text",
@@ -2114,7 +2115,7 @@
 						"valueof" : 						{
 							"parameter_annotation_name" : "Camera Left",
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_info" : "Rotate camera to the left.",
+							"parameter_info" : "Rotate camera to the left.  MIDI bindable",
 							"parameter_linknames" : 1,
 							"parameter_longname" : "Camera - Left",
 							"parameter_mmax" : 1,
@@ -2134,7 +2135,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "Rotate camera to the right.",
+					"annotation" : "Rotate camera to the right.  MIDI bindable",
 					"annotation_name" : "Camera - Right",
 					"id" : "obj-136",
 					"maxclass" : "live.text",
@@ -2149,7 +2150,7 @@
 						"valueof" : 						{
 							"parameter_annotation_name" : "Camera - Right",
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_info" : "Rotate camera to the right.",
+							"parameter_info" : "Rotate camera to the right.  MIDI bindable",
 							"parameter_linknames" : 1,
 							"parameter_longname" : "Camera - Right",
 							"parameter_mmax" : 1,
@@ -2169,7 +2170,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "Move camera backward.",
+					"annotation" : "Move camera backward.  MIDI bindable",
 					"annotation_name" : "Camera - Back",
 					"automation" : "stop",
 					"automationon" : "back",
@@ -2186,7 +2187,7 @@
 						"valueof" : 						{
 							"parameter_annotation_name" : "Camera - Back",
 							"parameter_enum" : [ "stop", "back" ],
-							"parameter_info" : "Move camera backward.",
+							"parameter_info" : "Move camera backward.  MIDI bindable",
 							"parameter_linknames" : 1,
 							"parameter_longname" : "Camera - Back",
 							"parameter_mmax" : 1,
@@ -2206,7 +2207,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "Move camera forward.",
+					"annotation" : "Move camera forward. MIDI bindable",
 					"annotation_name" : "Camera Forward",
 					"automation" : "stop",
 					"automationon" : "forward",
@@ -2223,7 +2224,7 @@
 						"valueof" : 						{
 							"parameter_annotation_name" : "Camera Forward",
 							"parameter_enum" : [ "stop", "forward" ],
-							"parameter_info" : "Move camera forward.",
+							"parameter_info" : "Move camera forward. MIDI bindable",
 							"parameter_linknames" : 1,
 							"parameter_longname" : "Camera - Forward",
 							"parameter_mmax" : 1,
@@ -3224,7 +3225,7 @@
 							"parameter_longname" : "3D Navigation - Mouse|Cam",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "live.text",
+							"parameter_shortname" : "3D Nav Mouse-Cam",
 							"parameter_type" : 2
 						}
 
@@ -7313,7 +7314,7 @@
 				"box" : 				{
 					"activebgcolor" : [ 1.0, 0.611764705882353, 0.223529411764706, 1.0 ],
 					"activebgoncolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
-					"annotation" : "Toggle the 3D view window.",
+					"annotation" : "Toggle on and off the 3D view window.",
 					"annotation_name" : "3D View",
 					"bgcolor" : [ 1.0, 0.611764705882353, 0.223529411764706, 1.0 ],
 					"fontsize" : 28.0,
@@ -7342,13 +7343,13 @@
 						"valueof" : 						{
 							"parameter_annotation_name" : "3D View",
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_info" : "Toggle the 3D view window.",
+							"parameter_info" : "Toggle on and off the 3D view window.",
 							"parameter_invisible" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "3DNav_ViewerOnOff",
+							"parameter_longname" : "3D View On/Off",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "live.text[5]",
+							"parameter_shortname" : "3D view",
 							"parameter_type" : 2
 						}
 
@@ -7356,7 +7357,7 @@
 ,
 					"text" : "3D",
 					"texton" : "x",
-					"varname" : "3DNav_ViewerOnOff"
+					"varname" : "3D View On/Off"
 				}
 
 			}
@@ -14578,8 +14579,8 @@
 			"obj-140" : [ "Camera - Up", "Cam Up", 0 ],
 			"obj-141" : [ "Camera - Down", "Cam Dowm", 0 ],
 			"obj-146" : [ "live.text[36]", "Commands_view", 0 ],
-			"obj-24" : [ "3D Navigation - Mouse|Cam", "live.text", 0 ],
-			"obj-34" : [ "3DNav_ViewerOnOff", "live.text[5]", 0 ],
+			"obj-24" : [ "3D Navigation - Mouse|Cam", "3D Nav Mouse-Cam", 0 ],
+			"obj-34" : [ "3D View On/Off", "3D view", 0 ],
 			"obj-71" : [ "Camera - Speed", "speed", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{

@@ -75,6 +75,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "2D view of the corpora\n",
 					"border" : 0,
 					"filename" : "fluid.plotter",
 					"id" : "obj-13",
@@ -132,7 +133,6 @@
 						"classnamespace" : "box",
 						"rect" : [ 238.0, 275.0, 1456.0, 983.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-26",
@@ -1035,12 +1035,6 @@
 									}
 ,
 									"patching_rect" : [ 1120.533012390136719, 444.0, 120.0, 22.0 ],
-									"saved_object_attributes" : 									{
-										"editing_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-										"locked_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-										"patchlinecolor" : [ 0.776470588235294, 0.776470588235294, 0.776470588235294, 1.0 ]
-									}
-,
 									"text" : "p 3Descr_miniPlotter"
 								}
 
@@ -1712,12 +1706,6 @@
 									}
 ,
 									"patching_rect" : [ 925.333012390136673, 444.0, 120.0, 22.0 ],
-									"saved_object_attributes" : 									{
-										"editing_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-										"locked_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-										"patchlinecolor" : [ 0.776470588235294, 0.776470588235294, 0.776470588235294, 1.0 ]
-									}
-,
 									"text" : "p 2Descr_miniPlotter"
 								}
 
@@ -2697,12 +2685,6 @@
 									}
 ,
 									"patching_rect" : [ 730.133012390136741, 444.0, 120.0, 22.0 ],
-									"saved_object_attributes" : 									{
-										"editing_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-										"locked_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-										"patchlinecolor" : [ 0.776470588235294, 0.776470588235294, 0.776470588235294, 1.0 ]
-									}
-,
 									"text" : "p 1Descr_miniPlotter"
 								}
 
@@ -3445,12 +3427,6 @@
 									}
 ,
 									"patching_rect" : [ 339.733012390136707, 444.0, 97.0, 22.0 ],
-									"saved_object_attributes" : 									{
-										"editing_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-										"locked_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-										"patchlinecolor" : [ 0.776470588235294, 0.776470588235294, 0.776470588235294, 1.0 ]
-									}
-,
 									"text" : "p 2D_miniPlotter"
 								}
 
@@ -4141,12 +4117,6 @@
 									}
 ,
 									"patching_rect" : [ 534.933012390136696, 444.0, 120.0, 22.0 ],
-									"saved_object_attributes" : 									{
-										"editing_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-										"locked_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-										"patchlinecolor" : [ 0.776470588235294, 0.776470588235294, 0.776470588235294, 1.0 ]
-									}
-,
 									"text" : "p 2DGrid_miniPlotter"
 								}
 
@@ -5166,12 +5136,6 @@
 									}
 ,
 									"patching_rect" : [ 144.533012390136719, 444.0, 97.0, 22.0 ],
-									"saved_object_attributes" : 									{
-										"editing_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-										"locked_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-										"patchlinecolor" : [ 0.776470588235294, 0.776470588235294, 0.776470588235294, 1.0 ]
-									}
-,
 									"text" : "p 3D_miniPlotter"
 								}
 
@@ -5302,7 +5266,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 1375.0, 582.0, 30.0, 30.0 ]
 								}
 
@@ -5315,7 +5279,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 1120.533012390136719, 338.0, 30.0, 30.0 ]
 								}
 
@@ -5668,12 +5632,6 @@
 					}
 ,
 					"patching_rect" : [ 50.0, 100.0, 52.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"editing_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-						"locked_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-						"patchlinecolor" : [ 0.776470588235294, 0.776470588235294, 0.776470588235294, 1.0 ]
-					}
-,
 					"text" : "p plotter"
 				}
 
@@ -5682,11 +5640,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-14",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 50.0, 40.0, 30.0, 30.0 ]
 				}
 
@@ -5695,11 +5653,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-20",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 85.0, 40.0, 30.0, 30.0 ]
 				}
 
@@ -5789,7 +5747,32 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "fluid.datasetquery~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.dataset~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.kdtree~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.list2buf.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.plotter.js",
+				"bootpath" : "~/Documents/Max 9/Packages/FluidCorpusManipulation/jsui",
+				"patcherrelativepath" : "../../Max 9/Packages/FluidCorpusManipulation/jsui",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

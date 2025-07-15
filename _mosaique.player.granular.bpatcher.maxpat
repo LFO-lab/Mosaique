@@ -71,11 +71,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-36",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ -61.403508186340332, 863.35087776184082, 30.0, 30.0 ]
 				}
 
@@ -125,7 +125,6 @@
 					}
 ,
 					"text" : "Active grains",
-					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -150,7 +149,6 @@
 					}
 ,
 					"text" : "GRAIN EMITTER",
-					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -182,7 +180,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "Grain window shape",
-					"annotation_name" : "Granular - Grain Window Shape",
+					"annotation_name" : "Granular Player - Grain Window Shape",
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-32",
 					"maxclass" : "live.dial",
@@ -195,7 +193,7 @@
 					"presentation_rect" : [ 117.294252403080463, 40.878375649452209, 42.600673422217369, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_annotation_name" : "Granular - Grain Window Shape",
+							"parameter_annotation_name" : "Granular Player - Grain Window Shape",
 							"parameter_info" : "Grain window shape",
 							"parameter_initial" : [ 0.5 ],
 							"parameter_initial_enable" : 1,
@@ -217,7 +215,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "Grain probability",
-					"annotation_name" : "Granular - Grain Probability",
+					"annotation_name" : "Granular Player - Grain Probability",
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-30",
 					"maxclass" : "live.dial",
@@ -230,7 +228,7 @@
 					"presentation_rect" : [ 207.094580769538879, 40.878375649452209, 43.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_annotation_name" : "Granular - Grain Probability",
+							"parameter_annotation_name" : "Granular Player - Grain Probability",
 							"parameter_exponent" : 1.6,
 							"parameter_info" : "Grain probability",
 							"parameter_initial" : [ 1.0 ],
@@ -289,7 +287,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "Duration of the individual grains",
-					"annotation_name" : "Grain Duration",
+					"annotation_name" : "Granular Player - Grain Duration",
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-24",
 					"maxclass" : "live.dial",
@@ -302,7 +300,7 @@
 					"presentation_rect" : [ 161.994753297418356, 40.878375649452209, 43.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_annotation_name" : "Grain Duration",
+							"parameter_annotation_name" : "Granular Player - Grain Duration",
 							"parameter_info" : "Duration of the individual grains",
 							"parameter_initial" : [ 100 ],
 							"parameter_initial_enable" : 1,
@@ -327,7 +325,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "Frequency of the grain scheduler",
-					"annotation_name" : "Grain Rate",
+					"annotation_name" : "Granular Player - Grain Rate",
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-20",
 					"maxclass" : "live.dial",
@@ -340,7 +338,7 @@
 					"presentation_rect" : [ 73.140366140753031, 40.878375649452209, 42.054058790206909, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_annotation_name" : "Grain Rate",
+							"parameter_annotation_name" : "Granular Player - Grain Rate",
 							"parameter_info" : "Frequency of the grain scheduler",
 							"parameter_initial" : [ 50 ],
 							"parameter_initial_enable" : 1,
@@ -376,7 +374,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "Position in the slice",
-					"annotation_name" : "Granular - Position",
+					"annotation_name" : "Granular Player - Position",
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-8",
 					"maxclass" : "live.dial",
@@ -389,7 +387,7 @@
 					"presentation_rect" : [ 28.040538668632507, 40.878375649452209, 43.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_annotation_name" : "Granular - Position",
+							"parameter_annotation_name" : "Granular Player - Position",
 							"parameter_info" : "Position in the slice",
 							"parameter_initial" : [ 0.5 ],
 							"parameter_initial_enable" : 1,
@@ -436,7 +434,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-12",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -893,12 +891,6 @@
 					}
 ,
 					"patching_rect" : [ 327.0, 608.0, 172.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"editing_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-						"locked_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-						"patchlinecolor" : [ 0.776470588235294, 0.776470588235294, 0.776470588235294, 1.0 ]
-					}
-,
 					"text" : "p VoiceManagement_OneShot"
 				}
 
@@ -1583,12 +1575,6 @@
 					}
 ,
 					"patching_rect" : [ 511.0, 608.0, 151.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"editing_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-						"locked_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-						"patchlinecolor" : [ 0.776470588235294, 0.776470588235294, 0.776470588235294, 1.0 ]
-					}
-,
 					"text" : "p VoiceManagement_Loop"
 				}
 
@@ -1772,12 +1758,6 @@
 					}
 ,
 					"patching_rect" : [ 206.0, 1115.789463043212891, 41.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"editing_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-						"locked_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-						"patchlinecolor" : [ 0.776470588235294, 0.776470588235294, 0.776470588235294, 1.0 ]
-					}
-,
 					"text" : "p gain"
 				}
 
@@ -1935,12 +1915,6 @@
 					}
 ,
 					"patching_rect" : [ 122.0, 1111.0, 41.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"editing_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-						"locked_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-						"patchlinecolor" : [ 0.776470588235294, 0.776470588235294, 0.776470588235294, 1.0 ]
-					}
-,
 					"text" : "p gain"
 				}
 
@@ -1948,7 +1922,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "Output gain control.",
-					"annotation_name" : "Player Output Gain",
+					"annotation_name" : "Granular Player - Output Gain",
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-148",
 					"maxclass" : "live.dial",
@@ -1961,7 +1935,7 @@
 					"presentation_rect" : [ 211.458339333534241, 97.0, 40.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_annotation_name" : "Player Output Gain",
+							"parameter_annotation_name" : "Granular Player - Output Gain",
 							"parameter_exponent" : 0.36,
 							"parameter_info" : "Output gain control.",
 							"parameter_initial" : [ -6 ],
@@ -2059,7 +2033,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-177",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2108,7 +2082,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-171",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2120,7 +2094,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-170",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2392,12 +2366,6 @@
 					}
 ,
 					"patching_rect" : [ 885.84077924489975, 893.805381655693054, 85.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"editing_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-						"locked_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-						"patchlinecolor" : [ 0.776470588235294, 0.776470588235294, 0.776470588235294, 1.0 ]
-					}
-,
 					"text" : "p Cents2Ratio"
 				}
 
@@ -2422,7 +2390,6 @@
 					}
 ,
 					"text" : "TRANSPOSE",
-					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -2446,15 +2413,14 @@
 
 					}
 ,
-					"text" : "ENVELOPPE",
-					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ]
+					"text" : "ENVELOPPE"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"annotation" : "Fine tune pitch in cents.",
-					"annotation_name" : "Player Fine Tune",
+					"annotation_name" : "Granular Player - Fine Tune",
 					"appearance" : 1,
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-66",
@@ -2468,7 +2434,7 @@
 					"presentation_rect" : [ 163.0, 110.5, 38.100673422217369, 36.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_annotation_name" : "Player Fine Tune",
+							"parameter_annotation_name" : "Granular Player - Fine Tune",
 							"parameter_info" : "Fine tune pitch in cents.",
 							"parameter_linknames" : 1,
 							"parameter_longname" : "Granular - Fine Tune",
@@ -2490,7 +2456,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "Change the player's pitch factor.",
-					"annotation_name" : "Player pitch",
+					"annotation_name" : "Granular Player - Pitch",
 					"appearance" : 1,
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-65",
@@ -2504,7 +2470,7 @@
 					"presentation_rect" : [ 122.0, 110.5, 43.100673422217369, 36.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_annotation_name" : "Player pitch",
+							"parameter_annotation_name" : "Granular Player - Pitch",
 							"parameter_info" : "Change the player's pitch factor.",
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
@@ -2527,7 +2493,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "Toggle for looping or one-shot playback modes.",
-					"annotation_name" : "Player PlayMode",
+					"annotation_name" : "Granular Player - Play Mode",
 					"automation" : "one-shot",
 					"automationon" : "looped",
 					"fontname" : "Ableton Sans Light",
@@ -2542,14 +2508,14 @@
 					"presentation_rect" : [ 90.0, 7.0, 45.0, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_annotation_name" : "Player PlayMode",
+							"parameter_annotation_name" : "Granular Player - Play Mode",
 							"parameter_enum" : [ "one-shot", "looped" ],
 							"parameter_info" : "Toggle for looping or one-shot playback modes.",
 							"parameter_linknames" : 1,
 							"parameter_longname" : "Granular - Play Mode",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "Play Mode",
+							"parameter_shortname" : "Granular Play Mode",
 							"parameter_type" : 2
 						}
 
@@ -3100,12 +3066,6 @@
 					}
 ,
 					"patching_rect" : [ 1485.0, 843.0, 74.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"editing_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-						"locked_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-						"patchlinecolor" : [ 0.776470588235294, 0.776470588235294, 0.776470588235294, 1.0 ]
-					}
-,
 					"text" : "p Env"
 				}
 
@@ -3113,7 +3073,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "These controls set the length over which an envelope will be applied to the playing slice, based on the total length of that slice.",
-					"annotation_name" : "Player Release",
+					"annotation_name" : "Granular Player - Envelope Release",
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-15",
 					"maxclass" : "live.dial",
@@ -3126,7 +3086,7 @@
 					"presentation_rect" : [ 70.0, 109.0, 42.0, 39.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_annotation_name" : "Player Release",
+							"parameter_annotation_name" : "Granular Player - Envelope Release",
 							"parameter_exponent" : 2.0,
 							"parameter_info" : "These controls set the length over which an envelope will be applied to the playing slice, based on the total length of that slice.",
 							"parameter_initial" : [ 0.05 ],
@@ -3150,7 +3110,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "These controls set the length over which an envelope will be applied to the playing slice, based on the total length of that slice.",
-					"annotation_name" : "Player Attack",
+					"annotation_name" : "Granular Player - Envelope Attack",
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-19",
 					"maxclass" : "live.dial",
@@ -3163,7 +3123,7 @@
 					"presentation_rect" : [ 28.0, 109.0, 42.0, 39.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_annotation_name" : "Player Attack",
+							"parameter_annotation_name" : "Granular Player - Envelope Attack",
 							"parameter_exponent" : 3.0,
 							"parameter_info" : "These controls set the length over which an envelope will be applied to the playing slice, based on the total length of that slice.",
 							"parameter_initial" : [ 0.0001 ],
@@ -3199,7 +3159,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "This is the number of slices that can be playing concurrently. Triggering another slice causes voice stealing.",
-					"annotation_name" : "Voice count",
+					"annotation_name" : "Granular Player - Voice count",
 					"fontname" : "Ableton Sans Light",
 					"fontsize" : 12.0,
 					"id" : "obj-45",
@@ -3213,17 +3173,17 @@
 					"presentation_rect" : [ 136.0, 7.0, 27.0, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_annotation_name" : "Voice count",
+							"parameter_annotation_name" : "Granular Player - Voice count",
 							"parameter_info" : "This is the number of slices that can be playing concurrently. Triggering another slice causes voice stealing.",
 							"parameter_initial" : [ 8 ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "BasicPlayer_VoiceNum",
+							"parameter_longname" : "Granular - Voice count",
 							"parameter_mmax" : 64.0,
 							"parameter_mmin" : 1.0,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "Voices",
+							"parameter_shortname" : "Granular Voices",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0
 						}
@@ -3247,14 +3207,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 24.0, 94.0, 89.0, 57.5 ],
 					"proportion" : 0.5,
-					"rounded" : 4,
-					"saved_attribute_attributes" : 					{
-						"bgfillcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-
+					"rounded" : 4
 				}
 
 			}
@@ -3272,14 +3225,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 114.75, 94.0, 90.25, 57.5 ],
 					"proportion" : 0.5,
-					"rounded" : 4,
-					"saved_attribute_attributes" : 					{
-						"bgfillcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-
+					"rounded" : 4
 				}
 
 			}
@@ -3297,14 +3243,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 206.958339333534241, 94.0, 48.75, 57.5 ],
 					"proportion" : 0.5,
-					"rounded" : 4,
-					"saved_attribute_attributes" : 					{
-						"bgfillcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-
+					"rounded" : 4
 				}
 
 			}
@@ -3322,14 +3261,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 24.0, 27.0, 231.708339333534241, 64.25 ],
 					"proportion" : 0.5,
-					"rounded" : 4,
-					"saved_attribute_attributes" : 					{
-						"bgfillcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-
+					"rounded" : 4
 				}
 
 			}
@@ -3856,7 +3788,71 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-1" : [ "Granular - Stop All", "Stop All", 0 ],
+			"obj-148" : [ "Granular - Output Gain", "Gain", 0 ],
+			"obj-15" : [ "Granular - Release", "Release", 0 ],
+			"obj-19" : [ "Granular - Attack", "Attack", 0 ],
+			"obj-20" : [ "Granular - Grain rate", "Rate", 0 ],
+			"obj-24" : [ "Granular - Grain duration", "Duration", 0 ],
+			"obj-30" : [ "Granular - Grain Probability", "Probability", 0 ],
+			"obj-32" : [ "Granular - Grain Window Shape", "Shape", 0 ],
+			"obj-45" : [ "Granular - Voice count", "Granular Voices", 0 ],
+			"obj-62" : [ "Granular - Play Mode", "Granular Play Mode", 0 ],
+			"obj-65" : [ "Granular - Pitch", "Pitch", 0 ],
+			"obj-66" : [ "Granular - Fine Tune", "Tune", 0 ],
+			"obj-8" : [ "Granular - Position", "Position", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "_mosaique.player.granular.poly.maxpat",
+				"bootpath" : "~/Documents/GitHub/Mosaique",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "_mosaique.sliceInfos.maxpat",
+				"bootpath" : "~/Documents/GitHub/Mosaique",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fluid.buf2list.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.dataset~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "granulator_gen.gendsp",
+				"bootpath" : "~/Documents/GitHub/Mosaique",
+				"patcherrelativepath" : ".",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "voice.gendsp",
+				"bootpath" : "~/Documents/GitHub/Mosaique",
+				"patcherrelativepath" : ".",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 898.0, 100.0, 726.0, 983.0 ],
+		"rect" : [ 134.0, 178.0, 726.0, 983.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
@@ -294,7 +294,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-4",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -362,7 +362,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-20",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -424,7 +424,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "Change this value to set the lowest note number to which the player should respond.",
+					"annotation" : "Change this value to set the lowest MIDI note number to which the player should respond.",
 					"annotation_name" : "Navigation - Min Note",
 					"fontname" : "Ableton Sans Bold",
 					"id" : "obj-70",
@@ -439,25 +439,26 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Navigation - Min Note",
-							"parameter_info" : "Change this value to set the lowest note number to which the player should respond.",
+							"parameter_info" : "Change this value to set the lowest MIDI note number to which the player should respond.",
 							"parameter_initial" : [ 60 ],
 							"parameter_invisible" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "MIDI lowest note",
+							"parameter_longname" : "MIDI - Lowest note",
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "lowest note",
+							"parameter_shortname" : "MIDI low note",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 8
 						}
 
 					}
 ,
-					"varname" : "MIDI lowest note"
+					"varname" : "MIDI - Lowest note"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"annotation_name" : "MIDI highest note",
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-67",
 					"ignoreclick" : 1,
@@ -472,18 +473,19 @@
 					"presentation_rect" : [ 90.0, 53.5, 35.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "MIDI highest note",
 							"parameter_invisible" : 2,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "MIDI highest note",
+							"parameter_longname" : "MIDI - Highest note",
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "Highest Note",
+							"parameter_shortname" : "MIDI high note",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 8
 						}
 
 					}
 ,
-					"varname" : "MIDI highest note"
+					"varname" : "MIDI - Highest note"
 				}
 
 			}
@@ -663,6 +665,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation_name" : "MIDI Velocity layers",
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-25",
 					"ignoreclick" : 1,
@@ -677,18 +680,19 @@
 					"presentation_rect" : [ 65.75, 88.75, 35.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_annotation_name" : "MIDI Velocity layers",
 							"parameter_invisible" : 2,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "MIDI velocity layers",
+							"parameter_longname" : "MIDI - Velocity layers",
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "Velocity Layers",
+							"parameter_shortname" : "MIDI Velocity",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
 
 					}
 ,
-					"varname" : "MIDI velocity layers"
+					"varname" : "MIDI - Velocity layers"
 				}
 
 			}
@@ -717,14 +721,7 @@
 					"patching_rect" : [ 727.631572008132935, 242.763155579566956, 234.269681632518768, 170.22473269701004 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 27.0, 29.0, 113.0, 131.0 ],
-					"proportion" : 0.39,
-					"saved_attribute_attributes" : 					{
-						"bgfillcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-
+					"proportion" : 0.39
 				}
 
 			}
@@ -1107,7 +1104,29 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-25" : [ "MIDI - Velocity layers", "MIDI Velocity", 0 ],
+			"obj-67" : [ "MIDI - Highest note", "MIDI high note", 0 ],
+			"obj-70" : [ "MIDI - Lowest note", "MIDI low note", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "fluid.dataset~.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

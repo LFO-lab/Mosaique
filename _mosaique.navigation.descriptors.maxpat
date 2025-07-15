@@ -513,8 +513,7 @@
 
 					}
 ,
-					"text" : "Descriptor C",
-					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ]
+					"text" : "Descriptor C"
 				}
 
 			}
@@ -536,8 +535,7 @@
 
 					}
 ,
-					"text" : "Descriptor B",
-					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ]
+					"text" : "Descriptor B"
 				}
 
 			}
@@ -658,7 +656,6 @@
 
 					}
 ,
-					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ],
 					"varname" : "Descriptor A Type"
 				}
 
@@ -1018,8 +1015,7 @@
 
 					}
 ,
-					"text" : "Descriptor A",
-					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ]
+					"text" : "Descriptor A"
 				}
 
 			}
@@ -1203,7 +1199,6 @@
 
 					}
 ,
-					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ],
 					"varname" : "Descriptor C Type"
 				}
 
@@ -1256,7 +1251,6 @@
 
 					}
 ,
-					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ],
 					"varname" : "Descriptor B Type"
 				}
 
@@ -1330,7 +1324,8 @@
 , 			{
 				"box" : 				{
 					"activeneedlecolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
-					"annotation" : "Descriptor C normalized coordinate.",
+					"annotation" : "Move in the corpora according to the audio descriptor selected in the dropdown menu on the right",
+					"annotation_name" : "Descriptor C",
 					"fontname" : "Avenir",
 					"id" : "obj-15",
 					"maxclass" : "live.dial",
@@ -1347,14 +1342,15 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_info" : "Descriptor C normalized coordinate.",
+							"parameter_annotation_name" : "Descriptor C",
+							"parameter_info" : "Move in the corpora according to the audio descriptor selected in the dropdown menu on the right",
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Descriptor C Value",
+							"parameter_longname" : "Descriptor C - Value",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 2,
-							"parameter_shortname" : "C",
+							"parameter_shortname" : "Descriptor C",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
 						}
@@ -1362,14 +1358,15 @@
 					}
 ,
 					"showname" : 0,
-					"varname" : "Descriptor C Value"
+					"varname" : "Descriptor C - Value"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"activeneedlecolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
-					"annotation" : "Descriptor B normalized coordinate.",
+					"annotation" : "Move in the corpora according to the audio descriptor selected in the dropdown menu on the right",
+					"annotation_name" : "Descriptor B",
 					"fontname" : "Avenir",
 					"id" : "obj-13",
 					"maxclass" : "live.dial",
@@ -1386,14 +1383,15 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_info" : "Descriptor B normalized coordinate.",
+							"parameter_annotation_name" : "Descriptor B",
+							"parameter_info" : "Move in the corpora according to the audio descriptor selected in the dropdown menu on the right",
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Descriptor B Value",
+							"parameter_longname" : "Descriptor B - Value",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 2,
-							"parameter_shortname" : "B",
+							"parameter_shortname" : "Descriptor B",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
 						}
@@ -1401,14 +1399,15 @@
 					}
 ,
 					"showname" : 0,
-					"varname" : "Descriptor B Value"
+					"varname" : "Descriptor B - Value"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"activeneedlecolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
-					"annotation" : "Descriptor A normalized coordinate.",
+					"annotation" : "Move in the corpora according to the audio descriptor selected in the dropdown menu on the right",
+					"annotation_name" : "Descriptor A",
 					"fontname" : "Avenir",
 					"id" : "obj-2",
 					"maxclass" : "live.dial",
@@ -1425,14 +1424,15 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_info" : "Descriptor A normalized coordinate.",
+							"parameter_annotation_name" : "Descriptor A",
+							"parameter_info" : "Move in the corpora according to the audio descriptor selected in the dropdown menu on the right",
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Descriptor A Value",
+							"parameter_longname" : "Descriptor A - Value",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 2,
-							"parameter_shortname" : "A",
+							"parameter_shortname" : "Descriptor A",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
 						}
@@ -1440,7 +1440,7 @@
 					}
 ,
 					"showname" : 0,
-					"varname" : "Descriptor A Value"
+					"varname" : "Descriptor A - Value"
 				}
 
 			}
@@ -2294,9 +2294,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-13" : [ "Descriptor B Value", "B", 0 ],
-			"obj-15" : [ "Descriptor C Value", "C", 0 ],
-			"obj-2" : [ "Descriptor A Value", "A", 0 ],
+			"obj-13" : [ "Descriptor B - Value", "Descriptor B", 0 ],
+			"obj-15" : [ "Descriptor C - Value", "Descriptor C", 0 ],
+			"obj-2" : [ "Descriptor A - Value", "Descriptor A", 0 ],
 			"obj-42" : [ "Descriptor A Type", "Descriptor A Type", 0 ],
 			"obj-45" : [ "Descriptor B Type", "Descriptor B Type", 0 ],
 			"obj-46" : [ "Descriptor C Type", "Descriptor C Type", 0 ],

@@ -114,7 +114,7 @@
 
 					}
 ,
-					"text" : "#1",
+					"text" : "Server",
 					"textjustification" : 1
 				}
 
@@ -190,15 +190,38 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 788.0, 296.0, 894.0, 438.0 ],
+						"rect" : [ 534.0, 246.0, 921.0, 494.0 ],
 						"openinpresentation" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"border" : 0,
 									"evaluatehref" : 1,
+									"fontface" : 1,
+									"fontname" : "Ableton Sans Light",
+									"fontsize" : 24.0,
+									"id" : "obj-3",
+									"linkbold" : 1,
+									"linkcolor" : [ 0.52327972650528, 0.163281843066216, 0.342784136533737, 1.0 ],
+									"maxclass" : "markup",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 19.0, 16.0, 338.0, 27.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 19.0, 16.0, 258.0, 27.0 ],
+									"text" : "Mosaïque version 0.2",
+									"textcolor" : [ 1.0, 0.733333333333333, 0.494117647058824, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"border" : 0,
+									"evaluatehref" : 1,
 									"fontface" : 0,
-									"fontname" : "Arial",
+									"fontname" : "Ableton Sans Light",
 									"fontsize" : 14.0,
 									"id" : "obj-4",
 									"linkbold" : 1,
@@ -209,7 +232,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 19.0, 161.0, 447.0, 24.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 28.0, 162.0, 193.0, 19.0 ],
+									"presentation_rect" : [ 28.0, 209.0, 193.0, 19.0 ],
 									"text" : "Huge thank you to their team!",
 									"textcolor" : [ 1.0, 0.733333333333333, 0.494117647058824, 1.0 ]
 								}
@@ -220,7 +243,7 @@
 									"border" : 0,
 									"evaluatehref" : 1,
 									"fontface" : 0,
-									"fontname" : "Arial",
+									"fontname" : "Ableton Sans Light",
 									"fontsize" : 14.0,
 									"id" : "obj-17",
 									"linkbold" : 1,
@@ -231,7 +254,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 19.0, 36.0, 447.0, 24.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 19.0, 39.0, 443.0, 20.0 ],
+									"presentation_rect" : [ 19.0, 86.0, 443.0, 20.0 ],
 									"text" : "Project direction : <link href= \"; max launchbrowser https://recherche.umontreal.ca/nos-chercheurs/repertoire-des-professeurs/chercheur/is/in32060/\">Dominic Thibault</link>",
 									"textcolor" : [ 1.0, 0.733333333333333, 0.494117647058824, 1.0 ]
 								}
@@ -251,7 +274,7 @@
 									"patching_rect" : [ 472.0, 305.17941029485263, 287.5, 144.322709163346616 ],
 									"pic" : "Logo-OICRM.png",
 									"presentation" : 1,
-									"presentation_rect" : [ 568.0, 330.0, 210.0, 105.418326693227087 ]
+									"presentation_rect" : [ 568.0, 377.0, 210.0, 105.418326693227087 ]
 								}
 
 							}
@@ -269,7 +292,7 @@
 									"patching_rect" : [ 248.0, 297.0, 287.5, 82.614942528735625 ],
 									"pic" : "FRQSC_logo.png",
 									"presentation" : 1,
-									"presentation_rect" : [ 344.0, 355.0, 190.0, 54.597701149425284 ]
+									"presentation_rect" : [ 344.0, 402.0, 190.0, 54.597701149425284 ]
 								}
 
 							}
@@ -287,7 +310,7 @@
 									"patching_rect" : [ 15.0, 15.0, 287.5, 100.0 ],
 									"pic" : "fluidcorpusmanipulation.png",
 									"presentation" : 1,
-									"presentation_rect" : [ 109.0, 339.0, 204.0, 70.956521739130437 ]
+									"presentation_rect" : [ 109.0, 386.0, 204.0, 70.956521739130437 ]
 								}
 
 							}
@@ -296,7 +319,7 @@
 									"border" : 0,
 									"evaluatehref" : 1,
 									"fontface" : 0,
-									"fontname" : "Arial",
+									"fontname" : "Ableton Sans Light",
 									"fontsize" : 14.0,
 									"id" : "obj-13",
 									"linkbold" : 1,
@@ -307,7 +330,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 23.0, 372.0, 447.0, 24.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 19.0, 291.0, 494.0, 27.0 ],
+									"presentation_rect" : [ 19.0, 338.0, 494.0, 27.0 ],
 									"text" : "· <link href=\"; max launchbrowser https://oicrm.org/\">Observatoire sur la création et la recherche en musique</link>",
 									"textcolor" : [ 1.0, 0.733333333333333, 0.494117647058824, 1.0 ]
 								}
@@ -318,7 +341,7 @@
 									"border" : 0,
 									"evaluatehref" : 1,
 									"fontface" : 0,
-									"fontname" : "Arial",
+									"fontname" : "Ableton Sans Light",
 									"fontsize" : 14.0,
 									"id" : "obj-11",
 									"linkbold" : 1,
@@ -329,7 +352,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 24.0, 343.0, 447.0, 24.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 19.0, 255.0, 494.0, 36.0 ],
+									"presentation_rect" : [ 19.0, 302.0, 494.0, 36.0 ],
 									"text" : "· <link href=\"; max launchbrowser https://frq.gouv.qc.ca/\">Fonds de recherche du Québec</link> - Société et culture through the program \"Soutien à la recherche-création pour la relève professorale\"",
 									"textcolor" : [ 1.0, 0.733333333333333, 0.494117647058824, 1.0 ]
 								}
@@ -340,7 +363,7 @@
 									"border" : 0,
 									"evaluatehref" : 1,
 									"fontface" : 0,
-									"fontname" : "Arial",
+									"fontname" : "Ableton Sans Light",
 									"fontsize" : 14.0,
 									"id" : "obj-10",
 									"linkbold" : 1,
@@ -350,7 +373,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 24.0, 275.0, 447.0, 24.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 19.0, 235.0, 494.0, 27.0 ],
+									"presentation_rect" : [ 19.0, 282.0, 494.0, 27.0 ],
 									"text" : "The project is funded by: ",
 									"textcolor" : [ 1.0, 0.733333333333333, 0.494117647058824, 1.0 ]
 								}
@@ -370,7 +393,7 @@
 									"patching_rect" : [ 446.0, -22.555000000000007, 359.0, 231.555000000000007 ],
 									"pic" : "00_Logo_LFO_Fond_Transparent (1).png",
 									"presentation" : 1,
-									"presentation_rect" : [ 473.0, 19.067499999999995, 437.0, 281.865000000000009 ]
+									"presentation_rect" : [ 473.0, 66.0, 437.0, 281.865000000000009 ]
 								}
 
 							}
@@ -379,7 +402,7 @@
 									"border" : 0,
 									"evaluatehref" : 1,
 									"fontface" : 0,
-									"fontname" : "Arial",
+									"fontname" : "Ableton Sans Light",
 									"fontsize" : 14.0,
 									"id" : "obj-9",
 									"linkbold" : 1,
@@ -389,7 +412,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 19.0, 178.0, 447.0, 24.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 19.0, 183.0, 494.0, 27.0 ],
+									"presentation_rect" : [ 19.0, 230.0, 494.0, 27.0 ],
 									"text" : "· took inspiration in the [xray.jit.quicksort] developped by Wesley Smith",
 									"textcolor" : [ 1.0, 0.733333333333333, 0.494117647058824, 1.0 ]
 								}
@@ -400,7 +423,7 @@
 									"border" : 0,
 									"evaluatehref" : 1,
 									"fontface" : 0,
-									"fontname" : "Arial",
+									"fontname" : "Ableton Sans Light",
 									"fontsize" : 14.0,
 									"id" : "obj-8",
 									"linkbold" : 1,
@@ -411,7 +434,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 19.0, 123.0, 423.0, 27.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 19.0, 128.0, 83.0, 27.0 ],
+									"presentation_rect" : [ 19.0, 175.0, 83.0, 27.0 ],
 									"text" : "Mosaïque :",
 									"textcolor" : [ 1.0, 0.733333333333333, 0.494117647058824, 1.0 ]
 								}
@@ -422,7 +445,7 @@
 									"border" : 0,
 									"evaluatehref" : 1,
 									"fontface" : 0,
-									"fontname" : "Arial",
+									"fontname" : "Ableton Sans Light",
 									"fontsize" : 14.0,
 									"id" : "obj-6",
 									"linkbold" : 1,
@@ -433,7 +456,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 19.0, 75.0, 423.0, 27.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 19.0, 66.0, 494.0, 46.0 ],
+									"presentation_rect" : [ 19.0, 113.0, 494.0, 46.0 ],
 									"text" : "Team : Jean-Philippe Jullin, David Piazza, Zakary Colello, Mike Cassidy, Gabriel·le Caux, Jordan Torres-Bussière, Marie Anne Bérard, Mathieu Arseneault",
 									"textcolor" : [ 1.0, 0.733333333333333, 0.494117647058824, 1.0 ]
 								}
@@ -444,7 +467,7 @@
 									"border" : 0,
 									"evaluatehref" : 1,
 									"fontface" : 0,
-									"fontname" : "Arial",
+									"fontname" : "Ableton Sans Light",
 									"fontsize" : 14.0,
 									"id" : "obj-2",
 									"linkbold" : 1,
@@ -455,7 +478,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 19.0, 152.0, 447.0, 24.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 19.0, 146.0, 692.0, 28.0 ],
+									"presentation_rect" : [ 19.0, 193.0, 692.0, 28.0 ],
 									"text" : "· uses <link href= \"; max launchbrowser https://www.flucoma.org/\" >FluCoMa</link> for all of the heavy lifting in machine learning and listening. <br>Huge thank you to their team!",
 									"textcolor" : [ 1.0, 0.733333333333333, 0.494117647058824, 1.0 ]
 								}
@@ -463,14 +486,15 @@
 							}
 , 							{
 								"box" : 								{
+									"fontname" : "Ableton Sans Light",
 									"fontsize" : 14.0,
 									"id" : "obj-20",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 19.0, 211.0, 588.0, 22.0 ],
+									"patching_rect" : [ 19.0, 211.0, 588.0, 23.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 19.0, 192.0, 649.0, 22.0 ],
+									"presentation_rect" : [ 19.0, 239.0, 649.0, 23.0 ],
 									"textcolor" : [ 1.0, 0.733333333333333, 0.494117647058824, 1.0 ]
 								}
 
@@ -480,7 +504,7 @@
 									"border" : 0,
 									"evaluatehref" : 1,
 									"fontface" : 0,
-									"fontname" : "Arial",
+									"fontname" : "Ableton Sans Light",
 									"fontsize" : 14.0,
 									"id" : "obj-16",
 									"linkbold" : 1,
@@ -491,7 +515,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 19.0, 19.0, 338.0, 27.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 19.0, 10.0, 494.0, 27.0 ],
+									"presentation_rect" : [ 19.0, 57.0, 494.0, 27.0 ],
 									"text" : "Mosaïque is developed at <link href= \"; max launchbrowser www.lfo-lab.ca\" >Laboratoire formes · ondes </link>",
 									"textcolor" : [ 1.0, 0.733333333333333, 0.494117647058824, 1.0 ]
 								}
@@ -513,10 +537,32 @@
  ],
 						"lines" : [  ],
 						"bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
-						"editing_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ]
+						"editing_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
+						"saved_attribute_attributes" : 						{
+							"editing_bgcolor" : 							{
+								"expression" : ""
+							}
+,
+							"locked_bgcolor" : 							{
+								"expression" : ""
+							}
+
+						}
+
 					}
 ,
 					"patching_rect" : [ 50.0, 460.0, 54.0, 22.0 ],
+					"saved_attribute_attributes" : 					{
+						"editing_bgcolor" : 						{
+							"expression" : ""
+						}
+,
+						"locked_bgcolor" : 						{
+							"expression" : ""
+						}
+
+					}
+,
 					"saved_object_attributes" : 					{
 						"editing_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
 						"locked_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ]
@@ -580,16 +626,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "LogoBlancMosaiqueMax4Live.png",
-				"bootpath" : "~/Documents/GitHub/Mosaique",
-				"patcherrelativepath" : ".",
-				"type" : "PNG",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

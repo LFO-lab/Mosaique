@@ -60,11 +60,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-30",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 444.0, 857.0, 30.0, 30.0 ]
 				}
 
@@ -121,7 +121,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-12",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -143,8 +143,8 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "Toggle for looping or one-shot playback modes.",
-					"annotation_name" : "Stop all voices from playing",
+					"annotation" : "Stop all voices from playing. Toggle for looping or one-shot playback modes.",
+					"annotation_name" : "Basic - Stop all voices",
 					"automation" : "Stop",
 					"automationon" : "All",
 					"fontname" : "Ableton Sans Light",
@@ -160,14 +160,14 @@
 					"presentation_rect" : [ 84.0, 95.0, 27.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_annotation_name" : "Stop all voices from playing",
+							"parameter_annotation_name" : "Basic - Stop all voices",
 							"parameter_enum" : [ "Stop", "All" ],
-							"parameter_info" : "Toggle for looping or one-shot playback modes.",
+							"parameter_info" : "Stop all voices from playing. Toggle for looping or one-shot playback modes.",
 							"parameter_linknames" : 1,
 							"parameter_longname" : "Basic - Stop All",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "Stop All",
+							"parameter_shortname" : "Basic Stop All",
 							"parameter_type" : 2
 						}
 
@@ -501,12 +501,6 @@
 					}
 ,
 					"patching_rect" : [ 327.0, 608.0, 172.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"editing_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-						"locked_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-						"patchlinecolor" : [ 0.776470588235294, 0.776470588235294, 0.776470588235294, 1.0 ]
-					}
-,
 					"text" : "p VoiceManagement_OneShot"
 				}
 
@@ -1191,12 +1185,6 @@
 					}
 ,
 					"patching_rect" : [ 511.0, 608.0, 151.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"editing_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-						"locked_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-						"patchlinecolor" : [ 0.776470588235294, 0.776470588235294, 0.776470588235294, 1.0 ]
-					}
-,
 					"text" : "p VoiceManagement_Loop"
 				}
 
@@ -1341,12 +1329,6 @@
 					}
 ,
 					"patching_rect" : [ 913.0, 831.0, 85.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"editing_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-						"locked_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-						"patchlinecolor" : [ 0.776470588235294, 0.776470588235294, 0.776470588235294, 1.0 ]
-					}
-,
 					"text" : "p Ratio2Cents"
 				}
 
@@ -1402,7 +1384,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "Toggle on for direct transposition, off for pitch shifting and time stretching",
-					"annotation_name" : "Basic - Pitch-Speed Link",
+					"annotation_name" : "Basic - Speed-Pitch Link",
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-8",
 					"maxclass" : "live.text",
@@ -1417,16 +1399,16 @@
 					"remapsvgcolors" : 1,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_annotation_name" : "Basic - Pitch-Speed Link",
+							"parameter_annotation_name" : "Basic - Speed-Pitch Link",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_info" : "Toggle on for direct transposition, off for pitch shifting and time stretching",
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Basic - Pitch-Speed Link",
+							"parameter_longname" : "Basic - Speed-Pitch Link",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "link",
+							"parameter_shortname" : "Basic link",
 							"parameter_type" : 2
 						}
 
@@ -1434,7 +1416,7 @@
 ,
 					"usepicture" : 1,
 					"usesvgviewbox" : 1,
-					"varname" : "Basic - Pitch-Speed Link"
+					"varname" : "Basic - Speed-Pitch Link"
 				}
 
 			}
@@ -1655,12 +1637,6 @@
 					}
 ,
 					"patching_rect" : [ 229.0, 1115.0, 41.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"editing_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-						"locked_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-						"patchlinecolor" : [ 0.776470588235294, 0.776470588235294, 0.776470588235294, 1.0 ]
-					}
-,
 					"text" : "p gain"
 				}
 
@@ -1818,12 +1794,6 @@
 					}
 ,
 					"patching_rect" : [ 122.0, 1111.0, 41.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"editing_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-						"locked_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-						"patchlinecolor" : [ 0.776470588235294, 0.776470588235294, 0.776470588235294, 1.0 ]
-					}
-,
 					"text" : "p gain"
 				}
 
@@ -1831,7 +1801,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "Output gain control.",
-					"annotation_name" : "Player Output Gain",
+					"annotation_name" : "Basic - Output Gain",
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-148",
 					"maxclass" : "live.dial",
@@ -1844,7 +1814,7 @@
 					"presentation_rect" : [ 119.0, 99.0, 40.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_annotation_name" : "Player Output Gain",
+							"parameter_annotation_name" : "Basic - Output Gain",
 							"parameter_exponent" : 0.36,
 							"parameter_info" : "Output gain control.",
 							"parameter_initial" : [ -6 ],
@@ -1942,7 +1912,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-177",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1991,7 +1961,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-171",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2003,7 +1973,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-170",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2287,12 +2257,6 @@
 					}
 ,
 					"patching_rect" : [ 1181.0, 894.0, 85.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"editing_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-						"locked_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-						"patchlinecolor" : [ 0.776470588235294, 0.776470588235294, 0.776470588235294, 1.0 ]
-					}
-,
 					"text" : "p Cents2Ratio"
 				}
 
@@ -2317,7 +2281,6 @@
 					}
 ,
 					"text" : "TRANSPOSE",
-					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -2341,8 +2304,7 @@
 
 					}
 ,
-					"text" : "ENVELOPPE",
-					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ]
+					"text" : "ENVELOPPE"
 				}
 
 			}
@@ -2418,7 +2380,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "Toggle for looping or one-shot playback modes.",
-					"annotation_name" : "Player PlayMode",
+					"annotation_name" : "Basic Player Play Mode",
 					"automation" : "one-shot",
 					"automationon" : "looped",
 					"fontname" : "Ableton Sans Light",
@@ -2433,14 +2395,14 @@
 					"presentation_rect" : [ 90.0, 7.0, 45.0, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_annotation_name" : "Player PlayMode",
+							"parameter_annotation_name" : "Basic Player Play Mode",
 							"parameter_enum" : [ "one-shot", "looped" ],
 							"parameter_info" : "Toggle for looping or one-shot playback modes.",
 							"parameter_linknames" : 1,
 							"parameter_longname" : "Basic - Play Mode",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "Play Mode",
+							"parameter_shortname" : "Basic Play Mode",
 							"parameter_type" : 2
 						}
 
@@ -2991,12 +2953,6 @@
 					}
 ,
 					"patching_rect" : [ 1485.0, 843.0, 74.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"editing_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-						"locked_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-						"patchlinecolor" : [ 0.776470588235294, 0.776470588235294, 0.776470588235294, 1.0 ]
-					}
-,
 					"text" : "p Env"
 				}
 
@@ -3004,7 +2960,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "These controls set the length over which an envelope will be applied to the playing slice, based on the total length of that slice.",
-					"annotation_name" : "Player Release",
+					"annotation_name" : "Basic - Envelope Release",
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-15",
 					"maxclass" : "live.dial",
@@ -3017,7 +2973,7 @@
 					"presentation_rect" : [ 70.0, 109.0, 42.0, 39.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_annotation_name" : "Player Release",
+							"parameter_annotation_name" : "Basic - Envelope Release",
 							"parameter_exponent" : 2.0,
 							"parameter_info" : "These controls set the length over which an envelope will be applied to the playing slice, based on the total length of that slice.",
 							"parameter_initial" : [ 0.05 ],
@@ -3041,7 +2997,7 @@
 , 			{
 				"box" : 				{
 					"annotation" : "These controls set the length over which an envelope will be applied to the playing slice, based on the total length of that slice.",
-					"annotation_name" : "Player Attack",
+					"annotation_name" : "Basic - Envelope Attack",
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-19",
 					"maxclass" : "live.dial",
@@ -3054,7 +3010,7 @@
 					"presentation_rect" : [ 28.0, 109.0, 42.0, 39.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_annotation_name" : "Player Attack",
+							"parameter_annotation_name" : "Basic - Envelope Attack",
 							"parameter_exponent" : 3.0,
 							"parameter_info" : "These controls set the length over which an envelope will be applied to the playing slice, based on the total length of that slice.",
 							"parameter_initial" : [ 0.0001 ],
@@ -3138,14 +3094,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 24.0, 94.0, 89.0, 57.5 ],
 					"proportion" : 0.5,
-					"rounded" : 4,
-					"saved_attribute_attributes" : 					{
-						"bgfillcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-
+					"rounded" : 4
 				}
 
 			}
@@ -3163,14 +3112,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 115.0, 94.0, 49.25, 57.5 ],
 					"proportion" : 0.5,
-					"rounded" : 4,
-					"saved_attribute_attributes" : 					{
-						"bgfillcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-
+					"rounded" : 4
 				}
 
 			}
@@ -3188,14 +3130,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 24.0, 27.0, 139.25, 64.25 ],
 					"proportion" : 0.5,
-					"rounded" : 4,
-					"saved_attribute_attributes" : 					{
-						"bgfillcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-
+					"rounded" : 4
 				}
 
 			}
@@ -3724,7 +3659,68 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-1" : [ "Basic - Stop All", "Basic Stop All", 0 ],
+			"obj-148" : [ "Basic - Output Gain", "Gain", 0 ],
+			"obj-15" : [ "Basic - Release", "Release", 0 ],
+			"obj-19" : [ "Basic - Attack", "Attack", 0 ],
+			"obj-45" : [ "Basic - Voice Count", "Voices", 0 ],
+			"obj-62" : [ "Basic - Play Mode", "Basic Play Mode", 0 ],
+			"obj-65" : [ "Basic - Pitch", "Pitch", 0 ],
+			"obj-66" : [ "Basic - Fine Tune", "Tune", 0 ],
+			"obj-7" : [ "Basic - Speed", "Speed", 0 ],
+			"obj-8" : [ "Basic - Speed-Pitch Link", "Basic link", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "_mosaique.player.basic.poly.maxpat",
+				"bootpath" : "~/Documents/GitHub/Mosaique",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "_mosaique.sliceInfos.maxpat",
+				"bootpath" : "~/Documents/GitHub/Mosaique",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fluid.buf2list.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.dataset~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "link.svg",
+				"bootpath" : "~/Documents/GitHub/Mosaique",
+				"patcherrelativepath" : ".",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "link_off.svg",
+				"bootpath" : "~/Documents/GitHub/Mosaique",
+				"patcherrelativepath" : ".",
+				"type" : "svg",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

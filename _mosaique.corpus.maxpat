@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 449.0, 100.0, 1245.0, 983.0 ],
+		"rect" : [ 176.0, 188.0, 1245.0, 983.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
@@ -19,7 +19,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 727.0, 783.0, 29.0, 22.0 ],
 					"text" : "t #2"
 				}
@@ -460,12 +460,6 @@
 									}
 ,
 									"patching_rect" : [ 561.443430304527283, 215.536589772033693, 145.0, 22.0 ],
-									"saved_object_attributes" : 									{
-										"editing_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-										"locked_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-										"patchlinecolor" : [ 0.776470588235294, 0.776470588235294, 0.776470588235294, 1.0 ]
-									}
-,
 									"text" : "p getBoundsFromDataset"
 								}
 
@@ -656,12 +650,6 @@
 									}
 ,
 									"patching_rect" : [ 336.443430304527283, 178.0, 106.0, 22.0 ],
-									"saved_object_attributes" : 									{
-										"editing_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-										"locked_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-										"patchlinecolor" : [ 0.776470588235294, 0.776470588235294, 0.776470588235294, 1.0 ]
-									}
-,
 									"text" : "p clearMonoBuffer"
 								}
 
@@ -997,12 +985,6 @@
 									}
 ,
 									"patching_rect" : [ 561.443430304527283, 178.0, 143.0, 22.0 ],
-									"saved_object_attributes" : 									{
-										"editing_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-										"locked_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-										"patchlinecolor" : [ 0.776470588235294, 0.776470588235294, 0.776470588235294, 1.0 ]
-									}
-,
 									"text" : "p MonoBufferForAnalysis"
 								}
 
@@ -1280,12 +1262,6 @@
 													}
 ,
 													"patching_rect" : [ 1414.0, 438.0, 122.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"editing_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-														"locked_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-														"patchlinecolor" : [ 0.776470588235294, 0.776470588235294, 0.776470588235294, 1.0 ]
-													}
-,
 													"text" : "p analysis_CHROMA"
 												}
 
@@ -1774,12 +1750,6 @@
 													}
 ,
 													"patching_rect" : [ 1193.0, 347.0, 103.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"editing_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-														"locked_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-														"patchlinecolor" : [ 0.776470588235294, 0.776470588235294, 0.776470588235294, 1.0 ]
-													}
-,
 													"text" : "p analysis_MFCC"
 												}
 
@@ -2498,12 +2468,6 @@
 													}
 ,
 													"patching_rect" : [ 907.5, 347.0, 105.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"editing_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-														"locked_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-														"patchlinecolor" : [ 0.776470588235294, 0.776470588235294, 0.776470588235294, 1.0 ]
-													}
-,
 													"text" : "p analysis_PITCH"
 												}
 
@@ -4001,12 +3965,6 @@
 													}
 ,
 													"patching_rect" : [ 622.0, 347.0, 132.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"editing_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-														"locked_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-														"patchlinecolor" : [ 0.776470588235294, 0.776470588235294, 0.776470588235294, 1.0 ]
-													}
-,
 													"text" : "p analysis_SPECTRAL"
 												}
 
@@ -5091,12 +5049,6 @@
 													}
 ,
 													"patching_rect" : [ 336.5, 347.0, 135.0, 22.0 ],
-													"saved_object_attributes" : 													{
-														"editing_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-														"locked_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-														"patchlinecolor" : [ 0.776470588235294, 0.776470588235294, 0.776470588235294, 1.0 ]
-													}
-,
 													"text" : "p analysis_LOUDNESS"
 												}
 
@@ -5392,12 +5344,6 @@
 									}
 ,
 									"patching_rect" : [ 763.443430304527283, 348.766421556472778, 175.0, 22.0 ],
-									"saved_object_attributes" : 									{
-										"editing_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-										"locked_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-										"patchlinecolor" : [ 0.776470588235294, 0.776470588235294, 0.776470588235294, 1.0 ]
-									}
-,
 									"text" : "p audioAnalysisAndDescriptors"
 								}
 
@@ -5568,12 +5514,6 @@
 					}
 ,
 					"patching_rect" : [ 66.830188810825348, 323.594737023115158, 62.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"editing_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-						"locked_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-						"patchlinecolor" : [ 0.776470588235294, 0.776470588235294, 0.776470588235294, 1.0 ]
-					}
-,
 					"text" : "p analysis"
 				}
 
@@ -5740,12 +5680,6 @@
 									}
 ,
 									"patching_rect" : [ 1048.085260374678455, 1305.0, 112.0, 22.0 ],
-									"saved_object_attributes" : 									{
-										"editing_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-										"locked_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-										"patchlinecolor" : [ 0.776470588235294, 0.776470588235294, 0.776470588235294, 1.0 ]
-									}
-,
 									"text" : "p saveBufferLength"
 								}
 
@@ -5998,12 +5932,6 @@
 									}
 ,
 									"patching_rect" : [ 860.291221439838409, 975.611833214759827, 127.0, 22.0 ],
-									"saved_object_attributes" : 									{
-										"editing_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-										"locked_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-										"patchlinecolor" : [ 0.776470588235294, 0.776470588235294, 0.776470588235294, 1.0 ]
-									}
-,
 									"text" : "p Prefix2CorpusName"
 								}
 
@@ -7246,12 +7174,6 @@
 									}
 ,
 									"patching_rect" : [ 1197.524323046207428, 817.940959997718892, 226.0, 22.0 ],
-									"saved_object_attributes" : 									{
-										"editing_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-										"locked_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-										"patchlinecolor" : [ 0.776470588235294, 0.776470588235294, 0.776470588235294, 1.0 ]
-									}
-,
 									"text" : "p loadAudioToBufferAndPackageDataset"
 								}
 
@@ -7426,12 +7348,6 @@
 									}
 ,
 									"patching_rect" : [ 1166.220232867532332, 1193.892057120800018, 112.0, 22.0 ],
-									"saved_object_attributes" : 									{
-										"editing_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-										"locked_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-										"patchlinecolor" : [ 0.776470588235294, 0.776470588235294, 0.776470588235294, 1.0 ]
-									}
-,
 									"text" : "p clearTempBuffers"
 								}
 
@@ -7774,12 +7690,6 @@
 					}
 ,
 					"patching_rect" : [ 66.830188810825348, 212.74351042509079, 78.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"editing_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-						"locked_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-						"patchlinecolor" : [ 0.776470588235294, 0.776470588235294, 0.776470588235294, 1.0 ]
-					}
-,
 					"text" : "p importation"
 				}
 
@@ -7787,6 +7697,7 @@
 , 			{
 				"box" : 				{
 					"allowdrag" : 0,
+					"annotation" : "Corpus load function. You can either load a folder with multiple audio files OR load a single long soundfile that will be chopped in several slices.",
 					"arrow" : 0,
 					"bgcolor" : [ 0.717647058823529, 0.717647058823529, 0.717647058823529, 0.0 ],
 					"bgfillcolor_angle" : 270.0,
@@ -7923,14 +7834,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 198.0, 2.25, 14.0, 14.0 ],
 					"proportion" : 0.5,
-					"rounded" : 0,
-					"saved_attribute_attributes" : 					{
-						"bgfillcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-
+					"rounded" : 0
 				}
 
 			}
@@ -7938,7 +7842,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-16",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -7983,7 +7887,8 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.821007907390594, 0.821007907390594, 0.821007907390594, 1.0 ],
+					"annotation" : "Erase sounds currently loaded in the corpus",
+					"bgcolor" : [ 0.258823529411765, 0.258823529411765, 0.258823529411765, 1.0 ],
 					"fontname" : "Ableton Sans Bold",
 					"fontsize" : 9.5,
 					"id" : "obj-10",
@@ -7993,18 +7898,23 @@
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 633.330188810825348, 233.518871784210205, 46.0, 21.0 ],
+					"patching_rect" : [ 633.330188810825348, 197.0, 46.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 198.0, 2.25, 14.0, 14.0 ],
 					"saved_attribute_attributes" : 					{
 						"bgcolor" : 						{
-							"expression" : ""
+							"expression" : "themecolor.live_control_bg"
+						}
+,
+						"textoncolor" : 						{
+							"expression" : "themecolor.live_control_fg_off"
 						}
 
 					}
 ,
 					"text" : "X",
 					"texton" : "X",
+					"textoncolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ],
 					"varname" : "live.text[1]"
 				}
 
@@ -8313,12 +8223,6 @@
 					}
 ,
 					"patching_rect" : [ 849.830188810825348, 372.78454852104187, 89.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"editing_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-						"locked_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-						"patchlinecolor" : [ 0.776470588235294, 0.776470588235294, 0.776470588235294, 1.0 ]
-					}
-,
 					"text" : "p CorpusName"
 				}
 
@@ -9553,12 +9457,6 @@
 					}
 ,
 					"patching_rect" : [ 301.830188810825348, 229.090900897979736, 121.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"editing_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-						"locked_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-						"patchlinecolor" : [ 0.776470588235294, 0.776470588235294, 0.776470588235294, 1.0 ]
-					}
-,
 					"text" : "p Load_CorpusAudio"
 				}
 
@@ -9623,6 +9521,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Name of corpus loaded. Double-click to manually edit.",
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.2 ],
 					"bordercolor" : [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 0.0 ],
 					"fontname" : "Ableton Sans Medium",
@@ -9646,7 +9545,7 @@
 
 					}
 ,
-					"text" : "warp_markers"
+					"text" : "Corpus #2"
 				}
 
 			}
@@ -9697,7 +9596,7 @@
 					"patching_rect" : [ 301.830188810825348, 465.78454852104187, 44.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 160.0, 2.0, 41.0, 17.0 ],
-					"text" : "sounds",
+					"text" : "sound",
 					"textcolor" : [ 0.905882352941176, 0.905882352941176, 0.905882352941176, 1.0 ]
 				}
 
@@ -9756,6 +9655,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 0.0 ],
+					"annotation_name" : "Number of slices loaded",
 					"bordercolor" : [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 0.0 ],
 					"fontname" : "Ableton Sans Light",
 					"fontsize" : 9.0,
@@ -9784,11 +9684,12 @@
 						}
 ,
 						"valueof" : 						{
+							"parameter_annotation_name" : "Number of slices loaded",
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 2,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "live.numbox[10]",
+							"parameter_longname" : "Number of sounds",
 							"parameter_mmax" : 100000.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Sounds",
@@ -9817,14 +9718,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 134.0, 1.5, 62.000000000000028, 15.5 ],
 					"proportion" : 0.5,
-					"rounded" : 2,
-					"saved_attribute_attributes" : 					{
-						"bgfillcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-
+					"rounded" : 2
 				}
 
 			}
@@ -10096,6 +9990,155 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-3" : [ "Number of sounds", "Sounds", 0 ],
+			"obj-47" : [ "live.text[19]", "live.text", 0 ],
+			"obj-67::obj-10::obj-17" : [ "live.drop[14]", "live.drop", 0 ],
+			"obj-67::obj-10::obj-178" : [ "Number of slices", "Slices", 0 ],
+			"obj-67::obj-10::obj-2" : [ "---MosaiqueSlicer_Select", "Select", 0 ],
+			"obj-67::obj-10::obj-26" : [ "Slicing algorithm", "algo", 0 ],
+			"obj-67::obj-10::obj-314::obj-220" : [ "live.text[40]", "live.text[1]", 0 ],
+			"obj-67::obj-10::obj-314::obj-234" : [ "Slice index[16]", "live.numbox[20]", 0 ],
+			"obj-67::obj-10::obj-314::obj-24" : [ "live.text[39]", "live.text[1]", 0 ],
+			"obj-67::obj-10::obj-314::obj-242" : [ "live.slider[13]", "live.slider", 0 ],
+			"obj-67::obj-10::obj-31::obj-21" : [ "---MosaiqueSlicer_Thresh", "Threshold", 0 ],
+			"obj-67::obj-10::obj-31::obj-22" : [ "---MosaiqueSlicer_Length[1]", "Length", 0 ],
+			"obj-67::obj-10::obj-31::obj-23" : [ "---MosaiqueSlicer_Thresh[1]", "Threshold", 0 ],
+			"obj-67::obj-10::obj-31::obj-234" : [ "live.numbox[20]", "live.numbox[20]", 0 ],
+			"obj-67::obj-10::obj-31::obj-235" : [ "live.numbox[43]", "live.numbox", 0 ],
+			"obj-67::obj-10::obj-31::obj-26" : [ "live.dial", "live.dial", 0 ],
+			"obj-67::obj-10::obj-31::obj-27" : [ "live.dial[1]", "live.dial", 0 ],
+			"obj-67::obj-10::obj-31::obj-28" : [ "---MosaiqueSlicer_Length", "Length", 0 ],
+			"obj-67::obj-10::obj-49" : [ "---MosaiqueSlicer_SliceButton", "Slice", 0 ],
+			"obj-67::obj-10::obj-61" : [ "---MosaiqueSlicer_SaveButton", "Save", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "_mosaique.clearAll.maxpat",
+				"bootpath" : "~/Documents/GitHub/Mosaique",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "_mosaique.dictValueGetSet.maxpat",
+				"bootpath" : "~/Documents/GitHub/Mosaique",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "_mosaique.longFileChopper.maxpat",
+				"bootpath" : "~/Documents/GitHub/Mosaique",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "_mosaique.longFileChopper_algoGUI.maxpat",
+				"bootpath" : "~/Documents/GitHub/Mosaique",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fav-max.js",
+				"bootpath" : "~/Documents/Max 9/Packages/FluidCorpusManipulation/jsui",
+				"patcherrelativepath" : "../../Max 9/Packages/FluidCorpusManipulation/jsui",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fluid.buf2list.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.bufampgate~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.bufcompose~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.bufflatten~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.bufloudness~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.bufmfcc~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.bufnoveltyfeature~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.bufnoveltyslice~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.bufonsetfeature~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.bufonsetslice~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.bufpitch~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.bufselect~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.bufspectralshape~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.bufstats~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.datasetquery~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.dataset~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.labelset~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.list2buf.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.waveform~.js",
+				"bootpath" : "~/Documents/Max 9/Packages/FluidCorpusManipulation/jsui",
+				"patcherrelativepath" : "../../Max 9/Packages/FluidCorpusManipulation/jsui",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "Audiomix",
 				"default" : 				{

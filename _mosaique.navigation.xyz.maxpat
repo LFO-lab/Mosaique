@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 876.0, 278.0, 1001.0, 983.0 ],
+		"rect" : [ 876.0, 278.0, 601.0, 983.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
@@ -173,8 +173,7 @@
 
 					}
 ,
-					"text" : "Z",
-					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ]
+					"text" : "Z"
 				}
 
 			}
@@ -196,8 +195,7 @@
 
 					}
 ,
-					"text" : "Y",
-					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ]
+					"text" : "Y"
 				}
 
 			}
@@ -219,15 +217,14 @@
 
 					}
 ,
-					"text" : "X",
-					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ]
+					"text" : "X"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"activeneedlecolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
-					"annotation" : "\"Z Axis Coordinates\"",
+					"annotation" : "\"Move in the Z axis of the corpora\"",
 					"annotation_name" : "Z Axis Coordinates",
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-15",
@@ -246,7 +243,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Z Axis Coordinates",
-							"parameter_info" : "\"Z Axis Coordinates\"",
+							"parameter_info" : "\"Move in the Z axis of the corpora\"",
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
@@ -270,7 +267,7 @@
 , 			{
 				"box" : 				{
 					"activeneedlecolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
-					"annotation" : "\"Y Axis Coordinates\"",
+					"annotation" : "\"Move in the Y axis of the corpora\"",
 					"annotation_name" : "Y Axis Coordinates",
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-13",
@@ -289,7 +286,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Y Axis Coordinates",
-							"parameter_info" : "\"Y Axis Coordinates\"",
+							"parameter_info" : "\"Move in the Y axis of the corpora\"",
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
@@ -313,7 +310,7 @@
 , 			{
 				"box" : 				{
 					"activeneedlecolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
-					"annotation" : "\"X Axis Coordinates\"",
+					"annotation" : "\"Move in the X axis of the corpora\"",
 					"annotation_name" : "X Axis Coordinates",
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-2",
@@ -332,7 +329,7 @@
 ,
 						"valueof" : 						{
 							"parameter_annotation_name" : "X Axis Coordinates",
-							"parameter_info" : "\"X Axis Coordinates\"",
+							"parameter_info" : "\"Move in the X axis of the corpora\"",
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
@@ -453,7 +450,7 @@
 				"box" : 				{
 					"comment" : "Navigation type (0 for OSC)",
 					"id" : "obj-23",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -478,7 +475,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-10",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -868,27 +865,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-13" : [ "Navigation Y", "Y", 0 ],
-			"obj-15" : [ "Navigation Z", "Z", 0 ],
-			"obj-2" : [ "Navigation X", "X", 0 ],
-			"obj-27" : [ "Navigation Coordinates", "Coord Type", 0 ],
-			"obj-43" : [ "Navigation Cam Link", "Cam Link", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [  ],
-		"autosave" : 0
+ ]
 	}
 
 }
