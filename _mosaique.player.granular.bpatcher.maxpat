@@ -15,6 +15,18 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "stopall" ],
+					"patching_rect" : [ -5.263157844543457, 939.0, 60.0, 22.0 ],
+					"text" : "t b stopall"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontface" : 0,
 					"fontname" : "Ableton Sans Bold Regular",
 					"fontsize" : 16.0,
@@ -50,7 +62,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ -61.403508186340332, 923.0, 34.0, 22.0 ],
+					"patching_rect" : [ -61.0, 906.0, 74.736842155456543, 22.0 ],
 					"text" : "sel 2"
 				}
 
@@ -3365,7 +3377,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-40", 0 ],
+					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-14", 1 ]
 				}
 
@@ -3818,6 +3830,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
 					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-106", 0 ],
+					"source" : [ "obj-9", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-40", 0 ],
+					"source" : [ "obj-9", 0 ]
 				}
 
 			}
