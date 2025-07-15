@@ -192,7 +192,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 327.0, 841.0, 27.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 115.0, 38.5, 42.600673422217369, 48.0 ],
+					"presentation_rect" : [ 117.294252403080463, 40.878375649452209, 42.600673422217369, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Granular - Grain Window Shape",
@@ -227,10 +227,11 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 449.0, 841.0, 41.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 206.5, 38.5, 43.0, 48.0 ],
+					"presentation_rect" : [ 207.094580769538879, 40.878375649452209, 43.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Granular - Grain Probability",
+							"parameter_exponent" : 1.6,
 							"parameter_info" : "Grain probability",
 							"parameter_initial" : [ 1.0 ],
 							"parameter_initial_enable" : 1,
@@ -298,7 +299,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 647.787662744522095, 845.132811367511749, 41.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 160.5, 38.5, 43.0, 48.0 ],
+					"presentation_rect" : [ 161.994753297418356, 40.878375649452209, 43.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Grain Duration",
@@ -336,7 +337,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 592.035445868968964, 845.132811367511749, 41.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 70.5, 38.5, 43.0, 48.0 ],
+					"presentation_rect" : [ 73.140366140753031, 40.878375649452209, 42.054058790206909, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Grain Rate",
@@ -345,12 +346,13 @@
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "Granular - Grain rate",
-							"parameter_mmax" : 1000.0,
-							"parameter_modmax" : 1000.0,
+							"parameter_mmax" : 300.0,
+							"parameter_modmax" : 300.0,
 							"parameter_modmode" : 4,
 							"parameter_shortname" : "Rate",
 							"parameter_type" : 0,
-							"parameter_unitstyle" : 3
+							"parameter_units" : "G/s",
+							"parameter_unitstyle" : 9
 						}
 
 					}
@@ -384,7 +386,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 703.539879620075226, 845.132811367511749, 41.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 28.074663288891315, 38.5, 43.0, 48.0 ],
+					"presentation_rect" : [ 28.040538668632507, 40.878375649452209, 43.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_annotation_name" : "Granular - Position",

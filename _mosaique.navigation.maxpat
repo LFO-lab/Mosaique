@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 961.0, 277.0, 1001.0, 983.0 ],
+		"rect" : [ 693.0, 100.0, 1001.0, 983.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
@@ -119,6 +119,13 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 529.0, 333.0, 149.0, 166.0 ],
 					"proportion" : 0.39,
+					"saved_attribute_attributes" : 					{
+						"bgfillcolor" : 						{
+							"expression" : ""
+						}
+
+					}
+,
 					"shadow" : 1
 				}
 
@@ -127,7 +134,7 @@
 				"box" : 				{
 					"comment" : "Navigation type",
 					"id" : "obj-6",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -198,6 +205,13 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 529.0, 164.0, 149.0, 165.0 ],
 					"proportion" : 0.39,
+					"saved_attribute_attributes" : 					{
+						"bgfillcolor" : 						{
+							"expression" : ""
+						}
+
+					}
+,
 					"shadow" : 1
 				}
 
@@ -216,6 +230,13 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 529.0, -6.0, 149.0, 165.0 ],
 					"proportion" : 0.39,
+					"saved_attribute_attributes" : 					{
+						"bgfillcolor" : 						{
+							"expression" : ""
+						}
+
+					}
+,
 					"shadow" : 1
 				}
 
@@ -236,7 +257,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -248,7 +269,7 @@
 				"box" : 				{
 					"comment" : "Bang to update plotter highlight",
 					"id" : "obj-7",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -281,8 +302,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"order" : 0,
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -290,74 +319,12 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-6", 0 ]
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-10::obj-25" : [ "MIDI velocity layers", "Velocity Layers", 0 ],
-			"obj-10::obj-67" : [ "MIDI highest note", "Highest Note", 0 ],
-			"obj-10::obj-70" : [ "MIDI lowest note", "lowest note", 0 ],
-			"obj-2::obj-13" : [ "Navigation Y", "Y", 0 ],
-			"obj-2::obj-15" : [ "Navigation Z", "Z", 0 ],
-			"obj-2::obj-2" : [ "Navigation X", "X", 0 ],
-			"obj-2::obj-27" : [ "Navigation Coordinates", "Coord Type", 0 ],
-			"obj-2::obj-43" : [ "Navigation Cam Link", "Cam Link", 0 ],
-			"obj-4::obj-13" : [ "Descriptor B Value", "B", 0 ],
-			"obj-4::obj-15" : [ "Descriptor C Value", "C", 0 ],
-			"obj-4::obj-2" : [ "Descriptor A Value", "A", 0 ],
-			"obj-4::obj-42" : [ "Descriptor A Type", "Descriptor A Type", 0 ],
-			"obj-4::obj-45" : [ "Descriptor B Type", "Descriptor B Type", 0 ],
-			"obj-4::obj-46" : [ "Descriptor C Type", "Descriptor C Type", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "_mosaique.navigation.descriptors.maxpat",
-				"bootpath" : "~/Documents/GitHub/Mosaique",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "_mosaique.navigation.midiNotes.maxpat",
-				"bootpath" : "~/Documents/GitHub/Mosaique",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "_mosaique.navigation.xyz.maxpat",
-				"bootpath" : "~/Documents/GitHub/Mosaique",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fluid.dataset~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.kdtree~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.list2buf.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

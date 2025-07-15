@@ -43,9 +43,34 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 607.0, 181.0, 640.0, 480.0 ],
+						"rect" : [ 775.0, 383.0, 640.0, 480.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 133.0, 122.0, 47.0, 22.0 ],
+									"text" : "zl.nth 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-6",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 133.0, 94.0, 45.0, 22.0 ],
+									"text" : "zl.rot 1"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-9",
 									"maxclass" : "newobj",
@@ -76,7 +101,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 92.0, 309.0, 43.0, 22.0 ],
+									"patching_rect" : [ 92.0, 309.0, 88.0, 22.0 ],
 									"text" : "zl.lace"
 								}
 
@@ -101,7 +126,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 222.0, 147.0, 164.964409351348877, 22.0 ],
+									"patching_rect" : [ 161.0, 209.0, 233.0, 22.0 ],
 									"text" : "t l l"
 								}
 
@@ -113,7 +138,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 368.0, 178.0, 43.0, 22.0 ],
+									"patching_rect" : [ 375.0, 241.0, 43.0, 22.0 ],
 									"text" : "zl.sum"
 								}
 
@@ -125,7 +150,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 222.0, 213.0, 233.0, 22.0 ],
+									"patching_rect" : [ 161.0, 275.0, 233.0, 22.0 ],
 									"text" : "vexpr pow(($f1/$f2)\\, 0.25) @scalarmode 1"
 								}
 
@@ -137,7 +162,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 222.0, 109.0, 217.0, 22.0 ],
+									"patching_rect" : [ 161.0, 171.0, 217.0, 22.0 ],
 									"text" : "vexpr 1./($f1+0.00001) @scalarmode 1"
 								}
 
@@ -151,7 +176,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 222.0, 44.0, 30.0, 30.0 ]
+									"patching_rect" : [ 133.0, 44.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -184,6 +209,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-86", 0 ],
+									"source" : [ "obj-4", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-9", 0 ],
 									"source" : [ "obj-5", 0 ]
 								}
@@ -198,8 +230,15 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-86", 0 ],
+									"destination" : [ "obj-6", 0 ],
 									"source" : [ "obj-58", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"source" : [ "obj-6", 0 ]
 								}
 
 							}
