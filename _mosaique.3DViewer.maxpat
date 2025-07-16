@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 702.0, 983.0 ],
+		"rect" : [ 34.0, 100.0, 1313.0, 983.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 11.0,
 		"gridsize" : [ 15.0, 15.0 ],
@@ -706,50 +706,26 @@
 				"box" : 				{
 					"annotation" : "Camera movement speed.",
 					"annotation_name" : "Camera Speed",
-					"focusbordercolor" : [ 0.725490196078431, 0.596078431372549, 0.952941176470588, 0.0 ],
-					"fontname" : "Avenir",
 					"id" : "obj-71",
-					"maxclass" : "live.slider",
-					"modulationcolor" : [ 0.725490196078431, 0.596078431372549, 0.952941176470588, 1.0 ],
+					"maxclass" : "live.dial",
+					"needlemode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1239.0, 1249.124182283878326, 50.0, 18.0 ],
+					"patching_rect" : [ 1239.0, 1249.124182283878326, 27.0, 28.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 233.142867565155029, 70.28571742773056, 18.0, 88.0 ],
+					"presentation_rect" : [ 195.5, 86.75, 27.0, 28.0 ],
 					"saved_attribute_attributes" : 					{
-						"focusbordercolor" : 						{
-							"expression" : ""
-						}
-,
-						"modulationcolor" : 						{
-							"expression" : ""
-						}
-,
-						"slidercolor" : 						{
-							"expression" : ""
-						}
-,
-						"textcolor" : 						{
-							"expression" : ""
-						}
-,
-						"trioncolor" : 						{
-							"expression" : "themecolor.live_value_arc"
-						}
-,
 						"valueof" : 						{
 							"parameter_annotation_name" : "Camera Speed",
 							"parameter_exponent" : 3.0,
 							"parameter_info" : "Camera movement speed.",
-							"parameter_initial" : [ 0.5 ],
-							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "Camera Speed",
 							"parameter_mmax" : 10.0,
 							"parameter_mmin" : 0.01,
-							"parameter_modmode" : 0,
+							"parameter_modmode" : 3,
 							"parameter_shortname" : "speed",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -759,10 +735,7 @@
 ,
 					"showname" : 0,
 					"shownumber" : 0,
-					"slidercolor" : [ 0.145098039215686, 0.149019607843137, 0.152941176470588, 1.0 ],
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"trioncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
-					"varname" : "Camera - Speed"
+					"varname" : "Camera Speed"
 				}
 
 			}
@@ -777,7 +750,7 @@
 					"patching_rect" : [ 245.0, 191.25, 120.0, 16.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 5,
-					"presentation_rect" : [ 238.571439236402512, 87.142861038446426, 15.116278529167175, 54.0 ],
+					"presentation_rect" : [ 315.0, 78.190478168427944, 15.116278529167175, 54.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_control_fg_off_zombie"
@@ -799,7 +772,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1382.613275945186615, 1241.0, 145.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 164.776129961013794, 60.89552628993988, 87.355298481881618, 20.0 ],
+					"presentation_rect" : [ 398.0, 56.0, 87.355298481881618, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_control_text_bg"
@@ -1498,7 +1471,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 68.0, 337.0, 51.0, 35.0 ],
-									"text" : "move 0 0 -1"
+									"text" : "move 0 0 0"
 								}
 
 							}
@@ -2038,9 +2011,9 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1588.978723400831313, 1306.124182283878326, 73.0, 38.0 ],
-					"pictures" : [ "down.svg", "down.svg" ],
+					"pictures" : [ "down_arrow.svg", "down_arrow.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 187.619051113724709, 116.285716451704502, 27.142857648432255, 20.00000037252903 ],
+					"presentation_rect" : [ 188.000001400709152, 119.555556446313858, 43.222222544252872, 19.000000141561031 ],
 					"remapsvgcolors" : 1,
 					"rounded" : 6.0,
 					"saved_attribute_attributes" : 					{
@@ -2078,9 +2051,9 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1512.021276599168687, 1306.124182283878326, 73.0, 38.0 ],
-					"pictures" : [ "up.svg", "up.svg" ],
+					"pictures" : [ "up_arrow.svg", "up_arrow.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 187.714289210736752, 95.809525594115257, 27.142857648432255, 20.761905148625374 ],
+					"presentation_rect" : [ 188.111112512648106, 68.666667178273201, 43.111111432313919, 18.777777917683125 ],
 					"remapsvgcolors" : 1,
 					"rounded" : 6.0,
 					"saved_attribute_attributes" : 					{
@@ -2120,7 +2093,7 @@
 					"patching_rect" : [ 1358.106382995843887, 1306.124182283878326, 73.0, 38.0 ],
 					"pictures" : [ "left.svg", "left.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 168.28571742027998, 95.428573206067085, 20.095238469541073, 41.142857909202576 ],
+					"presentation_rect" : [ 168.625, 68.5, 20.0, 70.0 ],
 					"remapsvgcolors" : 1,
 					"rounded" : 6.0,
 					"saved_attribute_attributes" : 					{
@@ -2160,7 +2133,7 @@
 					"patching_rect" : [ 1435.063829797506287, 1306.124182283878326, 73.0, 38.0 ],
 					"pictures" : [ "right.svg", "right.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 214.095242083072662, 95.428573206067085, 19.904762275516987, 41.142857909202576 ],
+					"presentation_rect" : [ 230.5, 68.5, 20.0, 70.25 ],
 					"remapsvgcolors" : 1,
 					"rounded" : 6.0,
 					"saved_attribute_attributes" : 					{
@@ -2203,7 +2176,7 @@
 					"patching_rect" : [ 1742.893617004156113, 1306.124182283878326, 73.0, 38.0 ],
 					"pictures" : [ "bwd.svg", "bwd.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 168.285721808671951, 136.857148975133896, 65.714288651943207, 17.714286506175995 ],
+					"presentation_rect" : [ 168.666667923331261, 137.666667692363262, 81.666667275130749, 19.777777925133705 ],
 					"remapsvgcolors" : 1,
 					"rounded" : 6.0,
 					"saved_attribute_attributes" : 					{
@@ -2250,7 +2223,7 @@
 					"patching_rect" : [ 1665.936170202493713, 1306.124182283878326, 73.0, 38.0 ],
 					"pictures" : [ "fwd.svg", "fwd.svg" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 168.571436107158661, 78.571432083845139, 64.857145756483078, 16.857143610715866 ],
+					"presentation_rect" : [ 168.777779035270214, 50.777778156101704, 81.444445051252842, 18.777777917683125 ],
 					"remapsvgcolors" : 1,
 					"rounded" : 6.0,
 					"saved_attribute_attributes" : 					{
@@ -3245,7 +3218,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1036.0, 1647.0, 63.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 162.51387058198452, 40.000001698732376, 92.285718411207199, 20.285715192556381 ],
+					"presentation_rect" : [ 162.0, 27.75, 92.285718411207199, 20.285715192556381 ],
 					"rounded" : 6.0,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -7347,7 +7320,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 363.0, 846.0, 40.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 162.388070106506348, 0.597014963626862, 92.238811880350113, 39.701495081186295 ],
+					"presentation_rect" : [ 162.25, -1.0, 92.0, 30.0 ],
 					"rounded" : 6.0,
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
@@ -13806,7 +13779,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1204.0, 1211.0, 653.993480384349823, 194.519555687904358 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 163.880607515573502, 60.89552628993988, 89.552244544029236, 98.80597648024559 ],
+					"presentation_rect" : [ 164.0, 48.75, 90.0, 111.25 ],
 					"proportion" : 0.39,
 					"saved_attribute_attributes" : 					{
 						"bgfillcolor" : 						{
@@ -13827,6 +13800,20 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 665.0, 939.0, 43.0, 21.0 ],
 					"text" : "getsize"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 8.0,
+					"id" : "obj-16",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 233.25, 175.0, 119.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 194.125, 106.75, 30.0, 15.0 ],
+					"text" : "speed"
 				}
 
 			}
@@ -14592,10 +14579,6 @@
 					"source" : [ "obj-98", 0 ]
 				}
 
-			}
- ],
-		"boxgroups" : [ 			{
-				"boxes" : [ "obj-121", "obj-71" ]
 			}
  ]
 	}
