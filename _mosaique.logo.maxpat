@@ -114,7 +114,7 @@
 
 					}
 ,
-					"text" : "Server",
+					"text" : "#1",
 					"textjustification" : 1
 				}
 
@@ -193,7 +193,6 @@
 						"rect" : [ 534.0, 246.0, 921.0, 494.0 ],
 						"openinpresentation" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"border" : 0,
@@ -232,7 +231,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 19.0, 161.0, 447.0, 24.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 28.0, 209.0, 193.0, 19.0 ],
+									"presentation_rect" : [ 27.0, 209.0, 193.0, 19.0 ],
 									"text" : "Huge thank you to their team!",
 									"textcolor" : [ 1.0, 0.733333333333333, 0.494117647058824, 1.0 ]
 								}
@@ -478,23 +477,8 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 19.0, 152.0, 447.0, 24.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 19.0, 193.0, 692.0, 28.0 ],
-									"text" : "· uses <link href= \"; max launchbrowser https://www.flucoma.org/\" >FluCoMa</link> for all of the heavy lifting in machine learning and listening. <br>Huge thank you to their team!",
-									"textcolor" : [ 1.0, 0.733333333333333, 0.494117647058824, 1.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Ableton Sans Light",
-									"fontsize" : 14.0,
-									"id" : "obj-20",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 19.0, 211.0, 588.0, 23.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 19.0, 239.0, 649.0, 23.0 ],
+									"presentation_rect" : [ 19.0, 193.0, 649.0, 28.0 ],
+									"text" : "· uses <link href= \"; max launchbrowser https://www.flucoma.org/\" >FluCoMa</link> for all of the heavy lifting in machine learning and listening.",
 									"textcolor" : [ 1.0, 0.733333333333333, 0.494117647058824, 1.0 ]
 								}
 
@@ -537,32 +521,10 @@
  ],
 						"lines" : [  ],
 						"bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
-						"editing_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
-						"saved_attribute_attributes" : 						{
-							"editing_bgcolor" : 							{
-								"expression" : ""
-							}
-,
-							"locked_bgcolor" : 							{
-								"expression" : ""
-							}
-
-						}
-
+						"editing_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ]
 					}
 ,
 					"patching_rect" : [ 50.0, 460.0, 54.0, 22.0 ],
-					"saved_attribute_attributes" : 					{
-						"editing_bgcolor" : 						{
-							"expression" : ""
-						}
-,
-						"locked_bgcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-,
 					"saved_object_attributes" : 					{
 						"editing_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ],
 						"locked_bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ]
@@ -626,7 +588,16 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "LogoBlancMosaiqueMax4Live.png",
+				"bootpath" : "~/Documents/GitHub/Mosaique",
+				"patcherrelativepath" : ".",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
