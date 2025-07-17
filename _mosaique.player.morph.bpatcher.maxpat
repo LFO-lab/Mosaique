@@ -905,7 +905,6 @@
 					}
 ,
 					"text" : "TRANSPOSE",
-					"textcolor" : [ 0.768399306904929, 0.768399117237748, 0.7683991666346, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -929,8 +928,7 @@
 
 					}
 ,
-					"text" : "ENVELOPPE",
-					"textcolor" : [ 0.768399306904929, 0.768399117237748, 0.7683991666346, 1.0 ]
+					"text" : "ENVELOPPE"
 				}
 
 			}
@@ -1670,14 +1668,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 24.0, 94.0, 89.0, 57.5 ],
 					"proportion" : 0.5,
-					"rounded" : 4,
-					"saved_attribute_attributes" : 					{
-						"bgfillcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-
+					"rounded" : 4
 				}
 
 			}
@@ -1697,11 +1688,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-30",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ -91.0, 111.0, 30.0, 30.0 ]
 				}
 
@@ -1746,7 +1737,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2996,7 +2987,7 @@
 					"patching_rect" : [ -1003.0, 1124.0, 94.0, 8.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 24.0, 159.0, 140.0, 4.0 ],
-					"slidercolor" : [ 0.094525624565048, 0.094525586030663, 0.09452559599708, 1.0 ]
+					"slidercolor" : [ 0.12156862745098, 0.12156862745098, 0.12156862745098, 1.0 ]
 				}
 
 			}
@@ -3011,7 +3002,7 @@
 					"patching_rect" : [ -1170.0, 1124.0, 94.0, 8.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 24.0, 154.0, 140.0, 4.0 ],
-					"slidercolor" : [ 0.094525624565048, 0.094525586030663, 0.09452559599708, 1.0 ]
+					"slidercolor" : [ 0.12156862745098, 0.12156862745098, 0.12156862745098, 1.0 ]
 				}
 
 			}
@@ -3114,7 +3105,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-177",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -3127,7 +3118,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-171",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -3139,7 +3130,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-170",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -3161,14 +3152,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 115.0, 94.0, 49.25, 57.5 ],
 					"proportion" : 0.5,
-					"rounded" : 4,
-					"saved_attribute_attributes" : 					{
-						"bgfillcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-
+					"rounded" : 4
 				}
 
 			}
@@ -3186,14 +3170,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 24.0, 27.0, 139.25, 64.25 ],
 					"proportion" : 0.5,
-					"rounded" : 4,
-					"saved_attribute_attributes" : 					{
-						"bgfillcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-
+					"rounded" : 4
 				}
 
 			}
@@ -3769,7 +3746,68 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-10" : [ "Morph - Voice Count", "Voices", 0 ],
+			"obj-12" : [ "Morph - Stop All", "Stop All", 0 ],
+			"obj-175" : [ "Morph - Output Gain", "Gain", 0 ],
+			"obj-31" : [ "Morph - Pitch-Speed Link", "link", 0 ],
+			"obj-33" : [ "Morph - Speed", "Speed", 0 ],
+			"obj-40" : [ "Morph - Release", "Release", 0 ],
+			"obj-41" : [ "Morph - Attack", "Attack", 0 ],
+			"obj-62" : [ "Morph - Play Mode", "Play Mode", 0 ],
+			"obj-65" : [ "Morph - Pitch", "Pitch", 0 ],
+			"obj-66" : [ "Morph - Fine Tune", "Tune", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "_mosaique.player.morph.poly.maxpat",
+				"bootpath" : "~/Documents/GitHub/Mosaique",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "_mosaique.sliceInfos.maxpat",
+				"bootpath" : "~/Documents/GitHub/Mosaique",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fluid.buf2list.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.dataset~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "link.svg",
+				"bootpath" : "~/Documents/GitHub/Mosaique",
+				"patcherrelativepath" : ".",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "link_off.svg",
+				"bootpath" : "~/Documents/GitHub/Mosaique",
+				"patcherrelativepath" : ".",
+				"type" : "svg",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
