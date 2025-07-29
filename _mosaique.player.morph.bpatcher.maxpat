@@ -277,8 +277,23 @@
 
 							}
  ],
+						"patchlinecolor" : [ 0.776470588235294, 0.776470588235294, 0.776470588235294, 1.0 ],
+						"bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
+						"editing_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
 						"saved_attribute_attributes" : 						{
 							"default_plcolor" : 							{
+								"expression" : ""
+							}
+,
+							"editing_bgcolor" : 							{
+								"expression" : ""
+							}
+,
+							"locked_bgcolor" : 							{
+								"expression" : ""
+							}
+,
+							"patchlinecolor" : 							{
 								"expression" : ""
 							}
 
@@ -289,6 +304,18 @@
 					"patching_rect" : [ -712.999999999999886, 624.0, 132.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"default_plcolor" : 						{
+							"expression" : ""
+						}
+,
+						"editing_bgcolor" : 						{
+							"expression" : ""
+						}
+,
+						"locked_bgcolor" : 						{
+							"expression" : ""
+						}
+,
+						"patchlinecolor" : 						{
 							"expression" : ""
 						}
 
@@ -537,8 +564,23 @@
 
 							}
  ],
+						"patchlinecolor" : [ 0.776470588235294, 0.776470588235294, 0.776470588235294, 1.0 ],
+						"bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
+						"editing_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
 						"saved_attribute_attributes" : 						{
 							"default_plcolor" : 							{
+								"expression" : ""
+							}
+,
+							"editing_bgcolor" : 							{
+								"expression" : ""
+							}
+,
+							"locked_bgcolor" : 							{
+								"expression" : ""
+							}
+,
+							"patchlinecolor" : 							{
 								"expression" : ""
 							}
 
@@ -549,6 +591,18 @@
 					"patching_rect" : [ 207.0, 764.474525545625511, 85.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"default_plcolor" : 						{
+							"expression" : ""
+						}
+,
+						"editing_bgcolor" : 						{
+							"expression" : ""
+						}
+,
+						"locked_bgcolor" : 						{
+							"expression" : ""
+						}
+,
+						"patchlinecolor" : 						{
 							"expression" : ""
 						}
 
@@ -918,8 +972,23 @@
 
 							}
  ],
+						"patchlinecolor" : [ 0.776470588235294, 0.776470588235294, 0.776470588235294, 1.0 ],
+						"bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
+						"editing_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
 						"saved_attribute_attributes" : 						{
 							"default_plcolor" : 							{
+								"expression" : ""
+							}
+,
+							"editing_bgcolor" : 							{
+								"expression" : ""
+							}
+,
+							"locked_bgcolor" : 							{
+								"expression" : ""
+							}
+,
+							"patchlinecolor" : 							{
 								"expression" : ""
 							}
 
@@ -930,6 +999,18 @@
 					"patching_rect" : [ 475.0, 827.474525545625511, 85.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"default_plcolor" : 						{
+							"expression" : ""
+						}
+,
+						"editing_bgcolor" : 						{
+							"expression" : ""
+						}
+,
+						"locked_bgcolor" : 						{
+							"expression" : ""
+						}
+,
+						"patchlinecolor" : 						{
 							"expression" : ""
 						}
 
@@ -965,7 +1046,7 @@
 					}
 ,
 					"text" : "TRANSPOSE",
-					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ],
+					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -990,7 +1071,7 @@
 					}
 ,
 					"text" : "ENVELOPPE",
-					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ]
+					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
 				}
 
 			}
@@ -1636,8 +1717,23 @@
 
 							}
  ],
+						"patchlinecolor" : [ 0.776470588235294, 0.776470588235294, 0.776470588235294, 1.0 ],
+						"bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
+						"editing_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
 						"saved_attribute_attributes" : 						{
 							"default_plcolor" : 							{
+								"expression" : ""
+							}
+,
+							"editing_bgcolor" : 							{
+								"expression" : ""
+							}
+,
+							"locked_bgcolor" : 							{
+								"expression" : ""
+							}
+,
+							"patchlinecolor" : 							{
 								"expression" : ""
 							}
 
@@ -1648,6 +1744,18 @@
 					"patching_rect" : [ 779.0, 776.474525545625511, 74.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"default_plcolor" : 						{
+							"expression" : ""
+						}
+,
+						"editing_bgcolor" : 						{
+							"expression" : ""
+						}
+,
+						"locked_bgcolor" : 						{
+							"expression" : ""
+						}
+,
+						"patchlinecolor" : 						{
 							"expression" : ""
 						}
 
@@ -1995,8 +2103,23 @@
 
 							}
  ],
+						"patchlinecolor" : [ 0.776470588235294, 0.776470588235294, 0.776470588235294, 1.0 ],
+						"bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
+						"editing_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
 						"saved_attribute_attributes" : 						{
 							"default_plcolor" : 							{
+								"expression" : ""
+							}
+,
+							"editing_bgcolor" : 							{
+								"expression" : ""
+							}
+,
+							"locked_bgcolor" : 							{
+								"expression" : ""
+							}
+,
+							"patchlinecolor" : 							{
 								"expression" : ""
 							}
 
@@ -2007,6 +2130,18 @@
 					"patching_rect" : [ -1039.0, 1084.0, 41.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"default_plcolor" : 						{
+							"expression" : ""
+						}
+,
+						"editing_bgcolor" : 						{
+							"expression" : ""
+						}
+,
+						"locked_bgcolor" : 						{
+							"expression" : ""
+						}
+,
+						"patchlinecolor" : 						{
 							"expression" : ""
 						}
 
@@ -2172,8 +2307,23 @@
 
 							}
  ],
+						"patchlinecolor" : [ 0.776470588235294, 0.776470588235294, 0.776470588235294, 1.0 ],
+						"bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
+						"editing_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
 						"saved_attribute_attributes" : 						{
 							"default_plcolor" : 							{
+								"expression" : ""
+							}
+,
+							"editing_bgcolor" : 							{
+								"expression" : ""
+							}
+,
+							"locked_bgcolor" : 							{
+								"expression" : ""
+							}
+,
+							"patchlinecolor" : 							{
 								"expression" : ""
 							}
 
@@ -2184,6 +2334,18 @@
 					"patching_rect" : [ -1201.0, 1087.0, 41.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"default_plcolor" : 						{
+							"expression" : ""
+						}
+,
+						"editing_bgcolor" : 						{
+							"expression" : ""
+						}
+,
+						"locked_bgcolor" : 						{
+							"expression" : ""
+						}
+,
+						"patchlinecolor" : 						{
 							"expression" : ""
 						}
 
@@ -2225,7 +2387,7 @@
 							"parameter_initial" : [ -6 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Morph - Output Gain",
+							"parameter_longname" : "Morph - Gain",
 							"parameter_mmax" : 12.0,
 							"parameter_mmin" : -70.0,
 							"parameter_modmode" : 0,
@@ -3049,8 +3211,23 @@
 
 							}
  ],
+						"patchlinecolor" : [ 0.776470588235294, 0.776470588235294, 0.776470588235294, 1.0 ],
+						"bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
+						"editing_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
 						"saved_attribute_attributes" : 						{
 							"default_plcolor" : 							{
+								"expression" : ""
+							}
+,
+							"editing_bgcolor" : 							{
+								"expression" : ""
+							}
+,
+							"locked_bgcolor" : 							{
+								"expression" : ""
+							}
+,
+							"patchlinecolor" : 							{
 								"expression" : ""
 							}
 
@@ -3061,6 +3238,18 @@
 					"patching_rect" : [ -1201.0, 624.0, 118.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"default_plcolor" : 						{
+							"expression" : ""
+						}
+,
+						"editing_bgcolor" : 						{
+							"expression" : ""
+						}
+,
+						"locked_bgcolor" : 						{
+							"expression" : ""
+						}
+,
+						"patchlinecolor" : 						{
 							"expression" : ""
 						}
 
@@ -3084,7 +3273,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -1405.0, 503.0, 104.0, 49.0 ],
+					"patching_rect" : [ -1405.0, 503.0, 104.0, 50.0 ],
 					"text" : "s #1Mosaique_numNeighbours"
 				}
 
@@ -3136,7 +3325,7 @@
 					"patching_rect" : [ -1003.0, 1124.0, 94.0, 8.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 24.0, 159.0, 140.0, 4.0 ],
-					"slidercolor" : [ 0.12156862745098, 0.12156862745098, 0.12156862745098, 1.0 ]
+					"slidercolor" : [ 0.058823529411765, 0.058823529411765, 0.058823529411765, 1.0 ]
 				}
 
 			}
@@ -3151,7 +3340,7 @@
 					"patching_rect" : [ -1170.0, 1124.0, 94.0, 8.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 24.0, 154.0, 140.0, 4.0 ],
-					"slidercolor" : [ 0.12156862745098, 0.12156862745098, 0.12156862745098, 1.0 ]
+					"slidercolor" : [ 0.058823529411765, 0.058823529411765, 0.058823529411765, 1.0 ]
 				}
 
 			}
@@ -3244,8 +3433,15 @@
 					"presentation" : 1,
 					"presentation_linecount" : 7,
 					"presentation_rect" : [ 0.0, 12.0, 22.0, 141.0 ],
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : "themecolor.live_control_fg"
+						}
+
+					}
+,
 					"text" : "SAMPLER",
-					"textcolor" : [ 0.694117647058824, 0.694117647058824, 0.694117647058824, 1.0 ],
+					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
 					"textjustification" : 1
 				}
 

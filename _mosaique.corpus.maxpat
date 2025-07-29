@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 214.0, 215.0, 1245.0, 983.0 ],
+		"rect" : [ 34.0, 77.0, 1852.0, 929.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
@@ -19,7 +19,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 727.0, 783.0, 29.0, 22.0 ],
 					"text" : "t #2"
 				}
@@ -5520,6 +5520,7 @@
 						"classnamespace" : "box",
 						"rect" : [ 62.0, 124.0, 1487.0, 884.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-63",
@@ -5673,7 +5674,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 382.466548025608063, 637.709932297468185, 185.181823253631592, 35.0 ],
+									"patching_rect" : [ 382.466548025608063, 637.709932297468185, 185.181823253631592, 36.0 ],
 									"text" : "_mosaique.dictValueGetSet #1 #2Corpus::audioSourcePath"
 								}
 
@@ -5685,7 +5686,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 146.495210617780685, 306.038476765155792, 70.0, 33.0 ],
+									"patching_rect" : [ 146.495210617780685, 306.038476765155792, 70.0, 34.0 ],
 									"text" : "1 = long file\n2 = folder"
 								}
 
@@ -5996,7 +5997,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 2062.342446529202789, 1027.439188547676167, 81.0, 33.0 ],
+									"patching_rect" : [ 2062.342446529202789, 1027.439188547676167, 81.0, 34.0 ],
 									"text" : "Progress bar (not working)"
 								}
 
@@ -6010,9 +6011,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 273.613092720508575, 143.345356583595276, 212.0, 24.0 ],
+									"patching_rect" : [ 273.613092720508575, 143.345356583595276, 212.0, 25.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 11.119043707847595, 8.0, 157.0, 24.0 ],
+									"presentation_rect" : [ 11.119043707847595, 8.0, 157.0, 25.0 ],
 									"text" : "Corpus Importation"
 								}
 
@@ -7202,7 +7203,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1479.434946142964918, 1269.835070043802261, 176.0, 35.0 ],
+									"patching_rect" : [ 1479.434946142964918, 1269.835070043802261, 176.0, 36.0 ],
 									"text" : "_mosaique.dictValueGetSet #1 #2Corpus::analysisSR"
 								}
 
@@ -7698,9 +7699,9 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 66.830188810825348, 116.593657255172729, 54.0, 18.0 ],
+					"patching_rect" : [ 66.830188810825348, 116.593657255172729, 54.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 78.25, 0.5, 56.045936167240143, 18.0 ],
+					"presentation_rect" : [ 78.25, 0.5, 56.045936167240143, 20.0 ],
 					"textcolor" : [ 0.27843137254902, 0.27843137254902, 0.27843137254902, 0.0 ]
 				}
 
@@ -7815,7 +7816,14 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 198.0, 2.25, 14.0, 14.0 ],
 					"proportion" : 0.5,
-					"rounded" : 0
+					"rounded" : 0,
+					"saved_attribute_attributes" : 					{
+						"bgfillcolor" : 						{
+							"expression" : ""
+						}
+
+					}
+
 				}
 
 			}
@@ -7823,7 +7831,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-16",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -7882,10 +7890,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 198.0, 2.25, 14.0, 14.0 ],
 					"saved_attribute_attributes" : 					{
-						"bgcolor" : 						{
-							"expression" : "themecolor.live_control_bg"
-						}
-,
 						"textoncolor" : 						{
 							"expression" : "themecolor.live_control_fg_off"
 						}
@@ -7894,7 +7898,7 @@
 ,
 					"text" : "X",
 					"texton" : "X",
-					"textoncolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ],
+					"textoncolor" : [ 0.85, 0.85, 0.85, 1.0 ],
 					"varname" : "live.text[1]"
 				}
 
@@ -8291,7 +8295,7 @@
 
 					}
 ,
-					"text" : "Corpus #2"
+					"text" : "Corpus 1"
 				}
 
 			}
@@ -8354,7 +8358,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 439.830188810825348, 433.018871784210205, 151.0, 114.0 ],
+					"patching_rect" : [ 439.830188810825348, 433.018871784210205, 151.0, 117.0 ],
 					"text" : "<--- Un progress bar pour voir l'évolution des processus?\n\nIl faudrait changer la manière d'itérer le umenu et utiliser un uzi plutôt que le dump",
 					"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
 				}
@@ -8378,7 +8382,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 66.830188810825348, 712.28454852104187, 333.0, 33.0 ],
+					"patching_rect" : [ 66.830188810825348, 712.28454852104187, 333.0, 34.0 ],
 					"text" : "#1 = RandomID descending from the server\n#2 = UniqueID based on the position of the corpus in the GUI"
 				}
 
@@ -8392,7 +8396,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 66.830188810825348, 811.018871784210205, 490.0, 60.0 ],
+					"patching_rect" : [ 66.830188810825348, 811.018871784210205, 490.0, 62.0 ],
 					"text" : "Dans le dictionnaire : \n- clé \"LastSaved\" : path\n- clé \"Modified\" : state of modification (0 or 1)",
 					"textcolor" : [ 1.0, 0.141176470588235, 0.141176470588235, 1.0 ]
 				}
@@ -8435,7 +8439,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 2,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Number of sounds",
+							"parameter_longname" : "live.numbox[10]",
 							"parameter_mmax" : 100000.0,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Sounds",
@@ -8464,14 +8468,21 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 134.0, 1.5, 62.000000000000028, 15.5 ],
 					"proportion" : 0.5,
-					"rounded" : 2
+					"rounded" : 2,
+					"saved_attribute_attributes" : 					{
+						"bgfillcolor" : 						{
+							"expression" : ""
+						}
+
+					}
+
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"bgcolor" : [ 0.896585, 0.250263, 0.275095, 1.0 ],
 					"bordercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"id" : "obj-4",
 					"maxclass" : "panel",
@@ -8485,7 +8496,7 @@
 					"rounded" : 4,
 					"saved_attribute_attributes" : 					{
 						"bgfillcolor" : 						{
-							"expression" : "themecolor.none"
+							"expression" : ""
 						}
 
 					}
@@ -8729,162 +8740,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-3" : [ "Number of sounds", "Sounds", 0 ],
-			"obj-47" : [ "live.text[19]", "live.text", 0 ],
-			"obj-67::obj-10::obj-17" : [ "live.drop[14]", "live.drop", 0 ],
-			"obj-67::obj-10::obj-178" : [ "Number of slices", "Slices", 0 ],
-			"obj-67::obj-10::obj-2" : [ "---MosaiqueSlicer_Select", "Select", 0 ],
-			"obj-67::obj-10::obj-26" : [ "Slicing algorithm", "algo", 0 ],
-			"obj-67::obj-10::obj-31::obj-21" : [ "---MosaiqueSlicer_Thresh", "Threshold", 0 ],
-			"obj-67::obj-10::obj-31::obj-22" : [ "---MosaiqueSlicer_Length[1]", "Length", 0 ],
-			"obj-67::obj-10::obj-31::obj-23" : [ "---MosaiqueSlicer_Thresh[1]", "Threshold", 0 ],
-			"obj-67::obj-10::obj-31::obj-234" : [ "live.numbox[20]", "live.numbox[20]", 0 ],
-			"obj-67::obj-10::obj-31::obj-235" : [ "live.numbox[43]", "live.numbox", 0 ],
-			"obj-67::obj-10::obj-31::obj-26" : [ "live.dial", "live.dial", 0 ],
-			"obj-67::obj-10::obj-31::obj-27" : [ "live.dial[1]", "live.dial", 0 ],
-			"obj-67::obj-10::obj-31::obj-28" : [ "---MosaiqueSlicer_Length", "Length", 0 ],
-			"obj-67::obj-10::obj-49" : [ "---MosaiqueSlicer_SliceButton", "Slice", 0 ],
-			"obj-67::obj-10::obj-61" : [ "---MosaiqueSlicer_SaveButton", "Save", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-67::obj-10::obj-17" : 				{
-					"parameter_longname" : "live.drop[14]"
-				}
-,
-				"obj-67::obj-10::obj-2" : 				{
-					"parameter_longname" : "---MosaiqueSlicer_Select"
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "_mosaique.clearAll.maxpat",
-				"bootpath" : "~/Documents/GitHub/Mosaique",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "_mosaique.dictValueGetSet.maxpat",
-				"bootpath" : "~/Documents/GitHub/Mosaique",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "_mosaique.longFileChopper.maxpat",
-				"bootpath" : "~/Documents/GitHub/Mosaique",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "_mosaique.longFileChopper_algoGUI.maxpat",
-				"bootpath" : "~/Documents/GitHub/Mosaique",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fav-max.js",
-				"bootpath" : "~/Documents/Max 9/Packages/FluidCorpusManipulation/jsui",
-				"patcherrelativepath" : "../../Max 9/Packages/FluidCorpusManipulation/jsui",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fluid.buf2list.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.bufampgate~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.bufcompose~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.bufflatten~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.bufloudness~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.bufmfcc~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.bufnoveltyfeature~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.bufnoveltyslice~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.bufonsetfeature~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.bufonsetslice~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.bufpitch~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.bufselect~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.bufspectralshape~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.bufstats~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.datasetquery~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.dataset~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.labelset~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.list2buf.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.waveform~.js",
-				"bootpath" : "~/Documents/Max 9/Packages/FluidCorpusManipulation/jsui",
-				"patcherrelativepath" : "../../Max 9/Packages/FluidCorpusManipulation/jsui",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "Audiomix",
 				"default" : 				{
