@@ -16,6 +16,18 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 362.0, 760.0, 56.0, 21.0 ],
+					"text" : "delay 250"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-93",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -42,7 +54,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 803.0, 438.0, 1128.0, 22.0 ],
+									"patching_rect" : [ 803.0, 438.0, 1128.0, 35.0 ],
 									"text" : "jit.gl.videoplane @transform_reset 2 @blend_enable 1 @blend alphablend @depth_enable 0 @layer 1000 @color 1 1 1 1 @drawto #1nodeToWolrd @scale 0.03 0.03 1. @position -0.9 0.9 0. @transform_reset 2"
 								}
 
@@ -657,11 +669,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-5",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 1412.0, 307.0, 30.0, 30.0 ]
 				}
 
@@ -695,7 +707,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-4",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2118,7 +2130,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation" : "Move camera backward.  MIDI bindable",
 					"annotation_name" : "Camera - Back",
 					"automation" : "stop",
@@ -2165,7 +2177,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation" : "Move camera forward. MIDI bindable",
 					"annotation_name" : "Camera Forward",
 					"automation" : "stop",
@@ -2241,8 +2253,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 363.0, 772.0, 135.0, 21.0 ],
-					"text" : "r ---Mosaique_Loadbang2"
+					"patching_rect" : [ 363.0, 716.0, 136.0, 21.0 ],
+					"text" : "r #1Mosaique_Loadbang2"
 				}
 
 			}
@@ -3162,8 +3174,8 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgcolor" : [ 1.0, 0.611764705882353, 0.223529411764706, 1.0 ],
-					"activebgoncolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"activebgcolor" : [ 0.9, 0.65, 0.05, 1.0 ],
+					"activebgoncolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"annotation" : "Toggle whether the player is controlled by the mouse or the camera.",
 					"annotation_name" : "3D View Control Source",
 					"fontsize" : 11.0,
@@ -3248,7 +3260,7 @@
 					"comment" : "Start/stop (1/0) of 3D world",
 					"hint" : "Bang = compute 3Dview, \"reset view\" to reset cam position\n",
 					"id" : "obj-65",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -4051,7 +4063,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "bang" ],
 									"patching_rect" : [ 339.0, 21.0, 30.0, 30.0 ]
 								}
 
@@ -7281,11 +7293,11 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgcolor" : [ 1.0, 0.611764705882353, 0.223529411764706, 1.0 ],
-					"activebgoncolor" : [ 1.0, 0.411764705882353, 0.498039215686275, 1.0 ],
+					"activebgcolor" : [ 0.9, 0.65, 0.05, 1.0 ],
+					"activebgoncolor" : [ 0.972549019607843, 0.462745098039216, 0.501960784313725, 1.0 ],
 					"annotation" : "Toggle on and off the 3D view window.",
 					"annotation_name" : "3D View",
-					"bgcolor" : [ 1.0, 0.611764705882353, 0.223529411764706, 1.0 ],
+					"bgcolor" : [ 0.9, 0.65, 0.05, 1.0 ],
 					"fontsize" : 24.0,
 					"id" : "obj-34",
 					"maxclass" : "live.text",
@@ -13939,6 +13951,13 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-66", 0 ],
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
 					"source" : [ "obj-130", 0 ]
 				}
 
@@ -14599,109 +14618,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-119" : [ "Opacity", "Opacity", 0 ],
-			"obj-134" : [ "Camera - Forward", "Cam Forward", 0 ],
-			"obj-135" : [ "Camera - Back", "Cam Back", 0 ],
-			"obj-136" : [ "Camera - Right", "Cam Right", 0 ],
-			"obj-138" : [ "Camera - Left", "Cam Left", 0 ],
-			"obj-140" : [ "Camera - Up", "Cam Up", 0 ],
-			"obj-141" : [ "Camera - Down", "Cam Dowm", 0 ],
-			"obj-146" : [ "live.text[36]", "Commands_view", 0 ],
-			"obj-24" : [ "3D Navigation - Mouse|Cam", "3D Nav Mouse-Cam", 0 ],
-			"obj-34" : [ "3D View On/Off", "3D view", 0 ],
-			"obj-71" : [ "Camera Speed", "speed", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "_mosaique.2DViewer.maxpat",
-				"bootpath" : "~/Documents/GitHub/Mosaique",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bwd.svg",
-				"bootpath" : "~/Documents/GitHub/Mosaique",
-				"patcherrelativepath" : ".",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "down_arrow.svg",
-				"bootpath" : "~/Documents/GitHub/Mosaique",
-				"patcherrelativepath" : ".",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fluid.buf2list.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.datasetquery~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.dataset~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.kdtree~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.list2buf.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.plotter.js",
-				"bootpath" : "~/Documents/Max 9/Packages/FluidCorpusManipulation/jsui",
-				"patcherrelativepath" : "../../Max 9/Packages/FluidCorpusManipulation/jsui",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fwd.svg",
-				"bootpath" : "~/Documents/GitHub/Mosaique",
-				"patcherrelativepath" : ".",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "left.svg",
-				"bootpath" : "~/Documents/GitHub/Mosaique",
-				"patcherrelativepath" : ".",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "right.svg",
-				"bootpath" : "~/Documents/GitHub/Mosaique",
-				"patcherrelativepath" : ".",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "up_arrow.svg",
-				"bootpath" : "~/Documents/GitHub/Mosaique",
-				"patcherrelativepath" : ".",
-				"type" : "svg",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

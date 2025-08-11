@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 261.0, 127.0, 980.0, 983.0 ],
+		"rect" : [ 493.0, 117.0, 980.0, 983.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
@@ -20,13 +20,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 19.0, 284.0, 165.0, 22.0 ],
+					"patching_rect" : [ 19.0, 284.0, 167.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"precision" : 6
 					}
 ,
-					"text" : "coll ---Mosaique_corpusColor"
+					"text" : "coll #1Mosaique_corpusColor"
 				}
 
 			}
@@ -77,7 +77,7 @@
 					"patching_rect" : [ 343.666658997535706, 703.0, 128.0, 32.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 114.0, 0.0, 105.0, 32.0 ],
-					"saturation" : 0.992156862745098
+					"saturation" : 0.976470588235294
 				}
 
 			}
@@ -85,11 +85,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-6",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 343.666658997535706, 27.0, 30.0, 30.0 ]
 				}
 
@@ -129,7 +129,7 @@
 					"patching_rect" : [ 615.333332975705389, 155.932340977714546, 179.0, 26.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 3.0, 111.0, 26.0 ],
-					"text" : "Corpus 1",
+					"text" : "tenues",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -138,7 +138,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.3, 0.57, 1.0, 1.0 ],
+					"bgcolor" : [ 0.298088235294118, 0.432352941176471, 0.005147058823529, 1.0 ],
 					"bordercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"id" : "obj-4",
 					"maxclass" : "panel",
@@ -171,7 +171,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"outlettype" : [ "int", "" ],
 					"patching_rect" : [ 656.499988675117493, 508.432340500877388, 39.0, 22.0 ],
 					"text" : "t #2 l"
 				}
@@ -184,13 +184,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 656.499988675117493, 569.432340500877444, 165.0, 22.0 ],
+					"patching_rect" : [ 656.499988675117493, 569.432340500877444, 167.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"precision" : 6
 					}
 ,
-					"text" : "coll ---Mosaique_corpusColor"
+					"text" : "coll #1Mosaique_corpusColor"
 				}
 
 			}
@@ -200,7 +200,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 19.0, 226.0, 29.0, 22.0 ],
 					"text" : "t #2"
 				}
@@ -238,18 +238,6 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 533.833329319953918, 438.932340500877388, 38.0, 22.0 ],
 					"text" : "zl.reg"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-31",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "list", "bang" ],
-					"patching_rect" : [ 889.499988675117493, 366.432340500877388, 158.0, 22.0 ],
-					"text" : "colorpicker @compatibility 0"
 				}
 
 			}
@@ -339,13 +327,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"source" : [ "obj-30", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
-					"source" : [ "obj-31", 1 ]
 				}
 
 			}
@@ -442,16 +423,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "_mosaique.dictValueGetSet.maxpat",
-				"bootpath" : "~/Documents/GitHub/Mosaique",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

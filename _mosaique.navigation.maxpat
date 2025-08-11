@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 693.0, 100.0, 1001.0, 983.0 ],
+		"rect" : [ 680.0, 106.0, 1001.0, 983.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
@@ -94,7 +94,7 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "_mosaique.navigation.midiNotes.maxpat",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
@@ -119,13 +119,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 529.0, 333.0, 149.0, 166.0 ],
 					"proportion" : 0.39,
-					"saved_attribute_attributes" : 					{
-						"bgfillcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-,
 					"shadow" : 1
 				}
 
@@ -205,13 +198,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 529.0, 164.0, 149.0, 165.0 ],
 					"proportion" : 0.39,
-					"saved_attribute_attributes" : 					{
-						"bgfillcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-,
 					"shadow" : 1
 				}
 
@@ -230,13 +216,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 529.0, -6.0, 149.0, 165.0 ],
 					"proportion" : 0.39,
-					"saved_attribute_attributes" : 					{
-						"bgfillcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-,
 					"shadow" : 1
 				}
 
@@ -321,6 +300,13 @@
 					"destination" : [ "obj-4", 0 ],
 					"order" : 1,
 					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 1 ],
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}
