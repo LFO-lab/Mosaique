@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 751.0, 200.0, 488.0, 780.0 ],
+		"rect" : [ 840.0, 200.0, 954.0, 780.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
@@ -44,7 +44,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 489.0, 1070.0, 58.0, 22.0 ],
+					"patching_rect" : [ 621.0, 1073.0, 58.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -69,7 +69,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "int", "int" ],
-					"patching_rect" : [ 611.0, 1176.0, 83.0, 22.0 ],
+					"patching_rect" : [ 706.0, 1176.0, 83.0, 22.0 ],
 					"text" : "live.thisdevice"
 				}
 
@@ -448,19 +448,10 @@
 								}
 
 							}
- ],
-						"patchlinecolor" : [ 0.776470588235294, 0.776470588235294, 0.776470588235294, 1.0 ],
-						"bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-						"editing_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ]
+ ]
 					}
 ,
-					"patching_rect" : [ 526.0, 1148.0, 104.345577210187912, 22.0 ],
-					"saved_object_attributes" : 					{
-						"editing_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-						"locked_bgcolor" : [ 0.309803921568627, 0.309803921568627, 0.309803921568627, 1.0 ],
-						"patchlinecolor" : [ 0.776470588235294, 0.776470588235294, 0.776470588235294, 1.0 ]
-					}
-,
+					"patching_rect" : [ 621.0, 1148.0, 104.345577210187912, 22.0 ],
 					"text" : "p PlayerSizing"
 				}
 
@@ -472,7 +463,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 526.0, 1176.0, 67.0, 22.0 ],
+					"patching_rect" : [ 621.0, 1176.0, 67.0, 22.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
@@ -487,8 +478,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 534.0, 215.0, 224.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 1.0, 70.0, 24.0 ],
-					"text" : "Player 2"
+					"presentation_rect" : [ 6.0, 1.0, 94.0, 24.0 ],
+					"text" : "Player 1"
 				}
 
 			}
@@ -525,13 +516,13 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 489.0, 1104.0, 100.0, 18.0 ],
+					"patching_rect" : [ 621.0, 1107.0, 100.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 444.0, 7.0, 65.0, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Basic", "Granular", "Morph" ],
-							"parameter_longname" : "live.menu[1]",
+							"parameter_longname" : "live.menu[17]",
 							"parameter_mmax" : 2,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.menu[17]",
@@ -724,7 +715,7 @@
 							"parameter_enum" : [ "XYZ", "Descriptors", "MIDI" ],
 							"parameter_info" : "Defines whether the corpora is explored using XYZ coordinates in the 3D space or audio descriptors",
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Navigation Type[2]",
+							"parameter_longname" : "Navigation Type[1]",
 							"parameter_mmax" : 2,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "NavType",
@@ -872,7 +863,7 @@
 						"count" : 1,
 						"data" : [ 							{
 								"key" : "Server 0",
-								"value" : [ 0, 1, "Claps & Claves", 1, 48000.0, "0.8966 0.2503 0.2751 1.0000", 2, "Cymbals", 1, 48000.0, "0.9204 0.2776 0.4492 1.0000", 3, "Corpus 3", 0, 48000.0, "0.9441 0.4532 0.2496 1.0000", 4, "Corpus 4", 0, 48000.0, "0.9789 0.6358 0.0808 1.0000", 5, "Corpus 5", 0, 48000.0, "0.8383 0.8033 0.2494 1.0000", 6, "Corpus 6", 0, 48000.0, "0.2616 0.6943 0.3818 1.0000", 7, "Corpus 7", 0, 48000.0, "0.0577 0.3972 0.4374 1.0000", 8, "Corpus 8", 0, 48000.0, "0.9204 0.2776 0.4492 1.0000" ]
+								"value" : [ 0, 1, "Claps & Claves", 1, 44100.0, "0.8966 0.2503 0.2751 1.0000", 2, "Corpus 2", 0, 44100.0, "0.9204 0.2776 0.4492 1.0000", 3, "Corpus 3", 0, 44100.0, "0.9441 0.4532 0.2496 1.0000", 4, "Corpus 4", 0, 44100.0, "0.9789 0.6358 0.0808 1.0000", 5, "Corpus 5", 0, 44100.0, "0.8383 0.8033 0.2494 1.0000", 6, "Corpus 6", 0, 44100.0, "0.2616 0.6943 0.3818 1.0000", 7, "Corpus 7", 0, 44100.0, "0.0577 0.3972 0.4374 1.0000", 8, "Corpus 8", 0, 44100.0, "0.9204 0.2776 0.4492 1.0000" ]
 							}
  ]
 					}

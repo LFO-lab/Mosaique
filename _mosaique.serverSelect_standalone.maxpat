@@ -237,7 +237,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "live.numbox[14]",
+							"parameter_longname" : "live.numbox",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
@@ -334,7 +334,7 @@
 							"parameter_info" : "Hit this button to refresh the server list and corpora",
 							"parameter_invisible" : 2,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "Server refresh[1]",
+							"parameter_longname" : "Server refresh",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "refresh",
@@ -2887,7 +2887,7 @@
 										"count" : 1,
 										"data" : [ 											{
 												"key" : "Server 0",
-												"value" : [ 0, 1, "Claps & Claves", 1, 48000.0, "0.8966 0.2503 0.2751 1.0000", 2, "Corpus 2", 0, 48000.0, "0.9204 0.2776 0.4492 1.0000", 3, "Corpus 3", 0, 48000.0, "0.9441 0.4532 0.2496 1.0000", 4, "Corpus 4", 0, 48000.0, "0.9789 0.6358 0.0808 1.0000", 5, "Corpus 5", 0, 48000.0, "0.8383 0.8033 0.2494 1.0000", 6, "Corpus 6", 0, 48000.0, "0.2616 0.6943 0.3818 1.0000", 7, "Corpus 7", 0, 48000.0, "0.0577 0.3972 0.4374 1.0000", 8, "Corpus 8", 0, 48000.0, "0.9204 0.2776 0.4492 1.0000" ]
+												"value" : [ 0, 1, "Corpus 1", 0, 0.0, "0.8966 0.2503 0.2751 1.0000", 2, "Corpus 2", 0, 0.0, "0.9204 0.2776 0.4492 1.0000", 3, "Corpus 3", 0, 0.0, "0.9441 0.4532 0.2496 1.0000", 4, "Corpus 4", 0, 0.0, "0.9789 0.6358 0.0808 1.0000", 5, "Corpus 5", 0, 0.0, "0.8383 0.8033 0.2494 1.0000", 6, "Corpus 6", 0, 0.0, "0.2616 0.6943 0.3818 1.0000", 7, "Corpus 7", 0, 0.0, "0.0577 0.3972 0.4374 1.0000", 8, "Corpus 8", 0, 0.0, "0.9204 0.2776 0.4492 1.0000" ]
 											}
  ]
 									}
@@ -3101,6 +3101,7 @@
 					"bgfillcolor_color2" : [ 0.728545315984307, 0.72854514435665, 0.728545189205699, 1.0 ],
 					"bgfillcolor_proportion" : 0.39,
 					"bgfillcolor_type" : "color",
+					"color" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"fontname" : "Ableton Sans Bold",
 					"id" : "obj-5",
 					"ignoreclick" : 1,
@@ -3126,7 +3127,7 @@
 						"valueof" : 						{
 							"parameter_enum" : [ "ServerA", "Server ---" ],
 							"parameter_invisible" : 1,
-							"parameter_longname" : "umenu[1]",
+							"parameter_longname" : "umenu",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "umenu",
@@ -3135,7 +3136,6 @@
 
 					}
 ,
-					"textcolor" : [ 0.746970796362449, 0.746970609902925, 0.746970658435034, 1.0 ],
 					"varname" : "umenu"
 				}
 
@@ -3205,7 +3205,7 @@
 						"count" : 1,
 						"data" : [ 							{
 								"key" : "Server 0",
-								"value" : [ 0, 1, "Claps & Claves", 1, 48000.0, "0.8966 0.2503 0.2751 1.0000", 2, "Corpus 2", 0, 48000.0, "0.9204 0.2776 0.4492 1.0000", 3, "Corpus 3", 0, 48000.0, "0.9441 0.4532 0.2496 1.0000", 4, "Corpus 4", 0, 48000.0, "0.9789 0.6358 0.0808 1.0000", 5, "Corpus 5", 0, 48000.0, "0.8383 0.8033 0.2494 1.0000", 6, "Corpus 6", 0, 48000.0, "0.2616 0.6943 0.3818 1.0000", 7, "Corpus 7", 0, 48000.0, "0.0577 0.3972 0.4374 1.0000", 8, "Corpus 8", 0, 48000.0, "0.9204 0.2776 0.4492 1.0000" ]
+								"value" : [ 0, 1, "Corpus 1", 0, 0.0, "0.8966 0.2503 0.2751 1.0000", 2, "Corpus 2", 0, 0.0, "0.9204 0.2776 0.4492 1.0000", 3, "Corpus 3", 0, 0.0, "0.9441 0.4532 0.2496 1.0000", 4, "Corpus 4", 0, 0.0, "0.9789 0.6358 0.0808 1.0000", 5, "Corpus 5", 0, 0.0, "0.8383 0.8033 0.2494 1.0000", 6, "Corpus 6", 0, 0.0, "0.2616 0.6943 0.3818 1.0000", 7, "Corpus 7", 0, 0.0, "0.0577 0.3972 0.4374 1.0000", 8, "Corpus 8", 0, 0.0, "0.9204 0.2776 0.4492 1.0000" ]
 							}
  ]
 					}
@@ -3256,8 +3256,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 138.0, 155.0, 61.0, 22.0 ],
-					"text" : "delay 250"
+					"patching_rect" : [ 138.0, 155.0, 67.0, 22.0 ],
+					"text" : "delay 1000"
 				}
 
 			}
@@ -3277,7 +3277,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-7",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -3339,7 +3339,7 @@
 						"count" : 1,
 						"data" : [ 							{
 								"key" : "Server 0",
-								"value" : [ 0, 1, "Claps & Claves", 1, 48000.0, "0.8966 0.2503 0.2751 1.0000", 2, "Corpus 2", 0, 48000.0, "0.9204 0.2776 0.4492 1.0000", 3, "Corpus 3", 0, 48000.0, "0.9441 0.4532 0.2496 1.0000", 4, "Corpus 4", 0, 48000.0, "0.9789 0.6358 0.0808 1.0000", 5, "Corpus 5", 0, 48000.0, "0.8383 0.8033 0.2494 1.0000", 6, "Corpus 6", 0, 48000.0, "0.2616 0.6943 0.3818 1.0000", 7, "Corpus 7", 0, 48000.0, "0.0577 0.3972 0.4374 1.0000", 8, "Corpus 8", 0, 48000.0, "0.9204 0.2776 0.4492 1.0000" ]
+								"value" : [ 0, 1, "Corpus 1", 0, 0.0, "0.8966 0.2503 0.2751 1.0000", 2, "Corpus 2", 0, 0.0, "0.9204 0.2776 0.4492 1.0000", 3, "Corpus 3", 0, 0.0, "0.9441 0.4532 0.2496 1.0000", 4, "Corpus 4", 0, 0.0, "0.9789 0.6358 0.0808 1.0000", 5, "Corpus 5", 0, 0.0, "0.8383 0.8033 0.2494 1.0000", 6, "Corpus 6", 0, 0.0, "0.2616 0.6943 0.3818 1.0000", 7, "Corpus 7", 0, 0.0, "0.0577 0.3972 0.4374 1.0000", 8, "Corpus 8", 0, 0.0, "0.9204 0.2776 0.4492 1.0000" ]
 							}
  ]
 					}
@@ -3909,7 +3909,83 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-11" : [ "Server refresh", "refresh", 0 ],
+			"obj-13" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-14::obj-1" : [ "Corpus 8 On-Off[1]", "on/off", 0 ],
+			"obj-16::obj-1" : [ "Corpus 8 On-Off[3]", "on/off", 0 ],
+			"obj-32::obj-1" : [ "Corpus 8 On-Off[2]", "on/off", 0 ],
+			"obj-34::obj-1" : [ "Corpus 8 On-Off[7]", "on/off", 0 ],
+			"obj-41::obj-1" : [ "Corpus 8 On-Off[6]", "on/off", 0 ],
+			"obj-42::obj-1" : [ "Corpus 8 On-Off[5]", "on/off", 0 ],
+			"obj-46::obj-1" : [ "Corpus 8 On-Off[4]", "on/off", 0 ],
+			"obj-5" : [ "umenu", "umenu", 0 ],
+			"obj-6::obj-1" : [ "Corpus 8 On-Off", "on/off", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-14::obj-1" : 				{
+					"parameter_longname" : "Corpus 8 On-Off[1]"
+				}
+,
+				"obj-16::obj-1" : 				{
+					"parameter_longname" : "Corpus 8 On-Off[3]"
+				}
+,
+				"obj-32::obj-1" : 				{
+					"parameter_longname" : "Corpus 8 On-Off[2]"
+				}
+,
+				"obj-34::obj-1" : 				{
+					"parameter_longname" : "Corpus 8 On-Off[7]"
+				}
+,
+				"obj-41::obj-1" : 				{
+					"parameter_longname" : "Corpus 8 On-Off[6]"
+				}
+,
+				"obj-42::obj-1" : 				{
+					"parameter_longname" : "Corpus 8 On-Off[5]"
+				}
+,
+				"obj-46::obj-1" : 				{
+					"parameter_longname" : "Corpus 8 On-Off[4]"
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "_mosaique.miniCorpusOnOff.maxpat",
+				"bootpath" : "~/Documents/GitHub/Mosaique",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fluid.datasetquery~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.dataset~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.kdtree~.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
